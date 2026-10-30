@@ -6,9 +6,12 @@
 
 - `platforms/*.json`: 계정 링크와 변동 가능한 프로필 스냅샷
 - `x/posts/YYYY/MM/`: 날짜가 명시된 X 게시물
-- `youtube/videos/undated/`: 절대 게시일과 개별 링크를 확인할 수 없는 YouTube 목록 항목
+- `youtube/shorts/undated/`: YouTube Shorts 목록 항목
+- `youtube/videos/undated/`: YouTube 일반 동영상 목록 항목
 - `soop/catches/YYYY/MM/`: 날짜가 명시된 SOOP 캐치
 - `soop/catches/relative-or-unknown-date/`: 상대 시각만 확인되는 캐치
+- `soop/clips/YYYY/MM/`, `soop/vods/YYYY/MM/`: SOOP 방송국 목록의 클립 및 일반 VOD
+- `catalog.json`: 기록 파일에서 화면에 필요한 필드만 모은 정적 검색·시각화 색인
 
 ## 필드 처리
 
@@ -20,6 +23,8 @@
 - 상대 날짜는 `publishedTimeRaw`에 그대로 남깁니다. 신뢰할 만한 캡처 시각 없이는 절대 날짜로 환산하지 않습니다.
 - `observedAt: null`은 수집 시각을 알 수 없다는 뜻입니다. 프로필/조회수 수치는 현재 값이 아닌 관찰 당시 스냅샷입니다.
 - 활동 데이터에는 플랫폼 로고, 썸네일, 영상, HTML 복사본, 플랫폼 소유 이미지를 저장하지 않습니다.
+- YouTube 레코드는 공개 목록에서 읽은 ID와 링크를 원래 제목 기록에 연결합니다. `latestListingObservation`은 조회수 원문, 대략 환산값, 가능한 상대 게시 시각과 길이를 수집 당시 스냅샷으로 보존합니다.
+- 카탈로그를 새로 만들 때는 `database/platforms/` 계정 스냅샷 및 기존 `catalog.json`을 입력으로 다시 포함하지 않습니다. 활동 JSON만 대상으로 하며 플랫폼별 / 유형별 분류를 유지합니다.
 
 첫 번째 자료 배치 및 추출 범위는 [source/1 가져오기 요약](../docs/imports/source-1-summary.md)에 기록했습니다.
 

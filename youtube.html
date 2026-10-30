@@ -1,0 +1,47 @@
+﻿<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080a24">
+  <meta name="description" content="Dahlia의 커뮤니티 활동을 정리한 정적 기록 아카이브입니다.">
+  <title>YouTube 기록 · Dahlia Archive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Gowun+Batang:wght@400;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./subpages.css">
+  <script src="./script.js" defer></script>
+  <script src="./archive-app.js" defer></script>
+</head>
+<body class="archive-page" data-view="youtube">
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="wordmark" href="./index.html" aria-label="Dahlia 홈"><span class="wordmark-mark" aria-hidden="true">✳</span><span>DAHLIA<span class="wordmark-dot">.</span></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="sr-only">메뉴 열기</span><span></span><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="아카이브 페이지">
+        <a class="nav-link" href="./archive.html">전체 기록</a>
+        <a class="nav-link" href="./memories.html">SOOP</a>
+        <a class="nav-link is-current" href="./youtube.html" aria-current="page">YOUTUBE</a>
+        <a class="nav-link" href="./x-archive.html">X</a>
+        <a class="nav-link" href="./media.html">CLIPS</a>
+        <a class="nav-link" href="./about.html">INSIGHTS</a>
+        <a class="nav-link" href="./platforms.html">링크</a>
+
+      </nav>
+    </header>
+    <main class="collection-main" id="main">
+      <header class="collection-heading">
+        <p class="collection-eyebrow"><span class="eyebrow-line"></span> 03 / YOUTUBE LIBRARY</p>
+        <h1>세로의 순간,<br><em>긴 여운.</em></h1>
+        <p class="collection-lede">Shorts와 일반 동영상의 목록 메타데이터를 구분해 정리했습니다. 재생은 YouTube 원본에서 이어집니다.</p>
+      </header>
+            <section class="collection-stats" data-stats="youtube"></section>
+      <section class="feature-band youtube-feature"><span class="feature-orbit" aria-hidden="true">✧</span><div><p class="micro-label">A SMALL CHANNEL INDEX</p><h2>짧은 클립부터<br>다시 찾는 영상까지.</h2></div><p>목록에 보이는 조회수와 상대 게시 시각은 수집 시점의 스냅샷입니다. 날짜가 확인되지 않은 항목에는 절대 날짜를 붙이지 않았습니다.</p></section>
+      <section class="record-explorer" aria-label="YouTube 기록 검색"><div class="explorer-tools"><label class="search-field"><span aria-hidden="true">⌕</span><span class="sr-only">YouTube 기록 검색</span><input type="search" data-search placeholder="제목 또는 해시태그 검색" autocomplete="off"></label><div class="filter-row" data-filter-buttons><button class="filter-chip is-selected" type="button" data-filter="all">전체</button><button class="filter-chip" type="button" data-filter="short">Shorts</button><button class="filter-chip" type="button" data-filter="video">동영상</button></div></div><div class="tag-cloud" data-tag-cloud></div><p class="result-count" data-result-count role="status"></p><div class="record-grid" data-record-list></div><button class="load-more" type="button" data-load-more hidden>더 많은 기록 보기 <span>↓</span></button></section>
+    </main>
+    <footer class="collection-footer"><a href="./index.html">✳ Dahlia Archive</a><span>기록은 이곳에 · 원본은 플랫폼에</span><span>© <span id="year"></span> DAHLIA</span></footer>
+  </div>
+</body>
+</html>

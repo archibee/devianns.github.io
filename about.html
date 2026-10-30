@@ -1,15 +1,49 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="ko">
-  <head>
-    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#080a24">
-    <meta name="description" content="Dahlia 커뮤니티 아카이브 소개"><title>About — Dahlia</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Gowun+Batang:wght@400;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css"><link rel="stylesheet" href="./subpages.css"><script src="./script.js" defer></script>
-  </head>
-  <body class="detail-page"><div class="site-shell">
-    <header class="topbar"><a class="wordmark" href="./index.html" aria-label="Dahlia 홈"><span class="wordmark-mark" aria-hidden="true">✳</span><span>DAHLIA<span class="wordmark-dot">.</span></span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="sr-only">메뉴 열기</span><span></span><span></span></button><nav class="site-nav" id="site-nav" aria-label="주요 메뉴"><a class="nav-link" href="./index.html">HOME</a><a class="nav-link" href="./archive.html">ARCHIVE</a><a class="nav-link is-current" href="./about.html">ABOUT</a><a class="nav-cta" href="./platforms.html">PLATFORMS <span aria-hidden="true">↗</span></a></nav></header>
-    <main class="detail-main"><p class="detail-eyebrow"><span class="eyebrow-line"></span> A PLACE TO REMEMBER · 03</p><h1 class="detail-title">기억은 사라지지 않도록,<br><em>다시 만날 수 있도록.</em></h1><p class="detail-lede">이곳은 SOOP, YouTube 등에서 활동하며 남긴 흔적을 보관하는 개인 커뮤니티 아카이브입니다. 실제 영상과 클립은 이곳에 올리지 않고 원본 플랫폼으로 연결합니다.</p><section class="detail-panel"><div class="detail-panel-top"><span>ABOUT THIS PLACE</span><span>DAHLIA · EST. 2026</span></div><div class="empty-state"><h2>작은 순간도 오래 반짝이도록</h2><p>기록을 모으고, 다시 찾아보고, 그때의 기억을 이어가는 공간으로 만들어가고 있어요.</p></div></section><div class="detail-actions"><a class="detail-home-link" href="./index.html"><span>←</span> 유리 큐브로 돌아가기</a><span class="detail-caption">A PERSONAL COMMUNITY ARCHIVE</span></div></main>
-    <footer class="detail-footer"><span>DAHLIA · ABOUT</span><span>MEMORIES, KEPT IN ORBIT</span></footer>
-  </div></body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080a24">
+  <meta name="description" content="Dahlia의 커뮤니티 활동을 정리한 정적 기록 아카이브입니다.">
+  <title>아카이브 인사이트 · Dahlia Archive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Gowun+Batang:wght@400;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./subpages.css">
+  <script src="./script.js" defer></script>
+  <script src="./archive-app.js" defer></script>
+</head>
+<body class="archive-page" data-view="insights">
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="wordmark" href="./index.html" aria-label="Dahlia 홈"><span class="wordmark-mark" aria-hidden="true">✳</span><span>DAHLIA<span class="wordmark-dot">.</span></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="sr-only">메뉴 열기</span><span></span><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="아카이브 페이지">
+        <a class="nav-link" href="./archive.html">전체 기록</a>
+        <a class="nav-link" href="./memories.html">SOOP</a>
+        <a class="nav-link" href="./youtube.html">YOUTUBE</a>
+        <a class="nav-link" href="./x-archive.html">X</a>
+        <a class="nav-link" href="./media.html">CLIPS</a>
+        <a class="nav-link is-current" href="./about.html" aria-current="page">INSIGHTS</a>
+        <a class="nav-link" href="./platforms.html">링크</a>
+
+      </nav>
+    </header>
+    <main class="collection-main" id="main">
+      <header class="collection-heading">
+        <p class="collection-eyebrow"><span class="eyebrow-line"></span> 06 / PATTERNS IN THE ARCHIVE</p>
+        <h1>반복 속에서<br><em>흐름을 읽다.</em></h1>
+        <p class="collection-lede">날짜, 반복 제목, 태그, 플랫폼별 기록 수를 모아 확인 가능한 패턴을 보여줍니다. 수집된 데이터에 근거한 관찰과 미확정 내용을 구분합니다.</p>
+      </header>
+            <section class="insight-intro"><span class="insight-mark" aria-hidden="true">✦</span><p>기록은 각자 다른 플랫폼에서 왔지만, 반복된 태그와 제목은 함께 놓일 때 작은 흐름을 드러냅니다.</p></section>
+      <section class="collection-stats" data-stats="insights"></section>
+      <section class="glass-section"><div class="section-topline"><span>01 / ACTIVITY OVER TIME</span><span>SOOP CATCH · PLATFORM ID KNOWN</span></div><div class="section-title-row"><div><h2>캐치 아카이브의 <em>박자</em></h2><p>명시 날짜를 가진 API 목록 기록의 월별 분포</p></div><span class="chart-range" data-month-range></span></div><div class="bar-chart bar-chart-large" data-monthly-chart aria-label="월별 SOOP 캐치 기록 분포"></div></section>
+      <section class="insight-grid" data-insights-grid></section>
+      <section class="glass-section"><div class="section-topline"><span>04 / COLLECTION NOTES</span><span>DATA WITH CONTEXT</span></div><div class="notes-grid"><article><span>01</span><h3>반복 제목은 별개 기록</h3><p>같은 제목이 여러 번 보여도, 개별 플랫폼 ID가 다른 항목은 합치지 않습니다. 반복 횟수는 발견된 제목의 빈도입니다.</p></article><article><span>02</span><h3>수집 시점의 값</h3><p>조회·반응 수치는 페이지를 읽은 당시의 스냅샷입니다. 플랫폼에서 계속 바뀔 수 있습니다.</p></article><article><span>03</span><h3>콘텐츠는 원본에</h3><p>이곳에는 링크와 메타데이터만 있습니다. 영상·캐치·사진은 원본 플랫폼에서 확인합니다.</p></article></div></section>
+    </main>
+    <footer class="collection-footer"><a href="./index.html">✳ Dahlia Archive</a><span>기록은 이곳에 · 원본은 플랫폼에</span><span>© <span id="year"></span> DAHLIA</span></footer>
+  </div>
+</body>
 </html>

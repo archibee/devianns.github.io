@@ -27,3 +27,5 @@
 
 - 공개 SOOP 캐치 목록 API에서 2026-10-31에 수집한 항목 및 페이지 수 차이는 [SOOP 공개 캐치 목록 수집 기록](../docs/imports/soop-api-collection-2026-10-31.md)에 정리했습니다.
 - 이번 배치는 캐치 1,576개를 `soop/catches/`, 혼합 응답 중 클립 43개와 일반 VOD 7개를 `soop/clips/`, `soop/vods/`에 저장했습니다. 원본 영상 및 썸네일은 저장하지 않았습니다.
+
+- SOOP 방송국 VOD 목록(`/station/rose5369/vod`)은 공개 API `vods/all`로 50개(클립 43, 일반 VOD 7)를 확인했습니다. `soop/clips/`와 `soop/vods/`에 기록하며, 상세는 [SOOP 수집 보고서](../docs/imports/soop-api-collection-2026-10-31.md)에 있습니다.

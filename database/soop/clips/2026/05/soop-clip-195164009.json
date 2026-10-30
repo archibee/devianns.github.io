@@ -29,9 +29,10 @@
              ],
     "durationMilliseconds":  130000,
     "url":  "https://vod.sooplive.com/player/195164009/clip",
-    "observedAt":  "2026-10-31T01:33:15+09:00",
-    "sourceBatch":  "soop-public-catch-api-2026-10-31",
-    "sourcePage":  8,
-    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "observedAt":  "2026-10-31T01:34:54+09:00",
+    "sourceBatch":  "soop-public-api-2026-10-31",
+    "sourcePage":  1,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/all",
+    "sourceCollection":  "station-vod-page",
     "visibilityStatus":  null
 }

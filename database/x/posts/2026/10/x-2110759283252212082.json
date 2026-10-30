@@ -1,0 +1,60 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "x-2110759283252212082",
+    "platform":  "x",
+    "contentType":  "post",
+    "platformId":  "2110759283252212082",
+    "accountHandle":  "@dahlia_clip",
+    "publishedAt":  "2026-10-16",
+    "publishedTimeRaw":  "2026-10-16T00:46:43+09:00",
+    "sourceTimezone":  "Asia/Seoul",
+    "text":  "Moonlit Window Tea 💫 https://t.co/mGCzfjMTAY",
+    "hashtags":  [
+
+                 ],
+    "outboundLinks":  [
+
+                      ],
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  false,
+                        "type":  "count",
+                        "value":  25,
+                        "rawValue":  "25"
+                    },
+                    {
+                        "label":  "likes",
+                        "labelPresentInSourceText":  false,
+                        "type":  "count",
+                        "value":  0,
+                        "rawValue":  "0"
+                    },
+                    {
+                        "label":  "replies",
+                        "labelPresentInSourceText":  false,
+                        "type":  "count",
+                        "value":  0,
+                        "rawValue":  "0"
+                    },
+                    {
+                        "label":  "reposts",
+                        "labelPresentInSourceText":  false,
+                        "type":  "count",
+                        "value":  0,
+                        "rawValue":  "0"
+                    },
+                    {
+                        "label":  "quotes",
+                        "labelPresentInSourceText":  false,
+                        "type":  "count",
+                        "value":  0,
+                        "rawValue":  "0"
+                    }
+                ],
+    "url":  "https://x.com/dahlia_clip/status/2110759283252212082",
+    "observedAt":  "2026-10-31T01:43:08+09:00",
+    "sourceBatch":  "x-public-profile-ssr-2026-10-31",
+    "sourcePage":  "https://x.com/dahlia_clip",
+    "visibilityStatus":  null
+}

@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-youtube-title-view-031",
+    "platform":  "youtube",
+    "contentType":  "video",
+    "listingKind":  "title-and-view-count; duration-not-present-in-source-text",
+    "accountHandle":  "@dahlia-clip",
+    "title":  "주머니에쏘옥 #이주인 #vtuber",
+    "durationRaw":  null,
+    "publishedAt":  null,
+    "publishedTimeRaw":  null,
+    "metrics":  [
+                    {
+                        "approximateValue":  269,
+                        "type":  "views",
+                        "rawValue":  "269회"
+                    }
+                ],
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceLine":  183,
+    "hashtags":  [
+                     "#이주인",
+                     "#vtuber"
+                 ]
+}

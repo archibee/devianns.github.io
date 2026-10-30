@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-youtube-video-007",
+    "platform":  "youtube",
+    "contentType":  "video",
+    "listingKind":  "duration-title-view-count-relative-age",
+    "accountHandle":  "@dahlia-clip",
+    "title":  "나 사원증 좋아했네 [이주인 팬클립]",
+    "durationRaw":  "3:11",
+    "publishedAt":  null,
+    "publishedTimeRaw":  "1년 전",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "approximateValue":  2200,
+                        "type":  "views",
+                        "rawValue":  "2.2천"
+                    }
+                ],
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceLine":  300,
+    "hashtags":  [
+
+                 ]
+}

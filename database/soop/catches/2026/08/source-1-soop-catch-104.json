@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-104",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]뱌링이 오타쿠 \u003e_\u003c🐰🩷",
+    "publishedAt":  "2026-08-02",
+    "publishedTimeRaw":  "2026-08-02",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  33,
+                        "type":  "unknown",
+                        "rawValue":  "33"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  3,
+    "sourceLine":  1098,
+    "titleText":  "뱌링이 오타쿠 \u003e_\u003c🐰🩷",
+    "seriesLabels":  [
+
+                     ]
+}

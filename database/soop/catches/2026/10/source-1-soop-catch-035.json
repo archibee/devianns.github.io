@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-035",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]제이팝 노래대회 심사! 뉴승철모드 켭니다 [고퀄즉방 164💓]",
+    "publishedAt":  "2026-10-24",
+    "publishedTimeRaw":  "2026-10-24",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  17,
+                        "type":  "unknown",
+                        "rawValue":  "17"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  1,
+    "sourceLine":  593,
+    "titleText":  "제이팝 노래대회 심사! 뉴승철모드 켭니다 [고퀄즉방 164💓]",
+    "seriesLabels":  [
+                         "고퀄즉방 164💓"
+                     ]
+}

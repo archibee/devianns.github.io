@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-youtube-video-001",
+    "platform":  "youtube",
+    "contentType":  "video",
+    "listingKind":  "duration-title-view-count-relative-age",
+    "accountHandle":  "@dahlia-clip",
+    "title":  "흥칫뿡 하고 삐질게 [이주인 팬클립]",
+    "durationRaw":  "1:02",
+    "publishedAt":  null,
+    "publishedTimeRaw":  "11개월 전",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "approximateValue":  541,
+                        "type":  "views",
+                        "rawValue":  "541"
+                    }
+                ],
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceLine":  264,
+    "hashtags":  [
+
+                 ]
+}

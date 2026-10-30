@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-106",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치][뉴걸] 캬루루루루룽",
+    "publishedAt":  "2026-08-01",
+    "publishedTimeRaw":  "2026-08-01",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  6,
+                        "type":  "unknown",
+                        "rawValue":  "6"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  3,
+    "sourceLine":  1111,
+    "titleText":  "[뉴걸] 캬루루루루룽",
+    "seriesLabels":  [
+                         "뉴걸"
+                     ]
+}

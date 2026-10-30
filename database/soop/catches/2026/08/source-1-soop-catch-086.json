@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-086",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치][뉴걸30일] 저랑 잔잔하게 얘기하실래요?💛즉방33/룰렛33,100",
+    "publishedAt":  "2026-08-16",
+    "publishedTimeRaw":  "2026-08-16",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  6,
+                        "type":  "unknown",
+                        "rawValue":  "6"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  3,
+    "sourceLine":  987,
+    "titleText":  "[뉴걸30일] 저랑 잔잔하게 얘기하실래요?💛즉방33/룰렛33,100",
+    "seriesLabels":  [
+                         "뉴걸30일"
+                     ]
+}

@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-067",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]변태인 너네가 좋아",
+    "publishedAt":  "2026-10-09",
+    "publishedTimeRaw":  "2026-10-09",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  72,
+                        "type":  "unknown",
+                        "rawValue":  "72"
+                    }
+                ],
+    "visibilityStatus":  "비공개",
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  2,
+    "sourceLine":  832,
+    "titleText":  "변태인 너네가 좋아",
+    "seriesLabels":  [
+
+                     ]
+}

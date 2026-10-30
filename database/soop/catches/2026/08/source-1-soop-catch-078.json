@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-078",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]스포하지마 내일말해죠!",
+    "publishedAt":  "2026-08-18",
+    "publishedTimeRaw":  "2026-08-18",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  7,
+                        "type":  "unknown",
+                        "rawValue":  "7"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  2,
+    "sourceLine":  903,
+    "titleText":  "스포하지마 내일말해죠!",
+    "seriesLabels":  [
+
+                     ]
+}

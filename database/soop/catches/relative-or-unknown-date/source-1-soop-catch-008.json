@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-008",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]어디 바다가 좋아여?",
+    "publishedAt":  null,
+    "publishedTimeRaw":  "2일 전",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  5,
+                        "type":  "unknown",
+                        "rawValue":  "5"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  1,
+    "sourceLine":  412,
+    "titleText":  "어디 바다가 좋아여?",
+    "seriesLabels":  [
+
+                     ]
+}

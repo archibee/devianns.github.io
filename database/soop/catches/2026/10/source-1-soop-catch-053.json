@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-053",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치][어인섬] 🫧 엽떡 다신 안 머거 !!!!!!!! (՞𓏼ᐢ ᵕ ᐢ𓏼՞)",
+    "publishedAt":  "2026-10-23",
+    "publishedTimeRaw":  "2026-10-23",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  65,
+                        "type":  "unknown",
+                        "rawValue":  "65"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  2,
+    "sourceLine":  746,
+    "titleText":  "[어인섬] 🫧 엽떡 다신 안 머거 !!!!!!!! (՞𓏼ᐢ ᵕ ᐢ𓏼՞)",
+    "seriesLabels":  [
+                         "어인섬"
+                     ]
+}

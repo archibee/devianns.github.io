@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-116",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치][모아이/백과 콩나무] 클리어까지 노방종 합니다",
+    "publishedAt":  "2026-07-31",
+    "publishedTimeRaw":  "2026-07-31",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  51,
+                        "type":  "unknown",
+                        "rawValue":  "51"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  3,
+    "sourceLine":  1171,
+    "titleText":  "[모아이/백과 콩나무] 클리어까지 노방종 합니다",
+    "seriesLabels":  [
+                         "모아이/백과 콩나무"
+                     ]
+}

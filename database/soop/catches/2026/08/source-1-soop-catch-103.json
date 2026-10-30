@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-103",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]차미랑 냥! 고양이 애교",
+    "publishedAt":  "2026-08-08",
+    "publishedTimeRaw":  "2026-08-08",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  82,
+                        "type":  "unknown",
+                        "rawValue":  "82"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  3,
+    "sourceLine":  1091,
+    "titleText":  "차미랑 냥! 고양이 애교",
+    "seriesLabels":  [
+
+                     ]
+}

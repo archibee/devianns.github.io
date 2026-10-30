@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-058",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]옳지 옳지 우리 멍멍이~ (매도)",
+    "publishedAt":  "2026-10-11",
+    "publishedTimeRaw":  "2026-10-11",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  24,
+                        "type":  "unknown",
+                        "rawValue":  "24"
+                    }
+                ],
+    "visibilityStatus":  "블라인드",
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  2,
+    "sourceLine":  777,
+    "titleText":  "옳지 옳지 우리 멍멍이~ (매도)",
+    "seriesLabels":  [
+
+                     ]
+}

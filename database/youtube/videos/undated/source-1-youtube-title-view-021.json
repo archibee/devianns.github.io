@@ -1,0 +1,26 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-youtube-title-view-021",
+    "platform":  "youtube",
+    "contentType":  "video",
+    "listingKind":  "title-and-view-count; duration-not-present-in-source-text",
+    "accountHandle":  "@dahlia-clip",
+    "title":  "주인 마망",
+    "durationRaw":  null,
+    "publishedAt":  null,
+    "publishedTimeRaw":  null,
+    "metrics":  [
+                    {
+                        "approximateValue":  524,
+                        "type":  "views",
+                        "rawValue":  "524회"
+                    }
+                ],
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceLine":  143,
+    "hashtags":  [
+
+                 ]
+}

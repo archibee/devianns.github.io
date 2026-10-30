@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-060",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]라벤 매도 허~접 더러워",
+    "publishedAt":  "2026-10-11",
+    "publishedTimeRaw":  "2026-10-11",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  0,
+                        "type":  "unknown",
+                        "rawValue":  "0"
+                    }
+                ],
+    "visibilityStatus":  "블라인드",
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  2,
+    "sourceLine":  789,
+    "titleText":  "라벤 매도 허~접 더러워",
+    "seriesLabels":  [
+
+                     ]
+}

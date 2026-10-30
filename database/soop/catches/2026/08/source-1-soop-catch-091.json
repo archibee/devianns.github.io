@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-091",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]빵빵해보여?",
+    "publishedAt":  "2026-08-15",
+    "publishedTimeRaw":  "2026-08-15",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  121,
+                        "type":  "unknown",
+                        "rawValue":  "121"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  3,
+    "sourceLine":  1019,
+    "titleText":  "빵빵해보여?",
+    "seriesLabels":  [
+
+                     ]
+}

@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-022",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]크로스 크런치",
+    "publishedAt":  null,
+    "publishedTimeRaw":  "2일 전",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  5,
+                        "type":  "unknown",
+                        "rawValue":  "5"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  1,
+    "sourceLine":  506,
+    "titleText":  "크로스 크런치",
+    "seriesLabels":  [
+
+                     ]
+}

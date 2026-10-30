@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-111",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치][뉴걸] 미드나잇 씬즈 / 굿바이 노트 (아무튼 종겜)",
+    "publishedAt":  "2026-08-01",
+    "publishedTimeRaw":  "2026-08-01",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  3,
+                        "type":  "unknown",
+                        "rawValue":  "3"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  3,
+    "sourceLine":  1141,
+    "titleText":  "[뉴걸] 미드나잇 씬즈 / 굿바이 노트 (아무튼 종겜)",
+    "seriesLabels":  [
+                         "뉴걸"
+                     ]
+}

@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-001",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]뽀점 좋아하시나요?👻🗡️",
+    "publishedAt":  null,
+    "publishedTimeRaw":  "1시간 전",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  2,
+                        "type":  "unknown",
+                        "rawValue":  "2"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  1,
+    "sourceLine":  363,
+    "titleText":  "뽀점 좋아하시나요?👻🗡️",
+    "seriesLabels":  [
+
+                     ]
+}

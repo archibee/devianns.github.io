@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-066",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]라벤 우~ 아앙~",
+    "publishedAt":  "2026-10-09",
+    "publishedTimeRaw":  "2026-10-09",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  52,
+                        "type":  "unknown",
+                        "rawValue":  "52"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  2,
+    "sourceLine":  826,
+    "titleText":  "라벤 우~ 아앙~",
+    "seriesLabels":  [
+
+                     ]
+}

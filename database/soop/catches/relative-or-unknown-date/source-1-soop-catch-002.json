@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-002",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]뒷골목의 뱀파이어",
+    "publishedAt":  null,
+    "publishedTimeRaw":  "2일 전",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  17,
+                        "type":  "unknown",
+                        "rawValue":  "17"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  1,
+    "sourceLine":  370,
+    "titleText":  "뒷골목의 뱀파이어",
+    "seriesLabels":  [
+
+                     ]
+}

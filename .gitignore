@@ -1,0 +1,2 @@
+# Raw platform dumps stay local; only curated text/metadata records go in database/.
+/source/

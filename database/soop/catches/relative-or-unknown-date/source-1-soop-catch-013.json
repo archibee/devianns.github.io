@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-013",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]운동 업보 청산의 날... 💖ㅣ!방셀 [BIP 연습생]",
+    "publishedAt":  null,
+    "publishedTimeRaw":  "2일 전",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  6,
+                        "type":  "unknown",
+                        "rawValue":  "6"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  1,
+    "sourceLine":  446,
+    "titleText":  "운동 업보 청산의 날... 💖ㅣ!방셀 [BIP 연습생]",
+    "seriesLabels":  [
+                         "BIP 연습생"
+                     ]
+}

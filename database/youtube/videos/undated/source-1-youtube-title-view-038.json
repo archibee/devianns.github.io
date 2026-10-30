@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-youtube-title-view-038",
+    "platform":  "youtube",
+    "contentType":  "video",
+    "listingKind":  "title-and-view-count; duration-not-present-in-source-text",
+    "accountHandle":  "@dahlia-clip",
+    "title":  "뉴주인 신의상 단발헤어! #이주인 #vtuber",
+    "durationRaw":  null,
+    "publishedAt":  null,
+    "publishedTimeRaw":  null,
+    "metrics":  [
+                    {
+                        "approximateValue":  168,
+                        "type":  "views",
+                        "rawValue":  "168회"
+                    }
+                ],
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceLine":  211,
+    "hashtags":  [
+                     "#이주인",
+                     "#vtuber"
+                 ]
+}

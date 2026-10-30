@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-youtube-video-015",
+    "platform":  "youtube",
+    "contentType":  "video",
+    "listingKind":  "duration-title-view-count-relative-age",
+    "accountHandle":  "@dahlia-clip",
+    "title":  "냥냥감자라고 안했거든 [이주인/클립]",
+    "durationRaw":  "3:47",
+    "publishedAt":  null,
+    "publishedTimeRaw":  "2년 전",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "approximateValue":  1200,
+                        "type":  "views",
+                        "rawValue":  "1.2천"
+                    }
+                ],
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceLine":  348,
+    "hashtags":  [
+
+                 ]
+}

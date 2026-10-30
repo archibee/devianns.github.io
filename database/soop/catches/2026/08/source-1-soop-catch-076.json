@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-076",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]뽀뽀가 오글거려?!?",
+    "publishedAt":  "2026-08-31",
+    "publishedTimeRaw":  "2026-08-31",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  34,
+                        "type":  "unknown",
+                        "rawValue":  "34"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  2,
+    "sourceLine":  890,
+    "titleText":  "뽀뽀가 오글거려?!?",
+    "seriesLabels":  [
+
+                     ]
+}

@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-youtube-video-009",
+    "platform":  "youtube",
+    "contentType":  "video",
+    "listingKind":  "duration-title-view-count-relative-age",
+    "accountHandle":  "@dahlia-clip",
+    "title":  "청초, 감동, 귀여움 [이주인 팬클립]",
+    "durationRaw":  "1:04",
+    "publishedAt":  null,
+    "publishedTimeRaw":  "2년 전",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "approximateValue":  1200,
+                        "type":  "views",
+                        "rawValue":  "1.2천"
+                    }
+                ],
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceLine":  312,
+    "hashtags":  [
+
+                 ]
+}

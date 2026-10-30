@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-youtube-video-012",
+    "platform":  "youtube",
+    "contentType":  "video",
+    "listingKind":  "duration-title-view-count-relative-age",
+    "accountHandle":  "@dahlia-clip",
+    "title":  "뭐가 야하다는거야 진짜~! [이주인/클립]",
+    "durationRaw":  "2:33",
+    "publishedAt":  null,
+    "publishedTimeRaw":  "2년 전",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "approximateValue":  7800,
+                        "type":  "views",
+                        "rawValue":  "7.8천"
+                    }
+                ],
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceLine":  330,
+    "hashtags":  [
+
+                 ]
+}

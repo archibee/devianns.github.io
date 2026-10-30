@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-064",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]고개를 숙이면 잘보여서 안돼요",
+    "publishedAt":  "2026-10-10",
+    "publishedTimeRaw":  "2026-10-10",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  38,
+                        "type":  "unknown",
+                        "rawValue":  "38"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  2,
+    "sourceLine":  813,
+    "titleText":  "고개를 숙이면 잘보여서 안돼요",
+    "seriesLabels":  [
+
+                     ]
+}

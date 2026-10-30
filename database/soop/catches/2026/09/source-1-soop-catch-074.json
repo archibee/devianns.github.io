@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-074",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]우리 비밀친구잖아",
+    "publishedAt":  "2026-09-12",
+    "publishedTimeRaw":  "2026-09-12",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  38,
+                        "type":  "unknown",
+                        "rawValue":  "38"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  2,
+    "sourceLine":  878,
+    "titleText":  "우리 비밀친구잖아",
+    "seriesLabels":  [
+
+                     ]
+}

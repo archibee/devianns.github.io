@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-056",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]나이 생각하면 멈춰야 하는데... (미시)",
+    "publishedAt":  "2026-10-11",
+    "publishedTimeRaw":  "2026-10-11",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  21,
+                        "type":  "unknown",
+                        "rawValue":  "21"
+                    }
+                ],
+    "visibilityStatus":  "블라인드",
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  2,
+    "sourceLine":  765,
+    "titleText":  "나이 생각하면 멈춰야 하는데... (미시)",
+    "seriesLabels":  [
+
+                     ]
+}

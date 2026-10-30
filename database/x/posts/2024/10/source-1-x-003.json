@@ -1,0 +1,17 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-x-003",
+    "platform":  "x",
+    "contentType":  "post",
+    "accountHandle":  "@dahlia_clip",
+    "publishedAt":  "2024-10-31",
+    "publishedTimeRaw":  "2024년 10월 31일",
+    "text":  "#Jooin_on HAPPY HALLOWEEN🎃",
+    "hashtags":  [
+                     "#Jooin_on"
+                 ],
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceLine":  29
+}

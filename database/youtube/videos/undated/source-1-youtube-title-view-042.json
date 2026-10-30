@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-youtube-title-view-042",
+    "platform":  "youtube",
+    "contentType":  "video",
+    "listingKind":  "title-and-view-count; duration-not-present-in-source-text",
+    "accountHandle":  "@dahlia-clip",
+    "title":  "뽀뽀는 자유죠 #이주인 #vtuber",
+    "durationRaw":  null,
+    "publishedAt":  null,
+    "publishedTimeRaw":  null,
+    "metrics":  [
+                    {
+                        "approximateValue":  138,
+                        "type":  "views",
+                        "rawValue":  "138회"
+                    }
+                ],
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceLine":  227,
+    "hashtags":  [
+                     "#이주인",
+                     "#vtuber"
+                 ]
+}

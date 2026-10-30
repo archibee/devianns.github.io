@@ -37,7 +37,7 @@ body.home-page .site-shell, body.home-page #main { width: 100%; height: 100%; ov
 
 .hero { position: relative; min-height: 790px; height: min(100svh, 1000px); display: grid; grid-template-columns: 1fr 1fr; align-items: center; padding: 110px clamp(24px, 10.4vw, 170px) 100px; isolation: isolate; background: #090c2d; }
 .hero-backdrop, .hero-vignette { position: absolute; inset: 0; z-index: -3; }
-.hero-backdrop { background-image: url('./dahlia-images/dahlia-background.jpg'); background-size: cover; background-position: center 43%; opacity: .42; filter: saturate(.86) brightness(.71); transform: scale(1.015); }
+.hero-backdrop { background-image: radial-gradient(ellipse at 50% 48%, #586bb32b 0%, transparent 44%), radial-gradient(ellipse at 78% 22%, #7552a51b 0%, transparent 36%), linear-gradient(145deg, #07091f 0%, #0b1030 54%, #080a24 100%); background-size: cover; background-position: center; opacity: 1; filter: none; transform: none; }
 .hero-vignette { z-index: -2; background: linear-gradient(90deg, #080a24 0%, #080a24f2 29%, #080a24ae 52%, #080a2480 75%, #080a24be 100%), linear-gradient(0deg, #080a24 0%, transparent 26%, #080a2440 100%); }
 .hero::after { position: absolute; z-index: -1; inset: 0; content: ''; opacity: .38; background: radial-gradient(ellipse at 73% 52%, #858cff40, transparent 36%), radial-gradient(ellipse at 83% 83%, #77d5ff27, transparent 27%); }
 .hero-copy { position: relative; z-index: 2; max-width: 560px; padding-top: 20px; }
@@ -138,7 +138,7 @@ body.home-page .site-shell, body.home-page #main { width: 100%; height: 100%; ov
 
 .about-section { position: relative; min-height: 620px; display: flex; align-items: center; padding: 110px clamp(24px, 13vw, 200px); isolation: isolate; }
 .about-image, .about-overlay { position: absolute; z-index: -2; inset: 0; }
-.about-image { background: url('./dahlia-images/dahlia-background.jpg') center 48% / cover; filter: saturate(.72) brightness(.56); }
+.about-image { background: radial-gradient(ellipse at 50% 35%, #6578b326, transparent 48%), linear-gradient(145deg, #080a24, #111438 55%, #080a24); }
 .about-overlay { z-index: -1; background: linear-gradient(90deg,#090b24f5 0%,#090b24d9 37%,#090b246b 70%,#090b2499 100%), linear-gradient(0deg,#080a24 0%,transparent 35%,#080a2452 100%); }
 .about-content { max-width: 630px; }
 .about-content h2 { font-size: clamp(39px, 5vw, 65px); line-height: 1.5; }
@@ -332,8 +332,66 @@ body.home-page .site-shell, body.home-page #main { width: 100%; height: 100%; ov
   .hero-cube .hero-bottom { bottom: 8px; }
 }
 
+/* Let the single profile image become the front face artwork, with a soft glass fade at its edges. */
+.face-portrait-frame {
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: auto;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  transform: none;
+  -webkit-mask-image: radial-gradient(ellipse 86% 83% at 50% 46%, #000 54%, #000e 72%, transparent 100%);
+  mask-image: radial-gradient(ellipse 86% 83% at 50% 46%, #000 54%, #000e 72%, transparent 100%);
+}
+.face-portrait-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 24%;
+  opacity: .86;
+  filter: saturate(.78) contrast(.93);
+}
+.face-front .face-wash {
+  background: linear-gradient(180deg, #080a2410 8%, #080a241a 47%, #080a24d9 100%), radial-gradient(ellipse at 50% 42%, transparent 32%, #080a2440 100%);
+}
+@media (max-width: 640px) {
+  .face-portrait-frame { inset: 0; width: 100%; height: 100%; }
+}
+
+/* A quiet starfield keeps the cube readable; only its front face carries the profile portrait. */
+.hero-cube .hero-backdrop {
+  background-image: radial-gradient(ellipse at 50% 48%, #586bb32b 0%, transparent 44%), radial-gradient(ellipse at 78% 22%, #7552a51b 0%, transparent 36%), radial-gradient(ellipse at 18% 77%, #29749a17 0%, transparent 38%), linear-gradient(145deg, #07091f 0%, #0b1030 54%, #080a24 100%);
+  background-size: cover;
+  opacity: 1;
+  filter: none;
+  transform: none;
+}
+.hero-cube .hero-vignette { background: radial-gradient(ellipse at 50% 48%, transparent 0%, #080a2440 78%, #080a2482 100%); }
+.hero-cube .starfield { opacity: .72; }
+.cube-face { border-color: #e8f3ff3f; background: linear-gradient(145deg, #e3f5ff08, #d6deff04 48%, #8ad9ff07); box-shadow: inset 1px 1px 0 #ffffff4d, inset -1px -1px 0 #c5ddff12, inset 0 0 45px #cff4ff08, 0 0 22px #b7e6ff14; backdrop-filter: blur(2px) saturate(1.08); -webkit-backdrop-filter: blur(2px) saturate(1.08); }
+.cube-face::before { opacity: .52; background: linear-gradient(126deg, #fff7 0%, #fff1 4%, transparent 18%, transparent 70%, #c4efff10 80%, #fff3 100%); }
+.cube-face:hover { box-shadow: inset 1px 1px 0 #fff9, inset 0 0 42px #d9f5ff20, 0 0 27px #b7e6ff38; }
+.cube-face:not(.face-front) .face-glyph { position: absolute; top: 35%; left: 50%; width: 78px; height: 78px; margin: 0; border-radius: 22px; transform: translate(-50%, -50%) rotate(45deg); background: linear-gradient(145deg, #efffff22, #8fdfff0d 54%, #b69eff18); box-shadow: inset 1px 1px 9px #fff6, inset -4px -4px 12px #b0c3ff24, 0 0 27px #9bdfff1e; }
+.cube-face:not(.face-front) .face-glyph-orbit { transform: translate(-50%, -50%); }
+.face-top .face-glyph, .face-bottom .face-glyph { margin-top: 0; }
+.cube-face:not(.face-front) .face-title { position: absolute; top: 57%; right: 8%; left: 8%; margin: 0; font-size: clamp(18px, 2.45vw, 29px); line-height: 1.42; transform: translateY(-50%); }
+.face-front { background: linear-gradient(145deg, #dff8ff0b, #d6deff04 48%, #8ad9ff0a), radial-gradient(ellipse at 50% 28%, #cde5ff12, transparent 55%); }
+.face-portrait-frame { top: 10%; height: 56%; border-color: #e8f4ff78; border-radius: 48% 48% 9px 9px; background: #121834; box-shadow: 0 0 22px #d5e9ff2a, inset 0 0 14px #e9f5ff2f; }
+.face-front .face-wash { background: linear-gradient(180deg, #080a2405 24%, #080a2433 67%, #080a24c7 100%); }
+.face-front .face-title { bottom: 67px; font-size: clamp(18px, 2.15vw, 25px); }
+@media (max-width: 640px) {
+  .cube-face:not(.face-front) .face-glyph { top: 36%; width: 68px; height: 68px; }
+  .cube-face:not(.face-front) .face-title { top: 57%; font-size: clamp(16px, 4.6vw, 21px); }
+  .face-portrait-frame { top: 11%; height: 54%; }
+  .face-front .face-title { bottom: 59px; font-size: clamp(16px, 4.7vw, 20px); }
+}
+
 /* The profile artwork is portrait shaped; keep its proportions inside the square cube face. */
-.face-front { background: linear-gradient(180deg, #080b2a20, #080a24b3), url('./dahlia-images/dahlia-background.jpg') center 28% / cover; }
+.face-front { background: linear-gradient(145deg, #dff8ff0b, #d6deff04 48%, #8ad9ff0a), radial-gradient(ellipse at 50% 28%, #cde5ff12, transparent 55%); }
 .face-portrait-frame { position: absolute; z-index: 0; top: 11%; left: 50%; display: block; width: auto; height: 59%; aspect-ratio: 3 / 5; overflow: hidden; border: 1px solid #e8f4ff9c; border-radius: 46% 46% 10px 10px; background: #11183d; box-shadow: 0 0 24px #d5e9ff45, inset 0 0 16px #e9f5ff4c; transform: translateX(-50%); }
 .face-portrait-frame img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; }
 .face-front .face-wash { z-index: 1; background: linear-gradient(180deg, transparent 28%, #080a2440 61%, #080a24d9 100%), radial-gradient(circle at 50% 38%, #d8edff12, transparent 46%); }
@@ -367,4 +425,81 @@ body.home-page .site-shell, body.home-page #main { width: 100%; height: 100%; ov
   .cube-experience { --cube-size: clamp(145px, 36svh, 235px); --cube-half: clamp(72.5px, 18svh, 117.5px); height: calc(var(--cube-size) + 58px); }
   .cube-caption { bottom: 0; }
   .hero-cube .hero-bottom { bottom: 8px; }
+}
+
+/* Profile artwork fills the front glass face and fades softly at its edges. */
+.face-portrait-frame {
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: auto;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  transform: none;
+  -webkit-mask-image: radial-gradient(ellipse 86% 83% at 50% 46%, #000 54%, #000e 72%, transparent 100%);
+  mask-image: radial-gradient(ellipse 86% 83% at 50% 46%, #000 54%, #000e 72%, transparent 100%);
+}
+.face-portrait-frame img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 24%; opacity: .86; filter: saturate(.78) contrast(.93); }
+.face-front .face-wash { background: linear-gradient(180deg, #080a2410 8%, #080a241a 47%, #080a24d9 100%), radial-gradient(ellipse at 50% 42%, transparent 32%, #080a2440 100%); }
+.face-back-art { position: absolute; z-index: 0; inset: 0; display: block; overflow: hidden; -webkit-mask-image: radial-gradient(ellipse 86% 83% at 50% 46%, #000 54%, #000e 72%, transparent 100%); mask-image: radial-gradient(ellipse 86% 83% at 50% 46%, #000 54%, #000e 72%, transparent 100%); }
+.face-back-art img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: .8; filter: saturate(.74) contrast(.9); }
+.face-back::before { background: linear-gradient(145deg, #08102b18 0%, #08102b0a 45%, #08102b5c 100%), linear-gradient(126deg, #fff8 0%, #fff2 3%, transparent 15%, transparent 67%, #c4efff15 77%, #fff4 100%); }
+.face-back .face-glyph { display: none; }
+.face-back .face-title { position: absolute; right: 14px; bottom: 67px; left: 14px; margin: 0; font-size: clamp(18px, 2.3vw, 27px); line-height: 1.45; }
+@media (max-width: 640px) { .face-back .face-title { bottom: 59px; font-size: clamp(16px, 4.7vw, 20px); } }
+
+/* Keep the two image faces aligned; their artwork changes, their label geometry does not. */
+.face-front .face-index, .face-back .face-index { top: 24px; left: 23px; }
+.face-front .face-title, .face-back .face-title { position: absolute; right: 14px; bottom: 67px; left: 14px; margin: 0; font-size: clamp(18px, 2.15vw, 25px); line-height: 1.45; }
+.face-front .face-hint, .face-back .face-hint { right: 21px; bottom: 21px; left: 21px; }
+@media (max-width: 640px) {
+  .face-front .face-index, .face-back .face-index { top: 18px; left: 17px; }
+  .face-front .face-title, .face-back .face-title { right: 14px; bottom: 59px; left: 14px; font-size: clamp(17px, 5vw, 22px); }
+  .face-front .face-hint, .face-back .face-hint { right: 16px; bottom: 16px; left: 16px; }
+}
+
+/* Outrank the generic non-front-face title rule so both image titles anchor identically. */
+.cube-face.face-front .face-title, .cube-face.face-back .face-title {
+  top: auto;
+  right: 14px;
+  bottom: 67px;
+  left: 14px;
+  margin: 0;
+  transform: none;
+  font-size: clamp(18px, 2.45vw, 29px);
+  line-height: 1.45;
+}
+@media (max-width: 640px) {
+  .cube-face.face-front .face-title, .cube-face.face-back .face-title {
+    top: auto;
+    right: 14px;
+    bottom: 59px;
+    left: 14px;
+    font-size: clamp(16px, 4.6vw, 21px);
+  }
+}
+
+/* Both image faces share the exact same visual layers and label anchors. */
+.face-front .face-portrait-frame, .face-back .face-back-art {
+  position: absolute; inset: 0; z-index: 0; display: block; width: 100%; height: 100%;
+  overflow: hidden; border: 0; border-radius: 0; background: transparent; box-shadow: none; transform: none;
+  -webkit-mask-image: radial-gradient(ellipse 86% 83% at 50% 46%, #000 54%, #000e 72%, transparent 100%);
+  mask-image: radial-gradient(ellipse 86% 83% at 50% 46%, #000 54%, #000e 72%, transparent 100%);
+}
+.face-front .face-portrait-frame img, .face-back .face-back-art img {
+  display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 24%;
+  opacity: .86; filter: saturate(.78) contrast(.93);
+}
+.face-back .face-wash { z-index: 1; background: linear-gradient(180deg, #080a2410 8%, #080a241a 47%, #080a24d9 100%), radial-gradient(ellipse at 50% 42%, transparent 32%, #080a2440 100%); }
+.face-back::before { background: linear-gradient(126deg, #fff7 0%, #fff1 4%, transparent 18%, transparent 70%, #c4efff10 80%, #fff3 100%); }
+.face-front .face-index, .face-back .face-index { top: 24px; left: 23px; }
+.face-front .face-title, .face-back .face-title { position: absolute; right: 14px; bottom: 67px; left: 14px; margin: 0; font-size: clamp(18px, 2.15vw, 25px); line-height: 1.45; }
+.face-front .face-hint, .face-back .face-hint { right: 21px; bottom: 21px; left: 21px; }
+@media (max-width: 640px) {
+  .face-front .face-index, .face-back .face-index { top: 18px; left: 17px; }
+  .face-front .face-title, .face-back .face-title { right: 14px; bottom: 59px; left: 14px; font-size: clamp(17px, 5vw, 22px); }
+  .face-front .face-hint, .face-back .face-hint { right: 16px; bottom: 16px; left: 16px; }
 }

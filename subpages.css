@@ -171,6 +171,11 @@ body.archive-page { min-height: 100vh; background: #080a24; overflow-x: hidden; 
 }
 .record-card { background: linear-gradient(135deg, #e4f4ff06, #d5dfff02 58%, #9bdfff04); }
 .record-card:hover { background: linear-gradient(135deg, #e4f4ff0d, #d5dfff05 58%, #9bdfff08); }
+.platform-card { align-items: center; gap: 16px; padding: 26px 28px; }
+.platform-card > div { align-self: center; }
+.platform-card .platform-arrow { align-self: start; }
+.platform-card h2 { margin-top: 10px; }
+.platform-card p:not(.micro-label) { margin-top: 9px; }
 @media (max-width: 1050px) {
   .archive-page .topbar { padding-inline: 25px; }
   .archive-page .site-nav { gap: 10px; font-size: 8px; }

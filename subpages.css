@@ -1,0 +1,33 @@
+.detail-page { min-height: 100vh; background: #090b27; }
+.detail-page .site-shell { position: relative; min-height: 100vh; overflow: visible; isolation: isolate; }
+.detail-page .site-shell::before { position: fixed; z-index: -2; inset: 0; content: ''; background: linear-gradient(90deg,#080a24ec,#080a24b0 52%,#080a24d9), url('./dahlia-images/dahlia-background.jpg') center 42% / cover; opacity: .85; }
+.detail-page .site-shell::after { position: fixed; z-index: -1; inset: 0; content: ''; pointer-events: none; background: radial-gradient(ellipse at 78% 27%,#a4bbff1b,transparent 34%), linear-gradient(180deg,#080a2430,#080a24a6); }
+.detail-page .topbar { position: relative; }
+.detail-main { position: relative; width: min(100% - 48px, 1000px); min-height: calc(100vh - 98px); margin: 0 auto; display: grid; align-content: center; padding: 40px 0 80px; }
+.detail-eyebrow { display: flex; align-items: center; gap: 12px; margin: 0 0 18px; color: #bec9eb; font-size: 8px; letter-spacing: .24em; }
+.detail-title { max-width: 780px; margin: 0; font-family: var(--serif); font-size: clamp(44px,7vw,76px); font-weight: 400; line-height: 1.35; letter-spacing: -.07em; }
+.detail-title em { color: #c8d5ff; font-style: normal; }
+.detail-lede { max-width: 560px; margin: 18px 0 0; color: #d0d6ed; font-size: 12px; line-height: 2; }
+.detail-panel { position: relative; max-width: 780px; min-height: 190px; margin-top: 42px; padding: clamp(22px,4vw,38px); overflow: hidden; border: 1px solid #e9f8ff3b; border-radius: 5px; background: linear-gradient(145deg,#dff8ff12,#d6deff08 48%,#8ad9ff0c); box-shadow: inset 1px 1px #ffffff36, 0 18px 55px #05071b57; backdrop-filter: blur(4px); }
+.detail-panel::after { position: absolute; top: -70%; right: -12%; width: 290px; aspect-ratio: 1; border: 1px solid #eaf5ff24; border-radius: 50%; content: ''; transform: rotate(24deg) scaleY(.68); pointer-events: none; }
+.detail-panel-top { position: relative; z-index: 1; display: flex; align-items: center; justify-content: space-between; color: #c6d2ee; font-size: 8px; letter-spacing: .16em; }
+.detail-panel-top span:last-child { color: #acb8da; }
+.empty-state { position: relative; z-index: 1; max-width: 500px; margin-top: 36px; }
+.empty-state h2 { margin: 0; font-family: var(--serif); font-size: 25px; font-weight: 400; letter-spacing: -.04em; }
+.empty-state p { margin: 10px 0 0; color: #b9c2df; font-size: 10px; line-height: 1.9; }
+.platform-list { position: relative; z-index: 1; display: flex; flex-wrap: wrap; gap: 10px; margin-top: 35px; }
+.platform-list span { padding: 10px 14px; border: 1px solid #e9f8ff42; color: #dce7ff; background: #dff8ff0a; font-size: 9px; letter-spacing: .13em; }
+.detail-actions { display: flex; align-items: center; gap: 20px; margin-top: 32px; }
+.detail-home-link { display: inline-flex; align-items: center; gap: 12px; padding: 13px 17px; border: 1px solid #e9f8ff5c; color: #f4f6ff; background: #dff8ff0d; font-size: 10px; }
+.detail-home-link:hover { background: #dff8ff1b; }
+.detail-home-link span { color: #b9efff; }
+.detail-caption { color: #9fa9cc; font-size: 8px; letter-spacing: .15em; }
+.detail-footer { display: flex; justify-content: space-between; gap: 20px; padding: 22px clamp(24px,6vw,96px); color: #8f98bb; font-size: 7px; letter-spacing: .14em; }
+@media (max-width: 640px) {
+  .detail-main { width: calc(100% - 42px); min-height: calc(100vh - 82px); align-content: center; padding: 35px 0 54px; }
+  .detail-title { font-size: clamp(42px,11vw,59px); }
+  .detail-lede { font-size: 11px; }
+  .detail-panel { min-height: 180px; margin-top: 32px; padding: 21px; }
+  .empty-state h2 { font-size: 22px; }
+  .detail-footer { flex-direction: column; padding: 18px 21px 25px; }
+}

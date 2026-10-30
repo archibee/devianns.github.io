@@ -1,4 +1,4 @@
-{
+﻿{
     "schemaVersion":  1,
     "id":  "source-1-youtube-video-010",
     "platform":  "youtube",
@@ -6,7 +6,7 @@
     "listingKind":  "duration-title-view-count-relative-age",
     "accountHandle":  "@dahlia-clip",
     "title":  "스팀 무료 게임 Jooin\u0027s Romance Fantasy 엔딩까지 보기",
-    "durationRaw":  "11:59",
+    "durationRaw":  "11분 59초",
     "publishedAt":  null,
     "publishedTimeRaw":  "2년 전",
     "metrics":  [
@@ -17,11 +17,21 @@
                         "rawValue":  "216"
                     }
                 ],
-    "url":  null,
-    "observedAt":  null,
+    "url":  "https://www.youtube.com/watch?v=T9y2feMJNVs",
+    "observedAt":  "2026-10-31T01:39:04+09:00",
     "sourceBatch":  "source/1",
     "sourceLine":  318,
     "hashtags":  [
 
-                 ]
+                 ],
+    "platformId":  "T9y2feMJNVs",
+    "sourceListingPage":  "https://www.youtube.com/@dahlia-clip/videos",
+    "sourceListingKind":  "videos",
+    "latestListingObservation":  {
+                                     "observedAt":  "2026-10-31T01:39:04+09:00",
+                                     "viewsRaw":  "216",
+                                     "viewsApproximateValue":  216,
+                                     "relativePublishedTimeRaw":  "2년 전",
+                                     "durationRaw":  "11분 59초"
+                                 }
 }

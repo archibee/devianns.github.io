@@ -29,3 +29,5 @@
 - 이번 배치는 캐치 1,576개를 `soop/catches/`, 혼합 응답 중 클립 43개와 일반 VOD 7개를 `soop/clips/`, `soop/vods/`에 저장했습니다. 원본 영상 및 썸네일은 저장하지 않았습니다.
 
 - SOOP 방송국 VOD 목록(`/station/rose5369/vod`)은 공개 API `vods/all`로 50개(클립 43, 일반 VOD 7)를 확인했습니다. `soop/clips/`와 `soop/vods/`에 기록하며, 상세는 [SOOP 수집 보고서](../docs/imports/soop-api-collection-2026-10-31.md)에 있습니다.
+
+- YouTube 공개 Shorts 목록 45개와 동영상 목록 15개는 기존 원문 기반 60개 레코드와 제목이 모두 일치해, 중복 파일 대신 각 레코드에 플랫폼 ID·링크·최신 목록 관측값을 보강했습니다. Shorts 기록은 `youtube/shorts/undated/`, 동영상 기록은 `youtube/videos/undated/`에 있습니다. 세부 범위와 한계는 [YouTube 목록 수집 기록](../docs/imports/youtube-tabs-2026-10-31.md)을 참고하세요.

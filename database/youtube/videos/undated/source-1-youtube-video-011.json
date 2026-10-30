@@ -1,4 +1,4 @@
-{
+﻿{
     "schemaVersion":  1,
     "id":  "source-1-youtube-video-011",
     "platform":  "youtube",
@@ -6,7 +6,7 @@
     "listingKind":  "duration-title-view-count-relative-age",
     "accountHandle":  "@dahlia-clip",
     "title":  "이주인 자는소리(수면캐스) 3시간 반복 ver.",
-    "durationRaw":  "3:00:06",
+    "durationRaw":  "3시간",
     "publishedAt":  null,
     "publishedTimeRaw":  "2년 전",
     "metrics":  [
@@ -17,11 +17,21 @@
                         "rawValue":  "5.5천"
                     }
                 ],
-    "url":  null,
-    "observedAt":  null,
+    "url":  "https://www.youtube.com/watch?v=os3iva-C7HU",
+    "observedAt":  "2026-10-31T01:39:04+09:00",
     "sourceBatch":  "source/1",
     "sourceLine":  324,
     "hashtags":  [
 
-                 ]
+                 ],
+    "platformId":  "os3iva-C7HU",
+    "sourceListingPage":  "https://www.youtube.com/@dahlia-clip/videos",
+    "sourceListingKind":  "videos",
+    "latestListingObservation":  {
+                                     "observedAt":  "2026-10-31T01:39:04+09:00",
+                                     "viewsRaw":  "5.5천",
+                                     "viewsApproximateValue":  5500,
+                                     "relativePublishedTimeRaw":  "2년 전",
+                                     "durationRaw":  "3시간"
+                                 }
 }

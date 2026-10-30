@@ -1,0 +1,36 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "source-1-youtube-title-view-017",
+    "platform":  "youtube",
+    "contentType":  "short",
+    "listingKind":  "title-and-view-count; duration-not-present-in-source-text",
+    "accountHandle":  "@dahlia-clip",
+    "title":  "겨드랑이를 보여주는 날이 아니라고요",
+    "durationRaw":  null,
+    "publishedAt":  null,
+    "publishedTimeRaw":  null,
+    "metrics":  [
+                    {
+                        "approximateValue":  91,
+                        "type":  "views",
+                        "rawValue":  "91회"
+                    }
+                ],
+    "url":  "https://www.youtube.com/shorts/5Qt9qaY5FUk",
+    "observedAt":  "2026-10-31T01:39:04+09:00",
+    "sourceBatch":  "source/1",
+    "sourceLine":  127,
+    "hashtags":  [
+
+                 ],
+    "platformId":  "5Qt9qaY5FUk",
+    "sourceListingPage":  "https://www.youtube.com/@dahlia-clip/shorts",
+    "sourceListingKind":  "shorts",
+    "latestListingObservation":  {
+                                     "observedAt":  "2026-10-31T01:39:04+09:00",
+                                     "viewsRaw":  "91",
+                                     "viewsApproximateValue":  91,
+                                     "relativePublishedTimeRaw":  null,
+                                     "durationRaw":  null
+                                 }
+}

@@ -1,0 +1,36 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "source-1-youtube-title-view-013",
+    "platform":  "youtube",
+    "contentType":  "short",
+    "listingKind":  "title-and-view-count; duration-not-present-in-source-text",
+    "accountHandle":  "@dahlia-clip",
+    "title":  "뽀뽀 선물",
+    "durationRaw":  null,
+    "publishedAt":  null,
+    "publishedTimeRaw":  null,
+    "metrics":  [
+                    {
+                        "approximateValue":  178,
+                        "type":  "views",
+                        "rawValue":  "178회"
+                    }
+                ],
+    "url":  "https://www.youtube.com/shorts/_IywlROPWVU",
+    "observedAt":  "2026-10-31T01:39:04+09:00",
+    "sourceBatch":  "source/1",
+    "sourceLine":  111,
+    "hashtags":  [
+
+                 ],
+    "platformId":  "_IywlROPWVU",
+    "sourceListingPage":  "https://www.youtube.com/@dahlia-clip/shorts",
+    "sourceListingKind":  "shorts",
+    "latestListingObservation":  {
+                                     "observedAt":  "2026-10-31T01:39:04+09:00",
+                                     "viewsRaw":  "178",
+                                     "viewsApproximateValue":  178,
+                                     "relativePublishedTimeRaw":  null,
+                                     "durationRaw":  null
+                                 }
+}

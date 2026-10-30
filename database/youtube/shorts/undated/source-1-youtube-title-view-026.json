@@ -1,0 +1,36 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "source-1-youtube-title-view-026",
+    "platform":  "youtube",
+    "contentType":  "short",
+    "listingKind":  "title-and-view-count; duration-not-present-in-source-text",
+    "accountHandle":  "@dahlia-clip",
+    "title":  "딥뽀뽀 #이주인",
+    "durationRaw":  null,
+    "publishedAt":  null,
+    "publishedTimeRaw":  null,
+    "metrics":  [
+                    {
+                        "approximateValue":  152,
+                        "type":  "views",
+                        "rawValue":  "152회"
+                    }
+                ],
+    "url":  "https://www.youtube.com/shorts/YHg-RtvmcLc",
+    "observedAt":  "2026-10-31T01:39:04+09:00",
+    "sourceBatch":  "source/1",
+    "sourceLine":  163,
+    "hashtags":  [
+                     "#이주인"
+                 ],
+    "platformId":  "YHg-RtvmcLc",
+    "sourceListingPage":  "https://www.youtube.com/@dahlia-clip/shorts",
+    "sourceListingKind":  "shorts",
+    "latestListingObservation":  {
+                                     "observedAt":  "2026-10-31T01:39:04+09:00",
+                                     "viewsRaw":  "152",
+                                     "viewsApproximateValue":  152,
+                                     "relativePublishedTimeRaw":  null,
+                                     "durationRaw":  null
+                                 }
+}

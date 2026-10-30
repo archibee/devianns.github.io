@@ -1,0 +1,38 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "source-1-youtube-title-view-032",
+    "platform":  "youtube",
+    "contentType":  "short",
+    "listingKind":  "title-and-view-count; duration-not-present-in-source-text",
+    "accountHandle":  "@dahlia-clip",
+    "title":  "전방향 미소녀 #이주인 #vtuber #meme",
+    "durationRaw":  null,
+    "publishedAt":  null,
+    "publishedTimeRaw":  null,
+    "metrics":  [
+                    {
+                        "approximateValue":  281,
+                        "type":  "views",
+                        "rawValue":  "281회"
+                    }
+                ],
+    "url":  "https://www.youtube.com/shorts/Z5xoVkSFl58",
+    "observedAt":  "2026-10-31T01:39:04+09:00",
+    "sourceBatch":  "source/1",
+    "sourceLine":  187,
+    "hashtags":  [
+                     "#이주인",
+                     "#vtuber",
+                     "#meme"
+                 ],
+    "platformId":  "Z5xoVkSFl58",
+    "sourceListingPage":  "https://www.youtube.com/@dahlia-clip/shorts",
+    "sourceListingKind":  "shorts",
+    "latestListingObservation":  {
+                                     "observedAt":  "2026-10-31T01:39:04+09:00",
+                                     "viewsRaw":  "281",
+                                     "viewsApproximateValue":  281,
+                                     "relativePublishedTimeRaw":  null,
+                                     "durationRaw":  null
+                                 }
+}

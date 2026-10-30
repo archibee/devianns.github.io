@@ -1,4 +1,4 @@
-{
+﻿{
     "schemaVersion":  1,
     "id":  "source-1-youtube-video-006",
     "platform":  "youtube",
@@ -6,7 +6,7 @@
     "listingKind":  "duration-title-view-count-relative-age",
     "accountHandle":  "@dahlia-clip",
     "title":  "발가락님 안녕하세요 [이주인 팬클립]",
-    "durationRaw":  "1:56",
+    "durationRaw":  "1분 56초",
     "publishedAt":  null,
     "publishedTimeRaw":  "1년 전",
     "metrics":  [
@@ -17,11 +17,21 @@
                         "rawValue":  "2.3천"
                     }
                 ],
-    "url":  null,
-    "observedAt":  null,
+    "url":  "https://www.youtube.com/watch?v=aV-fxw1iWZM",
+    "observedAt":  "2026-10-31T01:39:04+09:00",
     "sourceBatch":  "source/1",
     "sourceLine":  294,
     "hashtags":  [
 
-                 ]
+                 ],
+    "platformId":  "aV-fxw1iWZM",
+    "sourceListingPage":  "https://www.youtube.com/@dahlia-clip/videos",
+    "sourceListingKind":  "videos",
+    "latestListingObservation":  {
+                                     "observedAt":  "2026-10-31T01:39:04+09:00",
+                                     "viewsRaw":  "2.3천",
+                                     "viewsApproximateValue":  2300,
+                                     "relativePublishedTimeRaw":  "1년 전",
+                                     "durationRaw":  "1분 56초"
+                                 }
 }

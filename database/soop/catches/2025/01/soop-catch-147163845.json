@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-147163845",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "147163845",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]롤하다가 하품하고 메롱하기",
+    "titleText":  "롤하다가 하품하고 메롱하기",
+    "publishedAt":  "2025-01-04",
+    "publishedTimeRaw":  "2025-01-04 17:23:45",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  230,
+                        "rawValue":  "230"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  17000,
+    "url":  "https://vod.sooplive.com/player/147163845/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  38,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

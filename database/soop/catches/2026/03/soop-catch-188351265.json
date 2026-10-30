@@ -1,0 +1,37 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-188351265",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "188351265",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]라벤) 아이덴큐 나보다 게임못해",
+    "titleText":  "라벤) 아이덴큐 나보다 게임못해",
+    "publishedAt":  "2026-03-01",
+    "publishedTimeRaw":  "2026-03-01 13:58:51",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  39,
+                        "rawValue":  "39"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "예비본진1번"
+             ],
+    "durationMilliseconds":  24000,
+    "url":  "https://vod.sooplive.com/player/188351265/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  14,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

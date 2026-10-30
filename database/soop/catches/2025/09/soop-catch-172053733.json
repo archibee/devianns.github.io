@@ -1,0 +1,39 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-172053733",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "172053733",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]가슴으로 사족보행, 거거익선",
+    "titleText":  "가슴으로 사족보행, 거거익선",
+    "publishedAt":  "2025-09-15",
+    "publishedTimeRaw":  "2025-09-15 20:48:53",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  1989,
+                        "rawValue":  "1989"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  12,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "버츄얼",
+                 "버추얼",
+                 "사신"
+             ],
+    "durationMilliseconds":  18000,
+    "url":  "https://vod.sooplive.com/player/172053733/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  19,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

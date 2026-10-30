@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-201804171",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "201804171",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치] 뉴냥이의 그게",
+    "titleText":  "뉴냥이의 그게",
+    "publishedAt":  "2026-07-18",
+    "publishedTimeRaw":  "2026-07-18 16:29:51",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  97,
+                        "rawValue":  "97"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "크레비쥬",
+                 "버추얼",
+                 "모션캡쳐",
+                 "무멤",
+                 "콘서트"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/201804171/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  4,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

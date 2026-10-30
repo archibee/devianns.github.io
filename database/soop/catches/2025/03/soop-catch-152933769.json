@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-152933769",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "152933769",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]청백가요대전) 저희팀이 1등할거같습니다. 4번째 경연 첫번째! 백팀가즈아~",
+    "titleText":  "청백가요대전) 저희팀이 1등할거같습니다. 4번째 경연 첫번째! 백팀가즈아~",
+    "publishedAt":  "2025-03-02",
+    "publishedTimeRaw":  "2025-03-02 21:37:57",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  5,
+                        "rawValue":  "5"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  49000,
+    "url":  "https://vod.sooplive.com/player/152933769/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  33,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

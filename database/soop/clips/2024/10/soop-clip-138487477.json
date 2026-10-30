@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-clip-138487477",
+    "platform":  "soop",
+    "contentType":  "clip",
+    "platformId":  "138487477",
+    "platformFileType":  "CLIP",
+    "title":  "[클립] 이주인에게 별풍선 162개 선물",
+    "titleText":  "[클립] 이주인에게 별풍선 162개 선물",
+    "publishedAt":  "2024-10-07",
+    "publishedTimeRaw":  "2024-10-07 13:53:35",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  0,
+                        "rawValue":  "0"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "뉴걸"
+             ],
+    "durationMilliseconds":  130000,
+    "url":  "https://vod.sooplive.com/player/138487477/clip",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  40,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

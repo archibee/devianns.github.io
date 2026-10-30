@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-197437279",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "197437279",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]씻고다녀 매도 🥲🥺",
+    "titleText":  "씻고다녀 매도 🥲🥺",
+    "publishedAt":  "2026-06-01",
+    "publishedTimeRaw":  "2026-06-01 22:33:16",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  56,
+                        "rawValue":  "56"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  4,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "소통",
+                 "토크",
+                 "뉴걸",
+                 "버추얼",
+                 "종겜"
+             ],
+    "durationMilliseconds":  31000,
+    "url":  "https://vod.sooplive.com/player/197437279/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  7,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

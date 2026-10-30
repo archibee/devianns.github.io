@@ -1,0 +1,39 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-178525809",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "178525809",
+    "platformFileType":  "CATCH",
+    "title":  "보약 뽀뽀",
+    "titleText":  "보약 뽀뽀",
+    "publishedAt":  "2025-11-21",
+    "publishedTimeRaw":  "2025-11-21 17:10:00",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  394,
+                        "rawValue":  "394"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  13,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "Catch",
+                 "브이럽",
+                 "이주인"
+             ],
+    "durationMilliseconds":  20480,
+    "url":  "https://vod.sooplive.com/player/178525809/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  18,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

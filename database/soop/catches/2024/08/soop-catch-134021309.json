@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-134021309",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "134021309",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치](속닥)너만오면고 사랑해",
+    "titleText":  "(속닥)너만오면고 사랑해",
+    "publishedAt":  "2024-08-22",
+    "publishedTimeRaw":  "2024-08-22 19:50:16",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  630,
+                        "rawValue":  "630"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  18,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "뉴걸"
+             ],
+    "durationMilliseconds":  16000,
+    "url":  "https://vod.sooplive.com/player/134021309/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  40,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

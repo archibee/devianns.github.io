@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-151888749",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "151888749",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]3분할 터미널",
+    "titleText":  "3분할 터미널",
+    "publishedAt":  "2025-02-20",
+    "publishedTimeRaw":  "2025-02-20 19:11:46",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  20,
+                        "rawValue":  "20"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  39000,
+    "url":  "https://vod.sooplive.com/player/151888749/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  34,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

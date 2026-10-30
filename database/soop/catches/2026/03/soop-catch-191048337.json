@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-191048337",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "191048337",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]뱌링 풀트데이 모또모또",
+    "titleText":  "뱌링 풀트데이 모또모또",
+    "publishedAt":  "2026-03-28",
+    "publishedTimeRaw":  "2026-03-28 20:24:48",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  927,
+                        "rawValue":  "927"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  5,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "소통",
+                 "토크",
+                 "뉴걸",
+                 "버추얼",
+                 "종겜"
+             ],
+    "durationMilliseconds":  36000,
+    "url":  "https://vod.sooplive.com/player/191048337/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  12,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

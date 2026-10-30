@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-192349991",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "192349991",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치][버황] 요그소토스의 정원 베스 도전 중 부탁드립니다!! 33/330  81%",
+    "titleText":  "[버황] 요그소토스의 정원 베스 도전 중 부탁드립니다!! 33/330  81%",
+    "publishedAt":  "2026-04-10",
+    "publishedTimeRaw":  "2026-04-10 21:48:23",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  13,
+                        "rawValue":  "13"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "뉴걸",
+                 "버추얼",
+                 "버황",
+                 "소통"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/192349991/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  10,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-204492655",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "204492655",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치][뉴걸30일] 저랑 잔잔하게 얘기하실래요?💛즉방33/룰렛33,100",
+    "titleText":  "[뉴걸30일] 저랑 잔잔하게 얘기하실래요?💛즉방33/룰렛33,100",
+    "publishedAt":  "2026-08-16",
+    "publishedTimeRaw":  "2026-08-16 21:01:32",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  11,
+                        "rawValue":  "11"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  1,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "소통",
+                 "토크",
+                 "뉴걸",
+                 "버추얼",
+                 "종겜"
+             ],
+    "durationMilliseconds":  29000,
+    "url":  "https://vod.sooplive.com/player/204492655/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  3,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

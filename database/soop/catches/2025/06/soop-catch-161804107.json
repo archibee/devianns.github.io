@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-161804107",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "161804107",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]현실부파",
+    "titleText":  "현실부파",
+    "publishedAt":  "2025-06-01",
+    "publishedTimeRaw":  "2025-06-01 13:30:25",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  123,
+                        "rawValue":  "123"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  1,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  29000,
+    "url":  "https://vod.sooplive.com/player/161804107/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  23,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

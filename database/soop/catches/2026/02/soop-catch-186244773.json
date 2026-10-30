@@ -1,0 +1,39 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-186244773",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "186244773",
+    "platformFileType":  "CATCH",
+    "title":  "어떤 머리가 어울려",
+    "titleText":  "어떤 머리가 어울려",
+    "publishedAt":  "2026-02-08",
+    "publishedTimeRaw":  "2026-02-08 18:54:12",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  11,
+                        "rawValue":  "11"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "Catch",
+                 "버추얼",
+                 "아이덴큐"
+             ],
+    "durationMilliseconds":  26215,
+    "url":  "https://vod.sooplive.com/player/186244773/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  15,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

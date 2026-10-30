@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-167957049",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "167957049",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]목 스트레칭 중",
+    "titleText":  "목 스트레칭 중",
+    "publishedAt":  "2025-08-05",
+    "publishedTimeRaw":  "2025-08-05 00:42:00",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  231,
+                        "rawValue":  "231"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  3,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠",
+                 "러비타"
+             ],
+    "durationMilliseconds":  31000,
+    "url":  "https://vod.sooplive.com/player/167957049/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  19,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

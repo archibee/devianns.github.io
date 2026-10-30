@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-152954449",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "152954449",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]손하트❤️",
+    "titleText":  "손하트❤️",
+    "publishedAt":  "2025-03-03",
+    "publishedTimeRaw":  "2025-03-03 00:02:53",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  2,
+                        "rawValue":  "2"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/152954449/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  32,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

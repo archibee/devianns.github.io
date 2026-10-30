@@ -1,0 +1,39 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-normal-118748483",
+    "platform":  "soop",
+    "contentType":  "normal",
+    "platformId":  "118748483",
+    "platformFileType":  "NORMAL",
+    "title":  "괴식을 잘 아는 주인님 [이주인 팬클립]",
+    "titleText":  "괴식을 잘 아는 주인님 [이주인 팬클립]",
+    "publishedAt":  "2024-03-11",
+    "publishedTimeRaw":  "2024-03-11 21:33:59",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  47,
+                        "rawValue":  "47"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "이주인",
+                 "브이럽",
+                 "고양이"
+             ],
+    "durationMilliseconds":  56534,
+    "url":  "https://vod.sooplive.com/player/118748483/normal",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  41,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

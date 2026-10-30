@@ -1,0 +1,37 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-190156371",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "190156371",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]나 얼마나 순한데",
+    "titleText":  "나 얼마나 순한데",
+    "publishedAt":  "2026-03-19",
+    "publishedTimeRaw":  "2026-03-19 14:52:12",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  56,
+                        "rawValue":  "56"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  4,
+                       "likes":  2,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "예비본진1번"
+             ],
+    "durationMilliseconds":  24000,
+    "url":  "https://vod.sooplive.com/player/190156371/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  13,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

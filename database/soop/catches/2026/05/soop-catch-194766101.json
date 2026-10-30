@@ -1,0 +1,37 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-194766101",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "194766101",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]귀여움 어필",
+    "titleText":  "귀여움 어필",
+    "publishedAt":  "2026-05-05",
+    "publishedTimeRaw":  "2026-05-05 11:39:13",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  42,
+                        "rawValue":  "42"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "예비본진1번"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/194766101/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  8,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

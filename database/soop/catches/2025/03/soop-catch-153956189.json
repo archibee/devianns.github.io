@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-153956189",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "153956189",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]라이언의상모캡",
+    "titleText":  "라이언의상모캡",
+    "publishedAt":  "2025-03-12",
+    "publishedTimeRaw":  "2025-03-12 20:40:20",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  222,
+                        "rawValue":  "222"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  4,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  25000,
+    "url":  "https://vod.sooplive.com/player/153956189/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  32,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

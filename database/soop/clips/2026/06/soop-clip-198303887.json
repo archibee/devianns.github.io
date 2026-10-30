@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-clip-198303887",
+    "platform":  "soop",
+    "contentType":  "clip",
+    "platformId":  "198303887",
+    "platformFileType":  "CLIP",
+    "title":  "[클립]오 이 아 이 (FULL)",
+    "titleText":  "[클립]오 이 아 이 (FULL)",
+    "publishedAt":  "2026-06-10",
+    "publishedTimeRaw":  "2026-06-10 22:54:03",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  11,
+                        "rawValue":  "11"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  2,
+                       "likes":  1,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "소통",
+                 "토크",
+                 "뉴걸",
+                 "버추얼",
+                 "종겜"
+             ],
+    "durationMilliseconds":  141000,
+    "url":  "https://vod.sooplive.com/player/198303887/clip",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  6,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

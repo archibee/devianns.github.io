@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-201164025",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "201164025",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치][어인섬] 🐟 3일차 피린이 공 찹니다 _ 화내면 퀵뷰",
+    "titleText":  "[어인섬] 🐟 3일차 피린이 공 찹니다 _ 화내면 퀵뷰",
+    "publishedAt":  "2026-07-11",
+    "publishedTimeRaw":  "2026-07-11 16:02:43",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  128,
+                        "rawValue":  "128"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "이적",
+                 "노래",
+                 "어인섬",
+                 "잉어",
+                 "코구마"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/201164025/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  4,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

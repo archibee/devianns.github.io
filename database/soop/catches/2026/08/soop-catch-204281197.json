@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-204281197",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "204281197",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]멘트 진짜",
+    "titleText":  "멘트 진짜",
+    "publishedAt":  "2026-08-14",
+    "publishedTimeRaw":  "2026-08-14 16:47:33",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  404,
+                        "rawValue":  "404"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  7,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "크레비쥬",
+                 "버추얼",
+                 "모션캡쳐",
+                 "무멤",
+                 "콘서트"
+             ],
+    "durationMilliseconds":  41011,
+    "url":  "https://vod.sooplive.com/player/204281197/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  3,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

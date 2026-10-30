@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-135165825",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "135165825",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]고양이랑 대화하는 고양이",
+    "titleText":  "고양이랑 대화하는 고양이",
+    "publishedAt":  "2024-09-03",
+    "publishedTimeRaw":  "2024-09-03 12:30:22",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  126,
+                        "rawValue":  "126"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "뉴걸"
+             ],
+    "durationMilliseconds":  22000,
+    "url":  "https://vod.sooplive.com/player/135165825/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  40,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

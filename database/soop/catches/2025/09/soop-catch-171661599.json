@@ -1,0 +1,39 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-171661599",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "171661599",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]시청자들이랑 소통하다가 첫인상 현인상 토크하기",
+    "titleText":  "시청자들이랑 소통하다가 첫인상 현인상 토크하기",
+    "publishedAt":  "2025-09-11",
+    "publishedTimeRaw":  "2025-09-11 22:20:36",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  18,
+                        "rawValue":  "18"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "버츄얼",
+                 "버추얼",
+                 "사신"
+             ],
+    "durationMilliseconds":  24000,
+    "url":  "https://vod.sooplive.com/player/171661599/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  19,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-196851267",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "196851267",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치][어인섬] 🐟 MSG 코구마의 삶 7일차 코이 하늘바라기",
+    "titleText":  "[어인섬] 🐟 MSG 코구마의 삶 7일차 코이 하늘바라기",
+    "publishedAt":  "2026-05-26",
+    "publishedTimeRaw":  "2026-05-26 22:10:58",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  607,
+                        "rawValue":  "607"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  4,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "이적",
+                 "소통",
+                 "노래",
+                 "어인섬",
+                 "잉어"
+             ],
+    "durationMilliseconds":  46000,
+    "url":  "https://vod.sooplive.com/player/196851267/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  7,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

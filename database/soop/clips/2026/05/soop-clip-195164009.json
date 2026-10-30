@@ -1,0 +1,37 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-clip-195164009",
+    "platform":  "soop",
+    "contentType":  "clip",
+    "platformId":  "195164009",
+    "platformFileType":  "CLIP",
+    "title":  "[클립] 라벤_에게 별풍선 109개 선물",
+    "titleText":  "[클립] 라벤_에게 별풍선 109개 선물",
+    "publishedAt":  "2026-05-09",
+    "publishedTimeRaw":  "2026-05-09 12:54:51",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  1,
+                        "rawValue":  "1"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "예비본진1번"
+             ],
+    "durationMilliseconds":  130000,
+    "url":  "https://vod.sooplive.com/player/195164009/clip",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  8,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

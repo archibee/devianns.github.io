@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-147732433",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "147732433",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]부리부리대마왕댄스",
+    "titleText":  "부리부리대마왕댄스",
+    "publishedAt":  "2025-01-10",
+    "publishedTimeRaw":  "2025-01-10 15:47:39",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  49,
+                        "rawValue":  "49"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  1,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "브이럽",
+                 "뉴걸",
+                 "이노빌",
+                 "라즈",
+                 "청초"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/147732433/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  36,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

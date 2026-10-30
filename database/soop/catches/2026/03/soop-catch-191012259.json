@@ -1,0 +1,37 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-191012259",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "191012259",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]잠깐만 이거 에반데",
+    "titleText":  "잠깐만 이거 에반데",
+    "publishedAt":  "2026-03-28",
+    "publishedTimeRaw":  "2026-03-28 12:57:21",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  6,
+                        "rawValue":  "6"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "예비본진1번"
+             ],
+    "durationMilliseconds":  46000,
+    "url":  "https://vod.sooplive.com/player/191012259/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  12,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

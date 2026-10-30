@@ -1,0 +1,38 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-184074015",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "184074015",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]라벤 곰세마리송",
+    "titleText":  "라벤 곰세마리송",
+    "publishedAt":  "2026-01-17",
+    "publishedTimeRaw":  "2026-01-17 18:06:02",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  100,
+                        "rawValue":  "100"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  3,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "예비본진1번",
+                 "바람피러오는곳"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/184074015/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  17,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-199268211",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "199268211",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치][어인섬] 🐟 2시 점호 | 어인섬의 놀이터",
+    "titleText":  "[어인섬] 🐟 2시 점호 | 어인섬의 놀이터",
+    "publishedAt":  "2026-06-21",
+    "publishedTimeRaw":  "2026-06-21 13:19:36",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  173,
+                        "rawValue":  "173"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "이적",
+                 "노래",
+                 "어인섬",
+                 "잉어",
+                 "코구마"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/199268211/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  6,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

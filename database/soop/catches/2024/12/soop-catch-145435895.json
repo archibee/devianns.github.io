@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-145435895",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "145435895",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]흥!",
+    "titleText":  "흥!",
+    "publishedAt":  "2024-12-17",
+    "publishedTimeRaw":  "2024-12-17 22:44:00",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  181,
+                        "rawValue":  "181"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  8,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  19000,
+    "url":  "https://vod.sooplive.com/player/145435895/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  38,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

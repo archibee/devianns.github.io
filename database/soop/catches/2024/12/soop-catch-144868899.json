@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-144868899",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "144868899",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]잘보이기",
+    "titleText":  "잘보이기",
+    "publishedAt":  "2024-12-11",
+    "publishedTimeRaw":  "2024-12-11 22:58:29",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  15,
+                        "rawValue":  "15"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  1,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/144868899/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  39,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

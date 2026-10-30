@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-203199079",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "203199079",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]뱌링이 오타쿠 \u003e_\u003c🐰🩷",
+    "titleText":  "뱌링이 오타쿠 \u003e_\u003c🐰🩷",
+    "publishedAt":  "2026-08-02",
+    "publishedTimeRaw":  "2026-08-02 19:56:17",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  33,
+                        "rawValue":  "33"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  3,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "소통",
+                 "토크",
+                 "뉴걸",
+                 "버추얼",
+                 "종겜"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/203199079/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  3,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

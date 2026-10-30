@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-156204057",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "156204057",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치][3D 모캡] 노라주랑 우당탕탕 노라쥬 ( ᴗ• )ಣ",
+    "titleText":  "[3D 모캡] 노라주랑 우당탕탕 노라쥬 ( ᴗ• )ಣ",
+    "publishedAt":  "2025-04-04",
+    "publishedTimeRaw":  "2025-04-04 18:26:16",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  10,
+                        "rawValue":  "10"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  1,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "브이럽",
+                 "노라주",
+                 "청초",
+                 "버추얼",
+                 "라즈천재"
+             ],
+    "durationMilliseconds":  16000,
+    "url":  "https://vod.sooplive.com/player/156204057/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  29,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

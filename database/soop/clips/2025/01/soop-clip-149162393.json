@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-clip-149162393",
+    "platform":  "soop",
+    "contentType":  "clip",
+    "platformId":  "149162393",
+    "platformFileType":  "CLIP",
+    "title":  "[클립]냥귀여운 귀요미송",
+    "titleText":  "[클립]냥귀여운 귀요미송",
+    "publishedAt":  "2025-01-24",
+    "publishedTimeRaw":  "2025-01-24 21:58:47",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  28,
+                        "rawValue":  "28"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  2,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  160000,
+    "url":  "https://vod.sooplive.com/player/149162393/clip",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  35,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

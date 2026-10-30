@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-205859733",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "205859733",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]뽀뽀가 오글거려?!?",
+    "titleText":  "뽀뽀가 오글거려?!?",
+    "publishedAt":  "2026-08-31",
+    "publishedTimeRaw":  "2026-08-31 22:44:31",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  34,
+                        "rawValue":  "34"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  1,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "소통",
+                 "토크",
+                 "뉴걸",
+                 "버추얼",
+                 "종겜"
+             ],
+    "durationMilliseconds":  21000,
+    "url":  "https://vod.sooplive.com/player/205859733/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  2,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

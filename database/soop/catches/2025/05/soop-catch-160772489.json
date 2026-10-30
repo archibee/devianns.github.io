@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-160772489",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "160772489",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]너무 핫하게만든옷",
+    "titleText":  "너무 핫하게만든옷",
+    "publishedAt":  "2025-05-21",
+    "publishedTimeRaw":  "2025-05-21 19:25:22",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  2194,
+                        "rawValue":  "2194"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  35,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  20000,
+    "url":  "https://vod.sooplive.com/player/160772489/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  24,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

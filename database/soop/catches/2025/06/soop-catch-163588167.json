@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-163588167",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "163588167",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]유모차에셋은없나",
+    "titleText":  "유모차에셋은없나",
+    "publishedAt":  "2025-06-19",
+    "publishedTimeRaw":  "2025-06-19 20:33:49",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  181,
+                        "rawValue":  "181"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  3,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/163588167/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  21,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

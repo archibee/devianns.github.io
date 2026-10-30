@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-119569625",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "119569625",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]충격적인 표정의 주인님",
+    "titleText":  "충격적인 표정의 주인님",
+    "publishedAt":  "2024-03-20",
+    "publishedTimeRaw":  "2024-03-20 16:28:17",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  553,
+                        "rawValue":  "553"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  16,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "뉴걸",
+                 "브이럽",
+                 "버추얼"
+             ],
+    "durationMilliseconds":  26027,
+    "url":  "https://vod.sooplive.com/player/119569625/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  41,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

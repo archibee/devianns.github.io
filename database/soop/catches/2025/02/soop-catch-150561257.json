@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-150561257",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "150561257",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]잠깐 게릴라 방송~!! 얘두라 보고싶어써 잉잉",
+    "titleText":  "잠깐 게릴라 방송~!! 얘두라 보고싶어써 잉잉",
+    "publishedAt":  "2025-02-07",
+    "publishedTimeRaw":  "2025-02-07 19:53:32",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  211,
+                        "rawValue":  "211"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  4,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/150561257/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  35,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

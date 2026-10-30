@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-190570107",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "190570107",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]아 진짜 보고싶어따!!!!!!!!!!",
+    "titleText":  "아 진짜 보고싶어따!!!!!!!!!!",
+    "publishedAt":  "2026-03-23",
+    "publishedTimeRaw":  "2026-03-23 19:53:21",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  3,
+                        "rawValue":  "3"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "소통",
+                 "토크",
+                 "뉴걸",
+                 "버추얼",
+                 "종겜"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/190570107/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  13,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

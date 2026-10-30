@@ -1,0 +1,37 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-normal-118032129",
+    "platform":  "soop",
+    "contentType":  "normal",
+    "platformId":  "118032129",
+    "platformFileType":  "NORMAL",
+    "title":  "케리건 눈나가 좋은 주인님",
+    "titleText":  "케리건 눈나가 좋은 주인님",
+    "publishedAt":  "2024-03-04",
+    "publishedTimeRaw":  "2024-03-04 02:49:12",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  348,
+                        "rawValue":  "348"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  2,
+                       "likes":  6,
+                       "favorites":  1
+                   },
+    "tags":  [
+                 "이주인"
+             ],
+    "durationMilliseconds":  84614,
+    "url":  "https://vod.sooplive.com/player/118032129/normal",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  41,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

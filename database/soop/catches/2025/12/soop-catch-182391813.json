@@ -1,0 +1,38 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-182391813",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "182391813",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치][소통] :: 본진 없는 오빵이 집합!!!! ♥33/330 룰렛 마지막날♥",
+    "titleText":  "[소통] :: 본진 없는 오빵이 집합!!!! ♥33/330 룰렛 마지막날♥",
+    "publishedAt":  "2025-12-31",
+    "publishedTimeRaw":  "2025-12-31 23:56:06",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  2,
+                        "rawValue":  "2"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "예비본진1번",
+                 "바람피러오는곳"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/182391813/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  18,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

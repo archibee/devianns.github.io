@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-151893199",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "151893199",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]영세고 간바레센빠이",
+    "titleText":  "영세고 간바레센빠이",
+    "publishedAt":  "2025-02-20",
+    "publishedTimeRaw":  "2025-02-20 19:52:39",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  139,
+                        "rawValue":  "139"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  4,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  21000,
+    "url":  "https://vod.sooplive.com/player/151893199/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  33,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

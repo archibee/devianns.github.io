@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-160774787",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "160774787",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]발포상",
+    "titleText":  "발포상",
+    "publishedAt":  "2025-05-21",
+    "publishedTimeRaw":  "2025-05-21 19:52:23",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  333,
+                        "rawValue":  "333"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  11,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/160774787/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  23,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

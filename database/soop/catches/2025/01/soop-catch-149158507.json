@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-149158507",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "149158507",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]이주인 데뷔뱅 제로투",
+    "titleText":  "이주인 데뷔뱅 제로투",
+    "publishedAt":  "2025-01-24",
+    "publishedTimeRaw":  "2025-01-24 21:27:11",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  175,
+                        "rawValue":  "175"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  3,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  44000,
+    "url":  "https://vod.sooplive.com/player/149158507/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  36,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

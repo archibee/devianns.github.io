@@ -1,0 +1,39 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-147729453",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "147729453",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]이거표현뭐냐고 이거봐",
+    "titleText":  "이거표현뭐냐고 이거봐",
+    "publishedAt":  "2025-01-10",
+    "publishedTimeRaw":  "2025-01-10 14:49:19",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  113,
+                        "rawValue":  "113"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  3,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "브이럽",
+                 "리미",
+                 "뉴걸"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/147729453/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  36,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

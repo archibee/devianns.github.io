@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-158132491",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "158132491",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]공부는 엉덩이로한다고요?",
+    "titleText":  "공부는 엉덩이로한다고요?",
+    "publishedAt":  "2025-04-24",
+    "publishedTimeRaw":  "2025-04-24 12:19:39",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  144,
+                        "rawValue":  "144"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  4,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  31000,
+    "url":  "https://vod.sooplive.com/player/158132491/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  26,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

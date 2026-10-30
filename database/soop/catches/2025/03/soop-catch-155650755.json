@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-155650755",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "155650755",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]쇠구컵) 팀복이 나왔습니다!!  마지막 스크림 레츠고~!! 오늘은 REAL다르다.",
+    "titleText":  "쇠구컵) 팀복이 나왔습니다!!  마지막 스크림 레츠고~!! 오늘은 REAL다르다.",
+    "publishedAt":  "2025-03-30",
+    "publishedTimeRaw":  "2025-03-30 01:02:34",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  299,
+                        "rawValue":  "299"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  1,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/155650755/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  30,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

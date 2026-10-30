@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-165739917",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "165739917",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치][모캡]주인이 집들이에 손님이 왔어요~ 파자마파티(w.벨디르,이아나,시트리)~",
+    "titleText":  "[모캡]주인이 집들이에 손님이 왔어요~ 파자마파티(w.벨디르,이아나,시트리)~",
+    "publishedAt":  "2025-07-12",
+    "publishedTimeRaw":  "2025-07-12 14:30:44",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  3,
+                        "rawValue":  "3"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/165739917/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  21,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

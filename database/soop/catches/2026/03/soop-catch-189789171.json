@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-189789171",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "189789171",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]💗500일💗첫 12시간방송!! 유입 환영🤍",
+    "titleText":  "💗500일💗첫 12시간방송!! 유입 환영🤍",
+    "publishedAt":  "2026-03-15",
+    "publishedTimeRaw":  "2026-03-15 19:07:54",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  1,
+                        "rawValue":  "1"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "소통",
+                 "토크",
+                 "뉴걸",
+                 "버추얼",
+                 "종겜"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/189789171/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  13,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

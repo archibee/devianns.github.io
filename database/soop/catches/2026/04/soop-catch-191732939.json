@@ -1,0 +1,37 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-191732939",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "191732939",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]가까이있어서 설레?",
+    "titleText":  "가까이있어서 설레?",
+    "publishedAt":  "2026-04-04",
+    "publishedTimeRaw":  "2026-04-04 14:00:51",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  24,
+                        "rawValue":  "24"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "예비본진1번"
+             ],
+    "durationMilliseconds":  21000,
+    "url":  "https://vod.sooplive.com/player/191732939/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  11,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

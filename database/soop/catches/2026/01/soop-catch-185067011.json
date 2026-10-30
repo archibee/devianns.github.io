@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-185067011",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "185067011",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]저는 목소리 낮아요 (ㄴㄴ)",
+    "titleText":  "저는 목소리 낮아요 (ㄴㄴ)",
+    "publishedAt":  "2026-01-27",
+    "publishedTimeRaw":  "2026-01-27 23:36:13",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  37,
+                        "rawValue":  "37"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "뉴걸",
+                 "버추얼",
+                 "버황",
+                 "소통"
+             ],
+    "durationMilliseconds":  50000,
+    "url":  "https://vod.sooplive.com/player/185067011/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  16,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

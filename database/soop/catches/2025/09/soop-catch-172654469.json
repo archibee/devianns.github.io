@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-172654469",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "172654469",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]애기 올라와 쩜~프",
+    "titleText":  "애기 올라와 쩜~프",
+    "publishedAt":  "2025-09-21",
+    "publishedTimeRaw":  "2025-09-21 21:05:56",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  36,
+                        "rawValue":  "36"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "버추얼",
+                 "브이럽",
+                 "러비타",
+                 "신입"
+             ],
+    "durationMilliseconds":  25000,
+    "url":  "https://vod.sooplive.com/player/172654469/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  19,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

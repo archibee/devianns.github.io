@@ -1,0 +1,39 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-210678881",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "210678881",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]제이팝 노래대회 심사! 뉴승철모드 켭니다 [고퀄즉방 164💓]",
+    "titleText":  "제이팝 노래대회 심사! 뉴승철모드 켭니다 [고퀄즉방 164💓]",
+    "publishedAt":  "2026-10-24",
+    "publishedTimeRaw":  "2026-10-24 17:47:05",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  65,
+                        "rawValue":  "65"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "버추얼",
+                 "모션캡쳐",
+                 "콘서트"
+             ],
+    "durationMilliseconds":  41000,
+    "url":  "https://vod.sooplive.com/player/210678881/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  2,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

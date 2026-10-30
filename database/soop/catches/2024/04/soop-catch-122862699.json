@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-122862699",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "122862699",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]뭔가 허전한 주인님",
+    "titleText":  "뭔가 허전한 주인님",
+    "publishedAt":  "2024-04-24",
+    "publishedTimeRaw":  "2024-04-24 23:44:03",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  741,
+                        "rawValue":  "741"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  13,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "뉴걸"
+             ],
+    "durationMilliseconds":  34027,
+    "url":  "https://vod.sooplive.com/player/122862699/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  41,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

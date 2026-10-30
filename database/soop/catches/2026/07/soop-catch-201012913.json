@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-201012913",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "201012913",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]입던 미시룩",
+    "titleText":  "입던 미시룩",
+    "publishedAt":  "2026-07-09",
+    "publishedTimeRaw":  "2026-07-09 22:46:05",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  57,
+                        "rawValue":  "57"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  3,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "소통",
+                 "토크",
+                 "뉴걸",
+                 "버추얼",
+                 "종겜"
+             ],
+    "durationMilliseconds":  20000,
+    "url":  "https://vod.sooplive.com/player/201012913/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  5,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

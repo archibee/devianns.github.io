@@ -1,0 +1,39 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-200894909",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "200894909",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]샤애띠디 .‧₊˚☘️",
+    "titleText":  "샤애띠디 .‧₊˚☘️",
+    "publishedAt":  "2026-07-08",
+    "publishedTimeRaw":  "2026-07-08 18:04:53",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  9,
+                        "rawValue":  "9"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  1,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "뉴걸",
+                 "버추얼",
+                 "귀여움원툴"
+             ],
+    "durationMilliseconds":  57000,
+    "url":  "https://vod.sooplive.com/player/200894909/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  5,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-142519887",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "142519887",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]냥카츠키합방 엔딩인사",
+    "titleText":  "냥카츠키합방 엔딩인사",
+    "publishedAt":  "2024-11-17",
+    "publishedTimeRaw":  "2024-11-17 18:05:37",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  55,
+                        "rawValue":  "55"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  2,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "버튜버",
+                 "노래",
+                 "여캠",
+                 "종겜",
+                 "소통"
+             ],
+    "durationMilliseconds":  35000,
+    "url":  "https://vod.sooplive.com/player/142519887/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  39,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

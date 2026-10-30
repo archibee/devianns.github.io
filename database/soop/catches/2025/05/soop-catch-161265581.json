@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-161265581",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "161265581",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]엣치치한구도",
+    "titleText":  "엣치치한구도",
+    "publishedAt":  "2025-05-26",
+    "publishedTimeRaw":  "2025-05-26 20:21:45",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  604,
+                        "rawValue":  "604"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  1,
+                       "likes":  11,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  33000,
+    "url":  "https://vod.sooplive.com/player/161265581/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  23,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

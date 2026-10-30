@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-150266005",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "150266005",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]천장 누수 공사하는 아저씨들 밥먹으러 간 잠깐사이에 몰래하는 ....avi",
+    "titleText":  "천장 누수 공사하는 아저씨들 밥먹으러 간 잠깐사이에 몰래하는 ....avi",
+    "publishedAt":  "2025-02-04",
+    "publishedTimeRaw":  "2025-02-04 21:39:18",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  0,
+                        "rawValue":  "0"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  10000,
+    "url":  "https://vod.sooplive.com/player/150266005/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  35,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

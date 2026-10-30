@@ -1,0 +1,39 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-151492157",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "151492157",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]여러분도 브이~ 하세요",
+    "titleText":  "여러분도 브이~ 하세요",
+    "publishedAt":  "2025-02-16",
+    "publishedTimeRaw":  "2025-02-16 20:13:55",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  41,
+                        "rawValue":  "41"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "브이럽",
+                 "리미",
+                 "뉴걸"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/151492157/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  34,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

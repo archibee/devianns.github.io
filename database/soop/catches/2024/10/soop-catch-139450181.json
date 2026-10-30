@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-139450181",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "139450181",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]좋은밤 좋은꿈",
+    "titleText":  "좋은밤 좋은꿈",
+    "publishedAt":  "2024-10-17",
+    "publishedTimeRaw":  "2024-10-17 01:45:17",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  7,
+                        "rawValue":  "7"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  15000,
+    "url":  "https://vod.sooplive.com/player/139450181/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  40,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-157015851",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "157015851",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]데이안) 어비스 헤딩팟 / 5일차 투력 2만  달성!!",
+    "titleText":  "데이안) 어비스 헤딩팟 / 5일차 투력 2만  달성!!",
+    "publishedAt":  "2025-04-12",
+    "publishedTimeRaw":  "2025-04-12 22:27:02",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  3,
+                        "rawValue":  "3"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/157015851/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  27,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

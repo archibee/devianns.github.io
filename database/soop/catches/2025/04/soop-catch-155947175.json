@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-155947175",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "155947175",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]좃냥이여왕님 등장이시다 잉간님놈들아 고개를   조아료라",
+    "titleText":  "좃냥이여왕님 등장이시다 잉간님놈들아 고개를   조아료라",
+    "publishedAt":  "2025-04-02",
+    "publishedTimeRaw":  "2025-04-02 00:26:29",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  246,
+                        "rawValue":  "246"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  7,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/155947175/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  29,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

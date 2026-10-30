@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-194401045",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "194401045",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]텐션좋은 뱌토끼 😚",
+    "titleText":  "텐션좋은 뱌토끼 😚",
+    "publishedAt":  "2026-05-01",
+    "publishedTimeRaw":  "2026-05-01 19:40:23",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  19,
+                        "rawValue":  "19"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  3,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "소통",
+                 "토크",
+                 "뉴걸",
+                 "버추얼",
+                 "종겜"
+             ],
+    "durationMilliseconds":  31000,
+    "url":  "https://vod.sooplive.com/player/194401045/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  8,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

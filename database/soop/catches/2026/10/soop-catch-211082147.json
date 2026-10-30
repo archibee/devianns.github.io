@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-211082147",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "211082147",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]내 오른손에 잠든",
+    "titleText":  "내 오른손에 잠든",
+    "publishedAt":  "2026-10-29",
+    "publishedTimeRaw":  "2026-10-29 00:18:43",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  2,
+                        "rawValue":  "2"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "아최레이블",
+                 "플랜비",
+                 "BIP",
+                 "신청곡"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/211082147/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  1,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

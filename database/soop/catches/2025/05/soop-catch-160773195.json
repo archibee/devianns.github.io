@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-160773195",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "160773195",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치][모캡] 마비노기 크리스텔 코스프레 공개/부위파괴 보러오실 분",
+    "titleText":  "[모캡] 마비노기 크리스텔 코스프레 공개/부위파괴 보러오실 분",
+    "publishedAt":  "2025-05-21",
+    "publishedTimeRaw":  "2025-05-21 19:33:54",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  127,
+                        "rawValue":  "127"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  4,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  46000,
+    "url":  "https://vod.sooplive.com/player/160773195/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  24,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

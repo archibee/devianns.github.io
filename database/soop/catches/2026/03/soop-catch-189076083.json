@@ -1,0 +1,37 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-189076083",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "189076083",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]콜라좋아 캬",
+    "titleText":  "콜라좋아 캬",
+    "publishedAt":  "2026-03-08",
+    "publishedTimeRaw":  "2026-03-08 15:16:01",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  52,
+                        "rawValue":  "52"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  1,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "예비본진1번"
+             ],
+    "durationMilliseconds":  24000,
+    "url":  "https://vod.sooplive.com/player/189076083/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  14,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

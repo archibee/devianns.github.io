@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-182503415",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "182503415",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]여자둘이 합방하면",
+    "titleText":  "여자둘이 합방하면",
+    "publishedAt":  "2026-01-01",
+    "publishedTimeRaw":  "2026-01-01 22:43:09",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  25,
+                        "rawValue":  "25"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  1,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "뉴걸",
+                 "버추얼",
+                 "버황",
+                 "소통"
+             ],
+    "durationMilliseconds":  17000,
+    "url":  "https://vod.sooplive.com/player/182503415/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  18,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

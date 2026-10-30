@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-147655953",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "147655953",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]주인킥!",
+    "titleText":  "주인킥!",
+    "publishedAt":  "2025-01-09",
+    "publishedTimeRaw":  "2025-01-09 19:16:41",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  52,
+                        "rawValue":  "52"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  1,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  17000,
+    "url":  "https://vod.sooplive.com/player/147655953/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  38,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

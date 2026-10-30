@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-118013897",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "118013897",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]명조 CBT 눈나 궁극기 컷씬",
+    "titleText":  "명조 CBT 눈나 궁극기 컷씬",
+    "publishedAt":  "2024-03-03",
+    "publishedTimeRaw":  "2024-03-03 23:50:17",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  534,
+                        "rawValue":  "534"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  2,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "버츄얼",
+                 "신입",
+                 "이적확정",
+                 "뉴걸",
+                 "브이럽"
+             ],
+    "durationMilliseconds":  10048,
+    "url":  "https://vod.sooplive.com/player/118013897/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  41,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

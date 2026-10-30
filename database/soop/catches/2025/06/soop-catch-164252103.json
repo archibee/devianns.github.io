@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-164252103",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "164252103",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]밑이 더 지린다고..? 그렇긴하지",
+    "titleText":  "밑이 더 지린다고..? 그렇긴하지",
+    "publishedAt":  "2025-06-26",
+    "publishedTimeRaw":  "2025-06-26 21:54:59",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  1827,
+                        "rawValue":  "1827"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  46,
+                       "favorites":  1
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  28000,
+    "url":  "https://vod.sooplive.com/player/164252103/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  21,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

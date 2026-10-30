@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-156884327",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "156884327",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]에치치 기지개",
+    "titleText":  "에치치 기지개",
+    "publishedAt":  "2025-04-11",
+    "publishedTimeRaw":  "2025-04-11 18:56:33",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  278,
+                        "rawValue":  "278"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  1,
+                       "likes":  6,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  25000,
+    "url":  "https://vod.sooplive.com/player/156884327/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  27,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

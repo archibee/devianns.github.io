@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-144971611",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "144971611",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]미시주인은 내일 쉬는날 ♥ 아무튼 진짜임 \u003e_",
+    "titleText":  "미시주인은 내일 쉬는날 ♥ 아무튼 진짜임 \u003e_",
+    "publishedAt":  "2024-12-12",
+    "publishedTimeRaw":  "2024-12-12 23:55:53",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  56,
+                        "rawValue":  "56"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/144971611/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  38,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

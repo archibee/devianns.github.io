@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-182001165",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "182001165",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]어메이징",
+    "titleText":  "어메이징",
+    "publishedAt":  "2025-12-27",
+    "publishedTimeRaw":  "2025-12-27 23:24:34",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  30,
+                        "rawValue":  "30"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  1,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "뉴걸",
+                 "버추얼",
+                 "버황",
+                 "소통"
+             ],
+    "durationMilliseconds":  21000,
+    "url":  "https://vod.sooplive.com/player/182001165/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  18,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

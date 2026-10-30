@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-163582747",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "163582747",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]여름 3분할 앙카",
+    "titleText":  "여름 3분할 앙카",
+    "publishedAt":  "2025-06-19",
+    "publishedTimeRaw":  "2025-06-19 19:42:50",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  491,
+                        "rawValue":  "491"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  11,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/163582747/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  22,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

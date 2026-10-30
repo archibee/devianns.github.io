@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-211084451",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "211084451",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]매니큐어",
+    "titleText":  "매니큐어",
+    "publishedAt":  "2026-10-29",
+    "publishedTimeRaw":  "2026-10-29 00:38:50",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  16,
+                        "rawValue":  "16"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "아최레이블",
+                 "플랜비",
+                 "BIP",
+                 "신청곡"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/211084451/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  1,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

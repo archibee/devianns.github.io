@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-142513951",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "142513951",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]이주인 우치다",
+    "titleText":  "이주인 우치다",
+    "publishedAt":  "2024-11-17",
+    "publishedTimeRaw":  "2024-11-17 16:50:25",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  34,
+                        "rawValue":  "34"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "버튜버",
+                 "노래",
+                 "여캠",
+                 "종겜",
+                 "소통"
+             ],
+    "durationMilliseconds":  32000,
+    "url":  "https://vod.sooplive.com/player/142513951/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  39,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

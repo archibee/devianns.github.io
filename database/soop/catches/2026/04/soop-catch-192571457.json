@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-192571457",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "192571457",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]큐령이가 제일 예뻐",
+    "titleText":  "큐령이가 제일 예뻐",
+    "publishedAt":  "2026-04-12",
+    "publishedTimeRaw":  "2026-04-12 23:21:18",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  44,
+                        "rawValue":  "44"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "뉴걸",
+                 "버추얼",
+                 "버황",
+                 "소통"
+             ],
+    "durationMilliseconds":  24000,
+    "url":  "https://vod.sooplive.com/player/192571457/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  10,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-199068423",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "199068423",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치][어인섬] 🐟 ㄹㅇ급생방;; 월드컵 대기 소통방 ♥",
+    "titleText":  "[어인섬] 🐟 ㄹㅇ급생방;; 월드컵 대기 소통방 ♥",
+    "publishedAt":  "2026-06-19",
+    "publishedTimeRaw":  "2026-06-19 08:02:40",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  58,
+                        "rawValue":  "58"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  1,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "이적",
+                 "노래",
+                 "어인섬",
+                 "잉어",
+                 "코구마"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/199068423/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  6,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

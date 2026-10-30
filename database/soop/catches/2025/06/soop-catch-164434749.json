@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-164434749",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "164434749",
+    "platformFileType":  "CATCH",
+    "title":  "겨드랑이를 보여주는날이 아니라고요 [이주인 팬클립]",
+    "titleText":  "겨드랑이를 보여주는날이 아니라고요 [이주인 팬클립]",
+    "publishedAt":  "2025-06-28",
+    "publishedTimeRaw":  "2025-06-28 20:39:35",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  838,
+                        "rawValue":  "838"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  19,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "Catch",
+                 "브이럽",
+                 "이주인",
+                 "고양이",
+                 "버추얼"
+             ],
+    "durationMilliseconds":  31637,
+    "url":  "https://vod.sooplive.com/player/164434749/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  21,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

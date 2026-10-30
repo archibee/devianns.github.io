@@ -1,0 +1,39 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-clip-208981985",
+    "platform":  "soop",
+    "contentType":  "clip",
+    "platformId":  "208981985",
+    "platformFileType":  "CLIP",
+    "title":  "[클립] 뉴냥이에게 별풍선 164개 선물",
+    "titleText":  "[클립] 뉴냥이에게 별풍선 164개 선물",
+    "publishedAt":  "2026-10-05",
+    "publishedTimeRaw":  "2026-10-05 19:10:06",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  0,
+                        "rawValue":  "0"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "버추얼",
+                 "모션캡쳐",
+                 "콘서트"
+             ],
+    "durationMilliseconds":  130114,
+    "url":  "https://vod.sooplive.com/player/208981985/clip",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  2,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

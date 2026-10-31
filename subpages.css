@@ -3,7 +3,7 @@ body.archive-page { min-height: 100vh; background: #080a24; overflow-x: hidden; 
 .archive-page::after { position: fixed; z-index: -1; inset: 0; content: ""; pointer-events: none; background: radial-gradient(ellipse at 82% 12%, #9abaff19, transparent 34%), radial-gradient(ellipse at 8% 68%, #b99eff0d, transparent 33%); }
 .archive-page::before { background-image: radial-gradient(1.2px 1.2px at 11% 17%, #e8f1ffae 99%, transparent 100%), radial-gradient(1px 1px at 72% 12%, #e6edff91 99%, transparent 100%), radial-gradient(1.3px 1.3px at 86% 39%, #dceaff9e 99%, transparent 100%), radial-gradient(1px 1px at 31% 71%, #eff4ff88 99%, transparent 100%), radial-gradient(1px 1px at 61% 84%, #d8e9ff95 99%, transparent 100%), linear-gradient(180deg, #080a24a6 0%, #080a24cf 100%), url("./dahlia-images/dahlia-background.jpg"), linear-gradient(145deg, #07091f, #0b1030 53%, #080a24); background-size: 330px 290px, 330px 290px, 330px 290px, 330px 290px, 330px 290px, cover, cover, cover; background-position: center, center, center, center, center, center, center 20%, center; background-repeat: repeat, repeat, repeat, repeat, repeat, no-repeat, no-repeat, no-repeat; }
 .archive-page .site-shell { position: relative; min-height: 100vh; overflow: visible; isolation: isolate; }
-.archive-page .topbar { position: sticky; top: 0; padding: 13px clamp(18px, 4vw, 64px); z-index: 20; }
+.archive-page .topbar { position: sticky; top: 0; padding: 18px clamp(24px, 5vw, 72px); z-index: 20; }
 .archive-page .site-nav { gap: clamp(8px, 1.15vw, 17px); font-size: 9px; letter-spacing: .08em; }
 .archive-page .nav-link { padding: 10px 0; white-space: nowrap; }
 .archive-page .nav-cta { padding: 9px 11px; white-space: nowrap; font-size: 8px; }
@@ -184,13 +184,12 @@ body.archive-page { min-height: 100vh; background: #080a24; overflow-x: hidden; 
 .platform-card h2 { margin-top: 10px; }
 .platform-card p:not(.micro-label) { margin-top: 9px; }
 @media (max-width: 1050px) {
-  .archive-page .topbar { padding-inline: 25px; }
   .archive-page .site-nav { gap: 10px; font-size: 8px; }
   .archive-page .wordmark { font-size: 11px; }
   .record-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 900px) {
-  .archive-page .topbar { position: sticky; }
+  .archive-page .topbar { position: sticky; padding: 18px 28px; }
   .archive-page .menu-toggle { position: relative; z-index: 12; display: grid; width: 42px; height: 42px; align-content: center; justify-items: center; gap: 6px; border: 1px solid #e7edff4d; color: white; background: #d8e8ff15; backdrop-filter: blur(12px); cursor: pointer; }
   .archive-page .menu-toggle span:not(.sr-only) { width: 15px; height: 1px; background: #f4f6ff; }
   .archive-page .site-nav { position: absolute; top: 66px; right: 18px; display: none; width: min(300px, calc(100vw - 36px)); align-items: stretch; gap: 0; padding: 9px 16px 14px; border: 1px solid #dfe9ff30; background: #111533f2; box-shadow: 0 14px 34px #0006; backdrop-filter: blur(20px); }

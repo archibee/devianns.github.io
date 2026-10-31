@@ -20,7 +20,6 @@ if (menuButton && siteNav) {
 
 const cube = document.querySelector('#archive-cube');
 const scene = document.querySelector('.cube-scene');
-const cubeExperience = document.querySelector('.cube-experience');
 const cubeCaption = document.querySelector('#cube-caption');
 const cubeIndex = document.querySelector('#cube-index');
 const faces = [...document.querySelectorAll('.cube-face[data-face]')];
@@ -33,8 +32,6 @@ let dragFrame = 0;
 let pendingDragEvent = null;
 let suppressFaceClick = false;
 let clickSuppressionTimer = 0;
-let lightFrame = 0;
-let latestLightPointer = null;
 
 function renderCube() {
   if (!cube) return;
@@ -195,30 +192,6 @@ scene?.addEventListener('click', (event) => {
   event.stopImmediatePropagation();
 }, true);
 scene?.addEventListener('contextmenu', (event) => event.preventDefault());
-
-cubeExperience?.addEventListener('pointermove', (event) => {
-  if (event.pointerType === 'touch' || dragState) return;
-  latestLightPointer = { x: event.clientX, y: event.clientY };
-  if (lightFrame) return;
-  lightFrame = requestAnimationFrame(() => {
-    lightFrame = 0;
-    if (!latestLightPointer || dragState) return;
-    const bounds = cubeExperience.getBoundingClientRect();
-    const x = Math.round(latestLightPointer.x - bounds.left - bounds.width / 2);
-    const y = Math.round(latestLightPointer.y - bounds.top - bounds.height / 2);
-    cubeExperience.style.setProperty('--light-x', `${x}px`);
-    cubeExperience.style.setProperty('--light-y', `${y}px`);
-    cubeExperience.classList.add('is-lit');
-  });
-});
-cubeExperience?.addEventListener('pointerleave', () => {
-  cancelAnimationFrame(lightFrame);
-  lightFrame = 0;
-  latestLightPointer = null;
-  cubeExperience.style.removeProperty('--light-x');
-  cubeExperience.style.removeProperty('--light-y');
-  cubeExperience.classList.remove('is-lit');
-});
 
 document.addEventListener('dragstart', (event) => event.preventDefault());
 document.addEventListener('selectstart', (event) => event.preventDefault());

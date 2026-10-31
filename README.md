@@ -6,7 +6,7 @@ SOOP, YouTube 등 여러 플랫폼에서 활동한 기록을 한곳에 모아 �
 
 - GitHub Pages에 올릴 수 있는 정적 웹사이트로 만듭니다. 별도의 GitHub Actions 배포 로직, 서버, 동적 데이터베이스에 의존하지 않습니다. 아카이브의 `database/`는 정적 기록 파일을 담는 폴더입니다.
 - PC, 태블릿, 모바일 화면에 대응하는 반응형 메인 화면과 아카이브 열람 경험을 제공합니다.
-- 메인 큐브에는 `dahlia-images/dahlia.jpg` 프로필 이미지 하나만 한 면에 사용합니다. 은하 배경은 CSS 별빛과 색감으로 구성해 이미지가 서로 경쟁하지 않도록 합니다.
+- 메인 큐브 앞면에는 `dahlia-images/dahlia.jpg`, 뒷면에는 `dahlia-images/dahlia-background.jpg`를 한 면씩 사용합니다. 나머지 은하 배경은 CSS 별빛과 색감으로 구성합니다.
 - 아카이브 항목은 링크와 메타데이터를 기반으로 표시하며, 방문자가 원본 플랫폼에서 콘텐츠를 보도록 안내합니다.
 
 ## 현재 아카이브 화면
@@ -51,6 +51,10 @@ SOOP, YouTube 등 여러 플랫폼에서 활동한 기록을 한곳에 모아 �
 - `script.js`: 모바일 내비게이션 등 작은 인터랙션
 - `archive-app.js`: 정적 카탈로그를 읽는 검색·필터·카드·차트 렌더러
 - `.nojekyll`: GitHub Pages에서 Jekyll 처리 없이 정적 파일을 제공하기 위한 표시 파일
+- `favicon.svg`, `favicon.ico`, `favicon-32.png`, `apple-touch-icon.png`: 브라우저와 모바일 홈 화면 아이콘
+- `icon-192.png`, `icon-512.png`, `site.webmanifest`: 사이트 이름, 색상, 앱 아이콘 설정
+- `robots.txt`, `sitemap.xml`: 검색 로봇 접근 안내와 공개 페이지 목록
+- `404.html`: 찾을 수 없는 주소를 위한 안내 페이지
 - `dahlia-images/`: 프로필 및 배경 이미지
 - `database/`: 플랫폼별 SNS 프로필과 활동 기록 텍스트/메타데이터 파일
 - `database/catalog.json`: GitHub Pages에서 바로 읽는 화면용 정적 카탈로그

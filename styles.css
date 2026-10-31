@@ -170,6 +170,9 @@ body.home-page .site-shell, body.home-page #main { width: 100%; height: 100%; ov
   .info-card, .about-card { min-height: 230px; }
   .about-card-orb { right: 13%; width: 72px; height: 72px; }
 }
+
+/* The shared header stays visually open over the page background. */
+.topbar { background: transparent; border-bottom-color: transparent; box-shadow: none; backdrop-filter: none; -webkit-backdrop-filter: none; }
 @media (max-width: 640px) {
   html { scroll-padding-top: 70px; }
   .topbar { padding: 19px 21px; }
@@ -232,6 +235,21 @@ body.home-page .site-shell, body.home-page #main { width: 100%; height: 100%; ov
   .site-footer p { order: 3; width: 100%; margin: -8px 0 0 27px; font-size: 10px; }
   .copyright { font-size: 6px; }
 }
+
+/* Keep home header dimensions aligned with the archive pages. */
+.home-page .topbar { z-index: 20; padding: 13px clamp(18px, 4vw, 64px); }
+.home-page .site-nav { gap: clamp(8px, 1.15vw, 17px); font-size: 9px; letter-spacing: .08em; }
+.home-page .nav-link { padding: 10px 0; white-space: nowrap; }
+.home-page .nav-cta { padding: 9px 11px; white-space: nowrap; font-size: 8px; }
+@media (max-width: 900px) {
+  .home-page .topbar { padding-inline: 25px; }
+  .home-page .menu-toggle { position: relative; z-index: 12; display: grid; width: 42px; height: 42px; align-content: center; justify-items: center; gap: 6px; border: 1px solid #e7edff4d; color: white; background: #d8e8ff15; backdrop-filter: blur(12px); cursor: pointer; }
+  .home-page .menu-toggle span:not(.sr-only) { width: 15px; height: 1px; background: #f4f6ff; }
+  .home-page .site-nav { position: absolute; top: 66px; right: 18px; display: none; width: min(300px, calc(100vw - 36px)); align-items: stretch; gap: 0; padding: 9px 16px 14px; border: 1px solid #dfe9ff30; background: #111533f2; box-shadow: 0 14px 34px #0006; backdrop-filter: blur(20px); }
+  .home-page .site-nav.is-open { display: flex; flex-direction: column; }
+  .home-page .site-nav .nav-link { padding: 12px 3px; border-bottom: 1px solid #e6edff12; font-size: 9px; }
+  .home-page .site-nav .nav-cta { margin-top: 9px; text-align: center; }
+}
 /* The glass archive cube is the primary visual and navigation object. */
 .hero-cube { width: 100%; min-height: 0; height: 100vh; height: 100svh; display: flex; flex-direction: column; align-items: center; justify-content: center; overflow: hidden; padding: 96px 24px 65px; }
 .hero-cube .hero-backdrop { opacity: .3; background-position: center 45%; filter: none; }
@@ -260,6 +278,8 @@ body.home-page .site-shell, body.home-page #main { width: 100%; height: 100%; ov
 .face-left { transform: rotateY(-90deg) translateZ(var(--cube-half)); }
 .face-top { transform: rotateX(90deg) translateZ(var(--cube-half)); background: linear-gradient(145deg,#f0f7ff2b,#c7d9ff0b,#b9f2ff24); }
 .face-bottom { transform: rotateX(-90deg) translateZ(var(--cube-half)); background: linear-gradient(145deg,#a6c5ff12,#c9baff22,#9ef1ff18); }
+.cube-face-empty { cursor: default; color: #c2c9e0; background: linear-gradient(145deg, #dff8ff08, #d6deff03 48%, #8ad9ff06); }
+.cube-face-empty::after { display: none; }
 .face-top .face-glyph, .face-bottom .face-glyph { margin-top: -22px; }
 .face-front > img { position: absolute; z-index: -2; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 25%; opacity: .46; filter: saturate(.72) blur(.4px); mix-blend-mode: screen; }
 .face-wash { position: absolute; z-index: -1; inset: 0; background: linear-gradient(180deg,#11143808 0%,#1013321c 42%,#080a2485 100%), radial-gradient(circle at 50% 39%, #c6eaff19, transparent 60%); }

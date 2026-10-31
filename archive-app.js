@@ -138,7 +138,7 @@
     const dates = records.map((item) => item.publishedAt).filter(Boolean).sort();
     let cards = [];
     if (kind === 'soop') {
-      cards = [statCard('캐치 기록', number(records.length), '모아 둔 기록'), statCard('원본 링크', number(records.filter((item) => item.url).length), 'SOOP에서 볼 수 있어요'), statCard('기록 기간', dates.length ? `${dates[0].slice(0, 4)} — ${dates[dates.length - 1].slice(0, 4)}` : '날짜 미상', '게시 날짜 기준'), statCard('날짜가 있는 기록', number(dates.length), '게시일을 확인할 수 있어요')];
+      cards = [statCard('전체 기록', number(records.length), '캐치·클립·VOD'), statCard('캐치', number(records.filter((item) => item.contentType === 'catch').length), '짧은 장면 기록'), statCard('클립·VOD', number(records.filter((item) => ['clip', 'normal'].includes(item.contentType)).length), '방송국 영상 목록'), statCard('원본 링크', number(records.filter((item) => item.url).length), 'SOOP에서 확인 가능')];
     } else if (kind === 'youtube') {
       cards = [statCard('Shorts', number(records.filter((item) => item.contentType === 'short').length), '채널의 세로 영상'), statCard('동영상', number(records.filter((item) => item.contentType === 'video').length), '채널에 올라온 영상'), statCard('원본 링크', number(records.filter((item) => item.url).length), 'YouTube에서 볼 수 있어요'), statCard('기록 기간', dates.length ? `${dates[0].slice(0, 4)} — ${dates[dates.length - 1].slice(0, 4)}` : '날짜 미상', '날짜가 확인된 기록')];
     } else if (kind === 'x') {
@@ -339,7 +339,7 @@
   function applyView(records) {
     const viewRecords = records.filter((record) => {
       if (view === 'archive') return ['soop', 'youtube', 'x'].includes(record.platform);
-      if (view === 'soop') return record.platform === 'soop' && record.contentType === 'catch';
+      if (view === 'soop') return record.platform === 'soop';
       if (view === 'youtube') return record.platform === 'youtube';
       if (view === 'x') return record.platform === 'x';
       if (view === 'media') return record.platform === 'soop' && ['clip', 'normal'].includes(record.contentType);
@@ -366,7 +366,14 @@
     if (view === 'soop' || view === 'insights') {
       const catchRecords = viewRecords.filter((item) => item.contentType === 'catch' && item.sourceBatch === 'soop-public-catch-api-2026-10-31');
       renderMonthlyChart(catchRecords);
-      if (view === 'soop') renderCatchRhythm(catchRecords);
+      if (view === 'soop') {
+        renderCatchRhythm(catchRecords);
+        renderTypeDistribution(viewRecords, '[data-soop-format]', [
+          { type: 'catch', label: '캐치' },
+          { type: 'clip', label: '클립' },
+          { type: 'normal', label: 'VOD' }
+        ]);
+      }
     }
     if (view === 'soop' || view === 'insights') renderInsights(records);
     if (view === 'youtube' || view === 'x') renderTagCloud(viewRecords, document.querySelector('[data-tag-cloud]'));

@@ -12,28 +12,30 @@ Dahlia Archive는 SOOP, YouTube, X에 남은 커뮤니티 활동의 흔적을 �
 
 | 페이지 | 역할 | 제공 기능 및 데이터 |
 | --- | --- | --- |
-| `index.html` | 메인 큐브 허브 | 큐브의 여섯 면에서 각 기록 화면으로 이동합니다. 초기 회전은 yaw -24°, pitch 18°입니다. |
+| `index.html` | 메인 큐브 허브 | SOOP, YouTube, X, Projects, 원본 계정 링크 다섯 면은 각 전용 페이지로 이동하며, 한 면은 비워 둡니다. 초기 회전은 yaw -24°, pitch 18°입니다. |
 | `archive.html` | 전체 기록 | 플랫폼별 합계와 비중, 통합 검색, SOOP·YouTube·X 플랫폼 필터를 제공합니다. |
-| `memories.html` | SOOP 캐치 | 기록 수·링크 수 등 요약, 월별 추이, 요일·시간대 집계, 반복 제목·태그 인사이트, 검색과 기록 유형 필터를 제공합니다. |
+| `memories.html` | SOOP 기록 | 캐치·클립·VOD 통합 목록, 유형별 수, 캐치의 월별 추이와 요일·시간대 집계, 검색과 유형 필터를 제공합니다. |
 | `youtube.html` | YouTube Shorts·동영상 | 형식별 기록 수, 저장된 조회수 상위 5개, 태그 검색, Shorts·동영상 필터를 제공합니다. 게시 날짜가 없는 항목에 날짜를 임의로 붙이지 않습니다. |
 | `x-archive.html` | X 게시물 | 날짜가 확인된 월별 게시 흐름, 태그 요약과 검색을 제공합니다. 현재 확인된 항목이 적거나 비어 있는 경우에도 수집 한계를 페이지에서 안내합니다. |
 | `media.html` | SOOP 클립·VOD | 유형별 기록 수, 저장된 조회수 상위 5개, 검색과 클립·다시보기 필터를 제공합니다. 별도 원본 목록 링크도 둡니다. |
 | `about.html` | 기록의 흐름 | SOOP 캐치 월별 추이와 반복 제목·태그 등 플랫폼 간 요약 인사이트를 보여줍니다. |
+| `projects.html` | 프로젝트 소개 | `database/projects/catalog.json`을 읽어 프로젝트별 JSON 소개 카드와 배포·GitHub 링크를 표시합니다. |
 | `platforms.html` | 플랫폼 계정 링크 | YouTube, X, SOOP의 계정 페이지로 이동합니다. 활동별 기록 링크와는 별도입니다. |
 | `404.html` | 없는 주소 안내 | 정적 호스팅용 오류 페이지이며 검색 색인 대상에서 제외합니다. |
 
-메인 큐브 면 연결은 앞면 → 전체 기록, 오른쪽 → SOOP 캐치, 뒷면 → YouTube, 왼쪽 → X, 윗면 → SOOP 클립·VOD, 아랫면 → 기록의 흐름입니다. 공통 상단 메뉴에도 이 화면과 플랫폼 링크가 표시됩니다. 메인 페이지는 뷰포트 높이에 맞춘 한 화면 구성이고, 기록 페이지는 스크롤하여 통계, 시각화, 기록 목록을 차례로 봅니다.
+메인 큐브 면 연결은 앞면 → SOOP, 오른쪽 → YouTube, 뒷면 → X, 왼쪽 → Projects, 윗면 → 원본 계정 링크입니다. 아랫면은 현재 비워 둡니다. `archive.html`, `media.html`, `about.html`은 직접 접근 가능한 참고 화면으로 남지만 큐브의 별도 면은 차지하지 않습니다. 메인 페이지는 뷰포트 높이에 맞춘 한 화면 구성이고, 기록 페이지는 스크롤하여 통계, 시각화, 기록 목록을 차례로 봅니다.
 
 ## 파일 구성
 
 ```text
-index.html, archive.html, memories.html, youtube.html,
-x-archive.html, media.html, about.html, platforms.html, 404.html
+index.html, memories.html, youtube.html, x-archive.html, projects.html,
+archive.html, media.html, about.html, platforms.html, 404.html
 styles.css                 공통 레이아웃, 메인 큐브, 반응형/3D 시각 효과
 subpages.css               기록 페이지 배경, 내비게이션, 패널, 목록 및 차트 스타일
 script.js                  모바일 메뉴, 큐브 조작, 현재 연도 표기
 archive-app.js             정적 카탈로그 로드, 페이지별 집계·시각화·검색·필터·카드
-database/                  개별 활동 JSON, 계정 JSON, 화면용 catalog.json
+projects-app.js            프로젝트 소개 JSON 로드 및 카드 렌더링
+database/                  개별 활동 JSON, 계정 JSON, 프로젝트 JSON, 화면용 카탈로그
 dahlia-images/             큐브와 상세 페이지에서 쓰는 사용자 제공 이미지
 docs/                      사이트 구조, 스크랩 관찰, 배치별 수집 메모
 robots.txt, sitemap.xml    검색 로봇 접근 및 공개 페이지 안내
@@ -54,11 +56,14 @@ database/<platform>/<type>/<date>/ 활동 JSON 한 파일
 database/catalog.json 정적 검색·표시 카탈로그
         ↓ archive-app.js의 fetch('./database/catalog.json')
 필터링 → 카드/통계/시각화 → 원본 플랫폼 링크
+
+database/projects/catalog.json → 프로젝트 JSON 파일 → projects-app.js → 소개 카드
 ```
 
 - 활동 JSON 한 파일은 활동 흔적 하나를 나타냅니다. 원본 미디어 파일이 아닙니다.
 - `database/platforms/*.json`은 사용자가 제공한 계정 링크와 프로필 정보를 보관하고 활동 레코드와 구분합니다.
 - `database/catalog.json`은 저장소 디렉터리를 브라우저에서 열거할 수 없는 정적 호스팅 환경을 위한 화면용 색인입니다. 개별 활동 JSON의 모든 상세 필드를 복제하는 별도 데이터베이스가 아닙니다.
+- `database/projects/catalog.json`은 프로젝트 소개 JSON 경로를 나열합니다. 프로젝트마다 별도 파일을 두며, 페이지가 각 파일을 읽어 소개 카드를 만듭니다. 등록된 각 프로젝트에는 목적, 구현 방식, 사용 방법과 링크가 담깁니다.
 - 지금은 사이트 실행이나 배포 과정에서 카탈로그를 생성하지 않습니다. 활동 파일을 추가·수정하면 해당 정적 카탈로그도 함께 갱신해야 합니다. 자동화는 향후 로컬 보조 스크립트로 고려할 수 있으나 현재 동작에는 포함되지 않습니다.
 - 활동별 원본 URL이 제공 자료에 있거나 수집 시점에 확인 가능했다면 레코드와 카탈로그에 보존합니다. 계정/목록 링크는 활동 링크를 대신하지 않습니다. 당시 개별 링크를 확인할 수 없으면 `url: null`로 남기고 추측으로 만들지 않습니다.
 - 날짜, 시간대, 지표 이름, 중복 여부가 불명확하면 원문과 출처 위치를 보존하고 사실처럼 추정하지 않습니다. 상대 날짜를 절대 날짜로 환산하려면 신뢰할 만한 수집 시각이 필요합니다. 자세한 규칙은 [`database/README.md`](../database/README.md)에 있습니다.
@@ -80,7 +85,7 @@ database/catalog.json 정적 검색·표시 카탈로그
 ## 시각·반응형·접근성
 
 - `dahlia-images/dahlia.jpg`는 큐브 앞면 프로필 이미지, `dahlia-images/dahlia-background.jpg`는 큐브 정반대 면과 상세 페이지 고정 배경에 사용합니다. 다른 큐브 면에는 이미지 대신 텍스트와 CSS 도형을 씁니다.
-- 상세 페이지의 상단 메뉴는 스크롤 중 상단에 붙고 유리 효과를 유지합니다. `subpages.css`의 고정 배경 레이어는 배경 이미지를 `cover`로 표시하고 `center 20%`에 맞춰 어두운 색/별빛 오버레이와 겹칩니다. 본문 패널은 투명한 유리 스타일을 씁니다.
+- 모든 페이지의 상단바는 배경, backdrop blur, 경계선, 그림자 없이 완전히 투명합니다. 메인과 상세 페이지에서 상단바 높이, 좌우 여백, 메뉴 간격, 모바일 메뉴 전환 기준을 맞춥니다. 상세 페이지의 고정 배경 레이어는 배경 이미지를 `cover`로 표시하고 `center 20%`에 맞춰 어두운 색/별빛 오버레이와 겹칩니다. 본문 패널은 투명한 유리 스타일을 씁니다.
 - PC·태블릿·모바일 미디어 쿼리는 `styles.css`와 `subpages.css`에 있습니다. 기록 카드 그리드, 탐색 메뉴, 차트가 좁은 화면에서 재배치됩니다.
 - 페이지에는 한국어 문서 언어, 제목/설명, canonical, Open Graph/Twitter 공유 메타데이터가 있습니다. 메인에는 `WebSite`, 하위 컬렉션에는 `CollectionPage` JSON-LD가 있습니다. 오류 페이지는 `noindex`입니다.
 - 공개 URL 목록은 `sitemap.xml`, 크롤러 접근은 `robots.txt`에서 관리합니다. favicon, Apple 아이콘, manifest도 정적 파일입니다. manifest는 홈 화면 이름/아이콘 정보를 제공하며 서비스 워커나 오프라인 캐시는 구현되어 있지 않습니다. 사이트 검증 토큰, analytics, 사용자 추적은 구성하지 않았습니다.

@@ -3,8 +3,7 @@ body.archive-page { min-height: 100vh; background: #080a24; overflow-x: hidden; 
 .archive-page::after { position: fixed; z-index: -1; inset: 0; content: ""; pointer-events: none; background: radial-gradient(ellipse at 82% 12%, #9abaff19, transparent 34%), radial-gradient(ellipse at 8% 68%, #b99eff0d, transparent 33%); }
 .archive-page::before { background-image: radial-gradient(1.2px 1.2px at 11% 17%, #e8f1ffae 99%, transparent 100%), radial-gradient(1px 1px at 72% 12%, #e6edff91 99%, transparent 100%), radial-gradient(1.3px 1.3px at 86% 39%, #dceaff9e 99%, transparent 100%), radial-gradient(1px 1px at 31% 71%, #eff4ff88 99%, transparent 100%), radial-gradient(1px 1px at 61% 84%, #d8e9ff95 99%, transparent 100%), linear-gradient(180deg, #080a24a6 0%, #080a24cf 100%), url("./dahlia-images/dahlia-background.jpg"), linear-gradient(145deg, #07091f, #0b1030 53%, #080a24); background-size: 330px 290px, 330px 290px, 330px 290px, 330px 290px, 330px 290px, cover, cover, cover; background-position: center, center, center, center, center, center, center 20%, center; background-repeat: repeat, repeat, repeat, repeat, repeat, no-repeat, no-repeat, no-repeat; }
 .archive-page .site-shell { position: relative; min-height: 100vh; overflow: visible; isolation: isolate; }
-.archive-page .topbar { position: sticky; top: 0; padding: 13px clamp(18px, 4vw, 64px); border-bottom: 1px solid #e6edff19; background: #090b28bd; backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); }
-.archive-page .topbar { z-index: 20; background: linear-gradient(110deg, #dcecff10, #c9d8ff08 55%, #c5eeff0d), #10142b70; border-bottom-color: #e7efff20; box-shadow: 0 8px 30px #03061524, inset 0 1px #ffffff12; backdrop-filter: blur(22px) saturate(1.18); -webkit-backdrop-filter: blur(22px) saturate(1.18); }
+.archive-page .topbar { position: sticky; top: 0; padding: 13px clamp(18px, 4vw, 64px); z-index: 20; }
 .archive-page .site-nav { gap: clamp(8px, 1.15vw, 17px); font-size: 9px; letter-spacing: .08em; }
 .archive-page .nav-link { padding: 10px 0; white-space: nowrap; }
 .archive-page .nav-cta { padding: 9px 11px; white-space: nowrap; font-size: 8px; }
@@ -125,7 +124,6 @@ body.archive-page { min-height: 100vh; background: #080a24; overflow-x: hidden; 
 
 /* Shared glass finish: quiet starfield, transparent panels, and fine cool highlights. */
 .archive-page::after { background: radial-gradient(ellipse at 79% 12%, #94baff12, transparent 35%), radial-gradient(ellipse at 18% 73%, #b99eff0b, transparent 38%); }
-.archive-page .topbar { border-bottom-color: #e6edff16; background: #0a0d29a8; box-shadow: 0 8px 30px #04071820; }
 .archive-overview, .stat-card, .record-card, .glass-section, .insight-card, .feature-band, .platform-card, .source-card, .source-principle, .access-note {
   border-color: #e3eeff26;
   background: linear-gradient(145deg, #d9edff08, #d5dfff04 52%, #9bdfff07);
@@ -143,14 +141,6 @@ body.archive-page { min-height: 100vh; background: #080a24; overflow-x: hidden; 
 .source-card-icon, .platform-symbol { border-color: #daedff48; background: linear-gradient(145deg, #e5f4ff18, #d8edff06); box-shadow: inset 1px 1px 8px #fff2, 0 0 20px #a7dcff14; }
 .collection-heading h1 { text-shadow: 0 3px 28px #080a2470; }
 
-/* Clearer glass: let the Dahlia backdrop show through while retaining a fine reflective edge. */
-.archive-page .topbar {
-  background: linear-gradient(110deg, #dcecff09, #c9d8ff04 55%, #c5eeff08), #10142b38;
-  border-bottom-color: #e7efff2b;
-  box-shadow: 0 10px 34px #03061518, inset 0 1px #ffffff24;
-  backdrop-filter: blur(24px) saturate(1.28);
-  -webkit-backdrop-filter: blur(24px) saturate(1.28);
-}
 .archive-overview, .stat-card, .record-card, .glass-section, .insight-card, .feature-band, .platform-card, .source-card, .source-principle, .access-note {
   border-color: #e3eeff30;
   background: linear-gradient(135deg, #e4f4ff0b 0%, #d5dfff04 48%, #9bdfff08 100%);
@@ -256,17 +246,8 @@ body.archive-page { min-height: 100vh; background: #080a24; overflow-x: hidden; 
 }
 
 
-/* Keep the sticky header structurally present, with no visual plate over the fixed backdrop. */
-.archive-page .topbar {
-  position: sticky;
-  top: 0;
-  z-index: 20;
-  background: transparent !important;
-  border-color: transparent;
-  box-shadow: none;
-  backdrop-filter: none;
-  -webkit-backdrop-filter: none;
-}
+/* Keep archive headers fixed in place without a visual plate. */
+.archive-page .topbar { position: sticky; top: 0; z-index: 20; }
 @media (max-width: 600px) {
   .viz-pair { grid-template-columns: 1fr; gap: 10px; }
   .viz-panel { padding: 16px 14px; }
@@ -276,3 +257,18 @@ body.archive-page { min-height: 100vh; background: #080a24; overflow-x: hidden; 
   .viz-rank-row { grid-template-columns: 22px minmax(0, 1fr) minmax(50px, auto); gap: 8px; }
   .viz-rank-row .viz-value { min-width: 50px; font-size: 9px; }
 }
+.project-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; align-items: start; }
+.project-card { margin: 0; padding: clamp(22px, 3vw, 36px); }
+.project-category { margin: 0 0 10px; color: #b8dfff; font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; }
+.project-title { margin: 0; font-family: 'Gowun Batang', serif; font-size: clamp(1.55rem, 3vw, 2.25rem); }
+.project-description { color: #e4e8ff; line-height: 1.75; }
+.project-details { display: grid; grid-template-columns: 1fr; gap: 7px; margin: 24px 0 0; }
+.project-details dt { margin-top: 12px; color: #b9c8ed; font-size: .82rem; }
+.project-details dd { margin: 0; color: #f1f3ff; line-height: 1.75; }
+.project-features { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; margin: 22px 0; list-style: none; }
+.project-features li { padding: 7px 11px; border: 1px solid #d9e7ff22; border-radius: 999px; color: #dce9ff; font-size: .8rem; }
+.project-links { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; padding-top: 16px; border-top: 1px solid #ffffff1a; }
+@media (max-width: 760px) { .project-grid { grid-template-columns: 1fr; } }
+
+/* All archive headers remain fully transparent, including legacy page variants. */
+.topbar { background: transparent; border-bottom-color: transparent; box-shadow: none; backdrop-filter: none; -webkit-backdrop-filter: none; }

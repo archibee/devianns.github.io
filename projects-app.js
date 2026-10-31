@@ -19,7 +19,7 @@
     addText(card, 'p', 'project-description', project.description);
     const details = document.createElement('dl');
     details.className = 'project-details';
-    for (const [label, value] of [['구현 목적', project.purpose], ['구현 방식', project.implementation], ['사용 방법', project.howToUse]]) {
+    for (const [label, value] of [['만든 이유', project.purpose], ['작동 방식', project.implementation], ['사용 방법', project.howToUse]]) {
       addText(details, 'dt', '', label);
       addText(details, 'dd', '', value);
     }
@@ -33,15 +33,15 @@
     const links = document.createElement('div');
     links.className = 'project-links';
     if (project.deploymentUrl) {
-      const deploy = addText(links, 'a', 'record-open', '프로젝트 열기 ↗');
+      const deploy = addText(links, 'a', 'record-open', '사용해 보기 ↗');
       deploy.href = project.deploymentUrl;
       deploy.target = '_blank';
       deploy.rel = 'noopener noreferrer';
     } else {
-      addText(links, 'span', 'record-no-link', '배포 주소 미등록');
+      addText(links, 'span', 'record-no-link', '아직 공개된 페이지가 없습니다');
     }
     if (project.githubUrl) {
-      const source = addText(links, 'a', 'record-open', 'GitHub 저장소 ↗');
+      const source = addText(links, 'a', 'record-open', 'GitHub에서 보기 ↗');
       source.href = project.githubUrl;
       source.target = '_blank';
       source.rel = 'noopener noreferrer';
@@ -62,5 +62,5 @@
       list.replaceChildren(...projects.map(renderProject));
       status.textContent = `${projects.length}개 프로젝트`;
     })
-    .catch(() => { status.textContent = '프로젝트 정보를 불러오지 못했습니다.'; });
+    .catch(() => { status.textContent = '프로젝트 정보를 불러오지 못했어요.'; });
 })();

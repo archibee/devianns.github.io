@@ -11,8 +11,8 @@
     return String(b.publishedTimeRaw || '').localeCompare(String(a.publishedTimeRaw || ''));
   };
   const platformName = { soop: 'SOOP', youtube: 'YouTube', x: 'X' };
-  const typeName = { catch: 'CATCH', clip: 'CLIP', normal: 'VOD', short: 'SHORTS', video: 'VIDEO', post: 'POST' };
-  const metricName = { views: '조회', likes: '좋아요', replies: '답글', reposts: '재게시', quotes: '인용' };
+  const typeName = { catch: '캐치', clip: '클립', normal: 'VOD', short: 'Shorts', video: '동영상', post: '게시물' };
+  const metricName = { views: '조회수', likes: '좋아요', replies: '답글', reposts: '재게시', quotes: '인용' };
   const make = (tag, className, value) => {
     const node = document.createElement(tag);
     if (className) node.className = className;
@@ -23,7 +23,11 @@
   const getViews = (record) => record.latestListingObservation?.viewsRaw || record.metrics?.find((metric) => metric.label === 'views' || metric.type === 'views')?.rawValue || null;
   const getRecordText = (record) => [record.title, record.text, ...getTags(record)].filter(Boolean).join(' ').toLocaleLowerCase('ko');
   const titleOf = (record) => text(record.title || record.text || '제목 정보 없음');
-  const dateOf = (record) => record.publishedAt || record.latestListingObservation?.relativePublishedTimeRaw || record.publishedTimeRaw || '날짜 정보 없음';
+  const dateOf = (record) => {
+    const value = record.publishedAt || record.latestListingObservation?.relativePublishedTimeRaw || record.publishedTimeRaw;
+    const match = value && value.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    return match ? `${match[1]}. ${Number(match[2])}. ${Number(match[3])}.` : value || '날짜 미상';
+  };
 
   function metricValue(record, label) {
     const metric = (record.metrics || []).find((item) => item.label === label);
@@ -49,14 +53,11 @@
 
     const observation = record.latestListingObservation;
     const values = [];
-    if (getViews(record)) values.push(['조회', getViews(record)]);
+    if (getViews(record)) values.push(['조회수', getViews(record)]);
     for (const metric of record.metrics || []) {
       if (metric.label === 'views' || metric.type === 'views' || !metric.label) continue;
       const value = metric.rawValue ?? (metric.value !== null && metric.value !== undefined ? number(metric.value) : null);
       if (value !== null) values.push([metricName[metric.label] || metric.label, value]);
-    }
-    if (record.metrics?.some((metric) => !metric.label && metric.type !== 'views')) {
-      for (const metric of record.metrics.filter((item) => !item.label && item.type !== 'views' && item.rawValue)) values.push(['이름 미상 수치', metric.rawValue]);
     }
     if (observation?.durationRaw) values.push(['길이', observation.durationRaw]);
     else if (record.durationRaw) values.push(['길이', record.durationRaw]);
@@ -83,16 +84,15 @@
 
     const footer = make('div', 'record-card-footer');
     if (record.url) {
-      const link = make('a', 'record-open', '원본 기록 ↗');
+      const link = make('a', 'record-open', '원본에서 보기 ↗');
       link.href = record.url;
       link.target = '_blank';
       link.rel = 'noopener noreferrer';
-      link.setAttribute('aria-label', `${titleOf(record)} 원본 플랫폼에서 열기`);
+      link.setAttribute('aria-label', `${titleOf(record)} 원본에서 보기`);
       footer.append(link);
     } else {
-      footer.append(make('span', 'record-no-link', '원본 링크 미수록'));
+      footer.append(make('span', 'record-no-link', '원본 링크 없음'));
     }
-    footer.append(make('span', 'record-source', record.platformId ? `ID · ${record.platformId}` : '메모 발췌'));
     article.append(footer);
     return article;
   }
@@ -104,9 +104,9 @@
       const slice = records.slice(0, shown);
       const fragment = document.createDocumentFragment();
       for (const record of slice) fragment.append(renderRecord(record, listStyle));
-      if (!slice.length) fragment.append(make('p', 'empty-message', '조건에 맞는 기록을 찾지 못했습니다. 다른 제목이나 태그로 검색해 보세요.'));
+      if (!slice.length) fragment.append(make('p', 'empty-message', '찾는 기록이 없어요. 다른 단어로 검색해 보세요.'));
       list.append(fragment);
-      if (status) status.textContent = `${number(records.length)}개 기록 중 ${number(slice.length)}개 표시`;
+      if (status) status.textContent = `${number(records.length)}개 중 ${number(slice.length)}개 표시`;
       if (loadButton) loadButton.hidden = shown >= records.length;
     };
     draw();
@@ -138,16 +138,15 @@
     const dates = records.map((item) => item.publishedAt).filter(Boolean).sort();
     let cards = [];
     if (kind === 'soop') {
-      const api = records.filter((item) => item.sourceBatch === 'soop-public-catch-api-2026-10-31');
-      cards = [statCard('수집된 캐치 기록', number(records.length), '원문 발췌와 API 목록을 함께 보존'), statCard('플랫폼 ID 확인', number(api.length), '중복되지 않는 ID를 가진 API 항목'), statCard('날짜 범위', dates.length ? `${dates[0].slice(0, 4)} — ${dates[dates.length - 1].slice(0, 4)}` : '날짜 미상', '명시된 게시일 기준'), statCard('원본 링크', number(records.filter((item) => item.url).length), '직접 열 수 있는 기록')];
+      cards = [statCard('캐치 기록', number(records.length), '모아 둔 기록'), statCard('원본 링크', number(records.filter((item) => item.url).length), 'SOOP에서 볼 수 있어요'), statCard('기록 기간', dates.length ? `${dates[0].slice(0, 4)} — ${dates[dates.length - 1].slice(0, 4)}` : '날짜 미상', '게시 날짜 기준'), statCard('날짜가 있는 기록', number(dates.length), '게시일을 확인할 수 있어요')];
     } else if (kind === 'youtube') {
-      cards = [statCard('SHORTS', number(records.filter((item) => item.contentType === 'short').length), '채널 Shorts 탭'), statCard('동영상', number(records.filter((item) => item.contentType === 'video').length), '채널 동영상 탭'), statCard('ID와 링크', number(records.filter((item) => item.platformId && item.url).length), '기존 기록에 원본 ID를 연결'), statCard('수치 기준', '스냅샷', '조회수는 수집 당시 표시값')];
+      cards = [statCard('Shorts', number(records.filter((item) => item.contentType === 'short').length), '채널의 세로 영상'), statCard('동영상', number(records.filter((item) => item.contentType === 'video').length), '채널에 올라온 영상'), statCard('원본 링크', number(records.filter((item) => item.url).length), 'YouTube에서 볼 수 있어요'), statCard('기록 기간', dates.length ? `${dates[0].slice(0, 4)} — ${dates[dates.length - 1].slice(0, 4)}` : '날짜 미상', '날짜가 확인된 기록')];
     } else if (kind === 'x') {
-      cards = [statCard('게시물 기록', number(records.length), '사용자 자료와 공개 프로필 응답'), statCard('날짜 범위', dates.length ? `${dates[0].slice(0, 4)} — ${dates[dates.length - 1].slice(0, 4)}` : '날짜 미상', '게시 시각이 확인된 항목'), statCard('ID와 링크', number(records.filter((item) => item.platformId).length), '플랫폼 ID가 확인된 항목'), statCard('게시물 원문', number(records.filter((item) => item.text).length), '텍스트 메타데이터')];
+      cards = [statCard('게시물', number(records.length), '모아 둔 기록'), statCard('기록 기간', dates.length ? `${dates[0].slice(0, 4)} — ${dates[dates.length - 1].slice(0, 4)}` : '날짜 미상', '날짜가 확인된 게시물'), statCard('원본 링크', number(records.filter((item) => item.url).length), 'X에서 볼 수 있어요'), statCard('본문이 있는 게시물', number(records.filter((item) => item.text).length), '글 내용을 함께 볼 수 있어요')];
     } else if (kind === 'media') {
-      cards = [statCard('클립', number(records.filter((item) => item.contentType === 'clip').length), 'SOOP 원본 링크 연결'), statCard('일반 VOD', number(records.filter((item) => item.contentType === 'normal').length), 'SOOP 원본 링크 연결'), statCard('고유 ID', number(new Set(records.map((item) => item.platformId).filter(Boolean)).size), '유형별 개별 기록'), statCard('파일 없음', '정적 링크', '미디어는 플랫폼에서 열기')];
+      cards = [statCard('클립', number(records.filter((item) => item.contentType === 'clip').length), 'SOOP에서 볼 수 있어요'), statCard('다시보기', number(records.filter((item) => item.contentType === 'normal').length), 'SOOP에서 볼 수 있어요'), statCard('원본 링크', number(records.filter((item) => item.url).length), '바로 이동할 수 있어요'), statCard('기록 기간', dates.length ? `${dates[0].slice(0, 4)} — ${dates[dates.length - 1].slice(0, 4)}` : '날짜 미상', '날짜가 확인된 기록')];
     } else {
-      cards = [statCard('활동 메타데이터', number(records.length), '정적 카탈로그의 기록 수'), statCard('ID 확인', number(records.filter((item) => item.platformId).length), '원본 ID가 있는 항목'), statCard('원본 링크', number(records.filter((item) => item.url).length), '플랫폼으로 이동 가능'), statCard('플랫폼', '3', 'SOOP · YouTube · X')];
+      cards = [statCard('전체 기록', number(records.length), '현재 모아 둔 활동'), statCard('SOOP 캐치', number(records.filter((item) => item.platform === 'soop').length), 'SOOP에 남긴 기록'), statCard('YouTube', number(records.filter((item) => item.platform === 'youtube').length), '영상 기록'), statCard('X 게시물', number(records.filter((item) => item.platform === 'x').length), '게시물 기록')];
     }
     target.replaceChildren(...cards);
   }
@@ -176,7 +175,7 @@
     }
     const range = document.querySelector('[data-month-range]');
     if (range && months.length) range.textContent = `${months[0].replace('-', '.')} — ${months[months.length - 1].replace('-', '.')}`;
-    if (!months.length) target.append(make('p', 'empty-message', '날짜가 확인된 기록이 아직 없습니다.'));
+    if (!months.length) target.append(make('p', 'empty-message', '날짜를 확인할 수 있는 기록이 아직 없어요.'));
   }
 
   function insightCard(index, label, heading, description, value, detail) {
@@ -206,10 +205,10 @@
     for (const item of records.filter((record) => record.platform === 'x')) for (const tag of getTags(item)) xTags.set(tag.replace(/^#/, ''), (xTags.get(tag.replace(/^#/, '')) || 0) + 1);
     const topXTag = [...xTags.entries()].sort((a, b) => b[1] - a[1])[0] || ['태그 없음', 0];
     const cards = [
-      insightCard('01', 'SOOP · REPEATED TITLES', '다시 등장한 제목', '개별 ID를 가진 캐치에서 가장 자주 발견된 제목입니다.', `${number(topTitle[1])}회`, topTitle[0]),
-      insightCard('02', 'SOOP · CATCH TAGS', '가장 자주 붙은 태그', '공개 API 캐치 목록의 태그 빈도입니다.', `#${topCatchTag[0]} · ${number(topCatchTag[1])}`, '태그가 붙은 캐치 기록 수'),
-      insightCard('03', 'YOUTUBE · CHANNEL INDEX', '짧은 형식이 더 많아요', '이번 목록에서 Shorts와 일반 동영상의 구성입니다.', `${youtube.filter((item) => item.contentType === 'short').length} / ${youtube.filter((item) => item.contentType === 'video').length}`, `Shorts / 동영상 · 최다 태그 #${topYtTag[0]} (${number(topYtTag[1])})`),
-      insightCard('04', 'X · POST TEXT', '반복된 해시태그', '저장된 X 게시물 본문에서 확인한 표기 빈도입니다.', `#${topXTag[0]} · ${number(topXTag[1])}`, '게시물 본문에서 추출')
+      insightCard('01', 'SOOP 캐치', '같은 제목으로 올라온 캐치', '여러 번 올라온 기록이에요.', `${number(topTitle[1])}회`, topTitle[0]),
+      insightCard('02', 'SOOP 캐치', '자주 쓰인 태그', '캐치에서 많이 보인 태그예요.', `#${topCatchTag[0]} · ${number(topCatchTag[1])}`, '태그가 포함된 기록'),
+      insightCard('03', 'YouTube', 'Shorts와 동영상', '현재 모아 둔 영상의 종류예요.', `${youtube.filter((item) => item.contentType === 'short').length} / ${youtube.filter((item) => item.contentType === 'video').length}`, `Shorts / 동영상 · 자주 쓰인 태그 #${topYtTag[0]}`),
+      insightCard('04', 'X 게시물', '자주 보인 해시태그', '게시물에서 여러 번 등장한 태그예요.', `#${topXTag[0]} · ${number(topXTag[1])}`, '본문에 포함된 횟수')
     ];
     target.replaceChildren(...cards);
   }
@@ -294,7 +293,7 @@
     .then((records) => applyView(Array.isArray(records) ? records : []))
     .catch(() => {
       const main = document.querySelector('.collection-main');
-      const error = make('p', 'catalog-error', '기록 목록을 불러오지 못했습니다. GitHub Pages 주소에서 다시 열어 주세요.');
+      const error = make('p', 'catalog-error', '기록을 불러오지 못했어요. 페이지를 새로고침해 주세요.');
       main?.append(error);
     });
 })();

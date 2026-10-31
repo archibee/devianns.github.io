@@ -12,7 +12,7 @@ Dahlia Archive는 SOOP, YouTube, X에 남은 커뮤니티 활동의 흔적을 �
 
 | 페이지 | 역할 | 제공 기능 및 데이터 |
 | --- | --- | --- |
-| `index.html` | 메인 큐브 허브 | SOOP, YouTube, X, Projects, 프로필 링크 다섯 면은 각 전용 페이지로 이동하며, 한 면은 비워 둡니다. 초기 회전은 yaw -24°, pitch -12°로 윗면이 살짝 보입니다. |
+| `index.html` | 메인 큐브 허브 | SOOP, YouTube, X, Projects, 프로필 링크 다섯 면은 각 전용 페이지로 이동하며, 한 면은 비워 둡니다. 초기 회전은 yaw -24°, pitch -20°로 윗면이 보이는 시점입니다. |
 | `archive.html` | 전체 기록 | 플랫폼별 합계와 비중, 통합 검색, SOOP·YouTube·X 플랫폼 필터를 제공합니다. |
 | `memories.html` | SOOP 기록 | 캐치·클립·VOD 통합 목록, 유형별 수, 캐치의 월별 추이와 요일·시간대 집계, 검색과 유형 필터를 제공합니다. |
 | `youtube.html` | YouTube Shorts·동영상 | 형식별 기록 수, 저장된 조회수 상위 5개, 태그 검색, Shorts·동영상 필터를 제공합니다. 게시 날짜가 없는 항목에 날짜를 임의로 붙이지 않습니다. |

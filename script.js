@@ -115,10 +115,11 @@ function applyDrag(event) {
   const dx = event.clientX - dragState.lastX;
   const dy = event.clientY - dragState.lastY;
   const elapsed = Math.max(1, now - dragState.lastTime);
+  const verticalDelta = -dy * .42;
   yaw += dx * .42;
-  pitch += dy * .42;
+  pitch += verticalDelta;
   dragState.velocityX = dragState.velocityX * .6 + (dx * .42 / elapsed) * .4;
-  dragState.velocityY = dragState.velocityY * .6 + (dy * .42 / elapsed) * .4;
+  dragState.velocityY = dragState.velocityY * .6 + (verticalDelta / elapsed) * .4;
   dragState.lastX = event.clientX;
   dragState.lastY = event.clientY;
   dragState.lastTime = now;

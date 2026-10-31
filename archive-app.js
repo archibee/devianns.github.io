@@ -152,28 +152,151 @@
   }
 
   function monthKey(date) { return date && /^\d{4}-\d{2}/.test(date) ? date.slice(0, 7) : null; }
-  function renderMonthlyChart(records) {
-    const target = document.querySelector('[data-monthly-chart]');
+  function renderMeasureBars(target, items, formatValue = (value) => number(value)) {
+    if (!target) return;
+    target.replaceChildren();
+    const max = Math.max(1, ...items.map((item) => item.value));
+    target.setAttribute('role', 'list');
+    for (const item of items) {
+      const row = make('div', 'viz-row');
+      row.setAttribute('role', 'listitem');
+      const label = make('span', 'viz-label', item.label);
+      const track = make('span', 'viz-track');
+      track.setAttribute('aria-hidden', 'true');
+      const fill = make('span', 'viz-fill');
+      const percent = item.value ? Math.max(1, item.value / max * 100) : 0;
+      fill.style.setProperty('--viz-width', `${percent}%`);
+      track.append(fill);
+      const value = make('strong', 'viz-value', formatValue(item.value, item));
+      row.append(label, track, value);
+      target.append(row);
+    }
+  }
+
+  function renderPlatformDistribution(records) {
+    const target = document.querySelector('[data-platform-distribution]');
+    if (!target) return;
+    const total = records.length;
+    const labels = { soop: 'SOOP', youtube: 'YouTube', x: 'X' };
+    const counts = ['soop', 'youtube', 'x'].map((platform) => ({
+      label: labels[platform],
+      value: records.filter((record) => record.platform === platform).length
+    }));
+    renderMeasureBars(target, counts, (value) => `${number(value)}개 · ${total ? (value / total * 100).toFixed(1) : '0.0'}%`);
+  }
+
+  function renderTypeDistribution(records, targetSelector, types) {
+    const target = document.querySelector(targetSelector);
+    if (!target) return;
+    const total = records.length;
+    const counts = types.map(({ type, label }) => ({
+      label,
+      value: records.filter((record) => record.contentType === type).length
+    }));
+    renderMeasureBars(target, counts, (value) => `${number(value)}개 · ${total ? (value / total * 100).toFixed(1) : '0.0'}%`);
+  }
+
+  function renderCatchRhythm(records) {
+    const weekdayTarget = document.querySelector('[data-catch-weekdays]');
+    const hourTarget = document.querySelector('[data-catch-hours]');
+    if (!weekdayTarget && !hourTarget) return;
+    const weekdays = ['월요일', '화요일', '수요일', '목요일', '금요일', '토요일', '일요일'];
+    const weekdayCounts = new Map(weekdays.map((day) => [day, 0]));
+    const hourLabels = ['00–05시', '06–11시', '12–17시', '18–23시'];
+    const hourCounts = new Map(hourLabels.map((label) => [label, 0]));
+    for (const record of records) {
+      if (record.publishedAt) {
+        const date = new Date(`${record.publishedAt}T00:00:00Z`);
+        const index = (date.getUTCDay() + 6) % 7;
+        weekdayCounts.set(weekdays[index], weekdayCounts.get(weekdays[index]) + 1);
+      }
+      const match = String(record.publishedTimeRaw || '').match(/\b(\d{2}):\d{2}/);
+      if (match) {
+        const hour = Number(match[1]);
+        const index = hour < 6 ? 0 : hour < 12 ? 1 : hour < 18 ? 2 : 3;
+        hourCounts.set(hourLabels[index], hourCounts.get(hourLabels[index]) + 1);
+      }
+    }
+    renderMeasureBars(weekdayTarget, weekdays.map((label) => ({ label, value: weekdayCounts.get(label) })));
+    renderMeasureBars(hourTarget, hourLabels.map((label) => ({ label, value: hourCounts.get(label) })));
+  }
+
+  function viewCount(record) {
+    const metric = record.metrics?.find((item) => item.label === 'views' || item.type === 'views');
+    if (Number.isFinite(metric?.value)) return Number(metric.value);
+    const raw = getViews(record);
+    if (!raw) return null;
+    const match = String(raw).replace(/,/g, '').match(/[\d.]+/);
+    if (!match) return null;
+    const multiplier = /천/.test(raw) ? 1000 : /만/.test(raw) ? 10000 : 1;
+    return Number(match[0]) * multiplier;
+  }
+
+  function renderViewRanking(records, platform) {
+    const target = document.querySelector(`[data-view-ranking="${platform}"]`);
+    if (!target) return;
+    const ranked = records
+      .filter((record) => viewCount(record) !== null)
+      .sort((a, b) => viewCount(b) - viewCount(a))
+      .slice(0, 5);
+    target.replaceChildren();
+    if (!ranked.length) {
+      target.append(make('p', 'empty-message', '조회수를 확인할 수 있는 기록이 아직 없어요.'));
+      return;
+    }
+    const max = Math.max(1, ...ranked.map(viewCount));
+    ranked.forEach((record, index) => {
+      const row = make('article', 'viz-rank-row');
+      row.append(make('span', 'viz-rank-number', String(index + 1).padStart(2, '0')));
+      const content = make('div', 'viz-rank-content');
+      const title = make('p', 'viz-rank-title', titleOf(record));
+      title.title = titleOf(record);
+      const track = make('span', 'viz-track');
+      track.setAttribute('aria-hidden', 'true');
+      const fill = make('span', 'viz-fill');
+      fill.style.setProperty('--viz-width', `${Math.max(2, viewCount(record) / max * 100)}%`);
+      track.append(fill);
+      content.append(title, track);
+      const metric = getViews(record) || `${number(viewCount(record))}회`;
+      row.append(content, make('strong', 'viz-value', metric));
+      target.append(row);
+    });
+  }
+
+  function renderMonthlyChart(records, targetSelector = '[data-monthly-chart]', rangeSelector = '[data-month-range]', limit = 18) {
+    const target = document.querySelector(targetSelector);
     if (!target) return;
     const counts = new Map();
     for (const record of records) {
       const month = monthKey(record.publishedAt);
       if (month) counts.set(month, (counts.get(month) || 0) + 1);
     }
-    const months = [...counts.keys()].sort().slice(-18);
+    const observedMonths = [...counts.keys()].sort();
+    const months = [];
+    if (observedMonths.length) {
+      const first = observedMonths[Math.max(0, observedMonths.length - limit)];
+      const last = observedMonths[observedMonths.length - 1];
+      const cursor = new Date(`${first}-01T00:00:00Z`);
+      const end = new Date(`${last}-01T00:00:00Z`);
+      while (cursor <= end) {
+        months.push(`${cursor.getUTCFullYear()}-${String(cursor.getUTCMonth() + 1).padStart(2, '0')}`);
+        cursor.setUTCMonth(cursor.getUTCMonth() + 1);
+      }
+    }
     const max = Math.max(1, ...months.map((month) => counts.get(month)));
     target.replaceChildren();
+    target.style.setProperty('--chart-columns', String(months.length));
     for (const month of months) {
-      const value = counts.get(month);
+      const value = counts.get(month) || 0;
       const column = make('div', 'chart-column');
       column.setAttribute('aria-label', `${month} ${value}개`);
       const bar = make('span', 'chart-bar');
-      bar.style.setProperty('--bar-height', `${Math.max(5, value / max * 100)}%`);
+      bar.style.setProperty('--bar-height', `${value ? Math.max(5, value / max * 100) : 1}%`);
       bar.title = `${month}: ${number(value)}개`;
       column.append(bar, make('small', 'chart-value', number(value)), make('small', 'chart-month', month.slice(2).replace('-', '.')));
       target.append(column);
     }
-    const range = document.querySelector('[data-month-range]');
+    const range = document.querySelector(rangeSelector);
     if (range && months.length) range.textContent = `${months[0].replace('-', '.')} — ${months[months.length - 1].replace('-', '.')}`;
     if (!months.length) target.append(make('p', 'empty-message', '날짜를 확인할 수 있는 기록이 아직 없어요.'));
   }
@@ -235,13 +358,33 @@
         const element = document.querySelector(`[data-stat="${key}"]`);
         if (element) element.textContent = number(value);
       }
+      renderPlatformDistribution(viewRecords);
     }
 
     const stats = document.querySelector('[data-stats]');
     if (stats) renderCollectionStats(stats, viewRecords, stats.dataset.stats);
-    if (view === 'soop' || view === 'insights') renderMonthlyChart(viewRecords.filter((item) => item.sourceBatch === 'soop-public-catch-api-2026-10-31'));
+    if (view === 'soop' || view === 'insights') {
+      const catchRecords = viewRecords.filter((item) => item.contentType === 'catch' && item.sourceBatch === 'soop-public-catch-api-2026-10-31');
+      renderMonthlyChart(catchRecords);
+      if (view === 'soop') renderCatchRhythm(catchRecords);
+    }
     if (view === 'soop' || view === 'insights') renderInsights(records);
     if (view === 'youtube' || view === 'x') renderTagCloud(viewRecords, document.querySelector('[data-tag-cloud]'));
+    if (view === 'youtube') {
+      renderTypeDistribution(viewRecords, '[data-youtube-format]', [
+        { type: 'short', label: 'Shorts' },
+        { type: 'video', label: '동영상' }
+      ]);
+      renderViewRanking(viewRecords, view);
+    }
+    if (view === 'media') {
+      renderTypeDistribution(viewRecords, '[data-media-format]', [
+        { type: 'clip', label: '클립' },
+        { type: 'normal', label: '다시보기' }
+      ]);
+      renderViewRanking(viewRecords, view);
+    }
+    if (view === 'x') renderMonthlyChart(viewRecords, '[data-x-monthly-chart]', '[data-x-month-range]', 30);
 
     const list = document.querySelector('[data-record-list]');
     if (!list) return;

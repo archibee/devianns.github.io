@@ -32,6 +32,7 @@ let inertiaFrame = 0;
 let dragFrame = 0;
 let pendingDragEvent = null;
 let suppressFaceClick = false;
+let clickSuppressionTimer = 0;
 let lightFrame = 0;
 let latestLightPointer = null;
 
@@ -87,7 +88,8 @@ scene?.addEventListener('keydown', (event) => {
 });
 
 scene?.addEventListener('pointerdown', (event) => {
-  if ((event.pointerType === 'mouse' && event.button !== 0) || !cube) return;
+  if ((event.pointerType === 'mouse' && event.button !== 0) || event.isPrimary === false || !cube) return;
+  try { (event.target.closest('.cube-face') || scene).setPointerCapture(event.pointerId); } catch { /* The pointer may already have been cancelled. */ }
   cancelAnimationFrame(inertiaFrame);
   cancelAnimationFrame(dragFrame);
   dragFrame = 0;
@@ -156,7 +158,8 @@ function finishDrag(event) {
   }
 
   suppressFaceClick = true;
-  window.setTimeout(() => { suppressFaceClick = false; }, 0);
+  window.clearTimeout(clickSuppressionTimer);
+  clickSuppressionTimer = window.setTimeout(() => { suppressFaceClick = false; }, 450);
   cube?.classList.add('is-spinning');
   let velocityX = released.velocityX;
   let velocityY = released.velocityY;
@@ -190,6 +193,7 @@ scene?.addEventListener('click', (event) => {
   event.preventDefault();
   event.stopImmediatePropagation();
 }, true);
+scene?.addEventListener('contextmenu', (event) => event.preventDefault());
 
 cubeExperience?.addEventListener('pointermove', (event) => {
   if (event.pointerType === 'touch' || dragState) return;

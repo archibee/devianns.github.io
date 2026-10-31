@@ -503,3 +503,12 @@ body.home-page .site-shell, body.home-page #main { width: 100%; height: 100%; ov
   .face-front .face-title, .face-back .face-title { right: 14px; bottom: 59px; left: 14px; font-size: clamp(17px, 5vw, 22px); }
   .face-front .face-hint, .face-back .face-hint { right: 16px; bottom: 16px; left: 16px; }
 }
+
+/* Touch interaction stays focused on cube rotation, without browser tap/hover residue. */
+.cube-scene, .cube-face { -webkit-tap-highlight-color: transparent; -webkit-touch-callout: none; }
+.cube-face:focus, .cube-face:focus:not(:focus-visible) { outline: none; }
+.cube-face:focus-visible { outline: 1px solid #d9f6ffbd; outline-offset: -5px; }
+@media (hover: none), (pointer: coarse) {
+  .cube-face:hover { box-shadow: inset 1px 1px 0 #ffffff4d, inset -1px -1px 0 #c5ddff12, inset 0 0 45px #cff4ff08, 0 0 22px #b7e6ff14; }
+  .cube-face:hover::after { transform: translateX(-80%) rotate(9deg); }
+}

@@ -11,13 +11,13 @@ SOOP, YouTube 등 여러 플랫폼에서 활동한 기록을 한곳에 모아 �
 
 ## 현재 아카이브 화면
 
-메인 화면의 유리 큐브는 SOOP, YouTube, X, Community, Projects, 프로필 링크의 여섯 면을 각각 전용 정적 페이지에 연결합니다. SOOP 페이지는 캐치와 클립/VOD를 함께 보여줍니다. Community는 카페별 게시글 기록을 날짜·작성자·목록 수치로 살펴보며, 현재 데이터는 VLUP 카페 한 곳에서 모았습니다. Projects 페이지는 프로젝트 소개 JSON을 읽어 목적, 구현 방식, 사용 방법과 링크를 렌더링합니다. 모든 페이지의 상단바는 배경색·블러·테두리·그림자 없이 완전히 투명하게 표시합니다.
+메인 화면의 유리 큐브는 SOOP, YouTube, X, Community, Projects, 프로필 링크의 여섯 면을 각각 전용 정적 페이지에 연결합니다. SOOP 페이지는 캐치와 클립/VOD를 함께 보여줍니다. Community는 카페별 게시글 기록을 날짜·작성자·목록 수치로 살펴보며, 현재 데이터는 VLUP 카페 한 곳에서 모았습니다. Projects 페이지는 프로젝트 JSON을 읽어 소개와 관련 링크를 렌더링하며, 픽셀 도구와 함께 VLUP 팬게임 두 편을 별도 프로젝트로 소개합니다. 팬게임 카드에는 공식 카페 배포 안내와 가이드라인을 항상 가까이 표시하고, 게임 실행은 VLUP 카페 게시글을 통해 확인하도록 안내합니다. 모든 페이지의 상단바는 배경색·블러·테두리·그림자 없이 완전히 투명하게 표시합니다.
 
 | 화면 | 내용 |
 | --- | --- |
 | 메인 큐브 | 드래그·스와이프·방향키로 SOOP, YouTube, X, Community, Projects, 프로필 링크 면을 둘러봅니다. |
 | SOOP | 캐치·클립·VOD 기록, 유형 필터, 캐치 월별·요일별·시간대별 흐름, 검색 |
-| Projects | `database/projects/`의 프로젝트 JSON을 읽어 소개 카드 렌더링 |
+| Projects | 프로젝트 JSON 소개 카드. VLUP 팬게임 두 편은 원문 소개글과 GitHub 저장소, 공식 배포 지침을 함께 안내 |
 | YouTube | Shorts/동영상 분포, 기록된 조회수 상위 항목, 태그와 형식 필터 |
 | X | 확인된 게시물의 월별 흐름, 태그와 본문 검색 |
 | Community | 카페별 게시글의 월별·작성자별 수, 수집 당시 목록 조회 수, 제목·본문 검색. 카드에서 원문 링크와 저장된 본문 열기를 각각 선택할 수 있습니다. 현재 등록된 카페는 VLUP입니다. |
@@ -62,6 +62,7 @@ SOOP, YouTube 등 여러 플랫폼에서 활동한 기록을 한곳에 모아 �
 - `community.html`: VLUP 카페 게시글 커뮤니티 기록과 시각화
 - `projects.html`, `projects-app.js`: 프로젝트 소개 페이지와 JSON 렌더러
 - `database/projects/`: 프로젝트 소개 JSON과 정적 목록
+- `database/projects/guidelines/vlup-fangame-guideline.json`: 두 팬게임 카드에 연결되는 공식 카페 배포 지침 요약과 원문 링크
 - `platforms.html`: 원본 플랫폼 계정 링크 페이지
 - `styles.css`: 반응형 레이아웃과 별빛/유리 질감 스타일
 - `subpages.css`: 하위 페이지 공통 스타일

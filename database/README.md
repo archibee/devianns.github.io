@@ -12,6 +12,7 @@
 - `soop/catches/relative-or-unknown-date/`: 상대 시각만 확인되는 캐치
 - `soop/clips/YYYY/MM/`, `soop/vods/YYYY/MM/`: SOOP 방송국 목록의 클립 및 일반 VOD
 - `naver-cafe/<cafe-slug>/posts/YYYY/MM/`: 카페별 공개 목록에서 확인한 게시물 메타데이터. 현재 `vlup/`만 있으며 게시물 하나당 JSON 파일 하나
+- `projects/`: `catalog.json`에 나열된 프로젝트 카드 데이터. 프로젝트 설명 파일 하나당 프로젝트 하나이며, 공유 가이드라인은 `projects/guidelines/`에 별도 정적 JSON으로 둡니다.
 - `catalog.json`: 기록 파일에서 화면에 필요한 필드만 모은 정적 검색·시각화 색인
 
 ## 필드 처리
@@ -31,6 +32,13 @@
 - 활동 데이터에는 플랫폼 로고, 썸네일, 영상, HTML 복사본, 플랫폼 소유 이미지를 저장하지 않습니다.
 - YouTube 레코드는 공개 목록에서 읽은 ID와 링크를 원래 제목 기록에 연결합니다. `latestListingObservation`은 조회수 원문, 대략 환산값, 가능한 상대 게시 시각과 길이를 수집 당시 스냅샷으로 보존합니다.
 - 카탈로그를 새로 만들 때는 `database/platforms/` 계정 스냅샷 및 기존 `catalog.json`을 입력으로 다시 포함하지 않습니다. 활동 JSON만 대상으로 하며 플랫폼별 / 유형별 분류를 유지합니다.
+
+## Projects 데이터
+
+- `database/projects/catalog.json`은 Projects 페이지에서 보여줄 프로젝트 JSON 경로를 나열합니다. `projects-app.js`가 각 경로를 읽어 카드로 렌더링합니다.
+- 각 프로젝트 파일에는 소개, 기능, 제작 방식, GitHub 저장소 링크와 출처 게시글 정보를 둡니다. 팬게임 프로젝트는 `guidelinePath`로 공통 지침 파일을 연결하며, 카페 게시글 URL은 배포 안내 경로로만 사용합니다.
+- 배포 조건이 제한된 팬게임의 경우 프로젝트 카드에 중요한 배포 안내를 보이고, 공식 가이드라인 원문으로 이동할 수 있게 합니다. 외부 호스팅의 실행 주소를 배포 링크처럼 표시하지 않습니다. 가이드라인의 요약에는 출처와 최신 공식 원문 확인 필요성을 함께 기록합니다.
+- 프로젝트 소개 데이터는 Community 게시글 활동 기록과 별개입니다. 참조로 사용한 카페 글을 프로젝트 JSON에 정리하며, 이를 위해 별도의 중복 Naver Cafe 활동 레코드를 추가하지 않습니다.
 
 첫 번째 자료 배치 및 추출 범위는 [source/1 가져오기 요약](../docs/imports/source-1-summary.md)에 기록했습니다.
 

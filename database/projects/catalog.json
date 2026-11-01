@@ -1,5 +1,7 @@
 {
   "projects": [
+    "./star-savior-sitry.json",
+    "./sugar-chami-lab.json",
     "./pixel-studio.json",
     "./pixel-motion-studio.json"
   ]

@@ -20,7 +20,7 @@ Dahlia Archive는 SOOP, YouTube, X, Naver Cafe에 남은 활동의 흔적을 링
 | `community.html` | 카페별 커뮤니티 기록 | 카페 선택으로 전체 카페 또는 한 카페의 글을 보여줍니다. 월별·닉네임별 게시 수와 수집 당시 목록 조회 수 상위 5개, 제목·본문·작성자·카페 검색을 제공합니다. 각 카드에서 카페 원문 또는 저장된 본문 텍스트를 열 수 있습니다. 현재 등록된 카페 데이터는 VLUP 한 곳입니다. |
 | `media.html` | SOOP 클립·VOD | 유형별 기록 수, 저장된 조회수 상위 5개, 검색과 클립·다시보기 필터를 제공합니다. 별도 원본 목록 링크도 둡니다. |
 | `about.html` | 활동 기록 요약 | SOOP 캐치 월별 추이와 반복 제목·태그 등 플랫폼 간 요약 인사이트를 보여줍니다. |
-| `projects.html` | 프로젝트 소개 | `database/projects/catalog.json`을 읽어 프로젝트별 JSON 소개 카드와 배포·GitHub 링크를 표시합니다. |
+| `projects.html` | 프로젝트 소개 | `database/projects/catalog.json`을 읽어 프로젝트별 JSON 소개 카드와 관련 링크를 표시합니다. 픽셀 도구와 VLUP 팬게임 두 편이 있으며, 팬게임 카드에는 카페 배포 안내와 공식 가이드라인 링크가 함께 나옵니다. |
 | `platforms.html` | 플랫폼 계정 링크 | YouTube, X, SOOP의 계정 페이지로 이동합니다. 활동별 기록 링크와는 별도입니다. |
 | `404.html` | 없는 주소 안내 | 정적 호스팅용 오류 페이지이며 검색 색인 대상에서 제외합니다. |
 
@@ -37,6 +37,7 @@ script.js                  모바일 메뉴, 큐브 조작, 현재 연도 표기
 archive-app.js             정적 카탈로그 로드, 페이지별 집계·시각화·검색·필터·카드
 community.html             카페별 게시글 메타데이터·저장 본문 아카이브
 projects-app.js            프로젝트 소개 JSON 로드 및 카드 렌더링
+database/projects/         프로젝트 카드 JSON과 공통 지침 자료
 database/                  개별 활동 JSON, 계정 JSON, 프로젝트 JSON, 화면용 카탈로그
 dahlia-images/             큐브와 상세 페이지에서 쓰는 사용자 제공 이미지
 docs/                      사이트 구조, 스크랩 관찰, 배치별 수집 메모
@@ -64,12 +65,15 @@ community.html (data-view="community") → catalog의 cafeId/cafeName으로 선�
                                       → 월별/카페/닉네임/목록 조회수 시각화
 
 database/projects/catalog.json → 프로젝트 JSON 파일 → projects-app.js → 소개 카드
+                         ↘ guidelinePath → 공유 가이드라인 JSON → 팬게임 배포 안내/요약
 ```
 
 - 활동 JSON 한 파일은 활동 흔적 하나를 나타냅니다. 원본 미디어 파일이 아닙니다.
 - `database/platforms/*.json`은 사용자가 제공한 계정 링크와 프로필 정보를 보관하고 활동 레코드와 구분합니다.
 - `database/catalog.json`은 저장소 디렉터리를 브라우저에서 열거할 수 없는 정적 호스팅 환경을 위한 화면용 색인입니다. 개별 활동 JSON의 모든 상세 필드를 복제하는 별도 데이터베이스가 아닙니다.
-- `database/projects/catalog.json`은 프로젝트 소개 JSON 경로를 나열합니다. 프로젝트마다 별도 파일을 두며, 페이지가 각 파일을 읽어 소개 카드를 만듭니다. 등록된 각 프로젝트에는 목적, 구현 방식, 사용 방법과 링크가 담깁니다.
+- `database/projects/catalog.json`은 프로젝트 소개 JSON 경로를 나열합니다. 프로젝트마다 별도 파일을 두며, 페이지가 각 파일을 읽어 소개 카드를 만듭니다. 등록된 각 프로젝트에는 목적, 구현 방식, 사용 방법과 링크가 담깁니다. VLUP 팬게임은 카페 소개 게시글과 GitHub 저장소를 각각 연결하고, 공통 지침 JSON을 함께 불러옵니다.
+- 팬게임 프로젝트는 Community 게시물 목록이 아니라 Projects 카드 데이터입니다. `cafePostUrl`은 V-LUP 공식 카페의 소개·배포 안내 게시글로 연결하고, `githubUrl`은 소스 저장소로 연결합니다. 외부 호스팅 실행 URL은 사용하지 않습니다.
+- 두 팬게임 카드에는 공식 카페에서만 무료 배포한다는 주의 문구, 가이드라인 요약을 펼쳐 읽는 UI, 원문 링크를 둡니다. 요약은 `database/projects/guidelines/vlup-fangame-guideline.json`에 모으며, 저장소에 공개된 지침 사본을 참고해 정리했습니다. 공식 원문은 그 파일의 출처 링크를 통해 확인하도록 하고, 사이트 요약이 최신성이나 사전 승인을 보증하지 않는다고 표시합니다.
 - Community 페이지는 카탈로그에 있는 Naver Cafe 기록의 `cafeId`·`cafeName`에서 선택 목록을 만들고 전체 또는 한 카페로 필터합니다. 현재 카탈로그 데이터는 ID `30653039`인 VLUP 기록뿐입니다. 작성자 닉네임별 건수와 게시월 추이, 수집 당시 목록 조회 수 상위 항목을 실제 저장값으로 그립니다. 카드에는 카페 원문 링크와 저장 본문 열기 버튼이 함께 있고, 본문 대화상자는 일반 텍스트와 URL 참조를 보여줍니다.
 - 지금은 사이트 실행이나 배포 과정에서 카탈로그를 생성하지 않습니다. 활동 파일을 추가·수정하면 해당 정적 카탈로그도 함께 갱신해야 합니다. 자동화는 향후 로컬 보조 스크립트로 고려할 수 있으나 현재 동작에는 포함되지 않습니다.
 - 활동별 원본 URL이 제공 자료에 있거나 수집 시점에 확인 가능했다면 레코드와 카탈로그에 보존합니다. 계정/목록 링크는 활동 링크를 대신하지 않습니다. 당시 개별 링크를 확인할 수 없으면 `url: null`로 남기고 추측으로 만들지 않습니다.
@@ -106,6 +110,7 @@ Community 화면은 동일 앱에서 Naver Cafe 플랫폼과 선택된 `cafeId`�
 - [`README.md`](../README.md): 방문자/기여자에게 사이트 목적과 현재 페이지 구성을 소개합니다.
 - [`AGENTS.md`](../AGENTS.md): 이후 구현자가 지켜야 하는 배포·데이터·비주얼 원칙 및 코드 작업 지침입니다.
 - [`database/README.md`](../database/README.md): 활동 파일 경로와 메타데이터·URL 처리 규칙입니다.
+- [`docs/imports/vlup-fangame-projects-2026-11-01.md`](imports/vlup-fangame-projects-2026-11-01.md): Projects에 등록한 VLUP 팬게임 2편과 가이드라인 출처·배포 조건 요약입니다.
 - [`docs/social-scrape-observations.md`](social-scrape-observations.md), [`docs/imports/`](imports/): 스크랩 관찰과 개별 데이터 수집 배치의 범위·한계입니다.
 
 ## VLUP Naver Cafe 데이터 현황

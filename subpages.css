@@ -46,6 +46,8 @@ body.archive-page { min-height: 100vh; background: #080a24; overflow-x: hidden; 
 .platform-soop { border-color: #a7edff40; color: #b8f2ff; }
 .platform-youtube { border-color: #ffc2df4a; color: #ffd4e5; }
 .platform-x { border-color: #c2caff45; color: #d9dcff; }
+.platform-naver-cafe { border-color: #b8f4d54a; color: #c8f6df; }
+.record-author { padding: 4px 7px; border: 1px solid #dce8ff1c; color: #c7d4f0; font-size: 8px; }
 .type-pill { border-color: transparent; color: #a8b1ce; }
 .record-date { margin-left: auto; color: #9ea9c7; font-size: 8px; }
 .record-title { margin: 18px 0 0; color: #f3f1ff; font-family: var(--serif); font-size: 17px; font-weight: 400; line-height: 1.62; overflow-wrap: anywhere; }
@@ -140,6 +142,7 @@ body.archive-page { min-height: 100vh; background: #080a24; overflow-x: hidden; 
 .filter-chip, .cloud-tag, .search-field { border-color: #dce8ff27; background: #e6efff06; }
 .source-card-icon, .platform-symbol { border-color: #daedff48; background: linear-gradient(145deg, #e5f4ff18, #d8edff06); box-shadow: inset 1px 1px 8px #fff2, 0 0 20px #a7dcff14; }
 .collection-heading h1 { text-shadow: 0 3px 28px #080a2470; }
+.community-data-note { margin: 18px 0 0; color: #9eaccb; font-size: 9px; line-height: 1.75; }
 
 .archive-overview, .stat-card, .record-card, .glass-section, .insight-card, .feature-band, .platform-card, .source-card, .source-principle, .access-note {
   border-color: #e3eeff30;

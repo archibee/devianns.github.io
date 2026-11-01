@@ -1,7 +1,7 @@
 {
   "name": "Dahlia 커뮤니티 기록",
   "short_name": "Dahlia",
-  "description": "SOOP, YouTube, X에 남긴 달리아의 활동 기록을 둘러보세요.",
+  "description": "SOOP, YouTube, X와 커뮤니티에 남긴 달리아의 활동 기록을 둘러보세요.",
   "lang": "ko-KR",
   "start_url": "./",
   "scope": "./",

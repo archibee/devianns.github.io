@@ -23,7 +23,7 @@
 - 큐브 뒷면의 이미지 면은 정면 프로필 면과 동일한 풀블리드 이미지, 부드러운 모서리 페이드, 인덱스/제목/힌트 위치를 쓴다. 일반 아이콘 면과 다른 카드형 구성을 적용하지 않는다.
 - PC, 태블릿, 모바일에서 레이아웃과 텍스트가 자연스럽게 재배치되도록 구현한다. 작은 화면에서 가로 넘침이 생기지 않게 한다.
 - 메인 페이지는 한 화면짜리 큐브 허브다. PC/모바일 모두 첫 화면에서 스크롤이 생기지 않도록 뷰포트 높이에 맞추고, 짧은 가로 화면에서도 큐브를 축소해 모두 보이게 한다.
-- 큐브의 다섯 면은 SOOP 기록(`memories.html`, 캐치·클립·VOD 통합), YouTube(`youtube.html`), X(`x-archive.html`), Projects(`projects.html`), 프로필 링크(`platforms.html`)로 이동한다. 남은 한 면은 쓸 목적이 생기기 전까지 비워 둔다. `archive.html`, `media.html`, `about.html`은 직접 접근 가능한 보조 기록 페이지로 남으며 큐브 면을 차지하지 않는다.
+- 큐브 여섯 면은 SOOP 기록(`memories.html`, 캐치·클립·VOD 통합), YouTube(`youtube.html`), X(`x-archive.html`), Community(`community.html`, 현재 VLUP Naver Cafe 기록), Projects(`projects.html`), 프로필 링크(`platforms.html`)로 이동한다. 큐브 면을 비워 두지 않는다. `archive.html`, `media.html`, `about.html`은 직접 접근 가능한 보조 기록 페이지로 남는다.
 
 ## 아카이브 데이터와 링크
 
@@ -51,7 +51,7 @@
 - 사이트는 단순한 파일 목록이 아니라 세련되고 시각적으로 매력적인 커뮤니티 활동 아카이브로 구성한다.
 - 첫 화면 중앙의 크고 투명한 유리 큐브를 주요 시각 정체성이자 탐색 오브젝트로 삼는다. CSS 3D 회전, 투명한 그라데이션, 얇은 반사 테두리와 정적인 하이라이트로 유리 느낌을 만든다.
 - 첫 진입은 완전한 정면 대신 정면 면에 옆면과 윗면이 살짝 드러나는 자연스러운 3/4 각도로 시작한다. 윗면이 보이도록 살짝 내려다보는 방향을 기본으로 한다.
-- 큐브의 앞·뒤·좌·우·윗면·아랫면을 모두 사용할 수 있게 한다. 마우스/터치 드래그로 yaw/pitch 두 축을 연속 회전하고, 손을 떼면 두 축 모두 관성으로 부드럽게 감속한다. 목적이 있는 다섯 면은 각각 링크를 가지며, 빈 면은 링크가 없다. 링크 면은 탭/클릭과 키보드 방향키로 탐색할 수 있다. 큐브 주변에 별도 방향 버튼은 두지 않는다.
+- 큐브의 앞·뒤·좌·우·윗면·아랫면을 모두 사용할 수 있게 한다. 마우스/터치 드래그로 yaw/pitch 두 축을 연속 회전하고, 손을 떼면 두 축 모두 관성으로 부드럽게 감속한다. 여섯 면은 SOOP, YouTube, X, Community, Projects, 프로필 링크로 이동한다. 링크 면은 탭/클릭과 키보드 방향키로 탐색할 수 있다. 큐브 주변에 별도 방향 버튼은 두지 않는다.
 - 유리 큐브는 투명하고 부드러운 면, 은은한 테두리/반사광을 우선한다. 반짝임과 애니메이션은 세련된 분위기를 돕는 정도로 조절하고 과도한 장식은 피한다.
 - 모션은 빠르게 튀지 않게 긴 ease-out 전환과 완만한 감속을 사용한다. 첫 화면에서 큐브와 장식의 무한 애니메이션, 큐브 면의 backdrop blur, pointermove 기반 조명·합성 효과를 사용하지 않는다. 성능을 위해 프레임마다 blur, filter, 넓은 box-shadow를 애니메이션하지 말고, 필요한 드래그 이벤트만 requestAnimationFrame 단위로 합친다.
 - 앱처럼 의도한 컨트롤과 링크 중심으로 동작하게 한다. 페이지의 텍스트 선택과 네이티브 텍스트/이미지 드래그는 막고, 큐브 조작과 명시적인 탐색 링크는 유지한다. 브라우저/OS의 `prefers-reduced-motion` 설정은 이 사이트 애니메이션에 적용하지 않는다.
@@ -67,18 +67,21 @@
 - 읽기 쉬운 HTML, CSS, JavaScript와 명확한 정적 데이터 형식을 우선한다.
 - 접근성을 위해 의미 있는 HTML 요소, 키보드 조작, 충분한 대비, 이미지 대체 텍스트를 고려한다.
 - 불필요한 외부 의존성과 추적 코드를 추가하지 않는다.
-- 기록 화면은 `archive.html`, `memories.html`, `youtube.html`, `x-archive.html`, `media.html`, `about.html` 및 공통 `archive-app.js`로 구성한다. 각 화면은 `data-view`에 따라 정적 카탈로그를 필터하고, 검색, 적절한 메타데이터, 원본 플랫폼 링크, 화면 크기에 맞는 차트를 제공한다.
+- 기록 화면은 `archive.html`, `memories.html`, `youtube.html`, `x-archive.html`, `community.html`, `media.html`, `about.html` 및 공통 `archive-app.js`로 구성한다. 각 화면은 `data-view`에 따라 정적 카탈로그를 필터하고, 검색, 적절한 메타데이터, 원본 플랫폼 링크, 화면 크기에 맞는 차트를 제공한다.
 - Projects 소개 화면은 `projects.html`과 `projects-app.js`로 구성하며, 프로젝트별 JSON을 `database/projects/catalog.json`에 나열해 정적으로 불러온다.
-- 기록 화면의 시각화는 각 플랫폼에서 확인할 수 있는 실제 필드만 사용한다. 전체 기록은 플랫폼 분포, SOOP 캐치는 월별·요일별·시간대별 흐름, YouTube는 형식별 수와 조회수 순위, X는 월별 게시 흐름, SOOP 클립/VOD는 유형별 수와 조회수 순위를 보여줄 수 있다. 누락 날짜나 수치는 추정해 채우지 않는다.
+- 기록 화면의 시각화는 각 플랫폼에서 확인할 수 있는 실제 필드만 사용한다. 전체 기록은 플랫폼 분포, SOOP 캐치는 월별·요일별·시간대별 흐름, YouTube는 형식별 수와 조회수 순위, X는 월별 게시 흐름, Community는 월별·닉네임별 게시 수와 관측된 목록 조회 수 순위, SOOP 클립/VOD는 유형별 수와 조회수 순위를 보여줄 수 있다. 누락 날짜나 수치는 추정해 채우지 않는다.
 - 활동 데이터와 시각화는 `database/catalog.json`에서 읽는다. 브라우저 저장/수정 기능, 서버/API 호출, 플랫폼 콘텐츠 미러링을 추가하지 않는다. 프로필 링크 페이지는 `platforms.html`을 유지한다.
+- Community 화면은 `body[data-view="community"]`로 카탈로그의 Naver Cafe 레코드를 현재 선택된 `data-cafe-id`에 한정해 읽는다. 현재 VLUP (`30653039`)만 표시하고, 월별 게시글 수, 작성 닉네임별 건수, 수집 당시의 목록 조회 수 상위 기록을 시각화한다. cafeId가 다른 카페가 데이터에 추가되더라도 이 페이지에 섞지 말고 별도 카페 선택/페이지 설계를 요청받을 때 연결한다.
+- Community 카드에는 작성자 닉네임과 `listingMetrics`를 표시할 수 있다. 카페 목록 지표에는 수집 시점 안내를 함께 두며 현재 수치처럼 설명하지 않는다. 원문 URL이 있는 카드만 외부 카페 글로 연결하고, 본문·첨부 미디어를 임의로 가져오거나 재생하지 않는다.
 - 카탈로그 생성이나 갱신을 위한 로컬 보조 스크립트를 추가할 수 있지만, 데이터 생성이 사이트 실행이나 GitHub Pages 배포를 막지 않게 한다. GitHub Actions와 배포용 빌드 로직은 추가하지 않는다.
 - 작업을 마치면 변경 파일과 확인한 내용을 사용자에게 간단히 알린다.
 
 ## 현재 구현 기준
 
-- `index.html`은 메인 큐브만 제공하고 `script.js`가 메뉴와 큐브 인터랙션을 처리한다. 큐브 다섯 면은 SOOP(`memories.html`), YouTube(`youtube.html`), X(`x-archive.html`), Projects(`projects.html`), 프로필 링크(`platforms.html`)에 연결되고 한 면은 비워 둔다. `platforms.html`은 세 계정 링크를 HTML에 직접 담은 독립 페이지다.
+- `index.html`은 메인 큐브만 제공하고 `script.js`가 메뉴와 큐브 인터랙션을 처리한다. 큐브 여섯 면은 SOOP(`memories.html`), YouTube(`youtube.html`), X(`x-archive.html`), Community(`community.html`), Projects(`projects.html`), 프로필 링크(`platforms.html`)에 연결된다. `platforms.html`은 세 SNS 계정 링크를 HTML에 직접 담은 독립 페이지다.
 - 상세 기록 페이지는 `body[data-view]`로 화면 종류를 선언한다. `archive-app.js`가 `./database/catalog.json`을 한 번 읽고 화면에 필요한 통계, 차트, 검색 결과와 기록 카드를 생성한다. 페이지 진입 후 데이터를 새로고침하거나 플랫폼에서 실시간으로 가져오지 않는다.
 - Projects 화면은 `database/projects/catalog.json`에서 JSON 경로를 읽고 각 프로젝트 소개를 카드로 렌더링한다. 현재 등록된 Pixel Studio와 Pixel Motion Studio의 배포·GitHub 링크, 목적, 구현 방식, 사용 방법을 제공한다.
+- Community 화면은 정적 `database/catalog.json`에서 카페 ID `30653039`에 속한 VLUP 게시글만 읽어 날짜 내림차순으로 렌더링한다. 월별 기록 수, 네 닉네임별 기록 수, 수집 당시 조회 수 상위 5개와 제목·작성자 검색을 제공한다. 원문은 각 카드에서 Naver Cafe로 열며 사이트에는 게시물 본문이나 이미지가 저장되지 않는다.
 - 목록 검색은 제목·본문·태그를 대상으로 하고, 필터는 해당 화면에 지정된 플랫폼/유형을 기준으로 적용한다. 최초 24개 항목을 표시하며 더 보기로 24개씩 늘린다. 카드의 원본 링크는 새 탭으로 열리고 URL이 없는 카드는 링크 부재 문구를 보여준다.
 - 시각화 범위와 필드는 실제 카탈로그에 있는 데이터로 한정한다. 날짜·시간·조회수·반응이 없으면 임의의 값이나 시점을 만들지 않는다. 조회수 순위는 저장된 관측값으로 계산하며 현재 플랫폼 수치가 아니다.
 - 공통 메뉴·브랜드·카드 외관은 HTML과 `styles.css`/`subpages.css`로 구현한다. 라이브러리나 빌드 도구 없이 기본 JavaScript와 CSS를 사용한다. 다만 웹 글꼴은 Google Fonts에서 불러온다.
@@ -86,7 +89,7 @@
 - 브라우저에서 catalog를 읽으므로 `file://` 직접 열기는 지원하지 않는다. Pages나 로컬 HTTP 서버에서 동작을 확인한다. 사이트 구조·현재 페이지 설명을 바꾸면 `README.md`와 `docs/site-architecture.md`도 함께 정리한다.
 
 
-## 현재 보류된 Naver Cafe 화면 연결
+## Naver Cafe 기록 화면
 
 - `database/naver-cafe/vlup/posts/YYYY/MM/`에는 사용자가 동일 Dahlia 계정의 닉네임 변경 이력이라고 확인한 `꼬리리`, `망초써`, `망초`, `힝구링이`의 공개 검색 목록 메타데이터 177건이 있다. 개별 게시물 URL과 원본 표시 닉네임을 보존하며 본문·요약·첨부 미디어는 저장하지 않는다. 세부 출처와 수집 범위는 `docs/imports/naver-cafe-vlup-2026-11-01.md`를 참고한다.
-- 이 기록은 현재 `database/catalog.json`에 투영되어 있으나 기존 페이지 필터와 시각화는 Naver Cafe를 지원하지 않으므로 방문자 UI에는 아직 노출되지 않는다. Naver Cafe 전용 페이지 및 빈 큐브 면 연결은 사용자가 후속 구현을 요청할 때 진행한다. 이 데이터 축적만을 이유로 페이지나 큐브 동작을 변경하지 않는다.
+- 위 기록은 `community.html`에 연결되어 공개 목록 메타데이터로 표시된다. 본문을 추가하는 후속 작업이 생기면 공개 접근 가능 여부를 확인한 뒤 텍스트와 원문 링크만 기록하고, 이미지·영상 등 미디어 파일은 복제하지 않는다.

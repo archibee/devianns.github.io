@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "라스트댄스 주인님 움짤 !",
-    "text":  null,
     "publishedAt":  "2025-01-09",
     "publishedTimeRaw":  "2025-01-09T22:19:04.930",
     "sourceTimezone":  null,
@@ -31,5 +30,36 @@
     "sourcePage":  1,
     "sourcePosition":  13,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/01/naver-cafe-vlup-post-29779.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/01/naver-cafe-vlup-post-29779.json",
+    "text":  "너무 최고였어요... 💖",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTAxMDlfMjkx/MDAxNzM2NDI4NTA2NzAw.lEXQGX8F4eqkkCGQGDeZ3kgfTUjE_W__fm1mlLGGa7Ug.4B_tTZCWU4kld3oYiX5_BvtLMJzCYLDz-XbND-z0am0g.GIF/Animation208.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTAxMDlfMTI5/MDAxNzM2NDI4NDczMzg2.GFkVGEgQNTM3Uqjm7_9LWGtMtqmTysFAc7W8EzH71zwg.YDrHH-xvjUvU8XY8V4ZQWBrbtptGGF5loBdQoZhEC8cg.GIF/Animation204.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTAxMDlfMjEx/MDAxNzM2NDI4NTE5MTU4.G_Aa7KjyAPUCuqk0KEOqCYfbi_8SAQdWnzIZ1AqMxrwg.CYlMNNQfl7Uirx6qVav-dMOyO3JMs--4lvkTIjtJ4Vkg.GIF/Animation209.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTAxMDlfMjg2/MDAxNzM2NDI4NDg0MTUw.l54l_JC3vJnnZN7Yr-AH2XiUnbi-d_k_cpxUR2T8QM0g.NdwYXyfZJY_dlvDdEmJKm38oa8H6Mkrd2O-Yffl-1iYg.GIF/Animation205.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 5",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_5.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

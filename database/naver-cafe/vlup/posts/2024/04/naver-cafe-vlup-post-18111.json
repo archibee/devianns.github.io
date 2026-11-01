@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "이때 주인님 진자 너무 이쁘다",
-    "text":  null,
     "publishedAt":  "2024-04-04",
     "publishedTimeRaw":  "2024-04-04T19:11:52.420",
     "sourceTimezone":  null,
@@ -31,5 +30,12 @@
     "sourcePage":  7,
     "sourcePosition":  7,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/04/naver-cafe-vlup-post-18111.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/04/naver-cafe-vlup-post-18111.json",
+    "text":  "6개월전 뽀뽀+과일 asmr\n이게어케 고양이..! 그냥 여신인데수...\n고양이안대 진짜 찰떡 귀염에 마음 편안해져서 바로꿀잠가능\n상냥한 주인님한테 오늘도 츄로스 머리리 뿌서져어엇",
+    "bodyLinks":  [
+
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

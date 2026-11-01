@@ -9,7 +9,6 @@
     "authorNickname":  "꼬리리",
     "authorGroup":  "dahlia",
     "title":  "메스가키 사토링",
-    "text":  null,
     "publishedAt":  "2026-10-16",
     "publishedTimeRaw":  "2026-10-16T22:16:14.747",
     "sourceTimezone":  null,
@@ -31,5 +30,46 @@
     "sourcePage":  1,
     "sourcePosition":  4,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2026/10/naver-cafe-vlup-post-40632.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2026/10/naver-cafe-vlup-post-40632.json",
+    "text":  "메스가키 사토링\n구름나라로 돌아갔대...",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://pbs.twimg.com/media/HUwM6jdbEAA-uOA?format=png\u0026name=360x360",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://pbs.twimg.com/media/HUwNQSSbAAAb87B?format=png\u0026name=360x360",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://pbs.twimg.com/media/HUwNbTKaIAAOXCA?format=png\u0026name=360x360",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://pbs.twimg.com/media/HUwNgKjbkAAjkvA?format=png\u0026name=360x360",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 5",
+                          "url":  "https://pbs.twimg.com/media/HUwL6KFbwAAqNHJ?format=jpg\u0026name=small",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 6",
+                          "url":  "https://pbs.twimg.com/media/HUwPBd5aYAAbs_a?format=png\u0026name=360x360",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 7",
+                          "url":  "https://pbs.twimg.com/media/HUwPD-abkAA5iMy?format=png\u0026name=360x360",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

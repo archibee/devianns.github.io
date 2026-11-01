@@ -8,8 +8,7 @@
     "platformId":  "23728",
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
-    "title":  "유튭노래뱅 즐거웠어요 \u0026gt;~\u0026lt; 후기",
-    "text":  null,
+    "title":  "유튭노래뱅 즐거웠어요 \u003e~\u003c 후기",
     "publishedAt":  "2024-07-30",
     "publishedTimeRaw":  "2024-07-30T22:19:33.330",
     "sourceTimezone":  null,
@@ -31,5 +30,21 @@
     "sourcePage":  5,
     "sourcePosition":  5,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/07/naver-cafe-vlup-post-23728.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/07/naver-cafe-vlup-post-23728.json",
+    "text":  "저녁노래뱅 넘 즐거운 시간이었습니다 \u003eㅁ\u003c\n마지막쯤에 불러주신 영화 엔딩곡? 인가 첨 불러보셨다구 한 노래\n주인님한테 첨 들어봤는데 잘어울리고 노래도 너무 좋았어요!!!!\n주인님한테 처음 들어본 노래들은 원곡 들었다가도\n주인님 버전으로 들을때 뭔가 더 좋아서 주인님노래로 찾아서 듣고있어요!\n목아프다구 하셨지만 노래는 정말 잘 들었어요\n목이 아프지 않게 주푹쉬(주인님푹쉬어주세요) 부탁드립니다\n주바주바입니다~!!",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA3MzBfMTk3/MDAxNzIyMzQ1MDk5OTc0.F4Vx6v6SrDbKtL4bjmrbZtPZ5PM7aE5vm4PkYu5Wiggg.43hrRlgsg0tlc93s3EgqzXlpaJ7DFGtg7hFENEh173kg.GIF/240730_jooin_noraebang_1.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA3MzBfMjg3/MDAxNzIyMzQ1NTA4NjYy.wMC2M-EqoehzniiRW0cCOjVblpvbmfyt7lmkvDUBLSwg.q7PH51SS9MAbHQpsQ65NGRAO6vVQqNq8yGQE-_Eu3HUg.GIF/240730_jooin_noraebang_2.gif?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

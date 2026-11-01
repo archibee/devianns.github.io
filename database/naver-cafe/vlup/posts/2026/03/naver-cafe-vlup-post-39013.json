@@ -9,7 +9,6 @@
     "authorNickname":  "꼬리리",
     "authorGroup":  "dahlia",
     "title":  "시트리 같은그림 맞추기 게임",
-    "text":  null,
     "publishedAt":  "2026-03-01",
     "publishedTimeRaw":  "2026-03-01T15:04:12.717",
     "sourceTimezone":  null,
@@ -31,5 +30,26 @@
     "sourcePage":  2,
     "sourcePosition":  11,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2026/03/naver-cafe-vlup-post-39013.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2026/03/naver-cafe-vlup-post-39013.json",
+    "text":  "🌿 포토 메모리 매치 [시트리]\n시트리 같은그림 맞추기\n클리어 기록 가능\n아주 간단한 시트리 팬게임입니다 ^.^",
+    "bodyLinks":  [
+                      {
+                          "label":  "🌿 포토 메모리 매치 [시트리]",
+                          "url":  "https://photo-matching-game.vercel.app/",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMDFfMjUg/MDAxNzcyMzQ4MjA3NDY0.fe0jXcQHoOb0qjr5bWVbRTsSebZzUjSpQCGQ3n3PheEg.NEZVkyzCSF0IfQYLjb7iqb7E19SP8ipfZNCq2rBt8uUg.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMDFfNzQg/MDAxNzcyMzQ0MzE4NjY0.S5UnOUnCmcuJwDqjwZTKF6g8G5_4GW_2xkmM5MYVYyUg.Yvi2cP9yXugOcEOWpYSy90Lpf5Q0826dKcXhMB-APwUg.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

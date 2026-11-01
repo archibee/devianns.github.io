@@ -9,7 +9,6 @@
     "authorNickname":  "망초",
     "authorGroup":  "dahlia",
     "title":  "손마이크 잔잔뱅 후기",
-    "text":  null,
     "publishedAt":  "2025-07-01",
     "publishedTimeRaw":  "2025-07-01T23:26:46.320",
     "sourceTimezone":  null,
@@ -31,5 +30,36 @@
     "sourcePage":  1,
     "sourcePosition":  15,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/07/naver-cafe-vlup-post-35230.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/07/naver-cafe-vlup-post-35230.json",
+    "text":  "주인님은최고이다\n주인님은예쁘게말해주고에라이하고에모이할때도사랑한다고해줘서\n정말사랑스러운고양이님이다\n아..\n여름이엇다\n주인님너무 사랑 \u003e\u003c\n최고에욥",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA3MDFfODEg/MDAxNzUxMzc5NTYyMTQ3.Piq8VuvuYHxKRvehwX6pYEoVB-0C3o4eGD_lo84C2DAg.fIKhALLJQXSAdInJd1Pz8Dg1QGR4nyibOHmgnYTLhngg.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA3MDFfMzQg/MDAxNzUxMzc5NTg2MzUy.SgHo2SKYiTy3-iZJ3Gq9P9GlETsmy4-rYAj9vKVccDMg.GCZAAD7Zz9tv2NUBkzbF8Nvmh-VN2cYpitQavwLR83Yg.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA3MDFfMjU0/MDAxNzUxMzc5NTk5MzA0.y-3SnAHxgvByIMrqh62QjN1Az8wyn4wf0YaBqIc_Y0og.IXZriI8xn6SAHCIlVdXDHtAyzLuz5ki_XyZs1W0G7zIg.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA3MDFfMjEg/MDAxNzUxMzc5NjExMDcw.iKk0tNfoJ9rCB6xBsrV_6NPMtjdYOgZ0ZeHaUr2Qr3Mg.Jx7OY4t11X0B9quVwUFbyckli05xDLsH818mQs3XNHog.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 5",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_636914e64f65a/original_10.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "귀엽주인(귀여운 주인님이란는 뜻) 움짤",
-    "text":  null,
     "publishedAt":  "2024-07-13",
     "publishedTimeRaw":  "2024-07-13T18:48:03.320",
     "sourceTimezone":  null,
@@ -31,5 +30,31 @@
     "sourcePage":  5,
     "sourcePosition":  14,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/07/naver-cafe-vlup-post-22961.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/07/naver-cafe-vlup-post-22961.json",
+    "text":  "",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA3MTNfMjcz/MDAxNzIwODYzOTIxMjY0.FmQsPbHNBPKHeuN6JYVyJ7yas-jCuREdCT4a7oi4TGsg.Xs0ymijjHIw-zH2aHK9efm6iKNEuRv1336_BGovNT4Mg.GIF/0713_jooinnn.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA3MTNfMjIy/MDAxNzIwODYzMTU0MTQy.7YnoWWCZ0KR3BblfuU7L3iggkOF0N96g4heGfv3eKWIg.uc5V1QTp23WvSZf6Lz-d1i_VBgu0qNGN7BDhhho6akYg.GIF/0713_jooinn.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA3MTNfMjA5/MDAxNzIwODYzMTk0OTA4.GznlRain7GrHQz5YvF0bbk7DJ9Ok83LoDm4MxMQ-hwwg.ij5UTciF5XsIzYN0D_7yV1aXLqb9cjRMRzE-wTql0DAg.PNG/0713c.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_24.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

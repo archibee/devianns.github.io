@@ -9,7 +9,6 @@
     "authorNickname":  "망초",
     "authorGroup":  "dahlia",
     "title":  "뽀뽀하고 웃어주는 짤",
-    "text":  null,
     "publishedAt":  "2025-06-12",
     "publishedTimeRaw":  "2025-06-12T21:43:53.457",
     "sourceTimezone":  null,
@@ -31,5 +30,31 @@
     "sourcePage":  2,
     "sourcePosition":  8,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/06/naver-cafe-vlup-post-34696.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/06/naver-cafe-vlup-post-34696.json",
+    "text":  "귀여워서 언젠가 꼭 움짤해야지 다짐만했떤 짤이에요\n드디어 만들엇써요\n의상이 특히 귀여웠던 캐치 😊",
+    "bodyLinks":  [
+                      {
+                          "label":  "https://vod.sooplive.co.kr/player/154359393/catch",
+                          "url":  "https://vod.sooplive.co.kr/player/154359393/catch",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA2MTJfMjM5/MDAxNzQ5NzMyNjE0NjEy.jkE-ET4xSRAqU80Zaph_IJgH1yaJwOkDh_W5RsEuTNkg.UadFTFDMP6iE8qCQz3HBQRHxYYiOW2oh5QAVDEzozbsg.GIF/Animation_0007.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_623dfd3f2d303/original_22.png?type=p50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fiflv14.sooplive.co.kr%2Fclip%2F20250316%2F625%2Fb7e43d9a-b87f-4ddd-b6b4-47a52c584e39%2F9856625_r.jpg%22\u0026type=ff500_300",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

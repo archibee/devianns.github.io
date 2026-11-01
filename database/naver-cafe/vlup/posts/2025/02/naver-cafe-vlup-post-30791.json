@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "방종하고 나서도 귀여운 주인님",
-    "text":  null,
     "publishedAt":  "2025-02-10",
     "publishedTimeRaw":  "2025-02-10T00:31:36.657",
     "sourceTimezone":  null,
@@ -31,5 +30,26 @@
     "sourcePage":  1,
     "sourcePosition":  7,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/02/naver-cafe-vlup-post-30791.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/02/naver-cafe-vlup-post-30791.json",
+    "text":  "주인님 방종하고 홈화면갔는데\n팝업창에 우연히 주인님 진짜 귀여운 포즈로 완벽히 남아있어서 신기해서 찍었어요 ㅋㅋㅋㅋㅋㅋ\n썸네일같은 미리보기가 남았나봐요\n귀여운 팝업창 끄기 아쉬웠지만 ...\n주인님이 계속 떠있으면 예쁘고 귀여워서 잠 못자니까 어쩔수없다\n오늘 좋은것도 많이보고 재밌었어요 !!\n많이 귀여워서 캐치도 가득 생성해버렸어요 ㅎ_ㅎ\n오늘도 에라이! 주인님이랑 재밌게 놀아서 정말 좋았어요\n안녕히주무세요 \u003e\u003c !!",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTAyMTBfMTUg/MDAxNzM5MTE1ODQ1ODI4.JzVhRiTc4y-zP1oh5LAQG9WzifJVQ1UXN6swmRu6Qjkg.punqWUns9yZVNBHTK0156RS3SV_-Cbk0zMpyHFXbx-8g.JPEG/IMG_3190.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_1.png?type=p50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTAyMTBfMjIy/MDAxNzM5MTE1ODQ1ODYy.MphZPF_6y7EYB0ktPIn-4DqFdm0EM4qp0_wY9_5LTMMg.3lf0Zr3T7imaotvloJCdkrSL8GxwWfqPhjOLDnxmzqUg.JPEG/IMG_3191.jpg?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

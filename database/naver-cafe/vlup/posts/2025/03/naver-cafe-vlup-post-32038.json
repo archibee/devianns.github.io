@@ -9,7 +9,6 @@
     "authorNickname":  "망초",
     "authorGroup":  "dahlia",
     "title":  "주인님 방송보다가 성인인증한 썰 (진짜네)",
-    "text":  null,
     "publishedAt":  "2025-03-20",
     "publishedTimeRaw":  "2025-03-20T16:56:53.957",
     "sourceTimezone":  null,
@@ -31,5 +30,36 @@
     "sourcePage":  3,
     "sourcePosition":  4,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/03/naver-cafe-vlup-post-32038.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/03/naver-cafe-vlup-post-32038.json",
+    "text":  "진격거 같이보려면 성인인증 하라고 해서 ...\n성인인증 해버렸을지도.... ㅠㅜ\n그치만 정말 귀엽다!\n귀여워서추카하기",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTAzMjBfMjUx/MDAxNzQyNDU3NDEzNDk5._tl7Sq3fnAHvImcQZ-uwjc_JCk_cJyPZMSJz6b_peyUg.NQBpqNDDDsmqJHG6GJMQ6XpVXBOGus7uIrXMgIygdpkg.JPEG/IMG_3256.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_11.png?type=p50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTAzMjBfMjEx/MDAxNzQyNDU3NDU5MTg4.H8vTSENYaBE7ilgxKkYNQfRTOqa_XK1Q_jPX7LvLsfcg.donYUngmJTwsFSKUvyalMqsumOOniEr_3W5OZqTNeiQg.GIF/Animation71.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTAzMjBfMiAg/MDAxNzQyNDU3NjY2Nzk3.z2dd9sSEVNYLtMcXAEFOMOBR6fJR6lD-VDLgJ10Dyq4g.tO267eiUv9ppOcSicxalWMCBXfotLBoyR_9D9H6T0S4g.GIF/Animation73.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 5",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_5fb765a3fc5f3/original_14.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

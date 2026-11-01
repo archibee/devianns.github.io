@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "저도 주인님을 배경화면으로 헉…",
-    "text":  null,
     "publishedAt":  "2024-04-07",
     "publishedTimeRaw":  "2024-04-07T13:52:20.800",
     "sourceTimezone":  null,
@@ -31,5 +30,21 @@
     "sourcePage":  7,
     "sourcePosition":  5,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/04/naver-cafe-vlup-post-18202.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/04/naver-cafe-vlup-post-18202.json",
+    "text":  "주...주인님?!!",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA0MDdfNDYg/MDAxNzEyNDY1NDMyODI5.2yg3aVINVdfAeL_mnheR8XVzwC8TCbcn4ZH9zkNMvHIg.guRrbWNFozDgjXbrT43qfu2x1dTLoYqeV4grZEkUvVwg.PNG/IMG_1955.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_6.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "짜계치 먹어본 후기",
-    "text":  null,
     "publishedAt":  "2024-06-14",
     "publishedTimeRaw":  "2024-06-14T18:23:03.540",
     "sourceTimezone":  null,
@@ -31,5 +30,26 @@
     "sourcePage":  6,
     "sourcePosition":  4,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/06/naver-cafe-vlup-post-21712.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/06/naver-cafe-vlup-post-21712.json",
+    "text":  "짜파게티 끓여서 비벼서 담고\n계란후라이 얹고\n냉동모짜렐라 뿌려서 렌지 1분30초 정도 돌려서 먹어본 후기\n맛은 짜파게티의 달달짭짤한 맛에 고소하고 꾸덕한 치즈가 녹아서\n녹은 치즈의 고소한 향과 꾸덕함이 더해져 엄청 녹진하고 달달짭짤고소한맛이나요\n그리고 계란후라이를 한입 베어물면 방금먹은 식감과는 다르면서도 살짝 씹는맛과 함께\n살짝 느끼할수 잇엇던 치즈짜파게티 맛을 싹 정리해주는 느낌\n다시 짜파게티 먹으면 또 맛있게 먹을수 잇는 그런 맛!!!\n달달하고 맛있는 짜파게티+\n고소하고 짭잘녹진한 치즈+\n없으면 안댈것같은 계란후라이\n어찌보면 탄수화물 잔뜩인 짜파게티에 사실 고단백 식품인 치즈(100g당 단백질 20g이상)랑\n계란후라이랑 같이 먹으면 탄단지 콜라보가 무지 좋은것이??아닌가 라는 생각도 들고...\n짜계치 맛잇어요!",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA2MTRfMjQw/MDAxNzE4MzU1OTA1ODg3.Tz4NQtgUoE87M4jqCOWfihMJsEMoDCeXcNYEsTKyhOgg.c6lvpUfixzWnJQrRsOdXuYsaMmikmuF0l-rzlJR9WgMg.JPEG/xxx1.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA2MTRfMjk2/MDAxNzE4MzU1OTA1OTMz.kiN41EkW16w58qTNtcdPJaGUOBod4LgLrjFZiiLoiLMg.JGuHC-XJt0QdcFclWG0gYoThFgunv8vzuTybSJF8irEg.JPEG/xxx2.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_7.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

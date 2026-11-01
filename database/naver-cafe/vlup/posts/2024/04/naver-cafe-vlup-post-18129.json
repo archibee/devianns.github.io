@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "포카주인님과 벚꽃 한컷",
-    "text":  null,
     "publishedAt":  "2024-04-05",
     "publishedTimeRaw":  "2024-04-05T14:43:22.857",
     "sourceTimezone":  null,
@@ -31,5 +30,21 @@
     "sourcePage":  7,
     "sourcePosition":  6,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/04/naver-cafe-vlup-post-18129.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/04/naver-cafe-vlup-post-18129.json",
+    "text":  "여기서 찍을까요?!\n#츄로스가_찍어줌🐭\n날씨도 좋고 벚꽃도 예뻐서 포카주인님 사진 찍으러 갔어요\n사람도 좀 있어서 뭔가 부끄러웠던 입니다..",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA0MDVfMjQw/MDAxNzEyMjk1MDI2MTIx.lk6m3JKYyciAPxpaFQHg81G648v2Vz6IFNn9froYPoog.nLs6SNGES8cmAIq3Q80iOPg717CcX9AXyh-kz8fTCugg.JPEG/IMG_1935.jpeg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA0MDVfMjQ1/MDAxNzEyMjk1MDI2MDQ2.O5udJDoArWVmnvx_O816i0n7EHDGlRuLyGZEAjDLixAg.dA4QgKY-yU2x7XbvjFXxH3g0D5xHnVxNJMoB1fQLE-cg.JPEG/IMG_1934.jpeg?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

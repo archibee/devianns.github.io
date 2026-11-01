@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "오늘 재밌었던 캐치 (홈트)",
-    "text":  null,
     "publishedAt":  "2025-03-04",
     "publishedTimeRaw":  "2025-03-04T00:20:02.303",
     "sourceTimezone":  null,
@@ -31,5 +30,41 @@
     "sourcePage":  1,
     "sourcePosition":  1,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/03/naver-cafe-vlup-post-31515.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/03/naver-cafe-vlup-post-31515.json",
+    "text":  "놀라운 이야기에 동공확장\n도랏맨이야\"?\n입가리고놀람 ㅇ0ㅇ\n오늘 뭔가 재밌었던 부분이에요 ㅋㅋㅋㅋ\n놀라운 말에 1차 놀라고 2차 받아들이지 못하고 3차 ㅇ0ㅇ\n마지막으로 ㅂㅌㅅㄲ 하면서 내리치는거까지\n재밌어서 돌려보다가 혼자 계쏙웄었어요 ㅋㅋㅋㅋ",
+    "bodyLinks":  [
+                      {
+                          "label":  "https://vod.sooplive.co.kr/player/153008365/catch",
+                          "url":  "https://vod.sooplive.co.kr/player/153008365/catch",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fiflv14.sooplive.co.kr%2Fclip%2F20250303%2F475%2Fdbc39eab-e2f4-4efa-b059-c81166e72f51%2F9591475_r.jpg%22\u0026type=ff500_300",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTAzMDRfMjgy/MDAxNzQxMDE0ODQ2MzI2.nBWOyHtbe9rTqwcXt0VcZ1XdXe1nHvzX19mib0H0VjEg.8hVU6xoBE7eHRlKAKIqybaypUk3NTitGyTBvR3YOou4g.PNG/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2025-03-04_001112.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTAzMDRfMTEg/MDAxNzQxMDE0ODcyMTM0.f9OHSkYT8wxzDIN6CgnhaXTr8P384IU8TQ_cN276p4og.4KuPrFjZcCVUzTzcsULoX-qcOPwVKrJ3PdtqEVAW7Nkg.PNG/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2025-03-04_001202.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTAzMDRfMjE0/MDAxNzQxMDE0ODc4ODAz.1r2lgx62_kUY51R27x5iEg6V-gmrhCQKecNA9ohoy6Ag.BEaqY3WoeXBWFSukMAJUmiJpViX8qnAYJI12CC9jp24g.PNG/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2025-03-04_001238.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 5",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_4.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

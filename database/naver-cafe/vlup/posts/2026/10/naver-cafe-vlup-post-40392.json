@@ -9,7 +9,6 @@
     "authorNickname":  "꼬리리",
     "authorGroup":  "dahlia",
     "title":  "그곳이 터져 죽습니다",
-    "text":  null,
     "publishedAt":  "2026-10-03",
     "publishedTimeRaw":  "2026-10-03T21:08:32.943",
     "sourceTimezone":  null,
@@ -31,5 +30,21 @@
     "sourcePage":  1,
     "sourcePosition":  14,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2026/10/naver-cafe-vlup-post-40392.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2026/10/naver-cafe-vlup-post-40392.json",
+    "text":  "",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjEwMDNfMTAz/MDAxNzkxMDI5Mjg1OTIy.88fMVbfVkpGSj88rIc7QxlNm8XVrvHUaywKYoZwC3Vog.rJYAoyZElJQkMIj5o3dwK6QPiHI_cGHkEwlcGjDpM94g.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjEwMDNfMjYg/MDAxNzkxMDI5MzAyMzk3.cDu3lyAW8BK_pL7Qul3J2gr4U2_OnB2Hm3wVI8NheqMg.QJNXo5g7Jq0hPRALkRoYK9FZoEi5UnKE2P5JK3dwvxcg.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

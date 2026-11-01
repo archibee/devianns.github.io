@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "아이폰 발열이슈 사용할수없음 ㅠㅠ",
-    "text":  null,
     "publishedAt":  "2024-04-28",
     "publishedTimeRaw":  "2024-04-28T23:37:35.307",
     "sourceTimezone":  null,
@@ -31,5 +30,16 @@
     "sourcePage":  7,
     "sourcePosition":  1,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/04/naver-cafe-vlup-post-19309.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/04/naver-cafe-vlup-post-19309.json",
+    "text":  "여름에 햇빛받고 뜨거울때 이런 화면 나와서 놀랐던 적이 있어요\n아프리카 어플도 고화질 시청 오래하면 엄청 뜨거웠어요(유튜브나 다른 플랫폼은 평범한 느낌)\n오늘 주인님 목소리 들을수있어서 좋았어요!\n이불꼭따듯하게 주무시고 내일 일어나셨을때 많이 아프지 않으셨으면 좋겠어요,,\n이번주 넘나 열심히한 주인님 왕 고생많으셨어요..!!\n덕분에 츄로스도 잘 굴러가고 있어욧 감사함니다\n(작년 더운날 신기해서 찍은 캡처인데 날짜도 우연히 주인님 생일이라서 또 신기해진사람…)",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA0MjhfMjc0/MDAxNzE0MzE1MDU0OTM4.AkOj2EVeCfecOP_AfoGZA3ULFFeAKAjFsSmntAo7u0Ug.Xu9bw_19vQMlbfCAaGRwvACFkl07miBTrjmgBzJBziMg.PNG/IMG_1373.PNG?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

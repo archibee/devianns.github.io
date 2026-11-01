@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "주인님 생일이 3일 전!!!",
-    "text":  null,
     "publishedAt":  "2024-07-24",
     "publishedTimeRaw":  "2024-07-24T16:54:33.693",
     "sourceTimezone":  null,
@@ -31,5 +30,26 @@
     "sourcePage":  5,
     "sourcePosition":  12,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/07/naver-cafe-vlup-post-23439.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/07/naver-cafe-vlup-post-23439.json",
+    "text":  "7/27 3일전!\n주인님의 생일을 마구 기대하기!\n(마구 기대하고있어요 라는 뜻)",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA3MjRfNDYg/MDAxNzIxODA5NjE1Nzg5.5zW0k-1s6ChDMR645CoYhrTwoY9NnqCy-zlXcTsHa0sg.7O9cy05xnnqbgyh8lyIbWimTGzqMZpSAKlyjsCFLSk4g.GIF/240724_jday3_2.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA3MjRfODgg/MDAxNzIxODA2OTMxMzI0.F1DF7vbsKstncdWl5O84YK94PVbfwzJBNALhSLGZjOEg.GNNxbOi1CLm5-601YJ1DlB8XxLR5f9fVPJufg2bkG-Ig.PNG/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2024-07-24_163916.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_5eb66fd5a6e07/original_5.gif?type=pa50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "물에빠진고양이 (꽃게찾으러감)",
-    "text":  null,
     "publishedAt":  "2024-09-10",
     "publishedTimeRaw":  "2024-09-10T00:20:54.707",
     "sourceTimezone":  null,
@@ -31,5 +30,12 @@
     "sourcePage":  4,
     "sourcePosition":  12,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/09/naver-cafe-vlup-post-25114.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/09/naver-cafe-vlup-post-25114.json",
+    "text":  "같이보고싶어서 올립니다앗….",
+    "bodyLinks":  [
+
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

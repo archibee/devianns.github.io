@@ -9,7 +9,6 @@
     "authorNickname":  "꼬리리",
     "authorGroup":  "dahlia",
     "title":  "트리잘자",
-    "text":  null,
     "publishedAt":  "2026-07-11",
     "publishedTimeRaw":  "2026-07-11T22:13:03.043",
     "sourceTimezone":  null,
@@ -31,5 +30,21 @@
     "sourcePage":  2,
     "sourcePosition":  6,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2026/07/naver-cafe-vlup-post-39679.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2026/07/naver-cafe-vlup-post-39679.json",
+    "text":  "재미가 이섯당",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjA3MTFfMzAw/MDAxNzgzNzc1NDEwNDQ4.yu8-dns-Q3p0YCgSFwIIfc2n48EFnzOPV-7a8cz1bi8g.vzKvgq95yTLwxDerFtGDkfsJTXYCz_dETRV1BlstsWcg.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjA3MTFfMTUz/MDAxNzgzNzc1MzU3MDE1.GLhtPj3WQXgZfQ3bSmWOrqaca4WAGAcb1fN7pN0mRcAg.29PS05MC_RlzkxJzTRklFOq4looEMiOopcwTQ61jOTEg.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

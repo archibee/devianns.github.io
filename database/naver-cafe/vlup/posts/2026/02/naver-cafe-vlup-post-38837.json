@@ -9,7 +9,6 @@
     "authorNickname":  "꼬리리",
     "authorGroup":  "dahlia",
     "title":  "오늘말한 사과향수, 사과술 찾아봤음",
-    "text":  null,
     "publishedAt":  "2026-02-07",
     "publishedTimeRaw":  "2026-02-07T16:05:22.190",
     "sourceTimezone":  null,
@@ -31,5 +30,31 @@
     "sourcePage":  2,
     "sourcePosition":  13,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2026/02/naver-cafe-vlup-post-38837.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2026/02/naver-cafe-vlup-post-38837.json",
+    "text":  "사과향수 사과술 뻥인지 알앗는데 진짜냐구ㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜ\n사과요정 ㅇㅈ합니다",
+    "bodyLinks":  [
+                      {
+                          "label":  "https://www.idus.com/v2/product/be7663ef-5c38-4dbe-84ce-f4814901797f",
+                          "url":  "https://www.idus.com/v2/product/be7663ef-5c38-4dbe-84ce-f4814901797f",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "https://blog.naver.com/relapse2/223541437613",
+                          "url":  "https://blog.naver.com/relapse2/223541437613",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fimage.idus.com%2Fimage%2Ffiles%2F708fa28380ec4cf884ee4e56c1687e8d_512.jpg%22\u0026type=ff500_300",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNDA3MzBfNjQg%2FMDAxNzIyMzQyMzA0MDQ1.t9aFRhA-19OGEk3jsjwT1Z--3syS_WzjkprrrUgm-fEg.XQCf0TZSdviI--0DnHV45aUz0fLdPtz6roKaGxv-EHAg.JPEG%2F20240730_174106.jpg%3Ftype%3Dw2%22\u0026type=ff500_300",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

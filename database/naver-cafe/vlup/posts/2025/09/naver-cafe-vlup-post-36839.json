@@ -9,7 +9,6 @@
     "authorNickname":  "망초",
     "authorGroup":  "dahlia",
     "title":  "(주접) 무조건 기분좋은 영상",
-    "text":  null,
     "publishedAt":  "2025-09-18",
     "publishedTimeRaw":  "2025-09-18T21:46:55.377",
     "sourceTimezone":  null,
@@ -31,5 +30,31 @@
     "sourcePage":  1,
     "sourcePosition":  1,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/09/naver-cafe-vlup-post-36839.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/09/naver-cafe-vlup-post-36839.json",
+    "text":  "무조건 귀여운 영상\n이정도면 주인님도 주인님한테 귀엽다고 함\n(아마도,,,,)\n100% 미소☺️ 영상\n지나가던 쥐 도 주인님 잉곳 노래 들으라하면\n잉 ..? 이.. 이건.. GOAT (곳) 이라고 하면서\n츄로스 로 변신함\n(염소주인 아님)\n귀여움 = 도파민\n귀여움 은 사람의 스트레스 와 불안감 을 줄여주고,\n혈압 을 낮추는 등 긍정적인 신체적 효과를 가져옵니다.\n앞으로 야식 치킨 안먹고\n주인님 영상 보면서 도파민 복사 다이어트 하겠습니다\n도파민이 복사가 되는데 ☢️ 야식 ☢️ 라면 치킨 햄버거 닭강정 콜라 탕수육 짜장면 케이크 메론 환타 초밥 우삼겹덮밥 파인애플 곤약젤리 홍삼캔디 ‼️ 전부 먹지 않기 ‼️로 했습니다\n감사합니다",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_636914e64f65a/original_19.png?type=p50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA5MThfMjU1/MDAxNzU4MTk3MTYyNzg1.Ve04WMXqTTfMOIymy__vKIQYi5P-gdFJRVkjO7Ev9OIg.QgeI9te04_wjqferuIn03Uup7IL_ZDt5iqnv6Bnp4sYg.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_11.png?type=p50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA5MThfMiAg/MDAxNzU4MjAwMzQ5MTU0.ntoATSKjGljXbjs70DsKKbHiXIv-0VTepwBQ27FssQgg.QFD9sB5kmLsAP06VpKZpZKc5s0Q9dU5dOFRr4oclOEMg.PNG/jooin_thumb_small_20250916.png?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

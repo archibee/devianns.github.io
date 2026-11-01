@@ -9,7 +9,6 @@
     "authorNickname":  "꼬리리",
     "authorGroup":  "dahlia",
     "title":  "고독방송 심 정보",
-    "text":  null,
     "publishedAt":  "2026-08-16",
     "publishedTimeRaw":  "2026-08-16T00:02:41.650",
     "sourceTimezone":  null,
@@ -31,5 +30,31 @@
     "sourcePage":  2,
     "sourcePosition":  1,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2026/08/naver-cafe-vlup-post-39806.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2026/08/naver-cafe-vlup-post-39806.json",
+    "text":  "나무위키\n트레일러 영상 캡처\n오!",
+    "bodyLinks":  [
+                      {
+                          "label":  "https://page.onstove.com/indie/global/view/14302656",
+                          "url":  "https://page.onstove.com/indie/global/view/14302656",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fd2x8kymwjom7h7.cloudfront.net%2Flive%2Fapplication_no%2F10009%2Fapplication_no%2F10009%2Fiop-center-front%2Findie_seo%282%29.jpg%22\u0026type=ff500_300",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjA4MTVfMTgg/MDAxNzg2ODA1OTYyNTI5.uSyRBnRGdqX4Se-56AfztxdSnGiYKM-aYBwew6iPbu0g.AhQSmiAO0hIMhgbOhctlaae8QhraLBMGmM7OTUaj2ccg.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjA4MTZfMjAg/MDAxNzg2ODA2MTI5MzI4.Zxyn9D_va6xb-CsHCJ30LhuyDwT9Wl5WXJuzVnaNTJ0g.GYzCZFX5bE4ty0oiBJ9V06cY9fL6S0hUtREtd0D8IGUg.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

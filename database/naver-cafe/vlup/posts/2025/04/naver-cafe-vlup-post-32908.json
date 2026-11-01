@@ -9,7 +9,6 @@
     "authorNickname":  "망초",
     "authorGroup":  "dahlia",
     "title":  "오빠 허하지말라고 뽀뽀해줄게 (실제로한말)",
-    "text":  null,
     "publishedAt":  "2025-04-17",
     "publishedTimeRaw":  "2025-04-17T01:21:30.230",
     "sourceTimezone":  null,
@@ -31,5 +30,36 @@
     "sourcePage":  2,
     "sourcePosition":  13,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/04/naver-cafe-vlup-post-32908.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/04/naver-cafe-vlup-post-32908.json",
+    "text":  "오빠라고 부르면서 웃는 모습이나\n허하지말라고 뽀뽀해줄게라는 모습이나\n정말 너무 귀엽워요\n오늘도 주인님과 함께 즐거운 하루였다!\n요즘잘자쿨냥이 두가쟈~\n내일도 화이팅이에요 !!!",
+    "bodyLinks":  [
+                      {
+                          "label":  "https://vod.sooplive.co.kr/player/157413465/catch",
+                          "url":  "https://vod.sooplive.co.kr/player/157413465/catch",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "https://vod.sooplive.co.kr/player/157396393/catch",
+                          "url":  "https://vod.sooplive.co.kr/player/157396393/catch",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fiflv14.sooplive.co.kr%2Fclip%2F20250416%2F287%2F0d0405f9-3d17-41f3-89f1-3ff42bbbfce7%2F10468287_r.jpg%22\u0026type=ff500_300",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fiflv14.sooplive.co.kr%2Fclip%2F20250416%2F873%2F360f11fd-3442-4bcb-affb-54be2b11a90f%2F10464873_r.jpg%22\u0026type=ff500_300",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_16.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

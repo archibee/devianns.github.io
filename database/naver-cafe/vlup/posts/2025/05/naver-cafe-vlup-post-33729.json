@@ -9,7 +9,6 @@
     "authorNickname":  "망초",
     "authorGroup":  "dahlia",
     "title":  "5월 11일의 주뱅후!",
-    "text":  null,
     "publishedAt":  "2025-05-11",
     "publishedTimeRaw":  "2025-05-11T21:18:34.717",
     "sourceTimezone":  null,
@@ -31,5 +30,26 @@
     "sourcePage":  2,
     "sourcePosition":  10,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/05/naver-cafe-vlup-post-33729.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/05/naver-cafe-vlup-post-33729.json",
+    "text":  "아침11시부터쯤 계속 봤는데!\n정말 몰입해서 다 봐버렸어요\n잔인한걸잘못보구 끔찍한거 저항력이 좀 없는편이라 진격거같은 애니 잘 못보는데!(재밌다곤들엇는데너무끔찍한묘사도있어서 시도도안해본ㅠㅜ)\n주인님이랑 같이보니까 주인님도 같이잔인해해서 덜무섭고 재밌게같이볼수있어서 몰입해서 재밌게 봤어요!\n일요일 편안하게누워서 주인님이랑 평소에보고싶었던애니 같이보니까 정말 좋았어요\n중간에 주인님 울다가 웃고 다시 울고 웃고 귀여운모습 보여주고 그래서 웃기면서 귀엽기도하고 우는거 공감대는부분도많아서 정말 즐거운 시간이었어요!\n재밌었다!\n주인님도 푹 쉬시고 남은 하루 좋은 하루 보내세요 \u003e_\u003c\n잘자기입니닷 !!\n(갤러리에있던 예전 여왕공주인 일러 생각나서 업로드해봣어요\n일러정말이쁜.. 이 일러 정말 좋아해요\n부드럽고 귀엽고 이쁜데 분위기있고 츄로스도 귀엽게 그려져서 좋아요 ㅋ_ㅋ)",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA1MTFfMTUw/MDAxNzQ2OTY1OTEzOTcy.bu_LiwvAV6prrdPRsqIm5YSEl3486X-FsrYca57jDCog.SOvk9ScrmvzfAU_U6KbVc3ai31CGApnPjcva0_-hMBAg.JPEG/IMG_3496.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_16.png?type=p50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA1MTFfMjc5/MDAxNzQ2OTY2MTgyODg1.jh2GayOT7qx3Csx78Qvm5UwG7EN_-E4LaU-uOsajns8g.cMkRc06tUjmZH6ig9ortrK7cTE0BLBJzARznuNsGKdEg.JPEG/1746966156.270458.jpeg?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

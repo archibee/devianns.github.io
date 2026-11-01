@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "문득 주인님이 예쁜 건에 대하여",
-    "text":  null,
     "publishedAt":  "2024-05-15",
     "publishedTimeRaw":  "2024-05-15T22:18:59.597",
     "sourceTimezone":  null,
@@ -31,5 +30,36 @@
     "sourcePage":  6,
     "sourcePosition":  12,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/05/naver-cafe-vlup-post-20157.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/05/naver-cafe-vlup-post-20157.json",
+    "text":  "문득 주인님이 예쁘다는 생각이 들었다\n생각해보니 주인님은 문득 예쁜게 아니라 원래 예쁜것이었다",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA1MTVfNTUg/MDAxNzE1Nzc5MTM4NjA2.RYU5x730EGjp06PCa8v96EpM_0cyFFHYuJgG2TQ5hHIg.Jj6p6IpbgU5xklPOvfqQpu-BmPWzM8P-YjjmelYlGrwg.PNG/Screenshot%EF%BC%BF20240515%EF%BC%BF214753%EF%BC%BFYouTube.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA1MTVfMTMy/MDAxNzE1Nzc5MTM4NTM2.4PM0PAGekpBd8oTYw_ZtojSKFe-SM79f5Rdnwvs9IJEg.Zx_uPl3neuEFoK36f1Qjg9V1utvD9PlGqh_24hHNdKgg.PNG/Screenshot%EF%BC%BF20240515%EF%BC%BF214845%EF%BC%BFYouTube.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA1MTVfMjM1/MDAxNzE1Nzc5MTM4NTIy.pFPPjaNQ0yJaS3AutFoDqIf0VMG8filKPq85Ojx-pNgg.CngFE0BBddMvFG2hzrf_wfrRflCpmLXFstcPnl021gYg.PNG/Screenshot%EF%BC%BF20240515%EF%BC%BF214914%EF%BC%BFYouTube.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA1MTVfODAg/MDAxNzE1Nzc5MTM4NjEx.H1jX5__21lcgZyzY4bqSZSNwq1ozDAtcVZtW8hBJPUsg.TN-7V9hAgA8zsPhGddR0rXP_yASxxlTD-Pa01EWLyG0g.PNG/Screenshot%EF%BC%BF20240515%EF%BC%BF214721%EF%BC%BFYouTube.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 5",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_5eb66fd5a6e07/original_1.gif?type=pa50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

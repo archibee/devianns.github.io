@@ -9,7 +9,6 @@
     "authorNickname":  "꼬리리",
     "authorGroup":  "dahlia",
     "title":  "귀여운 노래 찾앗서",
-    "text":  null,
     "publishedAt":  "2026-04-18",
     "publishedTimeRaw":  "2026-04-18T11:59:47.240",
     "sourceTimezone":  null,
@@ -31,5 +30,12 @@
     "sourcePage":  2,
     "sourcePosition":  9,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2026/04/naver-cafe-vlup-post-39271.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2026/04/naver-cafe-vlup-post-39271.json",
+    "text":  "트리도 들어볼래?",
+    "bodyLinks":  [
+
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

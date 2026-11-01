@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "반박할수있지지롱롱에요..",
-    "text":  null,
     "publishedAt":  "2024-11-25",
     "publishedTimeRaw":  "2024-11-25T00:39:54.163",
     "sourceTimezone":  null,
@@ -31,5 +30,26 @@
     "sourcePage":  2,
     "sourcePosition":  15,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/11/naver-cafe-vlup-post-27907.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/11/naver-cafe-vlup-post-27907.json",
+    "text":  "반박하고 잘거에요 ~~!\n모두가 이긴걸로 하지 않늘래요...?\n안년리주무세요 !! ㅠ!",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDExMjVfMTEg/MDAxNzMyNDYyNzkzNTg2.J6CFW0XmyqK7KKyFjGCC2q1bOrc170GVs7Yl7czkeDIg.d25uXYIE17-pbFaK_CZd_qnrpiGcLKKciOZxsy8gjqMg.JPEG/IMG_2836.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDExMjVfODEg/MDAxNzMyNDYyNzkzNjgx.pp323WMLJ16wWLS6QGxIN0XYPaRcf3LOSdqISGZCvNkg.uwxv6UFDkY-ZfdybAXVsL8MN-Pwz3agHXGVf77H0rZog.JPEG/IMG_2837.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_17.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

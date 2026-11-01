@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "과일 배죠, 츄로스 배 겠어요? [얀데레주인]",
-    "text":  null,
     "publishedAt":  "2024-10-29",
     "publishedTimeRaw":  "2024-10-29T18:31:59.510",
     "sourceTimezone":  null,
@@ -31,5 +30,36 @@
     "sourcePage":  3,
     "sourcePosition":  15,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/10/naver-cafe-vlup-post-26940.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/10/naver-cafe-vlup-post-26940.json",
+    "text":  "2차 창작 가이드 라인 : https://cafe.naver.com/vlup/9\n수위 규정 : https://cafe.naver.com/vlup/11\nAI 창작 규정 : https://cafe.naver.com/vlup/21934\n\"나한테라면 따여도된다구?\"\n\"그.. 주..주어를 적어주세요!?\"\n편집하는 것도 재밌었어요 감사합니다 ( *ˊᵕˋ)",
+    "bodyLinks":  [
+                      {
+                          "label":  "https://cafe.naver.com/vlup/9",
+                          "url":  "https://cafe.naver.com/vlup/9",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "https://cafe.naver.com/vlup/11",
+                          "url":  "https://cafe.naver.com/vlup/11",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "https://cafe.naver.com/vlup/21934",
+                          "url":  "https://cafe.naver.com/vlup/21934",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDEwMjlfMjI1/MDAxNzMwMTkzNjU2NTUx.RmlUBso4Ko8zM1e7o34FKMtk5ApuUVmvbyqcn7im0qog.MDBeoascLYd6tTmxxjG9RfUfzRncgNO1qPUKVHQ1qhcg.GIF/umzzal2.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_9.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "1월1일의 주뱅후 !",
-    "text":  null,
     "publishedAt":  "2025-01-01",
     "publishedTimeRaw":  "2025-01-01T20:32:12.230",
     "sourceTimezone":  null,
@@ -31,5 +30,26 @@
     "sourcePage":  1,
     "sourcePosition":  15,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/01/naver-cafe-vlup-post-29516.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/01/naver-cafe-vlup-post-29516.json",
+    "text":  "엄청난 제목과 함께 1월 1일의 주인님이 등장했다\n이정도면 라노벨제목보다 길다고 할수잇다\n라노벨 세계에서 제목이 길수록 좋은걸지도 모르니\n아무튼 제목이 길어서 좋았을지도...\n새해를 협곡으로 즐겁게 보내는 주인님을 보니\n츄로스도 덩달아 행복해지는 기분이었다\n많은 1월1일을 보냈고 많은 1월1일이 다가오겠지만\n그래도 오늘 정말 기분이 좋았다\n왜냐하면 주인님이 재밌게 협곡하고 탄이를 귀여워하는게 귀여웠기 때문이다\n그래서 주인님이 너무 좋았다\n그래서 왠지 기분이 좋은 하루였다\n(귀여운 움짤)\n주인님 새해복 많이 받으세요 !! !!",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTAxMDFfMTEg/MDAxNzM1NzMwNjgwMzQx.e-D9vYQhiK1pJBKDJoYEoBXG51ztIHIVywNFtF-WPa4g.09VJreP0_WDba8r1ZRsY0gZqrCMZSddlfKIYWseOL_0g.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2025-01-01_173859.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_8.png?type=p50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTAxMDFfMSAg/MDAxNzM1NzMwOTQ2OTk4.zRd_OjhnjV8l-pFC5N2DF7sSLUM2BykWyZhWcwLLfcUg.sTfFYW3hZ8smGjXTWzP5fCIUqwC4CJDzz3WVD4pf87sg.GIF/Animation9.gif?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

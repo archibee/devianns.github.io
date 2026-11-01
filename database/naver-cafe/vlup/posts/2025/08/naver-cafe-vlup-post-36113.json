@@ -9,7 +9,6 @@
     "authorNickname":  "망초",
     "authorGroup":  "dahlia",
     "title":  "귀칼본날 쿠키!",
-    "text":  null,
     "publishedAt":  "2025-08-10",
     "publishedTimeRaw":  "2025-08-10T12:19:45.340",
     "sourceTimezone":  null,
@@ -31,5 +30,21 @@
     "sourcePage":  1,
     "sourcePosition":  3,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/08/naver-cafe-vlup-post-36113.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/08/naver-cafe-vlup-post-36113.json",
+    "text":  "오늘따라 채팅창 웃긴얘기 많이나와서 더 웃겼던~!!\n같이봐서 재밌었어요 \u003e\u003c\n주인님도 주말 잘 보내세요~~~ 홧팅잉",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA4MTBfMjg4/MDAxNzU0Nzk1ODE4NzM0.m7Y4nVDJPalT9P3XRwSQ7WDDOmPgCTxJeh7iYmTe0UIg.-BFN-9ZpF5qSBEx22IkPlqhBVugJgygPcZympZ-WlrIg.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_636914e64f65a/original_20.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

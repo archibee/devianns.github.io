@@ -9,7 +9,6 @@
     "authorNickname":  "망초",
     "authorGroup":  "dahlia",
     "title":  "여왕님 작은 움짤 몇개! + 미니콘 후기",
-    "text":  null,
     "publishedAt":  "2025-07-27",
     "publishedTimeRaw":  "2025-07-27T22:41:32.107",
     "sourceTimezone":  null,
@@ -31,5 +30,46 @@
     "sourcePage":  1,
     "sourcePosition":  9,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/07/naver-cafe-vlup-post-35751.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/07/naver-cafe-vlup-post-35751.json",
+    "text":  "여왕인데 애교까지\n고귀한 레드\n귀엽다\n의상 고급스럽고 잘어울려서.. 등장부터 넘 여왕님이었어요\n여왕이지만 귀엽죠?\n고귀한 여왕님인데 귀엽다니.. 이 갭 못참거든요 !!!!\n오늘 들었던 노래! 임팩트 강한 노래는 역시 골-든 이었달까요\n연습하는 것도 많이 들었고 또 주인님 목 조금 좋아지셨다며 들려줬던 게 생각보다 너무 좋게 들려서\n그때 이후로 기억에 많이 남지 모에요\n원래 모르는 노래인데\n주인님이 커버나 주인님이 불러주는 걸로 노래좋아서\n원곡 찾아서 듣다보면\n주인님이 부른게 훨씬 자주듣게 될 때가 많고 좋게 들려서 주인님버전으로 들을수있으면 주인님버전으로 자주듣곤해요!\n주인님 노래는 뭔가 주인님만의 파워가 느껴진달까\n주인님 목소리로 녹음된 노래 듣다가 원곡들으면 뭔가 심심하다고 느껴질 때도 있고!\n음음..\n역시 주인님 노래를 잘부르는게 확실해\n아무래도요\n츄로스니까 좋아할 수밖에 없게 되어버렸어요\n2025 7월 27일이 다 가기전에 추카해 한번 더 하기!\n주인님 생일 추카해요~~!!",
+    "bodyLinks":  [
+                      {
+                          "label":  "https://vod.sooplive.co.kr/player/167162667/catch",
+                          "url":  "https://vod.sooplive.co.kr/player/167162667/catch",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA3MjdfODMg/MDAxNzUzNjIyODQyODc2.SzxyNUdfjv8jYvLT9YPmbVUOLqp54TMABygLZU7NtlUg.7IDikKzAgrH5-on-qEaxOonr1ImaE_vsuxjXV3su2CYg.GIF/jAnimation_112.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA3MjdfMTU1/MDAxNzUzNjIyODMzNjM0.A2i6jeHbPU9789sqdD9DY_LgDflHP19lr1gE1PPzwRQg.NVUzVWK5S6U6F5X-3sFLcVDTFltTzE-BR5TiZpZdaNsg.GIF/jAnimation_113.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA3MjdfNDYg/MDAxNzUzNjIyODQ5Mjk1.gc_5c3e6QPJtgWnN-f-6RO-bTTpt55YIBAIARR-XTJIg.WvH2ObOomPI0GtluaZ_Bg2VVqKw0IKLWNQdfXSGEv1Mg.GIF/jAnimation_111.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fiflv14.sooplive.co.kr%2Fclip%2F20250727%2F063%2Fcb50b7f3-7054-4e04-a9d3-eee2fbc6c6a9%2F12465063_r.jpg%22\u0026type=ff500_300",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 5",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_636914e64f65a/original_3.png?type=p50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 6",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_5fb765a3fc5f3/original_14.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

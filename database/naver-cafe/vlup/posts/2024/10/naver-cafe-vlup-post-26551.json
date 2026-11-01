@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "이적2일차 오뱅후!",
-    "text":  null,
     "publishedAt":  "2024-10-17",
     "publishedTimeRaw":  "2024-10-17T02:05:21.713",
     "sourceTimezone":  null,
@@ -31,5 +30,41 @@
     "sourcePage":  4,
     "sourcePosition":  4,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/10/naver-cafe-vlup-post-26551.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/10/naver-cafe-vlup-post-26551.json",
+    "text":  "흑발긴머리 주인님 귀여워요\n활기찬 롤냥이 방송 재밌었어요\n카서스 50분판 팀원들이 너무 말썽꾸러기여서 웃기기도한데 진 다 빠질거같아요 ㅋㅋㅋ\n딜량 86000 주인님의 캐리죠 역시!!!\n니코가 드래곤을 뺏을때까지 진짜 한치앞도 모르는 개구쟁이 협곡이었어요 ㅋㅋㅋㅋ\n그리고 엔딩화면 라이브 정말 좋았어요\n엔딩화면도 예쁜데 직접불러주시는 엔딩곡 감성..\n최고였어요!\n마지막 잘자요 좋은밤 좋은꿈 해주신거도 너무 좋았어요\n주인님 꿈꾸기\n감사합니다\n오늘 정말 재밌었어요!!",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDEwMTdfMTE5/MDAxNzI5MDk4MzIwOTYz.wgBhSHrrf8-cH0gqVxnInVmvEmFjeC6xopTaTQn8V74g.1jVG55F7pbujHAsSONm6KWfHaTrJ3Y1gn7pahfsJDq8g.JPEG/IMG_2630.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDEwMTdfMTc5/MDAxNzI5MDk4MzIxMDM0.QTQNn_lRpYTOiO2xKl7RMAHYo0AqYDE4vVY1Yb75qNcg.LRGL-pIaxusLrOv2GUFj8tCpued4myQ9EChqIylEEWsg.JPEG/IMG_2632.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDEwMTdfMTMz/MDAxNzI5MDk4MzIwOTQ1.DOgMaNjKiUSi-4XC0BQoGFPy_CTNykt-ghA2aQGpSrgg.dmmbNof5ZKqqK6FG1_QjJP7L5xCFQyJ6ib5Z-yJ60CYg.JPEG/IMG_2635.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDEwMTdfNDAg/MDAxNzI5MDk4MzIxMDUw.pWN933gbG_QZlIOiesWUA4lvlD1cMFsxPWNX0TFi95Yg.oruyyW3FvRGguqP1yi8wD1LtjZl51uy5tTHn14n_O64g.JPEG/IMG_2633.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 5",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_623dfd3f2d303/original_1.png?type=p50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 6",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_16.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

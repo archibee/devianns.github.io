@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "저가 누덕누덕 스타카토가요...",
-    "text":  null,
     "publishedAt":  "2024-12-29",
     "publishedTimeRaw":  "2024-12-29T00:22:11.297",
     "sourceTimezone":  null,
@@ -31,5 +30,16 @@
     "sourcePage":  2,
     "sourcePosition":  4,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/12/naver-cafe-vlup-post-29263.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/12/naver-cafe-vlup-post-29263.json",
+    "text":  "https://youtu.be/33w2tcsNwNQ?si=oXEB9_mf7LMPkMpy\n좋은 것 같아서요..\n트리님은 보컬로이드 노래에 뭔가 잘 어울리시는것같아요\n목소리가 살짝 일직선으로 쭉- 하고 뻗는 그런 뉘앙스가 잇달까요??(지극히 제 생각임)\n그래서 동요같은거 부르시면 되게 잘불러진다고 생각하는 부분도 있구,\n보컬로이드 노래가 아무래도 프로그램이다보니 좀 기계적인 차가운 발성이 잇다고 생각하는데\n가사는 그렇지 않게 따뜻한 노래들도 많다고 생각해요..\n어떻게 잘 아냐면 제가 어릴때 약간 보컬로이드 좋아해서 살짝 알것같달까\n근데 그런부분에 시트리님 발성이 잘 어울린다고 생각해요\n약간 정적이고 차가운 발성 밑으로 가사의 깊이?감정?가 느껴지는 듯한\n그런 보컬로이드 노래 특유의 느낌이 이렇게 커버로 잘 느껴지는 건 또 처음이라\n약간 완전 신기해하고 있습니다\n누덕누덕 스타카토 계속 듣고있었는데요\n이번주에 노래뱅으로 로미오와신데렐라, 스피카, 천성의약함 부르시길래\n어라?? 어? 근데 느낌이 잘 되살려지는것같은느낌이??들어서\n트리님이 보컬로이드노래를 좋아하는건지 목소리가 그 특유의 감성에 잘 맞아서\n제가 더 좋게 듣는건진 모르겠지만 여튼 ,,\n트리님 커버곡 보니까 SPiCa 커버도 있더라구요\n그래서 스피카도 듣고 음원사이트에서 스피카 한번 또 들었습니다\n뭔가 보컬로이드 음색에 잘 맞으셔서 살짝 감동이 있어서\n저가 글을 썻습니다 네..",
+    "bodyLinks":  [
+                      {
+                          "label":  "https://youtu.be/33w2tcsNwNQ?si=oXEB9_mf7LMPkMpy",
+                          "url":  "https://youtu.be/33w2tcsNwNQ?si=oXEB9_mf7LMPkMpy",
+                          "kind":  "link"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

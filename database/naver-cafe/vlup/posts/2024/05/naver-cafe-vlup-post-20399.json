@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "쇼츠라이브 시청 후기",
-    "text":  null,
     "publishedAt":  "2024-05-22",
     "publishedTimeRaw":  "2024-05-22T00:24:21.477",
     "sourceTimezone":  null,
@@ -31,5 +30,21 @@
     "sourcePage":  6,
     "sourcePosition":  9,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/05/naver-cafe-vlup-post-20399.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/05/naver-cafe-vlup-post-20399.json",
+    "text":  "세로화면으로 편하게 보는 주인님 콘서트 같았어요!\n오늘 몸도 안좋으시고 오래 노래부르셨지만 그치만 노래 너무 좋았어요요\n세로폰으로 보니까 색다르고 편하고 즐거워서 정말 재밌었어요~!!!!\n좋아한다고 해줘\n파후파후 냐냐",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA1MjJfMTU0/MDAxNzE2MzA4NTIzMDIz.iLqN_5H6Q941Q90EZylaODnlx3oFt2ngajVFVafeJMUg.MULymR6eZINYRAykjhScb05JUVFXr48HZYBKQ4e6AqQg.JPEG/IMG_2137.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_5eb66fd5a6e07/original_6.gif?type=pa50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

@@ -9,7 +9,6 @@
     "authorNickname":  "꼬리리",
     "authorGroup":  "dahlia",
     "title":  "ㄷㄷㄷ덜덜이 신상 뭐고",
-    "text":  null,
     "publishedAt":  "2026-10-09",
     "publishedTimeRaw":  "2026-10-09T15:58:40.193",
     "sourceTimezone":  null,
@@ -31,5 +30,21 @@
     "sourcePage":  1,
     "sourcePosition":  10,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2026/10/naver-cafe-vlup-post-40501.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2026/10/naver-cafe-vlup-post-40501.json",
+    "text":  "",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjEwMDlfMjc1/MDAxNzkxNTI4NzYzNTky.zFZ18KLKZH3K6OcDHQPSKH5DRmxWdon7OXRP-qO60BYg.BKsw2DLm4jmOG0_MF-StV6x2Jay44HeEw2m-2ZmyOiQg.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjEwMDlfMTUx/MDAxNzkxNTI4ODU4Nzk3.mg-c30JpzGPH4kZ25YT3HP-ugqu9qQp4av2Ka89Zu8Ig.cu5A-q2zpsgN3ZEK4uMY9nN-8Did5LSJ8seTe9dCgRYg.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

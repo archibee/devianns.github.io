@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "위협하는 래서판다",
-    "text":  null,
     "publishedAt":  "2024-04-20",
     "publishedTimeRaw":  "2024-04-20T14:21:35.337",
     "sourceTimezone":  null,
@@ -31,5 +30,16 @@
     "sourcePage":  7,
     "sourcePosition":  4,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/04/naver-cafe-vlup-post-18688.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/04/naver-cafe-vlup-post-18688.json",
+    "text":  "https://youtu.be/BXWGrp0XXNo?si=gSNgnQxVMTg1gpF-\n위협적인..☺️",
+    "bodyLinks":  [
+                      {
+                          "label":  "https://youtu.be/BXWGrp0XXNo?si=gSNgnQxVMTg1gpF-",
+                          "url":  "https://youtu.be/BXWGrp0XXNo?si=gSNgnQxVMTg1gpF-",
+                          "kind":  "link"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

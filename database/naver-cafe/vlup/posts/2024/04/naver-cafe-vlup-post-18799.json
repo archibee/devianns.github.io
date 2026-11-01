@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "냥냥손매우귀여운여왕주인님",
-    "text":  null,
     "publishedAt":  "2024-04-23",
     "publishedTimeRaw":  "2024-04-23T11:47:24.413",
     "sourceTimezone":  null,
@@ -31,5 +30,31 @@
     "sourcePage":  7,
     "sourcePosition":  3,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/04/naver-cafe-vlup-post-18799.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/04/naver-cafe-vlup-post-18799.json",
+    "text":  "네 귀엽습니다🥰🫠🫠",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA0MjNfMjM0/MDAxNzEzODQwMDAxNzgx.mwJObhTgLnnr2llZ3w9pWAxJqVR0q0bBpBMMCmhe8hcg.RnZvhhA-wAKZQHmig9vfSQ6878Y5dJKgc3K5TSpiGOUg.JPEG/1000001456.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA0MjNfMzMg/MDAxNzEzODQwMDAyMTIx.xSZRgsQBqWxFg84oHQiucBid6Hhu3ILPgqg7-_avcOwg.1kcx512pgUJlD2qzmuwn4IKIdvN9ixbBvSIRhcPVPlAg.PNG/1000001469.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA0MjNfMjAy/MDAxNzEzODQwMDAyMTMx.YRW4BOZCKInZfQF_oVRQKrOiTLHfVbnnEtpk5WEYxxsg.YDP49BMWecMzPieKgQIkd1fQ27DqxN3KYn9zBnkZMrgg.PNG/1000001461.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA0MjNfNjUg/MDAxNzEzODQwMDAyMTMx.QbCU9HNle1LgZQ4h5ZKQA7p4DR2WG3SwV4vOH6XY3NQg.YHp10aslS8vR-T2z0_SUQjg0voHmot3DTl1GeR2BVgkg.PNG/1000001464.png?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

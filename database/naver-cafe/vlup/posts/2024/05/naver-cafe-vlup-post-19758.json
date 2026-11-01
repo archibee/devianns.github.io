@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "스타2할때 주인님 귀여운점",
-    "text":  null,
     "publishedAt":  "2024-05-07",
     "publishedTimeRaw":  "2024-05-07T18:21:38.950",
     "sourceTimezone":  null,
@@ -31,5 +30,21 @@
     "sourcePage":  6,
     "sourcePosition":  14,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/05/naver-cafe-vlup-post-19758.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/05/naver-cafe-vlup-post-19758.json",
+    "text":  "축제의상 주인님이 오른쪽아래에 있을때 구도가 엄청 귀여움\n초롱한 눈으로 헤실헤실 볼빵빵 즐겜하는 모습이 무척 귀엽습니다",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA1MDdfMjc2/MDAxNzE1MDczNjk3OTIw.Y4UjXTs2cOFWonkC3EnhfDBYzOHzreAA5KIz9WF-gz0g.B4UWfiL-dwQNbCg3XPClRJtrTacn8KTLP5RKMfSBAvQg.PNG/Screenshot%EF%BC%BF20240506%EF%BC%BF223106%EF%BC%BFAfreecaTV.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_5fb765a3fc5f3/original_24.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "주인님 프로필의 이스터에그",
-    "text":  null,
     "publishedAt":  "2025-02-23",
     "publishedTimeRaw":  "2025-02-23T14:13:30.137",
     "sourceTimezone":  null,
@@ -31,5 +30,36 @@
     "sourcePage":  1,
     "sourcePosition":  4,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/02/naver-cafe-vlup-post-31261.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/02/naver-cafe-vlup-post-31261.json",
+    "text":  "‘뭘봐 이쁜거 첨보냐!?’\n헉\n주인님을 많이봤기땜에 아마 처음은 아닐지도...\n젠장 쇼츠가 너무 귀여워\n주인님이랑 춤이랑 의상도 너무 귀여운데 직접부른 노래가 진짜 너무 찰떡스럽게 귀엽게 좋아요\n노래가 달콤달콤한 느낌으로 잘 불러진거같아요\n진짜 레전드\n달콤하고 뽀송뽀송한 주인님의 순도 100퍼센트 노랫소리 진짜 무지... 말도안댄다",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTAyMjNfNjEg/MDAxNzQwMjg3NjA5MzMx.tJgJchHl_B-v2O_4-vvC8QymvqDiq_sd_cO_FKllRx4g.KRMSFNxl1eulAFwUjuHj50LeI-j9C7uMtUfEOGZjsmAg.JPEG/IMG_3222.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_9.png?type=p50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTAyMjNfMjIz/MDAxNzQwMjg3NjA5NDc1.gBPq-e6BH6AJE0RsHei6kdL8jky0iu0gq_UxLiWZOngg.hvp6anBP6B3DhWmvahwyHQOOPd4bAih8YDN4IEhRkwgg.JPEG/IMG_3228.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTAyMjNfMTU4/MDAxNzQwMjg3NjA5NTA5.iSXwwF0uoWnm2sI2F7Cd3zsbx9B5oY9ydg-qfyvGkGgg.HdPiPSl6P-rXFYJQu2KS6dvgwUiCVp313_6gL344vF0g.JPEG/IMG_3229.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 5",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_6.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

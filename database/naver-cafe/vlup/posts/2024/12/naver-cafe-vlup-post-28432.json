@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "내가사라져볼께~ 얍 (오뱅후)",
-    "text":  null,
     "publishedAt":  "2024-12-09",
     "publishedTimeRaw":  "2024-12-09T01:01:22.073",
     "sourceTimezone":  null,
@@ -31,5 +30,36 @@
     "sourcePage":  2,
     "sourcePosition":  10,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/12/naver-cafe-vlup-post-28432.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/12/naver-cafe-vlup-post-28432.json",
+    "text":  "https://vod.sooplive.co.kr/player/144589695/catch\n꺄르르 웃는 주인님 ㄱㅇㅇ,,,,\n움맴매에,,, 그치만주인님이랑있으면\n재밌어서잠못자는걸...\n노래 덜깍은거치곤 두곡다 주인님한테 어울리는곡이였어요!! 처음들어봐서 제목은잘몰르지만 별노래 두곡 노래 좋았어요\n노래부르고목아프다하시니확실히조금목갈라진느낌이잇섯어용\n주봉봉을 마스터하고 주거봉봉 파생버전까지 섭렵해버리시다니... 정말감사합니다 주봉봉 매도버전 캬 이거거든요..\n매도먼저맞는게좋다더니 오늘도 매도포상 주시느라 고생많으셨습니닷 안녕히 주무세요 주인님과 일주일을 마무리하고 일주일을 즐겁게 시작한거네요~(일-\u003e월)\n이번주 신의상도 🫣기대를왕창하고있습니다\n오늘완전재밋엇다 주바주바 꿀잠주무세요🫠🌙🌟!!",
+    "bodyLinks":  [
+                      {
+                          "label":  "https://vod.sooplive.co.kr/player/144589695/catch",
+                          "url":  "https://vod.sooplive.co.kr/player/144589695/catch",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fiflv14.sooplive.co.kr%2Fclip%2F20241209%2F539%2Fe85a1a03-b17b-45ac-8970-03ea2debef92%2F7964539_r.jpg%22\u0026type=ff500_300",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDEyMDlfNCAg/MDAxNzMzNjczNjgxNDE2.g8a3p4CDFReyqb9474_GILQus3mIHAk7JjdEaYPCNCAg.5yoZingENb6ODEQpFSn6-_nNzN3Qc3oCP3RmAT-KPjsg.JPEG/IMG_2854.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_16.png?type=p50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_17.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

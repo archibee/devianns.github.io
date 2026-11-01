@@ -9,7 +9,6 @@
     "authorNickname":  "꼬리리",
     "authorGroup":  "dahlia",
     "title":  "오늘 술뱅에서 같이먹은거",
-    "text":  null,
     "publishedAt":  "2026-03-01",
     "publishedTimeRaw":  "2026-03-01T19:25:16.937",
     "sourceTimezone":  null,
@@ -31,5 +30,21 @@
     "sourcePage":  2,
     "sourcePosition":  10,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2026/03/naver-cafe-vlup-post-39021.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2026/03/naver-cafe-vlup-post-39021.json",
+    "text":  "사과음료수에 소주 타서 머것어\n그냥 집에있는거 두개 타봤는데 깔끔하고 맛있다!",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjAzMDFfMjgg/MDAxNzcyMzYwNzE0NDQw.vq1k6z0NzBq8QLcXnV7QZLxwZzUiktWLkRGay_Ti8Jsg.jwBoll2FHxFEDK7zGdP-GvMgDsPSBza-uB1tiD29Jx4g.JPEG/640%EF%BC%BF20260301%EF%BC%BF1913592.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_6192c4e16807d/original_7.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

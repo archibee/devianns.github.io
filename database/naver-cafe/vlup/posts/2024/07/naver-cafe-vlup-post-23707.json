@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "소신발언) 서폿미포 에바쓰 ㅜㅜㅜ...",
-    "text":  null,
     "publishedAt":  "2024-07-30",
     "publishedTimeRaw":  "2024-07-30T06:54:51.133",
     "sourceTimezone":  null,
@@ -31,5 +30,31 @@
     "sourcePage":  5,
     "sourcePosition":  6,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/07/naver-cafe-vlup-post-23707.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/07/naver-cafe-vlup-post-23707.json",
+    "text":  "만년플레 서폿유저로써 용납못해요 미포서폿....\n용납안되는거 1) 챔프가 미포\n용납안되는거 2) 못함 근데 이제 무지성인\n유성강점기 시즌에도 끝물이었던 응가서폿 ㅜㅜ 진자\n저는 오리아나서폿 11승 4패이긴한데 성적좋으니까 용서받을수있다고 생각해요... (반은 닷지당함)",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA3MzBfMjU5/MDAxNzIyMjkwMDg4ODk0.IOqanyKUtgVJn484YZzyGcy5zhWhCXit3F2KwZM_Lnog.t2OWXwjWB0wAxb44UfJFnf6P4IdWtYDifxzQgXkPy2Ag.PNG/Screenshot%EF%BC%BF20240730%EF%BC%BF064211%EF%BC%BFChrome.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA3MzBfMjM5/MDAxNzIyMjkwMDg5MzUw.C2ivARgX2nqb6tk7dR3adYIE5jL67VsELktEDvZr3PAg.Oizv6WP_DUwohPEJ-YkMH_wD9TRzJ9UzL-ybECUEywIg.PNG/Screenshot%EF%BC%BF20240730%EF%BC%BF063914%EF%BC%BFChrome.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA3MzBfMTEw/MDAxNzIyMjkwMDg5ODUy.YJAwFPN_wO9TSHhk_E4kxGDDsk8eLPZPCst3qM5z16gg.yQ9jXyVN2cEUtpTMN0x3HVVQ9sYjRmapNh8fYs8Gybkg.PNG/Screenshot%EF%BC%BF20240730%EF%BC%BF063937%EF%BC%BFChrome.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA3MzBfODYg/MDAxNzIyMjkwMDkwMjgx.eU_wdSkiPAlFSJS3DlVz6VIJQ6481BPcIw2CaC7xt7Eg.GBcKF3LE8bpXc7PCEC0fgku6uN7Cifnm9_m_lmxh1wEg.PNG/Screenshot%EF%BC%BF20240730%EF%BC%BF064027%EF%BC%BFChrome.png?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "유튜브 쇼츠영상 댓글 허용/비허용 하는법",
-    "text":  null,
     "publishedAt":  "2024-08-15",
     "publishedTimeRaw":  "2024-08-15T20:39:59.883",
     "sourceTimezone":  null,
@@ -31,5 +30,31 @@
     "sourcePage":  5,
     "sourcePosition":  1,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/08/naver-cafe-vlup-post-24242.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/08/naver-cafe-vlup-post-24242.json",
+    "text":  "내 동영상 보기나 유튜브 스튜디오로 들어간 다음 쇼츠 동영상 탭 누르고\n영상에서 연필버튼 클릭\n아래에 자세히보기 버튼 클릭하고 밑으로 쭈욱 내리면\n댓글 및 평가로 켜짐 일시중지 꺼짐 설정할수있어요\n이걸로 설정안되는거면 아마 유튜브의 알수없는 알고리즘 인거같아요",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA4MTVfMzEg/MDAxNzIzNzIxODM3NDI3.aP7NhOWKGjnEfsqdpe2dgFtF1-MFu-Nb921rlGLeE2Ig.UQAkp5ZFnmv4ui-1JotejAWJx-MGFnlA9u5FY9soaqYg.PNG/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2024-08-15_203602.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA4MTVfMjcy/MDAxNzIzNzIxODM3NDY1.il4vNfaV0glTRhWngblQ7Qv730MHVoyVQuGI6lrdJ5sg.9w-2Mm6KHiCn4GB03gv4bLQqnHMt7sbmaKKp7Mf3Jfog.PNG/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2024-08-15_203635.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA4MTVfMzYg/MDAxNzIzNzIxODM3NDY5.w9o9WacVSBFhn5FdbEoxngDE8jpJdQDzuvRNg5CXPoEg.h7W7c1uKMffLrHYQUuJS9DoB9MGF7x5nHdbUnnL2sKMg.PNG/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2024-08-15_203520.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_14.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

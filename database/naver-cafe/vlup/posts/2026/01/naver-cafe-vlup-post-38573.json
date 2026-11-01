@@ -9,7 +9,6 @@
     "authorNickname":  "힝구링이",
     "authorGroup":  "dahlia",
     "title":  "트리가 좋아하는거 놓고 간다 ….@))))",
-    "text":  null,
     "publishedAt":  "2026-01-12",
     "publishedTimeRaw":  "2026-01-12T22:10:23.877",
     "sourceTimezone":  null,
@@ -31,5 +30,26 @@
     "sourcePage":  1,
     "sourcePosition":  5,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2026/01/naver-cafe-vlup-post-38573.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2026/01/naver-cafe-vlup-post-38573.json",
+    "text":  "https://youtube.com/shorts/TBKVU_Pf5Ps?si=1tjj-b3thnz_H9RI\n치과는 별일 아닐거야!\n쫄면더아파 갠차나 💪🔥",
+    "bodyLinks":  [
+                      {
+                          "label":  "https://youtube.com/shorts/TBKVU_Pf5Ps?si=1tjj-b3thnz_H9RI",
+                          "url":  "https://youtube.com/shorts/TBKVU_Pf5Ps?si=1tjj-b3thnz_H9RI",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjAxMTJfMjE5/MDAxNzY4MjI0NjU5NTk1.Nfl1cGeTbhLatn2r4wWpyEFDkmpLfIPQzc-yMLk70owg.YUO6pOeBpwmMUSeJ6Dd45n-ZHRIopbBG-UkP9wdWoTgg.JPEG/IMG%EF%BC%BF4561.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_6192c4e16807d/original_2.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

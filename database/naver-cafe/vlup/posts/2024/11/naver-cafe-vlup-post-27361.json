@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "신혼주인 asmr을 위한 꿀팁을 드리기...",
-    "text":  null,
     "publishedAt":  "2024-11-08",
     "publishedTimeRaw":  "2024-11-08T21:18:36.843",
     "sourceTimezone":  null,
@@ -31,5 +30,21 @@
     "sourcePage":  3,
     "sourcePosition":  7,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/11/naver-cafe-vlup-post-27361.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/11/naver-cafe-vlup-post-27361.json",
+    "text":  "챗gpt 에게 물어봤습니다...(신혼 경험이 없어서 잘 모르기때문입니다...)\n신혼을 주제로한 창작 ASMR 정보 질문...\n아주 로맨틱한 신혼 ASMR 콘텐츠를 구상하고 계시네요! 애틋하고 따뜻한 분위기를 살려서, 신혼 시기에 두 사람이 함께 나누는 설레는 감정과 사랑을 담은 귓속말을 연출할 수 있을 거예요. 여기 몇 가지 개요와 스크립트 아이디어를 드릴게요.\n1. 배경 설정\n장소 : 신혼부부가 함께 지내는 아늑한 방이나 밤중의 조용한 침실\n상황 : 신부가 신랑의 곁에서 애정 어린 마음으로 잠들기 전 속삭임을 나눔\n분위기 : 고요한 새벽, 작은 불빛이 켜진 포근한 공간에서 신부가 신랑의 하루를 위로하고 사랑을 속삭임\n2. 에피소드별 주제\n에피소드 1: 사랑의 고백\n“당신과 함께라서 매 순간이 소중해. 내 곁에 있어줘서 고마워.”\n결혼 후 사랑에 대해 느끼는 감정과 애정을 표현하는 말들.\n에피소드 2: 미래에 대한 기대감\n“앞으로 우리가 만들어갈 시간들, 함께 할 추억들이 너무 기대돼.”\n둘이 함께 할 미래에 대한 설렘과 기대감을 속삭이며, 사랑스러운 약속을 나눔.\n에피소드 3: 소소한 칭찬과 감동\n“오늘 하루도 너무 수고했어. 당신 덕분에 난 매일 행복해.”\n신랑의 하루를 격려하고 고마움을 표현하면서 소소한 일상 속 행복에 대해 이야기.\n에피소드 4: 두 사람만의 비밀스러운 대화\n“우리가 둘만 아는 작은 비밀들, 당신과 나만의 언어들이 너무 좋아.”\n둘이 나누는 사소한 습관이나 속마음에 대해 이야기하며 더욱 가까워지는 느낌을 강조.\n3. 스크립트 예시\n오프닝 : “자기야, 오늘 하루도 정말 고생 많았어. 내 옆에 이렇게 누워있으니까 마음이 편안해져.”\n중간 속삭임 : “너무 사랑해. 평생 당신 곁에서 함께 할 수 있어서 행복해.”\n클로징 : “이제 잠이 스르르 오려고 해. 좋은 꿈 꾸고, 내일도 당신과 함께 할 생각에 벌써부터 기대가 돼.”\n4. ASMR 요소 추가\n숨소리 : 잔잔한 숨소리를 통해 신부가 곁에 있다는 느낌을 전달\n작은 웃음: 소곤거리는 중간에 부드러운 미소나 작은 웃음을 더해 진정성 있는 느낌 연출\n부드러운 손길 효과 : 이불을 만지거나 손을 잡는 소리를 조심스럽게 넣어 친밀감을 높임\n이런 방식으로 신부의 사랑과 따뜻함을 담아 신랑에게 속삭이는 장면을 연출해보세요 .\nai이녀석.......!!\n챗지피티 답변을 주인님의 신혼 ASMR 참고자료로 제출합니다!!",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_5fb765a3fc5f3/original_12.png?type=p50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDExMDhfMTg0/MDAxNzMxMDY4MzE1Mzcx.UGo5TRnNdTXRd1Sn-qD0TN5m8nSmLGCUqQpbZ4KanB4g.4e7AvP8hZVogV3KLZWbBiT5W8uaer2l9yVYhwM6UFi4g.PNG/1731068247823.png?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

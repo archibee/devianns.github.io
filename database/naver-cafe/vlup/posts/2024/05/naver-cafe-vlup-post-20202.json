@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "오버래피드 영원3살고양이 해본후기",
-    "text":  null,
     "publishedAt":  "2024-05-16",
     "publishedTimeRaw":  "2024-05-16T21:07:46.307",
     "sourceTimezone":  null,
@@ -31,5 +30,36 @@
     "sourcePage":  6,
     "sourcePosition":  10,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/05/naver-cafe-vlup-post-20202.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/05/naver-cafe-vlup-post-20202.json",
+    "text":  "소식을 보고 모바일 게임이어서 간단하게 다운받아 해보았슴니다\n곡 선택 화면은 이렇게\n난이도와 옵션(페이드효과, 오토 모드 등등)을 선택할 수 있었어요\n처음 다운받은 게임에서 주인님곡을 플레이하니까 뭔가 반갑고 게임이 재밌게 느껴지는 색다른 경험이었어요\n조금만 적응하면 판정선 배치도 나름 재밌는 요소중에 하나겠다 생각도 들었고\n전체적으로 미려하고 깔끔해서 생각한것보다 괜찮은 게임이다 싶었어요\n저는 가장 쉬운 8단계 기초 난이도로 해보았는데\n리듬게임을 처음 접한건 아닌데 예상보다 난이도가 높은 느낌이었어요\n드래그가 필수인 특수노트(빨강)가 있는데 이 노트가 연속으로 섞여서 나올때 실수하기 쉬워서 난이도를 높이는 요소인 것 같아요\n처음 다운받은 게임에서 주인님 봐서 넘 반가운 기분이었고 재밌게 플레이 했어요~~!!",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA1MTZfMTcg/MDAxNzE1ODYxMjY0MzU2.zCNNaSVhpz0j-PsiQCjKyUUsLGfY__LOTv3oa7TnenYg.MCUCQMANh2L5ob8YZpjnpNKEXwZrc4jabwfJ6oM3srEg.PNG/Screenshot%EF%BC%BF20240516%EF%BC%BF203503%EF%BC%BFX.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA1MTZfMjI0/MDAxNzE1ODYxMjY0NTE2.dT3pLnapPePMf8kew1CoVFTZnN6yTuv7oCm2jzA7EaEg.NtBSzGRU5ywwkF2aDrRQW5FUSxOSwW77re8bY6dfxNYg.PNG/Screenshot%EF%BC%BF20240516%EF%BC%BF203628%EF%BC%BFOverRapid.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA1MTZfMTYx/MDAxNzE1ODYxMjY0NTYy.fKlgC6sDfikQo2N2PsgCUsTUumj3biA8Aagp2bDkLA8g.1jysjh6CQklfPz3T6O8bEU0DjNy0LL18O6Ofza3HcYwg.PNG/Screenshot%EF%BC%BF20240516%EF%BC%BF182012%EF%BC%BFOverRapid.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA1MTZfMTMz/MDAxNzE1ODYxMjY0Njc0.acIHzsI6s8NxmRXV-XA_tdlr11fziGNmJxv0WDB1msUg.UKsSsHhVBrxIUwfpR0EOVq3KHMheTdqEK5UsAB_qHkUg.PNG/Screenshot%EF%BC%BF20240516%EF%BC%BF203939%EF%BC%BFOverRapid.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 5",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA1MTZfOTcg/MDAxNzE1ODYxMjY1MzAz.vLvHAtnGqM63-eGUM2L-rho7R9VOi-wF87ej-ZE7J-sg.lEifycR14dTO0hBIfpJIXjeallBDuho9y6_cedwWF9kg.PNG/Screenshot%EF%BC%BF20240516%EF%BC%BF191501%EF%BC%BFOverRapid.png?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

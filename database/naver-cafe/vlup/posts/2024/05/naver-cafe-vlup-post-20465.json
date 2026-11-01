@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "바나나는 원래 하얗다가 아니구",
-    "text":  null,
     "publishedAt":  "2024-05-23",
     "publishedTimeRaw":  "2024-05-23T08:41:30.110",
     "sourceTimezone":  null,
@@ -31,5 +30,16 @@
     "sourcePage":  6,
     "sourcePosition":  8,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/05/naver-cafe-vlup-post-20465.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/05/naver-cafe-vlup-post-20465.json",
+    "text":  "바나나는 원래 하얗다가 아니구\n이주인은 원래 귀엽다가 맞지않나요???????????\n주인님이 주인님한것뿐인데\n‘귀엽다’는 말이 통용되기 전에 주인님이 있었으면 사람들은 귀여운걸 보고 ‘이주인이다‘라고 했을것",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA1MjNfNSAg/MDAxNzE2NDIxMjg5NTE5.qiGz3rtb157JNyI1tqmuqPHvO_SvaBXk0aiPaqzLHx4g.L8qa5gXiIdvvlU0F_Uq_K4XE40VzswAAXAqLQp-tDR0g.JPEG/IMG_2153.jpg?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

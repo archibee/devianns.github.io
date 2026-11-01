@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "10만구독 축하해요!!! 대주인",
-    "text":  null,
     "publishedAt":  "2024-09-08",
     "publishedTimeRaw":  "2024-09-08T19:30:28.457",
     "sourceTimezone":  null,
@@ -31,5 +30,31 @@
     "sourcePage":  4,
     "sourcePosition":  13,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/09/naver-cafe-vlup-post-25071.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/09/naver-cafe-vlup-post-25071.json",
+    "text":  "10만주인 축하드려요!!!!!!!!\n대주인 신주인 퀸주인 최고의주인!!!!!!",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA5MDhfMTEz/MDAxNzI1NzkxNDIzNzU2.eJTXiazTpVtLI2jr_4IxOsxilIt-PYHfDUZBdnMA7mMg.lssgz-1BnMsHc2ye8rDxRX3wLHK3JqGEeaVev2Kp5Cgg.GIF/240728%EF%BC%BFjooin%EF%BC%BFkirakira.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_8.png?type=p50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA5MDhfMjUz/MDAxNzI1NzkxNDIxNDU0.56tBRGxiz6BKcRGWCXtglesfKA-w1mO24Mf1m6vsqVkg.uh5KxmL9OnvkYJ892t-K8X3rplurnG6MppZ1Uh_dSJIg.PNG/Screenshot%EF%BC%BF20240908%EF%BC%BF192430%EF%BC%BFYouTube.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_21.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

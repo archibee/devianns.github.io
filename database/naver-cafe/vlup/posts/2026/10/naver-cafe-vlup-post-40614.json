@@ -9,7 +9,6 @@
     "authorNickname":  "꼬리리",
     "authorGroup":  "dahlia",
     "title":  "트리보고싶다",
-    "text":  null,
     "publishedAt":  "2026-10-16",
     "publishedTimeRaw":  "2026-10-16T11:42:27.330",
     "sourceTimezone":  null,
@@ -31,5 +30,16 @@
     "sourcePage":  1,
     "sourcePosition":  6,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2026/10/naver-cafe-vlup-post-40614.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2026/10/naver-cafe-vlup-post-40614.json",
+    "text":  "트리좋아용",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_6192c4e16807d/original_18.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

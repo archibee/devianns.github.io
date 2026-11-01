@@ -9,7 +9,6 @@
     "authorNickname":  "꼬리리",
     "authorGroup":  "dahlia",
     "title":  "시메이드 공주님 잘자요",
-    "text":  null,
     "publishedAt":  "2026-10-05",
     "publishedTimeRaw":  "2026-10-05T22:19:52.463",
     "sourceTimezone":  null,
@@ -31,5 +30,31 @@
     "sourcePage":  1,
     "sourcePosition":  11,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2026/10/naver-cafe-vlup-post-40455.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2026/10/naver-cafe-vlup-post-40455.json",
+    "text":  "차미가 좋아하는 이쁜 메이드 공주 시트리님님 잘자요 \u003e_\u003c 💕💕💕 🌙\n오늘도 고생 만앗어 ~~~\n잘자 ~~~~~\n트리랑 놀아서 재밋엇어 ~~~",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjEwMDVfMTA3/MDAxNzkxMjA2MzkxODEx.bTSd-zCTC5SgGVHYCZVUvXueTHaFovPkEHqBWnVMLy4g.pcjVeEi7R58tP2ae3OT72MgfqR1zZgCLO8qFhCXzYggg.JPEG/IMG%EF%BC%BF0277.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjEwMDVfMjYz/MDAxNzkxMjA2MzkxODQ0.MeeOd4T90u5rY1jRvftSs0ymz6SolrLn8r2xw2nbEfAg.rSPaNr7RLZzgyhqqSzXLG9S2BW02WEVfokoOji4jH4gg.JPEG/IMG%EF%BC%BF0276.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjEwMDVfNCAg/MDAxNzkxMjA2MzkxODA1.PO_XI_O3JFzyGIZmXCShfN9v6MevOMWemY6MAonMMm8g.GptosNDWBn-icIh_IeAJy3aDOM6E5R1wwLtKUeiK7y8g.JPEG/IMG%EF%BC%BF0275.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjEwMDVfMTk3/MDAxNzkxMjA2MzkxODQ1.q0_gH7BI11kdNJuETYtSo0IwDRZ1qh0T0xgRaIrcm5kg.p3WMKXRUegGQB_5T6pzBSxs8NnAjGV-fVSZ4ysESkrcg.JPEG/IMG%EF%BC%BF0274.jpg?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

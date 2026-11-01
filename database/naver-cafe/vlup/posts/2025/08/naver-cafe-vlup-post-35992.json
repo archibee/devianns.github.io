@@ -9,7 +9,6 @@
     "authorNickname":  "망초",
     "authorGroup":  "dahlia",
     "title":  "노래부르는뱅 후기!",
-    "text":  null,
     "publishedAt":  "2025-08-05",
     "publishedTimeRaw":  "2025-08-05T02:23:17.413",
     "sourceTimezone":  null,
@@ -31,5 +30,41 @@
     "sourcePage":  1,
     "sourcePosition":  5,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/08/naver-cafe-vlup-post-35992.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/08/naver-cafe-vlup-post-35992.json",
+    "text":  "오늘 노래부르는 모습 예쁘고 귀여웠어요\n정말 ...\n네모네모 고먐미노래도 귀여웠고\n재즈풍? 아마 처음들어봐서 제목은 잘 모르겠지만..\n이별주 라는 노래도 분위기 넘 좋앗던거같아요 \u003e_\u003c\n그중에서도 특히귀엽고 예쁜노래는 오늘은 !!\n이렇게 사랑해본 적이 없어요 라는노래 부를때 보들보들하고 이쁘게 불러주셔서\n눈도 귀도 좋았지 뭐에요...\n예쁘게 부른다 란 느낌!?\n오늘따라 주잉님 왤캐 더 귀엽고 예쁘지... 라는 생각함\n아 도파민 돌아서 잠이 안와 버려요 ...! 다시보기로 노래 잔뜩 들어버려 ....\n오늘 주인님 보니까 정말 반갑고 즐거웠어요\n역시 주인님은 주인님인거네요 ~ ♫\n츄로스 좋아해주고 같이 놀아주고 웃고..\n이런 나날들을 나중엔 분명 행복이라 부를지도요\n언제나 주인님 편이 될래요\n이쁘고 귀여운데다\n츄로스 좋아해주니까요\n영원히 팬 해야겠어요\n영원 세살 고양이 니까요\n뭐.. 그냥 영원히 좋아해보면 알게 되겠죠 !!\n시간내서 츄로스보러와서 노래불러주고 놀아주고 뽀뽀도마니해주고 잘자기 자장가도 불러줘서 기뻤어요\n그런 주인님을 많이 좋아하는 맘으로 작지만 보답할게요\n주인님은 진짜 왕 사랑 ❤️💝",
+    "bodyLinks":  [
+                      {
+                          "label":  "https://vod.sooplive.co.kr/player/167948265/catch",
+                          "url":  "https://vod.sooplive.co.kr/player/167948265/catch",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA4MDVfMjE1/MDAxNzU0MzI4MTk2Njk1.6Yq6CLTAyR6Sh0gw3abGRcAid5Hpi9BsfvISSpTd3aEg.ah3Ld6LEBU2peeod3jNwIYVP4aGCDfV2zYv8Qh2x1SQg.JPEG/IMG%EF%BC%BF3881.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA4MDVfMjc4/MDAxNzU0MzI4MTk2NDcy._N4EKtQV766JnPWMBakPMp_8l5zc3n5r9h_faCSSRoMg.4kc3cWJUSoHJBO3sqobAPnsNW6gTtJzn8870tiyK8ocg.JPEG/IMG%EF%BC%BF3883.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_636914e64f65a/original_10.png?type=p50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_636914e64f65a/original_12.png?type=p50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 5",
+                          "url":  "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fiflv14.sooplive.co.kr%2Fclip%2F20250804%2F803%2Fac9666a3-e8f0-4482-9246-997097624957%2F12632803_r.jpg%22\u0026type=ff500_300",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

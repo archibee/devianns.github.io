@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "굉장히..",
-    "text":  null,
     "publishedAt":  "2024-12-03",
     "publishedTimeRaw":  "2024-12-03T21:42:07.620",
     "sourceTimezone":  null,
@@ -31,5 +30,16 @@
     "sourcePage":  2,
     "sourcePosition":  12,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/12/naver-cafe-vlup-post-28255.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/12/naver-cafe-vlup-post-28255.json",
+    "text":  "귀엽웟ㅂ다..\n주인님이 보고십엇다\n겨울이엇다",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDEyMDNfMTYy/MDAxNzMzMjI5NzI2NjU4.ccy2_bj2Dx9bF0v625i4wVZ6RRiecR3XM4zdgr0w-0kg.5c3ynMuZZlcgnQBTwE2fRhKy3_33I-ofhJkKA6KJ03Ig.PNG/Screenshot%EF%BC%BF20241203%EF%BC%BF213527%EF%BC%BFYouTube.png?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

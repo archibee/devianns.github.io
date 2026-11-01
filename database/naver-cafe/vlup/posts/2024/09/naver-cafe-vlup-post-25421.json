@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "주인님 asmr을 듣고 눈떠버린것…",
-    "text":  null,
     "publishedAt":  "2024-09-18",
     "publishedTimeRaw":  "2024-09-18T16:29:42.020",
     "sourceTimezone":  null,
@@ -31,5 +30,16 @@
     "sourcePage":  4,
     "sourcePosition":  11,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/09/naver-cafe-vlup-post-25421.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/09/naver-cafe-vlup-post-25421.json",
+    "text":  "사람들이매도 좋아하는이유가뭘까 무슨느낌인지 잘 모르겠는데… 라고 생각했었는데\n주인님 asmr영상들에 매도대사 비율이 높아서 계속 듣다보니 가끔 흠칫할때가 생겼버렸어요 ㅋㅋㅋ\n사랑해 변xxx야 라던가\n정색대사+멘헤라첨가 대사들 들을때 조금 무서운데 짜릿할때가있어요…\n원랜 전혀 없는 취향(?)이었는데 계속듣다보니 뭔가 신기하게도 계속 듣고싶어지는 그런 매력이 있더라구요\nasmr 에서 이야기하는것도 재밌고 귀핥기사운드도 듣기좋아서 다시보기로 한번들으면 어느샌가 계속 듣고있어요\n또 다시보기에서본 과일asmr도 대부분 좋았어요 망고도좋고 사과같은 아삭아삭도 귀 시원한 느낌이라 재밌었어요!",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA5MThfMTAw/MDAxNzI2NjQ0NTgxNDU0.y1Y2psGZ9U1igaHu2W4wYQGpdVv9yRHPMrhF_4wpFfkg.c9VElH9IYf_vl-05YpknbxFrc19IrZyVENIkgX_GtUMg.JPEG/IMG_2513.jpg?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

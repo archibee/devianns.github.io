@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "오리곡 메들리는 최고였읍니다......",
-    "text":  null,
     "publishedAt":  "2024-05-13",
     "publishedTimeRaw":  "2024-05-13T00:48:15.467",
     "sourceTimezone":  null,
@@ -31,5 +30,21 @@
     "sourcePage":  6,
     "sourcePosition":  13,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/05/naver-cafe-vlup-post-20009.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/05/naver-cafe-vlup-post-20009.json",
+    "text":  "https://youtu.be/RF2baH0vibo?si=HuROoHZOOeppbf6J\n모든곡이 입덕곡이지만 나고자 늘 생각나는데\n새로운 플러그인으로 들려주신 마이팰리스 듣고 성불해씀니다.......\n이주인은 퀸이야.........................\n츄로스 디질게",
+    "bodyLinks":  [
+                      {
+                          "label":  "https://youtu.be/RF2baH0vibo?si=HuROoHZOOeppbf6J",
+                          "url":  "https://youtu.be/RF2baH0vibo?si=HuROoHZOOeppbf6J",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_5eb66fd5a6e07/original_7.gif?type=pa50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

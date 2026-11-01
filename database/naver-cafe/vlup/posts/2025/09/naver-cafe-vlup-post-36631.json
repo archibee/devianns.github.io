@@ -9,7 +9,6 @@
     "authorNickname":  "망초",
     "authorGroup":  "dahlia",
     "title":  "게키오코뿡뿡마루",
-    "text":  null,
     "publishedAt":  "2025-09-07",
     "publishedTimeRaw":  "2025-09-07T18:34:43.800",
     "sourceTimezone":  null,
@@ -31,5 +30,41 @@
     "sourcePage":  1,
     "sourcePosition":  2,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/09/naver-cafe-vlup-post-36631.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/09/naver-cafe-vlup-post-36631.json",
+    "text":  "",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA5MDdfMjc1/MDAxNzU3MjM3Njc4MjI2.bqs03O5mGn7li1gX5-3RR_vwlfPuXthDM4Zl4USNUDkg.lP38RV6GjOtW3sYE2jNaam-_xqUEMQgFiXG_DGtj5TIg.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA5MDdfMjIw/MDAxNzU3MjQzMDE0MjQ2.9Bmm7PaCUOlthiXtZFlj6SbIqsFzFR5WIWSrvI9reK4g.PqTpW2GLg2WkPukesjzgu4fgBiyVTAbXq0yqzXczl8sg.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA5MDdfMTY1/MDAxNzU3MjQyNzk1OTUz.2OOomECCiMz7FBl3V88BUnbnKPTTlDvQl6c6sDi5AIYg.moE5VfaFfig4gUMea3gJ_eP2jLhPVx_pdREl9oCO4Gwg.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA5MDdfMjI1/MDAxNzU3MjQyODQ0MTI2.zF_MeTKD4EPSYTUmLNQEajbBSU_zbrPqNjJSKsyp_6Ag.2Qi80B-A6EFCLonQC4Ophlnb5qTrmxYO8kOKBSP8eQcg.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 5",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA5MDdfMTU4/MDAxNzU3MjQyODk2MjA3.u2urLUZhxxRHc8-_l7FuIv4hKZK5WKD9MuUC_U7PzJkg.Hxu4oDpK_RUBRPz13cNWXU4h_B-N0gwO3edM8xghVSMg.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 6",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_6192c4e16807d/original_9.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

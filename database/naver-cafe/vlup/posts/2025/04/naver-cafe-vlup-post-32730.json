@@ -9,7 +9,6 @@
     "authorNickname":  "망초",
     "authorGroup":  "dahlia",
     "title":  "4월 11일 저녁쿠키",
-    "text":  null,
     "publishedAt":  "2025-04-11",
     "publishedTimeRaw":  "2025-04-11T19:07:06.810",
     "sourceTimezone":  null,
@@ -31,5 +30,21 @@
     "sourcePage":  2,
     "sourcePosition":  15,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/04/naver-cafe-vlup-post-32730.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/04/naver-cafe-vlup-post-32730.json",
+    "text":  "쿠키는 식사가 아니지만 주인님방종쿠키는 못참지 !\n주인님 모비노기 재밌게즐기는모습도 너무 보기좋고\n주인님 정말 귀엽고 예쁜데다\n모비노기 게임 보는것도 잡담할시간도많고 잔잔하기도하고 틀어놓고보기도좋고~! 생활컨텐츠같은것도 신기한거나 귀여운컨텐츠들도많아서 게임은 잘 모르지만 이것저것 구경하면서 같이 탐험하는거 보는느낌으로 재밌게 보고 있다에요!\n주인님 좋저~~ (좋은저녁되세요 라는뜻)",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA0MTFfOTEg/MDAxNzQ0MzY2MDI2MjE1.PwcR50x9rzPPa5craLePoRH00xqcT_fE25nYA4SZyckg.OraDc8NZchRk7eU6B3TrEUM8_3lwboyxK4xksKRashEg.JPEG/IMG_3327.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_1.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

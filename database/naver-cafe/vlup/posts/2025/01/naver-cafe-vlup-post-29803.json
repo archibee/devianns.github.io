@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "시리우스주인 귀여운표정",
-    "text":  null,
     "publishedAt":  "2025-01-10",
     "publishedTimeRaw":  "2025-01-10T16:56:18.090",
     "sourceTimezone":  null,
@@ -31,5 +30,41 @@
     "sourcePage":  1,
     "sourcePosition":  12,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/01/naver-cafe-vlup-post-29803.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/01/naver-cafe-vlup-post-29803.json",
+    "text":  "헉 표정이...\n그리고 또 여러가지\n물마시기\n댄스\n한복",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTAxMTBfMTQ2/MDAxNzM2NDk1MzE4MTIz.JA20D9T_o1gZR29YqwaJG7Njsmu2TxobUaWYSn-kwe0g.P9Ky4-oidGb8x0g9EZ4Rk4iO1RGyKyvINRw60UnthRQg.GIF/Animation31.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTAxMTBfMTQ3/MDAxNzM2NDk1NTcwOTUy.w54TJJQHWFbBMEOAU1FfId9dd3cLlrmgmEqBY0Urkt0g.7Jaor190d5Wp1Uos1-v8MYoD7zlk1uC2yVbtOp70KCEg.PNG/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2025-01-10_165240.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTAxMTBfOTAg/MDAxNzM2NDk1MzI5MTcx._Tvf9fJkP__oec89NUc0dF7kx6KcBQR64ebGoKVEqDQg.uRH9YLC5545JI2gLOUP357LoGe4h5Zr3BHmlFzgCD3Ig.GIF/Animation32.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTAxMTBfMTE2/MDAxNzM2NDk1MzM4MDk0.ung9x_tICscw_K9EyA6li5x9OLAHSdfnseXs_ytXv4og.o3wzm2ZT3LGgEKBrZrR-VtM-WG-6M0KbI0njACQCI28g.GIF/Animation33.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 5",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTAxMTBfMjky/MDAxNzM2NDk1MzQ5NjY5.J1K1OCI0rldOXk8HmOEH3oGsp6qBHFJrVmncJJ7zdOcg.I2nrQvO7jUruz3JtiTu7Zw1HsxYlWhRo3aFa3e8HX1Eg.GIF/Animation34.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 6",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_8.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

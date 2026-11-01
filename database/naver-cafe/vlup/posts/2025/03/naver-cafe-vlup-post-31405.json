@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "결망전 니코 둘째판 궁장면 모음",
-    "text":  null,
     "publishedAt":  "2025-03-01",
     "publishedTimeRaw":  "2025-03-01T00:17:07.263",
     "sourceTimezone":  null,
@@ -31,5 +30,66 @@
     "sourcePage":  1,
     "sourcePosition":  3,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/03/naver-cafe-vlup-post-31405.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/03/naver-cafe-vlup-post-31405.json",
+    "text":  "(숲캐치 업데이트되서 로그인안해도 바로 봐지네요)\n딜+메이킹+어그로빼기+낚시 다되는 니코\n뇌지컬좋고 논타겟잘맞추는 주인님한테 완전 잘어울리는 픽이었어요!\n니코3인궁+오른 여기가 우리팀 2명없는 상황에서 니코오른제리 역전한타 레전드장면이라고 생각해요\n“너 미쳤다 너, 너뭐야?”\n”나잖아~“",
+    "bodyLinks":  [
+                      {
+                          "label":  "https://vod.sooplive.co.kr/player/152732819/catch",
+                          "url":  "https://vod.sooplive.co.kr/player/152732819/catch",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "https://vod.sooplive.co.kr/player/152733215/catch",
+                          "url":  "https://vod.sooplive.co.kr/player/152733215/catch",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "https://vod.sooplive.co.kr/player/152734125/catch",
+                          "url":  "https://vod.sooplive.co.kr/player/152734125/catch",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "https://vod.sooplive.co.kr/player/152735883/catch",
+                          "url":  "https://vod.sooplive.co.kr/player/152735883/catch",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "https://vod.sooplive.co.kr/player/152736013/catch",
+                          "url":  "https://vod.sooplive.co.kr/player/152736013/catch",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fiflv14.sooplive.co.kr%2Fclip%2F20250228%2F047%2Ff42a587e-86eb-43d1-96a5-9a96a8e11025%2F9536047_r.jpg%22\u0026type=ff500_300",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fiflv14.sooplive.co.kr%2Fclip%2F20250228%2F155%2Fb958adab-11ff-47b9-b555-edbdcc92cc45%2F9536155_r.jpg%22\u0026type=ff500_300",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fiflv14.sooplive.co.kr%2Fclip%2F20250228%2F395%2Ff67ab4c0-bc8a-4bd4-b21a-2e7df675a2ad%2F9536395_r.jpg%22\u0026type=ff500_300",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fiflv14.sooplive.co.kr%2Fclip%2F20250301%2F835%2Fa4d787a3-99c4-47f8-b578-ea1c54e14caa%2F9536835_r.jpg%22\u0026type=ff500_300",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 5",
+                          "url":  "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fiflv14.sooplive.co.kr%2Fclip%2F20250301%2F877%2Ff1b7398a-a505-4cbd-b4fb-3b9ce0d93a71%2F9536877_r.jpg%22\u0026type=ff500_300",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 6",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_623dfd3f2d303/original_1.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

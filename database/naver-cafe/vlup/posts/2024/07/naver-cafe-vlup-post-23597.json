@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "오늘의 뉴주인 아이돌윙크",
-    "text":  null,
     "publishedAt":  "2024-07-28",
     "publishedTimeRaw":  "2024-07-28T02:39:22.190",
     "sourceTimezone":  null,
@@ -31,5 +30,26 @@
     "sourcePage":  5,
     "sourcePosition":  8,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/07/naver-cafe-vlup-post-23597.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/07/naver-cafe-vlup-post-23597.json",
+    "text":  "아이돌윙크랑 반짝눈 빵야빵야가 너무 귀여워서 움짤 만들었어요\n최고로 귀여워요!!!\n(롤주인)",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA3MjhfNzQg/MDAxNzIyMTAxNTMxMjcx.p5PkviZvCBII638EC4LC7ciwdLc0nnuNWl-iA7R7Xm4g.UHkKcESbgKWoQvnVsmYIMcb20OormZRBin5iyvjzr2sg.GIF/240728_jooin_cutesong.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA3MjhfODYg/MDAxNzIyMTAxNTM5OTA0.SZnM6B3-F1bXk9dqyEAHJ4OIzPDvb4oP0A0n2x6W2Bcg.aAeoeon0ncQwJ43Is_kGxLDhZSubNVUk64dp75gI3_8g.GIF/240728_jooin_bongbong.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA3MjhfNyAg/MDAxNzIyMTAyNDIxMTI2.f4U4R4_XqK3OIUkGqMrruCK-6MRW3XvYTW3Ib2cD5IUg.FH24pS8Y1nWaRRwRAmaTZ4QfEB7La575EXc-B_KcAFQg.GIF/240728_jooin_lol.gif?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

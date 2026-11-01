@@ -9,7 +9,6 @@
     "authorNickname":  "꼬리리",
     "authorGroup":  "dahlia",
     "title":  "잊어버리면 어쩌지",
-    "text":  null,
     "publishedAt":  "2026-07-25",
     "publishedTimeRaw":  "2026-07-25T13:53:51.560",
     "sourceTimezone":  null,
@@ -31,5 +30,16 @@
     "sourcePage":  2,
     "sourcePosition":  4,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2026/07/naver-cafe-vlup-post-39709.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2026/07/naver-cafe-vlup-post-39709.json",
+    "text":  "트리 일주일이나 업는데에~~\n잊어버리면어쩌지이~\n일주일 동안 없으니까 트리 잊어버릴 것 같아서 글썻어 ㅠㅠㅠㅠㅠㅠ",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_623dfd3f2d303/original_22.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

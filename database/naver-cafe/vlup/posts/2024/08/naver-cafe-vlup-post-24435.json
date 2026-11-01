@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "뉴..뉴주인 메모리얼은...ㄱ귀엽다고 생각해요....",
-    "text":  null,
     "publishedAt":  "2024-08-20",
     "publishedTimeRaw":  "2024-08-20T19:34:17.867",
     "sourceTimezone":  null,
@@ -31,5 +30,21 @@
     "sourcePage":  4,
     "sourcePosition":  14,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/08/naver-cafe-vlup-post-24435.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/08/naver-cafe-vlup-post-24435.json",
+    "text":  "쓰담쓰담 뉴주인 월페이퍼 너무 귀여워요!!! 메모리얼같이 쓰담쓰담되서 냥 좋아요\n마우스에 눈도 같이 움직이고 쓰담할수있어서 귀엽고 좋아요 !!\n그리고..\n이..이번 뉴주인 기본의상은 배가 잘 보여서 뭔가 뭔가라..고 생각해요...\n블루아카를 거의 메모리얼 감상용으로 즐기는 유저로써\n뉴주인 월페이퍼엔진 굿즈 진짜 넘 좋은거같아요 !!!!\u003e,\u003c",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA4MjBfMTIg/MDAxNzI0MTQ5MTUzNzUw.LA3tlj41ewh9q0buoRRkbzg4cooKrR--dHz6232-IdAg.jnv38wmrqq3Ld2ltPrKr8loVEgOgCtS8vve5Zebmemcg.GIF/0820_wp_7x7.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_5fb765a3fc5f3/original_12.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

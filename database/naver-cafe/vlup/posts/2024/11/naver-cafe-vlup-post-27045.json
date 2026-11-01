@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "츄로스 반찬 돼,,지 허접..ㅋ",
-    "text":  null,
     "publishedAt":  "2024-11-01",
     "publishedTimeRaw":  "2024-11-01T21:42:37.233",
     "sourceTimezone":  null,
@@ -31,5 +30,26 @@
     "sourcePage":  3,
     "sourcePosition":  11,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/11/naver-cafe-vlup-post-27045.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/11/naver-cafe-vlup-post-27045.json",
+    "text":  "썸네일이 너무 매력적이어서\n자꾸 지나가다가 멈춰서 보게돼요 \u003e///\u003c\n오늘의 저녁반찬은 돼지고기에요\n구이용 목전지를 사서 꾸웠어요\n후추를 한가득뿌리고 허브솔트를 뿌렸는데\n비주얼은 쪼금 그래도 밥반찬으로 눅진하고 짭짤해서 딱이었어요\n조금 더 익혀서 가위로 잘라서 물기침랑 얌얌했습니다\n모두 맛잇는 저녁 되셨길 바라요…!",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDExMDFfMjc3/MDAxNzMwNDY0OTU2NDky.9rlIdyhcH2lMTrC2ipN1BtWqMySmvdgYVk6sul_NW4Yg.ac518cx3jNK7mrhGZeD-CBW377oWT9WvFYrDFy30o0Ag.JPEG/IMG_2776.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDExMDFfMTY0/MDAxNzMwNDY0OTU2NTM1.V_uSO7bLdW6kkLcEJL7X4xh25ZNW3yUWfswPCqGYin0g.bd4krWeUyxcFzCdiEebhGOCpFU_lc3B07LzbPkfK97Eg.JPEG/IMG_2773.JPG?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_623dfd3f2d303/original_1.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

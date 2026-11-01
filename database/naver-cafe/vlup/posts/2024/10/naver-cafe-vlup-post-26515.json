@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "같이보기 오뱅후 !!",
-    "text":  null,
     "publishedAt":  "2024-10-15",
     "publishedTimeRaw":  "2024-10-15T23:54:12.170",
     "sourceTimezone":  null,
@@ -31,5 +30,26 @@
     "sourcePage":  4,
     "sourcePosition":  5,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/10/naver-cafe-vlup-post-26515.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/10/naver-cafe-vlup-post-26515.json",
+    "text":  "같이보기 완주는 조금 늦었지만..\n자기전에 뎁혀먹을 예정이에요 !!\n엔딩영상에 라이브 엔딩곡이라니 ,,\n나고자주인님이랑 엔딩곡 분위기가 잘어울려서\n눈도 귀도 즐거웠습니다 !!!\n주인님은 진짜 유명한 이주인임 ,,,\n밀린 주4회 테니스도 무리하지마시고 즐거운 운동 되세요!!!\n츄로스 머리 영구 봉합불가 걸렸어요\n봉불기 ㅜㅜ\n힝 머리깨져써",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDEwMTVfNTIg/MDAxNzI5MDA0MDUxNjAy.35QxEtyF_atS6WOUmbf7hD5RcC77Wt0mQJFQC00BPRIg.StIcnaUoUWBylYtqaz5NZ131gsCgAcTKTetrf86stywg.JPEG/IMG_2623.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDEwMTVfMTcy/MDAxNzI5MDA0MDUxNjAz.k8ZqVonMbZTgMsSUmcMNWyt9tpGXzA0Os5AXFxus99wg.Ts4Wx7Yw_tONWIDwCYivAIz_jI1qGle5vBsnHxQ3WvYg.JPEG/IMG_2622.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_5fb765a3fc5f3/original_16.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

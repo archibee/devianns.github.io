@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "오늘의 주쿠키",
-    "text":  null,
     "publishedAt":  "2025-01-27",
     "publishedTimeRaw":  "2025-01-27T17:15:51.940",
     "sourceTimezone":  null,
@@ -31,5 +30,21 @@
     "sourcePage":  1,
     "sourcePosition":  9,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/01/naver-cafe-vlup-post-30409.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/01/naver-cafe-vlup-post-30409.json",
+    "text":  "주인님 새해복 많이 받으세요!!\n즐겁고 푹쉬는 설날 되세요 \u003e\u003c",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTAxMjdfMTI3/MDAxNzM3OTY1NzUxNDEz.yb1ZetyN5o5VedrZh8v1fi-Aq3MVDgEx8nvHBXJPJQsg.0L8Ms4L_DF2gDxkw_asXISnuasSeg1uEApTelTFHB70g.JPEG/IMG_2985.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_10.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

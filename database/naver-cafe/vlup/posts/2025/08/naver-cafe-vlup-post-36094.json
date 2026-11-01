@@ -9,7 +9,6 @@
     "authorNickname":  "망초",
     "authorGroup":  "dahlia",
     "title":  "고양이날 수다뱅후!",
-    "text":  null,
     "publishedAt":  "2025-08-09",
     "publishedTimeRaw":  "2025-08-09T00:16:28.420",
     "sourceTimezone":  null,
@@ -31,5 +30,26 @@
     "sourcePage":  1,
     "sourcePosition":  4,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/08/naver-cafe-vlup-post-36094.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/08/naver-cafe-vlup-post-36094.json",
+    "text":  "오늘주인님이들려주는얘기들이 넘 재밌었다\n주인님은츄로스를조아해주는거같아서 엄청귀엽다\n오늘 기억에 남는 이야기\n라면국물은 살이찌지안아\n오 그럿군\n일리가잇는말입니다...\n더 기억에남는것들\n오늘따라 아이돌고양이주인님 성숙하고 귀여운 느낌\n츄로뽀뽀잔뜩해주기\n뽀뽀받으니까 기분이 좋아져어...\n고양이 날의 기운인가!\n라고 생각했어요...\n주인님 푹 잘자기 그리고 귀엽기 \u003e.\u003c\n넘 좋은 것 가타요❣️",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA4MDlfMTIx/MDAxNzU0NjY2MTg3NTgx.6U19gE1H1DysqJWZTFwvdEvgukGrzqQQBfau1ukMAdkg.15M_irzkkZ4o3aQSUDN_KC4_O9en_aLl_EUnci9q1AAg.JPEG/IMG%EF%BC%BF3888.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_636914e64f65a/original_13.png?type=p50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_5eb66fd5a6e07/original_9.gif?type=pa50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

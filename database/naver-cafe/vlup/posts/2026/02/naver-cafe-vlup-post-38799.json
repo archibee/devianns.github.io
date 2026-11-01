@@ -9,7 +9,6 @@
     "authorNickname":  "힝구링이",
     "authorGroup":  "dahlia",
     "title":  "저가요.. 리캡",
-    "text":  null,
     "publishedAt":  "2026-02-01",
     "publishedTimeRaw":  "2026-02-01T17:13:33.267",
     "sourceTimezone":  null,
@@ -31,5 +30,26 @@
     "sourcePage":  1,
     "sourcePosition":  1,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2026/02/naver-cafe-vlup-post-38799.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2026/02/naver-cafe-vlup-post-38799.json",
+    "text":  "",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjAyMDFfMjc1/MDAxNzY5OTMzNjEyMTMz.enRG4s8PxEmFFzviG9chckNW4Vug0En8eEG5O4WDijMg.hpS0uRBqeo_SUIWsNe4Deo3FCRHopkV8NC-uhKtZppEg.PNG/640%EF%BC%BFScreenshot%EF%BC%BF20260201%EF%BC%8D1711172.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjAyMDFfMTYy/MDAxNzY5OTMzNjEyMTQ2.VCEZCIvRKLX6YQ12kQ77xb2YF1ymXsjUAzNTmJ3ZWaEg.60KWry7yH0_i1k7754jrg2ng-ggrhEH5NASW7uGDvIcg.PNG/640%EF%BC%BFScreenshot%EF%BC%BF20260201%EF%BC%8D1711282.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_613275624a435/original_6.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

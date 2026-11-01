@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "민트초코소주 후기",
-    "text":  null,
     "publishedAt":  "2024-04-04",
     "publishedTimeRaw":  "2024-04-04T13:26:31.480",
     "sourceTimezone":  null,
@@ -31,5 +30,21 @@
     "sourcePage":  7,
     "sourcePosition":  8,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/04/naver-cafe-vlup-post-18102.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/04/naver-cafe-vlup-post-18102.json",
+    "text":  "이거 진짜에요?\n민트색 소주, 맛은 초코맛\n분명히 민트색인데 초코에몽 초코맛이 진하게 남\n민트향은 아주 옅게 깔려있음\n보는 색과 맛이 불일치함\n그냥 초코에몽 맛이 남\n매우 텁텁하고 속이 안좋았다\n이거아니야...",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA0MDRfMjAx/MDAxNzEyMjA0Mzc0NjUz.quEJOTi9I3IIYEn3vZ8AAs02p1_1GtBa8WVo2AGI4LAg.60aehha8KrNp7yG1IembEJy3I3yFoPaU4zpVLDHTuMYg.JPEG/20210805_233250.jpeg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA0MDRfOTQg/MDAxNzEyMjA0Mzc1NDI1.jbN7GOwQY1NNtBFWw2ILzWV-KuRd83Xf_V1I0-Btdg4g.GQ15chpU9XK8hnR-WdGg-lwcBVsaJao4iZLIYTlepvAg.JPEG/20210806_001657.jpeg?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

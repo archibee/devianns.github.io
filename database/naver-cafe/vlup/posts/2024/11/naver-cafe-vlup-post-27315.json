@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "피크민을 꾸준히 하기",
-    "text":  null,
     "publishedAt":  "2024-11-07",
     "publishedTimeRaw":  "2024-11-07T20:36:56.180",
     "sourceTimezone":  null,
@@ -31,5 +30,41 @@
     "sourcePage":  3,
     "sourcePosition":  9,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/11/naver-cafe-vlup-post-27315.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/11/naver-cafe-vlup-post-27315.json",
+    "text":  "저는 17일차 뉴비에요\n오늘 100000 걸음 뱃지를 획득했어요!!\n이번이벤트 스테이지2 하규있어요\n제가있는지역은 피크민아무도안해서 버섯레이드 혼자하는데 잡는데 4일 12시간 걸린다더니 월요일에 출발한 피크민들이 오늘저녁에 도착했어요 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ\n이벤트 진행이 메챠쿠챠 늦어지기\n3주년 금모종에서 3주년 컵케익 피크민 2마리를 모았어요\n이번 이벤트의 메인 피크민인걸까요? 2개나 얻어서 좋아요오\n어제는 17535\n오늘은 11187 걸었어요\n주인님 따라잡기 힘둘어요!!!\n피크민 수집하고 모아서 이제 좀 바글바글해졌는데 아직두 재미가 안떨어지고 재밋는 중이에요!\n바글바글한 피크민들한테 정수뿌리고 옴뇸뇸 하면 꽃 나와요\n그리고 애정도(하트?) 오르는데 이롷게 쓰담쓰담 해주면 피크민파워가 쎄지는건가봐요\n갓겜 인정합니닷 😆🩵",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDExMDdfMTgx/MDAxNzMwOTc5NDExMDYy.yDPV1yRSac3RmJ4xA5L5jAILJZzsFbYZXJOPmvpY-8Qg.L2rXOevMp6S0E3EoO07xYJhKX7vxVMgkFn6y_yO7rRAg.PNG/Screenshot%EF%BC%BF20241107%EF%BC%BF201002%EF%BC%BFPikmin_Bloom.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDExMDdfMjk3/MDAxNzMwOTc5NDExODMx.4Lhx0L92g4wUe-4ro7plIC_cYglg66Ad12zft6mlIesg.jifsZiF4v1UtxYHmfRm4Ti64pb48WC6P8uMgN50bRvEg.PNG/Screenshot%EF%BC%BF20241107%EF%BC%BF202256%EF%BC%BFPikmin_Bloom.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDExMDdfMTcy/MDAxNzMwOTc5NDEwOTE0.kom482gfYnCExZ7DXNmJRWxiCU3Pzhar_TIjV9NYlZMg.ckfyRv9A9HVF2dGROobnKaNJbGH1v7thhBO18Pxioh8g.PNG/Screenshot%EF%BC%BF20241107%EF%BC%BF201305%EF%BC%BFPikmin_Bloom.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDExMDdfMTk1/MDAxNzMwOTc5NDEzOTQ0.AGopnzY5BLm2hRT39_oj2WzeQpZDiG4hLaXXFHm7oy8g.1iDD2JPUE5lqxKFF3KOVjFc24MFdixk6H5Lzdp9oFgYg.PNG/Screenshot%EF%BC%BF20241107%EF%BC%BF203156%EF%BC%BFPikmin_Bloom.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 5",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDExMDdfNDIg/MDAxNzMwOTc5NDE1MDA5.bDH-nal_9CI8yCsHnF1Je6wJ-cUqYqagF08I6EGDf6gg.4zLXPl7cS9nr5t28eRvsUyP1Mbvt6j84zLoyPRpu514g.PNG/Screenshot%EF%BC%BF20241107%EF%BC%BF203135%EF%BC%BFPikmin_Bloom.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 6",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_623dfd3f2d303/original_3.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

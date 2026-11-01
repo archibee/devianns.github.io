@@ -9,7 +9,6 @@
     "authorNickname":  "망초",
     "authorGroup":  "dahlia",
     "title":  "겨드랑이를 보여주는날이 아니라고요@!",
-    "text":  null,
     "publishedAt":  "2025-06-28",
     "publishedTimeRaw":  "2025-06-28T20:51:20.960",
     "sourceTimezone":  null,
@@ -31,5 +30,31 @@
     "sourcePage":  2,
     "sourcePosition":  5,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/06/naver-cafe-vlup-post-35165.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/06/naver-cafe-vlup-post-35165.json",
+    "text":  "겨드랑이를 보여주는날이 아니라고요 퍽퍽\n톡!🥰\n딱 바라봐주고 톡 쳐주는거 몬가 몬가라고 생각해요..\n진짜..... 여왕주인님이 맞는거같아요!\n움짤중 한장이 너무 귀엽게 찍혀서...\n이주인 최고!!!!!",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA2MjhfNDYg/MDAxNzUxMTEwOTgxOTg2.RGaiSckLWx72sNpVCsMmhjECnw-t_xVYIOHkGyE6cRcg.2bgv4-eDVJyJZGz70sSYgjGS0Wnqr9T78kYxKIj_Z1Yg.GIF/jAnimation_gyou_01.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA2MjhfNzEg/MDAxNzUxMTExMDIzNDk4.oNzzjRTuqvFLcv2dOdnEfnnDqcgImqiAglrduLnvqxQg.3Xd8XSfvpFkbC5Uiz04StS703qlwOHpdeRw1TTgUl74g.GIF/jAnimation_kawa_01.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA2MjhfODIg/MDAxNzUxMTExMTkyNjU5.NDcW_zSFKBcbwT1CV-LX0qwN0oGmwdpQ4Lq01jjffr8g.a0Y0MdutA2W_phE2-EedadTWSWNKQizVdso2_YV6j8Ig.PNG/jCute_01.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_636914e64f65a/original_3.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

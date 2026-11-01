@@ -9,7 +9,6 @@
     "authorNickname":  "망초",
     "authorGroup":  "dahlia",
     "title":  "대지츄로들아 잘자",
-    "text":  null,
     "publishedAt":  "2025-03-10",
     "publishedTimeRaw":  "2025-03-10T00:11:21.260",
     "sourceTimezone":  null,
@@ -31,5 +30,46 @@
     "sourcePage":  3,
     "sourcePosition":  6,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/03/naver-cafe-vlup-post-31702.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/03/naver-cafe-vlup-post-31702.json",
+    "text":  "‘야 대지츄로야 잘자’\n‘대지츄로가 잠이라도 잘자야지’\n‘눈 감아라’\n또 새로운 걸 배워버렸어요!\n이번에도 맛이 있어요..\n자주 해주시면 좋을지도 모릅니다\n매도 먼저 맞는게 좋다더니!! 이런 뜻이었어요\n확실히 좋네요\n최근에 많이 돌아다니셔서 몸이 조금 지쳤을지두 모르겠어요..!\n따뜻하게 푹 주무시면 빨리 나아있을거에요 푹 잘자기 입니다아\n93개로 귀여워해봣자.. 훙! :\u003c\n그래도 역시나 귀엽다...",
+    "bodyLinks":  [
+                      {
+                          "label":  "https://vod.sooplive.co.kr/player/153680601/catch",
+                          "url":  "https://vod.sooplive.co.kr/player/153680601/catch",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "https://vod.sooplive.co.kr/player/153679333/catch",
+                          "url":  "https://vod.sooplive.co.kr/player/153679333/catch",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fiflv14.sooplive.co.kr%2Fclip%2F20250309%2F545%2F2077a36c-acda-49d8-9bf8-1054d9c81bd6%2F9723545_r.jpg%22\u0026type=ff500_300",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_5.png?type=p50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTAzMTBfMjQ2/MDAxNzQxNTMzMDgwNjE5.82QQrhWTwY-fm3bUNQh9qkKxLdYY_7ENJWeBmTsIPBog.l9WxqD0gJsWYTDcIbw-MqDqza4AuxecPyC4i9jc6Pnkg.JPEG/IMG_3242.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fiflv14.sooplive.co.kr%2Fclip%2F20250309%2F275%2F1ee29467-1dde-4f59-b0c7-753122bdca51%2F9723275_r.jpg%22\u0026type=ff500_300",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 5",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_10.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

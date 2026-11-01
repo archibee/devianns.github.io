@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "주인님이 너무 멋있다(취함)",
-    "text":  null,
     "publishedAt":  "2025-01-11",
     "publishedTimeRaw":  "2025-01-11T23:26:23.580",
     "sourceTimezone":  null,
@@ -31,5 +30,12 @@
     "sourcePage":  1,
     "sourcePosition":  11,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/01/naver-cafe-vlup-post-29846.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/01/naver-cafe-vlup-post-29846.json",
+    "text":  "그런데 너무귀엽다\n근데 너무 멋있다\n근데 넘 귀엽다 ...\n길게 말하지 않아도 될것같다\n왜냐하면 주인님은 귀여운데 멋있는데 최고인데 아주귀여운데 아주멋있는데 아주최고이기 때문에\n굳이 이런 설명을 하지않아도\n이주인(멋있음,귀여움,최고임,에라이함)은 기본 속성으로 가져가야만 한다고 생각해요~\n이주인은 이주인 근데 이제 멋있고 귀엽고 최고고 에라이한, 이게 맞다.\n아.\n이주인,\n참으로 따뜻한 고양이이다...",
+    "bodyLinks":  [
+
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

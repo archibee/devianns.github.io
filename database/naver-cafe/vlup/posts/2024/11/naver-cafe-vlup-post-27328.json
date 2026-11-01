@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "귀엽주인님 후기 !",
-    "text":  null,
     "publishedAt":  "2024-11-08",
     "publishedTimeRaw":  "2024-11-08T00:43:30.867",
     "sourceTimezone":  null,
@@ -31,5 +30,31 @@
     "sourcePage":  3,
     "sourcePosition":  8,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/11/naver-cafe-vlup-post-27328.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/11/naver-cafe-vlup-post-27328.json",
+    "text":  "주인겅듀님은 츄로스 오빠들을 따랑해~~!\n양갈래가 너무 귀여운 주인님...\n주인님 보다보면\n자유로운 고양귀가 쫑긋쫑긋하는게 너무귀여운거같아요\n주인님의 고양귀는 엄청 귀엽긔에요\n주인쫑긋 \u003c(ㅇㅅㅇ)\u003e/\n오늘 진심귀여운데이 너무 알차고 재밌었어요\n주인님진심귀여워요데이\n귀요미송에 마루쫑긋에 주봉봉까지\n정말 넘나리 행복한 시간이었어요\n원래 이미 귀여운데 스스로의 진심귀여운척을 이기지못해서 부끄러워하고 힘들어하는게 진짜 귀여운거라고 생각해요...\n귀여움에 귀여움을 더한 갭모에?..\n입꼬리를 귀걸이로 쓸수도있겠어요\n진짜 즐거웠습니닷!!!!!\n끝나지 않는 엔딩\n엔드리스 주인데이 최고였어요\n귀여움과 즐거움과 감동까지\n이주인은 진짜 유명한 에라이임\n캬",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDExMDhfMTIw/MDAxNzMwOTk0MjA5MTUy.nlg-Siu7DoxpgbczARIqRS7VRUG7ODi6oHiZCxaF0fwg.9uYbmSsUn8qXcM0hbk27CIuRpgn1N3qRJrds3zBjkFgg.PNG/Screenshot%EF%BC%BF20241108%EF%BC%BF002205%EF%BC%BFSOOP.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDExMDhfMTY4/MDAxNzMwOTk0MjA5NDY1.6VNn7Ayu82KoBTEtLvQgpX53Xw5xUsbcUBJGpxczNKMg.xDnepNM0wn6_KYo2kL75lHvD8q4AZUcN70ZbopP_mhQg.PNG/Screenshot%EF%BC%BF20241105%EF%BC%BF013122%EF%BC%BFSOOP.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_5fb765a3fc5f3/original_17.png?type=p50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_8.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

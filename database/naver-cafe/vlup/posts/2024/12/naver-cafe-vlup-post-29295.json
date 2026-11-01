@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "오늘의 귀여움 스샷",
-    "text":  null,
     "publishedAt":  "2024-12-30",
     "publishedTimeRaw":  "2024-12-30T00:26:05.010",
     "sourceTimezone":  null,
@@ -31,5 +30,46 @@
     "sourcePage":  2,
     "sourcePosition":  2,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/12/naver-cafe-vlup-post-29295.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/12/naver-cafe-vlup-post-29295.json",
+    "text":  "오늘의 귀여움 후기\n느낀점 : 엄청귀엽다\n기억에 남는 점 : ㅅㅁㄹ",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDEyMzBfMjE0/MDAxNzM1NDg1NzU3NzEz.pOhLUgcxTAy3CjbssbAfvt1kAqq4Ig1rdI84tq6ir9Eg.BwIuFmsIQDP-n76MkkzvSR4uduwG7q3GcHTCYXL_k84g.GIF/Animation4.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDEyMzBfMTM4/MDAxNzM1NDg1Nzg3MTQ4.zxsIhf51yGqRCuWKKsSPekfyhRHGGwXSO2oQDN7WWIIg.-Pr4wZSX25agvlffCB6KGXNT0cEXLWNBlootMYmd6DUg.PNG/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2024-12-29_231714.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDEyMzBfMjU0/MDAxNzM1NDg1NzY2ODgx.U--p1n0u51XlrYIxKh9xMLuhbBIMql1hqKJDxkSEoDgg.AQnwcFzujlIuvlWWh8g7DFxNSWy8E6Gus6hBUJsCR9Ug.PNG/2024-12-29_232006.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDEyMzBfNjYg/MDAxNzM1NDg1NzY5ODQ3.6fOBpuwfMvB-z1yfoHLsj6WaF3Rnaa7dkr1tI8q-OAcg.yl4RIOReFbSDN04xRluhbX6T564uIaaQKTvNVNjaFowg.PNG/2024-12-29_232018.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 5",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDEyMzBfMTg1/MDAxNzM1NDg1NzcyOTM3.X3rXnAZcpXxMMJxK5JphULgUKU4PVB27VLq9UoRbQBYg.m_mDJ6ha1kQKVn8JhM-KrMj8f_svXvY4imlz0YrpIpUg.PNG/2024-12-29_232042.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 6",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDEyMzBfMTY2/MDAxNzM1NDg1NzkwMjYw.FM1-BOQKMigrP0_DHlcVqA3eJGY29ieDJBVIoBVfKxcg.IzRQUkWv3mBv8ZqERS6Bnuf_hMZ5nJeHWLqS8Edq2SIg.PNG/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2024-12-29_231746.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 7",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_16.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

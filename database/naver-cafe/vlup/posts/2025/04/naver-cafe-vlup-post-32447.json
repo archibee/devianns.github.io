@@ -9,7 +9,6 @@
     "authorNickname":  "망초",
     "authorGroup":  "dahlia",
     "title":  "와 주인님 댕쩌는 터미널 영상 떴냐?",
-    "text":  null,
     "publishedAt":  "2025-04-02",
     "publishedTimeRaw":  "2025-04-02T00:38:11.020",
     "sourceTimezone":  null,
@@ -31,5 +30,51 @@
     "sourcePage":  3,
     "sourcePosition":  1,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/04/naver-cafe-vlup-post-32447.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/04/naver-cafe-vlup-post-32447.json",
+    "text":  "와 이주인 냥쩌는 터미널 영상 이거 진짜에요?\n진짜네?\n오늘도 넘 알찬방송이었다!\n완전완전 재밌었어요\n오늘 피곤하실텐데도 츄로스들 많이 놀아주려한게아니신지?!?!?!? 너무 재밌게 즐겼습니다앗\n댕댕이소리캐치 대신\n우리집고양이 츄르를 계속줘 계속줘 ~~~캐치 보고가세요~~\n완전 알찬 하루였다!",
+    "bodyLinks":  [
+                      {
+                          "label":  "https://vod.sooplive.co.kr/player/155932281/catch",
+                          "url":  "https://vod.sooplive.co.kr/player/155932281/catch",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "https://vod.sooplive.co.kr/player/155931791/catch",
+                          "url":  "https://vod.sooplive.co.kr/player/155931791/catch",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fiflv14.sooplive.co.kr%2Fclip%2F20250401%2F849%2Fbd289309-5d64-4f76-887c-cc7183fdbafc%2F10171849_r.jpg%22\u0026type=ff500_300",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_5fb765a3fc5f3/original_8.png?type=p50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA0MDJfMTU4/MDAxNzQzNTIxODg5NzM0.modaVePL0NP9BRiZXUYsXMSBr0zELtGCRJ4T8XBPddMg.xWmBRkbOiJFmRlis1efpBjS4u4DPyybH5qwhfOmrHbQg.JPEG/Screenshot%EF%BC%BF20250402%EF%BC%8D002741%EF%BC%BFSOOP.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_1.png?type=p50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 5",
+                          "url":  "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fiflv14.sooplive.co.kr%2Fclip%2F20250401%2F747%2F799adc53-e4d3-443c-a149-58b0cb9e12cc%2F10171747_r.jpg%22\u0026type=ff500_300",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 6",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_5fb765a3fc5f3/original_15.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

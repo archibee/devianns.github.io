@@ -9,7 +9,6 @@
     "authorNickname":  "망초",
     "authorGroup":  "dahlia",
     "title":  "돌돌이 좋아하는 주인님",
-    "text":  null,
     "publishedAt":  "2025-07-29",
     "publishedTimeRaw":  "2025-07-29T17:16:05.433",
     "sourceTimezone":  null,
@@ -31,5 +30,16 @@
     "sourcePage":  1,
     "sourcePosition":  7,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/07/naver-cafe-vlup-post-35810.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/07/naver-cafe-vlup-post-35810.json",
+    "text":  "브이럽 카페 들어오려다가\n익숙한 단어와 고양이가 보이길래 클릭하고 보니까\n브이럽도 아니었고 주인님도 아니었던 ㅋㅋㅋㅋㅋ\n알고리즘 신기",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA3MjlfMjQz/MDAxNzUzNzg5OTMxNjQ1.a1_VhD1GsTcy2zzyH9GS-QmbxVxjf5gcGIF43zp7jcog.Rx6faI22Gr5-UmnoG8hvD76Tc8dtcNLsFqpVHEJLALIg.JPEG/IMG%EF%BC%BF3834.jpg?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

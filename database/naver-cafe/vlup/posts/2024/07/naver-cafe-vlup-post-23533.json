@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "주인님 생일 축하해요 !!!!!",
-    "text":  null,
     "publishedAt":  "2024-07-27",
     "publishedTimeRaw":  "2024-07-27T00:00:10.440",
     "sourceTimezone":  null,
@@ -31,5 +30,31 @@
     "sourcePage":  5,
     "sourcePosition":  10,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/07/naver-cafe-vlup-post-23533.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/07/naver-cafe-vlup-post-23533.json",
+    "text":  "더이상 안되겠어요.\n저 오늘부로 주인님에 대한 마음 접습니다.\n그 다음 끝선에 맞추어 반 접습니다.\n뒤로 돌려 양쪽 모두 펼칩니다.\n끝부분을 살짝 접고 중심선에 맞춰 위로 올려 접은 뒤,\n뒤집으면 예쁜 하트 접기 완성 ❤️\n고양이찬가 일러스트 엄청귀여웠어요 완전 기대되어요!!!!!\n주인님 생일을 많이많이 마구마구 축하합니다~~~~!!!!!!!!!",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA3MjdfOTIg/MDAxNzIyMDA2MDA5MDM0.k6Cky-mkRW4gNyT-vPpfhbu2PEcFJJVFj5oh0rjrnT0g.iBiZ_00Eb_56yxjjEYQhdRK-sPqNJvRQjtYWT_5XVDYg.JPEG/20240726%EF%BC%BF230700.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_5eb66fd5a6e07/original_1.gif?type=pa50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_5fb765a3fc5f3/original_14.png?type=p50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA3MjdfMjIy/MDAxNzIyMDA2MDA5MDky.WtfSwbEcdO8zSfrc8CPH6i0qOw0Bm8W-cJsQzwk3GPog.xcefXwM0rXOL-s0KHSTYAeWu4UBHLofGty00Tib1OOwg.PNG/Screenshot%EF%BC%BF20240423%EF%BC%BF110234%EF%BC%BFYouTube.png?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

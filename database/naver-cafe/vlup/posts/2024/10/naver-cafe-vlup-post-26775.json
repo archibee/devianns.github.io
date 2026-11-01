@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "노래뱅+역팬+2일차 피크민 후기!",
-    "text":  null,
     "publishedAt":  "2024-10-24",
     "publishedTimeRaw":  "2024-10-24T23:54:18.813",
     "sourceTimezone":  null,
@@ -31,5 +30,41 @@
     "sourcePage":  4,
     "sourcePosition":  1,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/10/naver-cafe-vlup-post-26775.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/10/naver-cafe-vlup-post-26775.json",
+    "text":  "오늘은 10292 걸음 걸었어요!\n보라색 피크민도 나오고 레벨도 8이 되었어요!\n버섯퇴치하는 레이드 오픈돼서 피크민들 보내놨어요 ㅋ.ㅋ 재밌다..\n시작전에 꽃모은걸로 꽃길 부스트 켜놓고 걸으니 이득보는기분이라 열심히걷게되었어요\n엽서도 한장한장 모여가는데 모으는재미도있구 하루하루 가벼운 일기 겸 돌아보는 기분이 되어서 버릇되어버릴거같아요,,\n재밌다!\n왕관쓴 주인님을 여기서 뵙게 되다니 정말 좋아요\n캬 ~~!\n연속 13000걸음 걸은 건강주인님이 돼서 돌아왔어요!\n힘들어 눅눅고양이가 아니라 건강보이스 주인님이 오셨어요\n맑고 귀여운 목소리와 노래를 들으니 굉장히 좋았어요!!\n원래도 좋은 목소리와 노래였지만 오늘은 정말 컨디션이 좋으셨는지 듣다가 귀여워서 심쿵마비 걸릴뻔했어요\n노래도 고음도 안정적인게 느껴졌어요!\n마루폴짝은 언제들어도 귀여움레벨이 어나더클래스인거같아요\n좋은 노래도 많이 듣고 이런저런 얘기도 해주셔서 재밌었습니다 !!!!\n맛있는거도 많이 드시고 좋은밤 되세요 🥳",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDEwMjRfOTgg/MDAxNzI5NzgxNjU4MDU2.Pvw_xokIvfpyukVPah0TNgga5F4BR-y2xx51-gsg-Kwg.9HP5rkN7vjSKSzYv3uj0CGvXk1ILBU7BtErZP2S9nRkg.JPEG/IMG_2674.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDEwMjRfMTM2/MDAxNzI5NzgxNjU3OTcw.Hm9f9rPUYl8bTakZHOnQpfNxo7bfSpWm1tcKPfGmpk8g.q1J6Fa438jxGBCgJQ5o990JWT9nOyCBG82zgdf-yae8g.JPEG/IMG_2675.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_5fb765a3fc5f3/original_1.png?type=p50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDEwMjRfMzMg/MDAxNzI5NzgxNjU4MTEz.-o69ChSWcTsxOuFuWYMRl21INB4NLqKP9-fO-9ok5IAg.VtkYVafWJCjYflU6SwWFjwKT4qW0ButI0fTOkrIevFsg.JPEG/IMG_2679.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 5",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_7.png?type=p50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 6",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_16.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

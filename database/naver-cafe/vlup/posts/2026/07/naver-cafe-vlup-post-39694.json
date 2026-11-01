@@ -9,7 +9,6 @@
     "authorNickname":  "꼬리리",
     "authorGroup":  "dahlia",
     "title":  "애니메풍 시트리",
-    "text":  null,
     "publishedAt":  "2026-07-18",
     "publishedTimeRaw":  "2026-07-18T22:54:02.047",
     "sourceTimezone":  null,
@@ -31,5 +30,21 @@
     "sourcePage":  2,
     "sourcePosition":  5,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2026/07/naver-cafe-vlup-post-39694.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2026/07/naver-cafe-vlup-post-39694.json",
+    "text":  "이날 의상 따라 AI로 만든건데,,,\n닮앗...나? 잘 ㅁ루겟지만 .. !",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjA3MThfMTg5/MDAxNzg0MzgyNjUxNjkx.e6k0i0LxCYJpVId0crEPy7TlE8ZtJ810Fh1OnZ11kKgg.sV5sKnHO6kprKYEovT57FhBeLQEsXlqidwkRjd9VH5Eg.PNG/20260718_2250_image.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjA3MThfMTU2/MDAxNzg0MzgyNzY4ODc3.vMVRXKygrzZw_JxK0PG15LrCGqzk9Zlfex8PkJZ57mcg.9SM7jKiIGp6rQcN9afaiUUYIJf5uldzJ4qV-6PA4YIsg.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

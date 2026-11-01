@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "주인니 최고... (캡처를못했지만 ㅠ,ㅠ)",
-    "text":  null,
     "publishedAt":  "2024-12-24",
     "publishedTimeRaw":  "2024-12-24T21:02:46.487",
     "sourceTimezone":  null,
@@ -31,5 +30,16 @@
     "sourcePage":  2,
     "sourcePosition":  9,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/12/naver-cafe-vlup-post-29066.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/12/naver-cafe-vlup-post-29066.json",
+    "text":  "열씨미 보고있었는데 아직 다시보기가 안남아서 ㅠ_ㅠ\n캡처는 못햇지만 넘 예쁘고 즐거웠어요 \u003e\u003c,,,,,\n초미려 4D캠 최고로 즐거운 저녁이었어요\n저는 주인님 의상중에 신의상 OL이 2D캠이랑 완전 똑같은 시스루라서 진짜 놀라웟고\n산타옷이 덜 엄멤메하다하셧지만 망토랑 같이입은거 넘 귀여웠고\n망토 뗀것도 넘 좋았어요... 귀여운 옷이었어요 !! 귀여워서 너무 좋았습니닷\n유산소도 열심히 하고 근육량을 늘린데다 체지방까지 빠지는 노력만큼이나\n건강주인님 너무 좋았다 ,,,,\n쥔님 완전 최고에요 ~~~~~~~\n쥔님 덕분에 24일이 최고의 하루가 되었습니닷\n1월 17일 또 커다란거 있다고 해서 많이많이 기대할게요 ,,, , ,!\n주인님 에라이 그리고 완전 좋아하고 또 감사합니다 주인님 최고 ~~~",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_8.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

@@ -9,7 +9,6 @@
     "authorNickname":  "꼬리리",
     "authorGroup":  "dahlia",
     "title":  "흑후추추출물분말 ㅋㅋ",
-    "text":  null,
     "publishedAt":  "2026-10-05",
     "publishedTimeRaw":  "2026-10-05T21:21:50.780",
     "sourceTimezone":  null,
@@ -31,5 +30,26 @@
     "sourcePage":  1,
     "sourcePosition":  12,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2026/10/naver-cafe-vlup-post-40453.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2026/10/naver-cafe-vlup-post-40453.json",
+    "text":  "흑후추추추\n흑후추추출물분물\n흑후후추출물분말\n흑추추추출물분말\n흑후추추출물분말\nhttps://vod.sooplive.com/player/208972793/catch",
+    "bodyLinks":  [
+                      {
+                          "label":  "https://vod.sooplive.com/player/208972793/catch",
+                          "url":  "https://vod.sooplive.com/player/208972793/catch",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjEwMDVfOTAg/MDAxNzkxMjAyNzkwNzA2.Lh7eMLM9ZhEiaPpcRri-pOq0b8Cc-1XYhMndWkEaoHAg.viT1URT6Scl6xwl0xl03p7uquoOBJQtr7EbWpC9jddgg.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fiflv14.sooplive.com%2Fclip%2F20261005%2F227%2F7b8582c2-049a-4adb-938d-a7e12a782e46%2F21156227_r.jpg%22\u0026type=ff500_300",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "5초에 움뫄망을 두번.. (w.미니주인)",
-    "text":  null,
     "publishedAt":  "2024-11-26",
     "publishedTimeRaw":  "2024-11-26T00:50:53.083",
     "sourceTimezone":  null,
@@ -31,5 +30,26 @@
     "sourcePage":  2,
     "sourcePosition":  14,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/11/naver-cafe-vlup-post-27937.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/11/naver-cafe-vlup-post-27937.json",
+    "text":  "똘망똘망 노래부르는 미니주인 귀여워어요..\n5초에 귀여운 움뫄마를 두번 담기 성공 !!!!\n안무연습 잘 다녀오세요 \u003e_\u003c!!\n건강주인 마구에라이에라이쓰담쓰담드려요\n주인님은 데단해(근데 이제 진짜 대단한)\n멋있주인님은 최고입니닷\n세젤귀냥(세상에서젤귀여운고냥이여왕님라는뜻)이라고생각해요 ! !\n오늘 데스노트 게임 짱 재밌었어요 재밌는게임이었어요\n후열뱅도 주인님이랑 잔뜩 놀아서 재밌었어요 ~~\n이불덮어쓰고푹잘자기 입니닷 !!!!",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDExMjZfMjM5/MDAxNzMyNTQ5ODQzNTY4.gSXiX3llKHyhtwIqJ8XnpXPcmMnosBVYI3Jqcc8-uakg.M9CdpfJHefxZqR14CkaPKLgaFa-880IiRp2tcsrARW8g.JPEG/Screenshot%EF%BC%BF20241126%EF%BC%8D002508%EF%BC%BFSOOP.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_5eb66fd5a6e07/original_9.gif?type=pa50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_5eb66fd5a6e07/original_10.gif?type=pa50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

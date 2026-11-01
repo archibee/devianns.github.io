@@ -9,7 +9,6 @@
     "authorNickname":  "망초",
     "authorGroup":  "dahlia",
     "title":  "오로라경기 한타 하이라이트",
-    "text":  null,
     "publishedAt":  "2025-03-31",
     "publishedTimeRaw":  "2025-03-31T00:59:33.183",
     "sourceTimezone":  null,
@@ -31,5 +30,26 @@
     "sourcePage":  3,
     "sourcePosition":  2,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/03/naver-cafe-vlup-post-32380.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/03/naver-cafe-vlup-post-32380.json",
+    "text":  "마지막경기에서 멋있는 한타장면 봐서 시원하이.. 좋았습니닷\n일주일동안 열심히 롤 연습하느라 고생 많으셨어요\n여러모로 우여곡절이 있었지만 12시 넘어서 끝난 1박2일경기!\n고생정말많으셨어요 우승 축하드려요~~!",
+    "bodyLinks":  [
+                      {
+                          "label":  "https://vod.sooplive.co.kr/player/155741783/catch",
+                          "url":  "https://vod.sooplive.co.kr/player/155741783/catch",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fiflv14.sooplive.co.kr%2Fclip%2F20250330%2F927%2F875213bb-6ca8-4230-a5f7-bfe4c5de00d9%2F10132927_r.jpg%22\u0026type=ff500_300",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_623dfd3f2d303/original_22.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

@@ -9,7 +9,6 @@
     "authorNickname":  "망초",
     "authorGroup":  "dahlia",
     "title":  "카페 대문이 너무 시원해서..",
-    "text":  null,
     "publishedAt":  "2025-07-31",
     "publishedTimeRaw":  "2025-07-31T21:39:45.940",
     "sourceTimezone":  null,
@@ -31,5 +30,21 @@
     "sourcePage":  1,
     "sourcePosition":  6,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/07/naver-cafe-vlup-post-35852.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/07/naver-cafe-vlup-post-35852.json",
+    "text":  "어머나...\n머리가 맑아지는 느낌",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA3MzFfMTY5/MDAxNzUzOTY1NTM3NTEy.BlxbVNMyvyOI1xS3O8IgWxRUBkLYqFKlm2KAho3LJM0g.pqd9ysipm9mc7NjFSoWN2X-ZpA9h3JVqKuzum_hXF5gg.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_623dfd3f2d303/original_22.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

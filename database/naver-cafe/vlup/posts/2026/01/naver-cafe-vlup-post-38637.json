@@ -9,7 +9,6 @@
     "authorNickname":  "힝구링이",
     "authorGroup":  "dahlia",
     "title":  "트리영상 하이프 했어 ㅠㅠㅠ",
-    "text":  null,
     "publishedAt":  "2026-01-17",
     "publishedTimeRaw":  "2026-01-17T15:32:06.903",
     "sourceTimezone":  null,
@@ -31,5 +30,21 @@
     "sourcePage":  1,
     "sourcePosition":  4,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2026/01/naver-cafe-vlup-post-38637.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2026/01/naver-cafe-vlup-post-38637.json",
+    "text":  "하이프란 기능이 잇는지 몰랐다 ㅋㅋㅋㅋㅋ\n트리 영상 그냥 봐주고 따봉 해달라는건 줄 데햇 \u003e.\u003c",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjAxMTdfNjMg/MDAxNzY4NjMxNTI1OTU1.xBDPZHL6zY8Wii27axbL6mLjEYqh4AAWWgk7nMt-L4Ug.6sMKCBWoN84zIW76PpnnjXCULnPGquVUpxHXW4W5qEog.JPEG/IMG%EF%BC%BF4582.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_6192c4e16807d/original_24.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

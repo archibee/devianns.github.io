@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "주인산호초 실시간 감상 후기",
-    "text":  null,
     "publishedAt":  "2024-08-03",
     "publishedTimeRaw":  "2024-08-03T18:23:03.900",
     "sourceTimezone":  null,
@@ -31,5 +30,26 @@
     "sourcePage":  5,
     "sourcePosition":  2,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/08/naver-cafe-vlup-post-23857.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/08/naver-cafe-vlup-post-23857.json",
+    "text":  "기대했던 썸네일만큼이나 평소에 주인님이 불렀던 푸른산호초 만큼이나 기대만땅좋았습니다 ^ㅁ^\n아날로그틱한 감성에 부드러운 그림과 프레임이 합쳐진 영상미에\n단발주인님이랑 주인님 노래가 더해진다는건...\n외국 댓글중에 어떤 단어를 본적이 있습니다.\n그들은 엄청난 걸 보면 이렇게 표현하더군요,,,,\n\u0027MASTERPIECE\u0027 라고,,,,\n여기에 또 하나의 주스터피스를~~...,,,, 캬.,,.,",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA4MDNfMjcw/MDAxNzIyNjc2NTQwMzUx.HnhJlY8W4cOBwxEiYET3eNbKsDm-SLGOskRctrhy1zog.s-lj4Tw2PvFskqNTAKMPxcsPJJ-_YGhcPKL0lY7OAdsg.GIF/240730_jooin_noraebang_2.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA4MDNfNTYg/MDAxNzIyNjc2NTc2NTMz.PDE94dX4ikV0a-Vc9ST-9sxYi0HGZvbo00mv2NiMqacg.FbRnuiJyhogcC6csjjOBkYxZM23a02hhAXtY5BEhZVog.GIF/240730_jooin_noraebang_1.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA4MDNfMTUz/MDAxNzIyNjc2ODU4MDU2.1Xt4Y17X7lgL34PhcIKqmovE8dAXvrz2rDXi29Cker8g.zkoWxvuuVeESMAHG9_otjUZ2dIgNLcOaQjK1Ugl3P0sg.PNG/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2024-08-03_181700.png?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

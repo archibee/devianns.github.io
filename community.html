@@ -90,6 +90,23 @@
         <button class="load-more" type="button" data-load-more hidden>더 보기 <span>↓</span></button>
       </section>
     </main>
+    <dialog class="body-dialog" id="community-body-dialog" aria-labelledby="body-dialog-title">
+      <div class="body-dialog-panel">
+        <header class="body-dialog-header">
+          <div><p class="micro-label">저장된 본문</p><h2 id="body-dialog-title" data-body-title></h2><p class="body-dialog-meta" data-body-meta></p></div>
+          <button class="body-dialog-close" type="button" data-body-close aria-label="저장된 본문 닫기">×</button>
+        </header>
+        <div class="body-dialog-content">
+          <p class="body-dialog-text" data-body-text></p>
+          <p class="body-dialog-empty" data-body-empty hidden>저장된 텍스트 본문이 없습니다. 카페 원문에서 확인해 주세요.</p>
+          <section class="body-dialog-links-section" data-body-links-section hidden><h3>본문에 포함된 링크</h3><div class="body-dialog-links" data-body-links></div></section>
+        </div>
+        <footer class="body-dialog-footer">
+          <p>이미지와 영상은 파일로 저장하지 않고 링크로만 표시합니다.</p>
+          <a class="record-open" data-body-original target="_blank" rel="noopener noreferrer">카페 원문 보기 ↗</a>
+        </footer>
+      </div>
+    </dialog>
     <footer class="collection-footer"><a href="./index.html">✳ Dahlia Archive</a><span>© <span id="year"></span> DAHLIA</span></footer>
   </div>
 </body>

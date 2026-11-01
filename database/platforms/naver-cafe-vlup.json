@@ -43,5 +43,5 @@
     "snapshotAt":  "2026-11-01T14:27:10+09:00",
     "sourceBatch":  "naver-cafe-vlup-writer-search-2026-11-01",
     "resultCount":  177,
-    "collectionScope":  "공개 작성자 검색의 게시물 메타데이터만 저장. 본문, 요약, 첨부물은 저장하지 않음."
+    "collectionScope":  "공개 열람 가능한 게시물의 본문 텍스트와 링크 URL 참조를 저장. 원본 HTML 및 이미지·영상 파일은 저장하지 않음."
 }

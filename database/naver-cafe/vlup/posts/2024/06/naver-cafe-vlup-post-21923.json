@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "여왕주인님 사진을 몇장,,",
-    "text":  null,
     "publishedAt":  "2024-06-18",
     "publishedTimeRaw":  "2024-06-18T23:41:04.967",
     "sourceTimezone":  null,
@@ -31,5 +30,46 @@
     "sourcePage":  6,
     "sourcePosition":  2,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/06/naver-cafe-vlup-post-21923.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/06/naver-cafe-vlup-post-21923.json",
+    "text":  "여왕주인님 예뻐요!😶🌫️😶🌫️😶🌫️❣️",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA2MThfOTcg/MDAxNzE4NzIxNjU5OTEx.o97tjxz_H-ORBUQo_gEouuf3YrL2kzwU4sDW9evqiUMg.pCyBia2Vno8DjZ46qVWn-sv1W0_P5K0WFAd26FbIEsQg.JPEG/VideoCapture%EF%BC%BF20240618%EF%BC%8D231919.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA2MThfMTIy/MDAxNzE4NzIxNjYxNDE2.z9RzztyviXP4RnSGsbnym4DC_8KQBA1VLU3pMRvVgxUg.0HTHU8lhoJYGXT0NmjPwv7NyhflGCqHHaCNiM9AJFf8g.PNG/Screenshot%EF%BC%BF20240618%EF%BC%BF224900%EF%BC%BFYouTube.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA2MThfMjY4/MDAxNzE4NzIxNjYxOTkx.adWWTfum8dtPnGc-lbVcvPOPwBPFoNA8AFL7Z-VdmGwg.4ByAT8XlVva75L5VFAZowFVwjjWc4yoezIHeOzxTMUIg.JPEG/VideoCapture%EF%BC%BF20240618%EF%BC%8D231720.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA2MThfMTE0/MDAxNzE4NzIxNjYzNzA4.247XsDED2XEnTQ35zLggkv8KQv1GQFstkpD6NMTFVKkg.nPnicVXbAAWv4a-XlgWSG0XNa856w6vYk6QqLGcnU4kg.JPEG/VideoCapture%EF%BC%BF20240618%EF%BC%8D231709.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 5",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA2MThfMjIw/MDAxNzE4NzIxNjU1ODk2.BJ-2gUIg3a7ALUbyAx_iqjDxcwH1P6HG0du4DxxxOq4g.hb8qIUqP56o-VSI8O43ZT3NPN3kRzXeyqu9jrdk7284g.GIF/Screen%EF%BC%BFRecording%EF%BC%BF20240618%EF%BC%BF224131%EF%BC%BFYouTube%EF%BC%BF1%EF%BC%BF1.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 6",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA2MThfNTcg/MDAxNzE4NzIyMDQ2NzYx.VuMeysHTtQpoZchHZZADG6x5oJ12q-BJlSIBK2_zy54g.pGsqYaqUW9dfW3IkpeWHnWrUxH74eUl_9xqJl0z-8Hkg.GIF/Screen%EF%BC%BFRecording%EF%BC%BF20240618%EF%BC%BF225100%EF%BC%BFYouTube%EF%BC%BF1.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 7",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_5.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

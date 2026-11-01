@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "잠올때는 갈리오를 드셔보세요",
-    "text":  null,
     "publishedAt":  "2025-01-07",
     "publishedTimeRaw":  "2025-01-07T01:49:32.640",
     "sourceTimezone":  null,
@@ -31,5 +30,21 @@
     "sourcePage":  1,
     "sourcePosition":  14,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/01/naver-cafe-vlup-post-29704.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/01/naver-cafe-vlup-post-29704.json",
+    "text":  "갈리오는 제발 사드세요\n갈리오 먹지마세요 체질이란게 바뀝니다\n올해의 수면욕 유발챔 후보 1위\n그날 주인님은 갈리오를 먹고\n그만 잠에 들어버렸다고 합니다 ...\n메데타시...",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTAxMDdfMTUx/MDAxNzM2MTgxOTk4MTE4.l-OIrYc-GnotGqnxsQgIFR_oG_Xed7vKvtc9iOzQfksg.pFtogXtbmgKka7-gCv8nmz4C-GLraKP-_qyYSSJi4_og.GIF/Animation17.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_17.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

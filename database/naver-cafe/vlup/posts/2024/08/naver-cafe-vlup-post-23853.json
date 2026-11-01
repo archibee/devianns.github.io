@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "뉴주인스 굿즈 세트가 금방 도착했어요",
-    "text":  null,
     "publishedAt":  "2024-08-03",
     "publishedTimeRaw":  "2024-08-03T17:20:42.420",
     "sourceTimezone":  null,
@@ -31,5 +30,36 @@
     "sourcePage":  5,
     "sourcePosition":  3,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/08/naver-cafe-vlup-post-23853.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/08/naver-cafe-vlup-post-23853.json",
+    "text":  "8월5일부터 배송한다해서 기다렸는데 금방 도착해서 오히려 좋아졌어요 (토요일 배송 굿!)\n반짝거리는 뉴주인스 포토카드 보니 귀여움천재고양이가 맞아요\n학생증은 약간 두툼한 질감으로 되어있는데 진짜 학생증같은 느낌 나서 소장욕 마구마구 나는 굿즈에요\n본 학생은 전교에서 가장 귀여운 건 당연한거라 안썼어도 되었달까 라고 할뻔...~~\n이 고양이가 화나서 물기 전에 귀여움 1스택을 맘속에 저장해두었습니닷\n필기체 문구가 예쁘게 각인되어 있는 펜도 사진에서 보는거처럼 짱 예뻤어요\n일반필기용으로 맘껏 쓰고싶을정도지만 현재 1개만 가지고 있으니까 꼭꼭 잉크가마를때까지 아낄거에요...\n뉴주인스 기념 굿즈세트 주인님의상+학생콘셉트에 맞춰 나온게 너무 이쁘고 맘에 들어요\n츄로스 아카데미의 주인고양이학생이라니 귀여운... 화나면 문다고 한 뒷면 문구도 귀여움++++ 이에요\n배송빨리받아볼수있어서 넘좋았어요 주인냥최고로귀엽습니다",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA4MDNfMjE2/MDAxNzIyNjcxNDE2MDAz.aw94fwMhXpX4I7Uo4pXp3lIGd0YFb1guP6AJQTrEEDIg.DHPoHeG1kXsQI6NLqIClZSYJNhIakg6HUpFYdjXc-hUg.JPEG/1.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA4MDNfMTM1/MDAxNzIyNjcxNDE3MzE0.FAVCl4mHtbSPv5mH6D7l4EnN7euBliK5VeDwqIcxbrgg.zJ1n4qbQNwn26V0UG10z-ekvSqDy44RnVozi8uK6Xb4g.JPEG/2.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA4MDNfMTgx/MDAxNzIyNjcxNDE3MTI3.uSFcgQWGPF-vZeeWfalqdpYTrX4b6QVXSI_YEFuZ4_Qg.y370J8wMVlgJZsgbcOW7cw7oG0xodLv9poXglNvC7IAg.JPEG/3.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA4MDNfMjAy/MDAxNzIyNjcxNDE2NTg3.LMJuwDYnQD6jA9eCYT_sFLx2tQKfXR-ePOgU_2VfXI4g.FYrrHVUEwmR9LCOMzrPMgWQPHq_xmEIJA4iTONqlwCAg.JPEG/4.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 5",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_8.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

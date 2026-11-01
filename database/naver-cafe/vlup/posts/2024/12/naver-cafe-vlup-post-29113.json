@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "오늘 트리님찍은거 3장",
-    "text":  null,
     "publishedAt":  "2024-12-25",
     "publishedTimeRaw":  "2024-12-25T19:30:20.143",
     "sourceTimezone":  null,
@@ -31,5 +30,31 @@
     "sourcePage":  2,
     "sourcePosition":  7,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/12/naver-cafe-vlup-post-29113.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/12/naver-cafe-vlup-post-29113.json",
+    "text":  "오늘 여러의미로 엄청나서 내이버가 컷하진 않겟죠 ?-?...",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDEyMjVfMjkw/MDAxNzM1MTIyMzY0Mzk2.tdLPTcX7Xh1flscgZbjo3pg8rOXyYQEkZsfWd-MWxVog.UNjdHkFg_JhqVFi6uSRPZ5iPsL6n84TEdlXSJ-mtVgMg.PNG/1000000024.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDEyMjVfMjI1/MDAxNzM1MTIyMzY0Mzkx.9---Wo7n7hWdwXi1cb8K6AQ8hTcKm-jVXDPaK4ME0aIg.1g5jwg5cxJel0DVd-CzlRUXjURbBlUgdYz0AjWF6WB0g.PNG/1000000023.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDEyMjVfNDkg/MDAxNzM1MTIyMzY0Mzcw.oLU8HOLkP7bfris-nX_90ovS-NEX1-L_9eaF9sZApRAg.oIku61Rf8ZLqIorE_MWGpTQW-8kWhEWX_60eOjn44IQg.PNG/1000000022.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_623dfd3f2d303/original_10.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

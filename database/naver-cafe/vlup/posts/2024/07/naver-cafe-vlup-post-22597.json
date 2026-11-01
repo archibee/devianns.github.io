@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "그날 여름의 라이브는 최고였달까....",
-    "text":  null,
     "publishedAt":  "2024-07-05",
     "publishedTimeRaw":  "2024-07-05T00:34:00.203",
     "sourceTimezone":  null,
@@ -31,5 +30,26 @@
     "sourcePage":  5,
     "sourcePosition":  15,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/07/naver-cafe-vlup-post-22597.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/07/naver-cafe-vlup-post-22597.json",
+    "text":  "딱 한 노래를 꼽자면 바이올렛 에버가든 OST가 제일 좋았어요!\n피아노 커버랑 원곡도 좋아해서 자주듣는데\n주인님이 불러주셔서 최고로 좋았슴니다 ㅎ_ㅎ\n비는 안오구 바람이 좀 부는데 밤산책하구 샤워하고 선풍기쐬면서 듣는 주인님 라이브 정말로 좋았어요\n부드럽고 시원한 선곡도 많았어서 뭔가 굉장히 좋은 느낌으로 하루를 마무리할수 있어서 행복해요\n주는최강! 감사합니다👍",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA3MDVfMzAw/MDAxNzIwMTA3MjM4MzUx.cZNW3cQcXGF3VlTah8Q5UvmeAp7J51uyIoE8xG8rHTMg.LZICN31mDUVOVw8gGes3rnr0aAtM_mDOPSa583oBouog.PNG/Screenshot%EF%BC%BF20240705%EF%BC%BF000053%EF%BC%BFYouTube.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA3MDVfMjM0/MDAxNzIwMTA3MjM5MTI3.dB_FNRr5pkv3hrtu2dKxsh3FUoeKs_m1RjuauRb8zYEg.FMYm9oBQ-f34Mog_6uHS2gkJ_lry6RDzdbnRfaLLkecg.PNG/Screenshot%EF%BC%BF20240705%EF%BC%BF000047%EF%BC%BFYouTube.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_21.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

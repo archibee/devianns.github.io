@@ -9,7 +9,6 @@
     "authorNickname":  "꼬리리",
     "authorGroup":  "dahlia",
     "title":  "시트리시트리시트리",
-    "text":  null,
     "publishedAt":  "2026-10-23",
     "publishedTimeRaw":  "2026-10-23T00:11:21.077",
     "sourceTimezone":  null,
@@ -31,5 +30,12 @@
     "sourcePage":  1,
     "sourcePosition":  3,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2026/10/naver-cafe-vlup-post-40739.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2026/10/naver-cafe-vlup-post-40739.json",
+    "text":  "젠장 난 시트리가 좋다아~~~\n트리랑 잔뜩 놀고 싶구나\n트리랑 메차쿠챠 엉망진창으로 잡담하면서 시간낭비로 시간을 갖다 버려도 아깝지 않을 정도로 재밌게 놀고 시프구나~~~\n야이시간도둑아\n시간을 도둑맞아도 괜찮다고?! 젠즈앙 너 제정신인거냐 차미잇~~!!\n시간을 도둑맞는걸 알면서도 곁에 있으면 즐거운 이 마음... 비상식적이군!!!\n어..어라 머리로는 이해할 수가 엄따\n마음이 먼저 트리를 향하는 이 느낌은 설마....\n사...\n사.......\n사과 먹을래요?😘😸\n(실제로 사과요정의 전적이 있다고 한다)",
+    "bodyLinks":  [
+
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

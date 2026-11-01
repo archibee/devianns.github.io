@@ -9,7 +9,6 @@
     "authorNickname":  "망초",
     "authorGroup":  "dahlia",
     "title":  "겨드랑이를 보여주는날이 아니라고요",
-    "text":  null,
     "publishedAt":  "2025-06-28",
     "publishedTimeRaw":  "2025-06-28T21:05:31.463",
     "sourceTimezone":  null,
@@ -31,5 +30,31 @@
     "sourcePage":  2,
     "sourcePosition":  3,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/06/naver-cafe-vlup-post-35167.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/06/naver-cafe-vlup-post-35167.json",
+    "text":  "2차 창작 가이드 라인 : https://cafe.naver.com/vlup/9\n수위 규정 : https://cafe.naver.com/vlup/11\nAI 창작 규정 : https://cafe.naver.com/vlup/21934\nhttps://youtube.com/shorts/5Qt9qaY5FUk?feature=share",
+    "bodyLinks":  [
+                      {
+                          "label":  "https://cafe.naver.com/vlup/9",
+                          "url":  "https://cafe.naver.com/vlup/9",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "https://cafe.naver.com/vlup/11",
+                          "url":  "https://cafe.naver.com/vlup/11",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "https://cafe.naver.com/vlup/21934",
+                          "url":  "https://cafe.naver.com/vlup/21934",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "https://youtube.com/shorts/5Qt9qaY5FUk?feature=share",
+                          "url":  "https://youtube.com/shorts/5Qt9qaY5FUk?feature=share",
+                          "kind":  "link"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

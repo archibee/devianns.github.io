@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "싫은뎅이 너무 좋은 건에 대하여",
-    "text":  null,
     "publishedAt":  "2024-06-26",
     "publishedTimeRaw":  "2024-06-26T18:55:49.450",
     "sourceTimezone":  null,
@@ -31,5 +30,46 @@
     "sourcePage":  6,
     "sourcePosition":  1,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/06/naver-cafe-vlup-post-22248.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/06/naver-cafe-vlup-post-22248.json",
+    "text":  "뮤비가 너무 귀엽고 가사가 너무 귀여운데\n노래가 너무 좋아서 계속듣고있는중이에요\n\u0027하지만 말해주진 않을거야~\u0027\n\u0027그런데 생각을 좀 해봤는데~\u0027 할때 부분이 진짜 너무 좋아요\n노래랑 주인님목소리랑 잘겹치는 부분이랄까? 뭔가 듣기좋은부분...\n최고.. 최고입니다",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA2MjZfMTk0/MDAxNzE5Mzk0OTIzMjU0.S01c76yQ3zF4lFEkAFa9LWM-WvtSWShbWQbH0DLjcPAg.LYO0o2rOvjUf5RF4Z4wX-WsysQwR3WMbfmct8_c92Pog.PNG/Screenshot_20240626_182857_YouTube.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA2MjZfMTUw/MDAxNzE5Mzk0OTIzMjc5.x3aDQzYlc5M507Y1SkZil4-B_x09uAv_ag9ecHUGdkUg.p5L9_T1qi3J8HGtLHEoMf1lXIAhTUbOcRiKbeXF67xwg.PNG/Screenshot_20240626_182930_YouTube.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA2MjZfMTg2/MDAxNzE5Mzk0OTIzMTcy.fsnIQyCrJibbKwbJMZG2LgtTBd3hy9NlDy315AQD1lQg.dVDrBbg0TFztFOgs3W2PZyAC1gOS8_XnIZ_wc98602Eg.PNG/Screenshot_20240626_183355_YouTube.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA2MjZfMzEg/MDAxNzE5Mzk0OTIyOTgx.z89mkZEBrlJOq7SKb-N0UpL-2qKE9hNXkhC_KF4R3p4g.P-Fm4fPvzmTlMESfzLYWjDwT-tNa_zLLbcexFopedgYg.PNG/Screenshot_20240626_183408_YouTube.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 5",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA2MjZfMjM1/MDAxNzE5Mzk0OTIzMTUx.OB9Zg6G4-XogN-doAcML2-AcCOtKsnfFj3ybZVavL8wg.kyptWWkQRvCgoKe-T3IOsWBXCigcxwb4rEiztJbaB6Qg.PNG/Screenshot_20240626_183423_YouTube.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 6",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA2MjZfMTI0/MDAxNzE5Mzk0OTIzMjc2.TGi7qfH41LLutwTbf0aNtH4ZMEBn52gutuYdOw5QVcMg.P5xRp30APZBwjjmsiI6On1_StDnyVYx9ohFNrhZLwGAg.PNG/Screenshot_20240626_183439_YouTube.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 7",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_5fb765a3fc5f3/original_23.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

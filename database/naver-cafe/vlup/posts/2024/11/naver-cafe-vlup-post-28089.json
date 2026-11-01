@@ -8,8 +8,7 @@
     "platformId":  "28089",
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
-    "title":  "굿바미되세요 \u0026gt;~\u0026lt;",
-    "text":  null,
+    "title":  "굿바미되세요 \u003e~\u003c",
     "publishedAt":  "2024-11-28",
     "publishedTimeRaw":  "2024-11-28T23:40:54",
     "sourceTimezone":  null,
@@ -31,5 +30,36 @@
     "sourcePage":  2,
     "sourcePosition":  13,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/11/naver-cafe-vlup-post-28089.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/11/naver-cafe-vlup-post-28089.json",
+    "text":  "고생많으셨어요 에라이\n지금바로쿨냥이 z... z z..",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_17.png?type=p50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDExMjhfMjIg/MDAxNzMyODA0ODUwNTQy.mvm276GqY_jgv2KO79CsFec5n578f2Ofz7B_hDK0nwog.6pnkmXXBcZtZP9hM4pPcvrGkkyAMzh_FXwZ9tHn4LkMg.PNG/Screenshot%EF%BC%BF20241128%EF%BC%BF233643%EF%BC%BFSOOP.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDExMjhfMjYw/MDAxNzMyODA0ODUxMjMz.lOlFvxaqvHmaj9jsLodJ4UH2L-e2UeJBQdQE25kbz_8g.c8bwkiwhc-x7CW-MbEoCopOhepEjVnp7_wCnN2ard30g.PNG/Screenshot%EF%BC%BF20241128%EF%BC%BF233635%EF%BC%BFSOOP.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDExMjhfMTYx/MDAxNzMyODA0ODUxOTQ1.ArxIiNRkOhRVTSlieQR4CTcHxCH6rs9Xtiwrs9qui2kg.69lbSdsbtQkG2RRnOUTcNwakaOhF_EWjNR52q3T0Ofgg.PNG/Screenshot%EF%BC%BF20241128%EF%BC%BF233626%EF%BC%BFSOOP.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 5",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDExMjhfMyAg/MDAxNzMyODA0ODUyNzYy.lcbMqMzjT-lFPoKV8LETCXGqs6nQGf4bEuH7_fdXuvMg.pSBYIx5glccGaXbm7Gu8xRJ1uReLM_Cmk_elpmQseBYg.PNG/Screenshot%EF%BC%BF20241128%EF%BC%BF233425%EF%BC%BFSOOP.png?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

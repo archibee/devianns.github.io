@@ -9,7 +9,6 @@
     "authorNickname":  "망초",
     "authorGroup":  "dahlia",
     "title":  "여우가 내는 소리",
-    "text":  null,
     "publishedAt":  "2025-04-27",
     "publishedTimeRaw":  "2025-04-27T19:55:45.810",
     "sourceTimezone":  null,
@@ -31,5 +30,16 @@
     "sourcePage":  2,
     "sourcePosition":  11,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/04/naver-cafe-vlup-post-33272.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/04/naver-cafe-vlup-post-33272.json",
+    "text":  "",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_5fb765a3fc5f3/original_19.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

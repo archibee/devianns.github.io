@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "욕주의) 한번쯤봤을법한 고전롤유머",
-    "text":  null,
     "publishedAt":  "2024-08-02",
     "publishedTimeRaw":  "2024-08-02T16:39:17.423",
     "sourceTimezone":  null,
@@ -31,5 +30,41 @@
     "sourcePage":  5,
     "sourcePosition":  4,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/08/naver-cafe-vlup-post-23815.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/08/naver-cafe-vlup-post-23815.json",
+    "text":  "",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA4MDJfNjYg/MDAxNzIyNTg0MzU1NTI4.PwiT0L5hrqWEqzTAbOQZJcU7cJ1e0loSDgjGVNWhzRsg.Fy6RufXZEuQ6pRTaUjFFdWOY-8bsFRC9UzpfXiL89xAg.JPEG/164f8d7047c13c9fb.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA4MDJfMTEw/MDAxNzIyNTg0MzU1NTQ1.t4VGLyUu1sL8cIcpTetdGdqcbNOiq3WfzF1ed8BPAsMg.Tu-aJSa8rz-oylQNlhwKW5c0p-7HwnyQFy6xCNFVtLIg.JPEG/164f982493fcbfa2.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA4MDJfNDIg/MDAxNzIyNTg0MzU1NTM2.k0l5FtBrXpByztmdmhUFNPjVCvWaiA7IjGq9VfKgDmwg.qEFCXOFQzvWiyoTlvmvNbwFwB0d18s4EsfWiL4T5hh8g.JPEG/164f8d7084413c9fb.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA4MDJfMjg2/MDAxNzIyNTg0MzU1NTg5.IasSxoxdUcjsRLrqkiaMcrNso8Pz88P73nGfBaHIb4Yg.IySopblDAgVFo78FxGOlDBW4b_RocDtQgoUEMXn2Mcwg.JPEG/Screenshot%EF%BC%BF20240802%EF%BC%8D163435%EF%BC%BFChrome.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 5",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA4MDJfMiAg/MDAxNzIyNTg0MzU2MjEy.4s9Xc5_Nul-H03W-5fpFKaR6BKJuDgSlYFOmu3zWK6sg.PdDbPF2knTMFcqvZspqv5BJhOhwRsMUqiB5iSxPcIqEg.JPEG/164f8d7078a13c9fb.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 6",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_5fb765581174a/original_23.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

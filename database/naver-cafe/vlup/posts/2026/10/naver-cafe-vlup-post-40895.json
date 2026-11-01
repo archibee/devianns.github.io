@@ -9,7 +9,6 @@
     "authorNickname":  "꼬리리",
     "authorGroup":  "dahlia",
     "title":  "이브보면서 화장실가는 시트리",
-    "text":  null,
     "publishedAt":  "2026-10-31",
     "publishedTimeRaw":  "2026-10-31T19:55:20.280",
     "sourceTimezone":  null,
@@ -31,5 +30,21 @@
     "sourcePage":  1,
     "sourcePosition":  2,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2026/10/naver-cafe-vlup-post-40895.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2026/10/naver-cafe-vlup-post-40895.json",
+    "text":  "ㅋㅋㅋㅋㅋ\n이브 자동 감상",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjEwMzFfMjgz/MDAxNzkzNDQ0MDUxOTIz.WaoDFH10Hemim4Sed3_h1iLXI1eHkrNRs8z18EPFCdwg.MHgpmiH9nhLSA3gySjEO8omsgX1G3Hji_TAIFeBS8kwg.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjEwMzFfMjE0/MDAxNzkzNDQ0MDY5Njg5.VxeDi2HGfzlLRtIGjc3wKAzF6uL99habLukDcWGiTSAg.DrxcYRttfu4tsiIeug_QFZtKXbg8TBIPD93YwTJI6MUg.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

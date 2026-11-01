@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "유튭노래뱅 후기!",
-    "text":  null,
     "publishedAt":  "2024-06-13",
     "publishedTimeRaw":  "2024-06-13T07:19:55.657",
     "sourceTimezone":  null,
@@ -31,5 +30,31 @@
     "sourcePage":  6,
     "sourcePosition":  5,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/06/naver-cafe-vlup-post-21642.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/06/naver-cafe-vlup-post-21642.json",
+    "text":  "시작전에 빨래널러가셨을때 주인님보다가 이뻐서감탄하고있다가\n몬가 웃음이랑 표정이 오늘따라 매우매우 냥귀여웠습니다앗\n그리구 몬가 주인님 목소리랑 말이 몬가 더 보들보들?.. 부드럽게 들려서 넘 귀여웠어요( 땡뀨 하실때 메챠 카와이;; )\n주인님의 슈퍼이끌림이랑 고민중독 듣고 갑자기 흥 넘쳐서 너무늦을까봐 코노 다녀온 츄로스\n영어노래 중에서는 주인님이 부르는 say so 진짜진짜 좋아요!!!!\n마지막쯤에 부르신 아이유 이름에게는 진짜 레전드였어요 너무 좋았다에요 캬\n오랜시간 방송 고생넘많으셨어요 주인님\n좋은노래 많이들을수있어서 좋았어요 \u003e\u003c",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA2MTNfNDIg/MDAxNzE4MjMwMzc2OTEw.d09cbcZtreJXCDEp25Twtc9hHqJZtIXHIoUkZ-PdhCwg.Qzp9dJ3Wvpo502aMhjBPc6dvfK8oBlrn2nTlZzN2FwYg.JPEG/IMG_2260.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_5.png?type=p50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_5fb765a3fc5f3/original_23.png?type=p50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA2MTNfNjEg/MDAxNzE4MjMwMzc2OTEw.tQpyEuY28SQAGttvcZUOZuxrcyZq7gP75Ly4MEQGinog.onL50Y-7hSm-QFuQQnm5TIo2ij0MtNpQuKgD1bpdWb4g.JPEG/IMG_2262.jpg?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

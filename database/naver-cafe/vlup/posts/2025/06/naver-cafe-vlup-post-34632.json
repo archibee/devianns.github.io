@@ -9,7 +9,6 @@
     "authorNickname":  "망초",
     "authorGroup":  "dahlia",
     "title":  "안아줘요 배꼽주인 GIF",
-    "text":  null,
     "publishedAt":  "2025-06-10",
     "publishedTimeRaw":  "2025-06-10T22:24:41.187",
     "sourceTimezone":  null,
@@ -31,5 +30,31 @@
     "sourcePage":  2,
     "sourcePosition":  9,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/06/naver-cafe-vlup-post-34632.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/06/naver-cafe-vlup-post-34632.json",
+    "text":  "안아줘요~\n깽깽이발로 갈까요(?)\n배꼽인사!\n배꼽인사후 살짝 멍해진 표정이 맛도리랄지.... 헤헷\n역시 주인님이에요\n중2병이아닌 중이염걸린 3살주인님의 33원정대(근데 이제 귀가 멍멍하지만 사실은 냥냥이인)\n오늘도 재밌었다!\n주바주바 푹 쉬고 좋은 밤 되세요 ~~~",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA2MTBfMjc3/MDAxNzQ5NTYxNDczNTA2.cWXX34gMX3vuHRPpH4bHFLMF0Cc6-9uJJZXNyHamSrAg.aRo5OsOa7fOGDsw2s8RDq8HU4EEadLPbnJt79bFZ6PQg.GIF/Animation_13m.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA2MTBfNTQg/MDAxNzQ5NTYxNDg5OTg4.bEF6OZw9tMt_rKK7IqUHFQqbEX6bZeoLwkNHqQd_PLog.Ahm5yYmH5GE0E-B8Of1tLjq1d66o0IVHmGWkJ0HEhk4g.GIF/Animation_14m.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA2MTBfMTUz/MDAxNzQ5NTYxNTMwMDk0.IayuSuSNxTzEGzYfumL6hOqrsPNRqB9-w-Hst3HOgg4g.LaiWrXxZgSc-rLw3u_NJu_qOyeMoPLFeGp4ylGcgucMg.GIF/Animation_u15m.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_613275624a435/original_19.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "100MB)) 주인님움짤이많이있기",
-    "text":  null,
     "publishedAt":  "2024-07-28",
     "publishedTimeRaw":  "2024-07-28T13:29:50.977",
     "sourceTimezone":  null,
@@ -31,5 +30,36 @@
     "sourcePage":  5,
     "sourcePosition":  7,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/07/naver-cafe-vlup-post-23614.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/07/naver-cafe-vlup-post-23614.json",
+    "text":  "주인님 기엽워서 많이찍었어요",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA3MjhfMjQ0/MDAxNzIyMTQwMzMzNzAw.04fx-XpZS4eR4Tug-OYAcS3fYryyMrpowFQ0MYC2uh4g.ET21SyaMnS4a8AnG-BmgUJBj45ppq2w9F2GWu2P6LCsg.GIF/240728_jooin_kirakira.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA3MjhfNiAg/MDAxNzIyMTQwMzMzMzAy.7OmYfkxm-ZuXtAoTgWGZaFmlY86wr-ndHE2EpGaelsgg.OCSxZvHs0bt7w0wYJQRUNFKyw5cOzIMX43hy0aWR5rwg.GIF/240728_jooin_loveeye.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA3MjhfODkg/MDAxNzIyMTQwMzEyMTU4.hWvuwXKfsV7OjV2aLRZzRGLs8w7zXZvm2ec5vNhldcEg.wUjlrBLuYoqdhU1bhve9pqncUJZLxdSV19W9PfnoRnQg.GIF/240728_jooin_naelleum_3.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA3MjhfNjAg/MDAxNzIyMTQwMzM0ODkz.-sruiIFmDSsHEkLS9_kaoSB9QeDfYr72P7-Pw6fnLCcg.w5fj0MoKyGfm4kOnPMV746orYjdWbtNtiFN-gvJ5oV0g.GIF/240728_jooin_teardrop.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 5",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA3MjhfMjI0/MDAxNzIyMTQwMzM0NTA0.Qsa3NZUmkMrujLTUymg5rksLHQ41UElb_gCsn9GYjyEg.twUd3VnxkIkxELtDXt_SN1I4qa5EKNXRrJwfWm8n0QAg.GIF/240728_jooin_hapum.gif?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

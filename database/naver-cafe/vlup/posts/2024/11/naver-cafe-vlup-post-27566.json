@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "공겜 후기 + 츄로스 피크민 !!",
-    "text":  null,
     "publishedAt":  "2024-11-14",
     "publishedTimeRaw":  "2024-11-14T23:06:02.757",
     "sourceTimezone":  null,
@@ -31,5 +30,41 @@
     "sourcePage":  3,
     "sourcePosition":  5,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/11/naver-cafe-vlup-post-27566.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/11/naver-cafe-vlup-post-27566.json",
+    "text":  "스샷은 두눈꼭감고있다가 문열때 한눈만 잠깐 빼꼼 뜨길래 귀여워서 스샷찍었어요 ㅋㅋㅋㅋ\n빼꼼 한눈윙크해서 진짜 문 여는줄ㅋㅋㅋㅋㅋㅋㅋㅋㅋ\n주인님이랑 후배님들 모여있으니 공겜동아리같기도하고 장난이랑 입담 케미도좋아서 재밌었어요!!\n롤 마지막에 집중하고있는 주인님 찍었어요\n집중냥이 귀여운...\n주인님 귀여운 스샷 2\n이건 저에 피크민이에요\n레벨23에 160,000보 걸었네요!!\n생각보다 많이 못걸은거같다입니닷 (3주차!!)\n폰두고돌아다니면 안찍히는것두있긴하지만요!\n휘핑크림 이제 한 2천개쯤 모였던거같아요\n피크민 아직도 재밌어서 매일매일 접속해서 버섯때리고 있어요 ㅎ_ㅎ\n오늘도 많이 걷고 마니마니 에라이주인님이에요\n자발적 공겜이었지만 오히려 진행이 쉬운 게임을 잘 골라서 냥자택일만 하면 되니까\n게임진행이 되면서도 주인님의 공겜텐션을 볼수있어서 정말 재밌었어요 !!!\n피곤해보이셨는데 주인님도 잘자기 입니다 !!!!\n활력주인 에라이 !",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDExMTRfMjUx/MDAxNzMxNTkzMTYxNDY3.TChzJUKeyacFipnRk1O25Ml8TBiJ5vvT76z-LgW5ndAg.cDokIljfUBdwRLFK72MchOh7wVDXSbURp4mRGfQQHT8g.PNG/Screenshot%EF%BC%BF20241114%EF%BC%BF224036%EF%BC%BFSOOP.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDExMTRfMjk0/MDAxNzMxNTkzMTYxNDM1.MASR9glgMC5RoGqPHS4DyNnQuksB_XXEhu1y6qnoAYwg.kiFY3NTco44V3mxdc9LqHhqBQF8fGSwRisYOZszQ58cg.PNG/Screenshot%EF%BC%BF20241114%EF%BC%BF223244%EF%BC%BFSOOP.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDExMTRfMTkg/MDAxNzMxNTkzMTYxNDAw.h5GgqLGNOX3qRTaSOcIXRe_gBe1dITz-AYK5vt8XQegg.mbD1e9TlrnT40wWeguKpPDVYBcq1qdhkIu3qc0Hb4ogg.PNG/Screenshot%EF%BC%BF20241114%EF%BC%BF223258%EF%BC%BFSOOP.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDExMTRfMjY5/MDAxNzMxNTkzMTYxNTc2.iqDHAl2F7FIRvRTneOmEKvmVQshcqXIgZ7TLkSUF9i4g.IYXBdm6i7hJjeIhTH5-TB98xe7Wue9dItCAixsKcWkcg.PNG/Screenshot%EF%BC%BF20241114%EF%BC%BF225014%EF%BC%BFGallery.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 5",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_15.png?type=p50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 6",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_16.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

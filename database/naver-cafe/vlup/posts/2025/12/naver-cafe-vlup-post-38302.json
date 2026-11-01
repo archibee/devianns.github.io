@@ -9,7 +9,6 @@
     "authorNickname":  "힝구링이",
     "authorGroup":  "dahlia",
     "title":  "귀여운 치비트리 움짤도 하나",
-    "text":  null,
     "publishedAt":  "2025-12-26",
     "publishedTimeRaw":  "2025-12-26T19:32:50.953",
     "sourceTimezone":  null,
@@ -31,5 +30,36 @@
     "sourcePage":  1,
     "sourcePosition":  11,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/12/naver-cafe-vlup-post-38302.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/12/naver-cafe-vlup-post-38302.json",
+    "text":  "이거진짜 진심~~~ 진짜 개 커엽다 진자\nhttps://vod.sooplive.co.kr/player/181794553/catch\nhttps://vod.sooplive.co.kr/player/181795293/catch\n치비트리 캐치도 두개!\n풀트자체를 19걸어놔서 그렇긴한데 저 두개는 엄멤메한거 없움! 그냥 치비트리\n응... 남은 67시간도 응원할게요 화띠잉\n목도 편안해지게 따뜻한물 맛잇는음식 마니 먹고 푹 자요!\n잘먹고 잘자고 따뜻한수분 잘 채워주면 뭐든지 금방 좋아질테니까 ~~요!",
+    "bodyLinks":  [
+                      {
+                          "label":  "https://vod.sooplive.co.kr/player/181794553/catch",
+                          "url":  "https://vod.sooplive.co.kr/player/181794553/catch",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "https://vod.sooplive.co.kr/player/181795293/catch",
+                          "url":  "https://vod.sooplive.co.kr/player/181795293/catch",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTEyMjZfMTg2/MDAxNzY2NzQ0NzI0NTIw.ORdyFsE7L4owkAZFUXEvh3Aq3t2gLtfDCYvRQqfemcAg.uC1b4ZJ3h3TxgcLVAUFaY9XaP46enNXHjpzcekqJW2Eg.GIF/Animation_1.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTEyMjZfMTAw/MDAxNzY2NzQ0OTc3ODQ4.acYV6U4Vcf2MS0RNlnPg6xW0VuZS_BJ0hykExcTQGGsg.aqxnZfIY5YggxnKNibmmFMwjMtf6vik4AdQoAhuR6s4g.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_6192c4e16807d/original_7.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

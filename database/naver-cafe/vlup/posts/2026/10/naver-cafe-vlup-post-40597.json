@@ -9,7 +9,6 @@
     "authorNickname":  "꼬리리",
     "authorGroup":  "dahlia",
     "title":  "[AI] 와 시트리 오늘 입은 옷 ㄹㅇㅋㅋ",
-    "text":  null,
     "publishedAt":  "2026-10-15",
     "publishedTimeRaw":  "2026-10-15T00:23:32.793",
     "sourceTimezone":  null,
@@ -31,5 +30,26 @@
     "sourcePage":  1,
     "sourcePosition":  9,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2026/10/naver-cafe-vlup-post-40597.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2026/10/naver-cafe-vlup-post-40597.json",
+    "text":  "와 ㄷㄷ 시트리 ㄹㅇㅋㅋ\n해당 방송분 참고한 의상 : https://vod.sooplive.com/player/209820895",
+    "bodyLinks":  [
+                      {
+                          "label":  "https://vod.sooplive.com/player/209820895",
+                          "url":  "https://vod.sooplive.com/player/209820895",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjEwMTVfMjI5/MDAxNzkxOTkxMjYyMTk0.vEVHjCyaFUomCkGwDeVdbuuuRwlxRJHIbGqga9-PuDog.F7iI69HUoIFuiqCpPEakUj_BgLxVTyHV9AyxmT6C2sog.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fvideoimg.sooplive.com%2Fphp%2FSnapshotLoad.php%3FrowKey%3D20261014_C7C41345_297832657_2_r%22\u0026type=ff500_300",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "bdsm 테스트 + 피크민 후기 !",
-    "text":  null,
     "publishedAt":  "2024-10-22",
     "publishedTimeRaw":  "2024-10-22T20:48:41.267",
     "sourceTimezone":  null,
@@ -31,5 +30,26 @@
     "sourcePage":  4,
     "sourcePosition":  3,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/10/naver-cafe-vlup-post-26695.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/10/naver-cafe-vlup-post-26695.json",
+    "text":  "bdsm 테스트를 해봤어요\n전에는 대디마미 리틀 바닐라가 압도적이었는데\n이번에는 디그레이디가 엄청 높게 나왔네요 ㄷㄷ!\n피크민도 설치해서 튜토리얼만 끝내놓았는데\n생각보다 재밌을지도..?\n비만안왔다면 일단 나가서 걸음수스택쌓아놓고 오고싶다고 생각했어요 ㅋㅋㅋ\n포켓몬고는 설치해보고 흠..별로일까 하고 다시는안했는데\n피크민은 나름 재밌을거같아서 기대되네요\n뭔가 깔자마자 이건 재밌을거같은데? 걸어볼까?\n하게되는 느낌이에요\n더운날이 길어서 여름이 길게느껴졌었는데\n추워지는 것도 금방 추워지네요\n비오고 추운데 얇은옷 입고다니다가\n감기걸린것같아요!\n여러분도 옷 따뜻하게 입으시고 감기걸리지 않게 조심하세요 ㅠ_ㅠ 힝잉\n이빠지고 이뻐진 귀없을때도있는\n귀여운 주인님이 최고입니다 🍒",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDEwMjJfMTQg/MDAxNzI5NTk3NzIwNjAy.uglLVEgs7K5_0YQxjujhVk7u2Puxto3v57nNTs4wbZEg.CDCO9w1eMhdqVYDnGZZZNHiSPEXueUiLDgXJIuYxY7og.JPEG/IMG_2663.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDEwMjJfNDQg/MDAxNzI5NTk3NzIwNjg3._sABlb5sU0nhaxlYkrehn5N59MBvDGG-O0LPnGubU5Mg.UotBgzFfCw9fWT7wQmhWv6FdSXj3K8xa6zC10VtmhTkg.JPEG/IMG_2664.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_13.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

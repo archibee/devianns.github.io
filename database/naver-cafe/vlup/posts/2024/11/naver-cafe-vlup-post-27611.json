@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "주인님 ASMR 힐링될 때",
-    "text":  null,
     "publishedAt":  "2024-11-16",
     "publishedTimeRaw":  "2024-11-16T19:54:02.693",
     "sourceTimezone":  null,
@@ -31,5 +30,21 @@
     "sourcePage":  3,
     "sourcePosition":  3,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/11/naver-cafe-vlup-post-27611.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/11/naver-cafe-vlup-post-27611.json",
+    "text":  "자장자장 우리아가를 귀엽게 해주셔서 정말 좋아요! b\n그리고 뽀뽀 연사까지 해주셔서 정말 좋아해요",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDExMTZfMjQz/MDAxNzMxNzU0MjI4MTg5.L0k5DT5CpKcZA-SXFmmzHnsjCzMrq7wd5iwlKgTVsQ0g.D25eRU9vwj5UunkvTtPLR-BgpJoUC-CbPvdZgF8eMxcg.GIF/241116_asmr.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_5eb66fd5a6e07/original_10.gif?type=pa50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

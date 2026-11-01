@@ -9,7 +9,6 @@
     "authorNickname":  "꼬리리",
     "authorGroup":  "dahlia",
     "title":  "[AI] 귀여운 SD 시트리 모음",
-    "text":  null,
     "publishedAt":  "2026-10-15",
     "publishedTimeRaw":  "2026-10-15T01:47:13.050",
     "sourceTimezone":  null,
@@ -31,5 +30,36 @@
     "sourcePage":  1,
     "sourcePosition":  8,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2026/10/naver-cafe-vlup-post-40598.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2026/10/naver-cafe-vlup-post-40598.json",
+    "text":  "SD 시트리 카와이~!\n해당 방송분 참고한 의상 : https://vod.sooplive.com/player/209820895",
+    "bodyLinks":  [
+                      {
+                          "label":  "https://vod.sooplive.com/player/209820895",
+                          "url":  "https://vod.sooplive.com/player/209820895",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjEwMTVfMjE4/MDAxNzkxOTk2MzMxMDU2.-KlOa2UTwyDbnqP-ROdP7sT-AO_oBMafT5dr-LgcTfUg.d_GJgsiOoDuFlqps8YKGrBq3kTmj97SRjSZbyQ97IOwg.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjEwMTVfMjEx/MDAxNzkxOTk2MzQzMzI0.bSsVfVVEBaTvfcYPJHP7tT7zwKdyT_zat9JqMrX9qrAg.YWyemCDGD20_HvoGLLud3rH-AoGKD8M8lEdmzi-sZpIg.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_6192c4e16807d/original_12.png?type=p50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fvideoimg.sooplive.com%2Fphp%2FSnapshotLoad.php%3FrowKey%3D20261014_C7C41345_297832657_2_r%22\u0026type=ff500_300",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

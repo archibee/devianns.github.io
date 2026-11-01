@@ -8,8 +8,7 @@
     "platformId":  "29262",
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
-    "title":  "\u0026quot;Hello! Winter Love\u0026quot; 노래가 너무 좋았던 버프",
-    "text":  null,
+    "title":  "\"Hello! Winter Love\" 노래가 너무 좋았던 버프",
     "publishedAt":  "2024-12-29",
     "publishedTimeRaw":  "2024-12-29T00:05:08.297",
     "sourceTimezone":  null,
@@ -31,5 +30,21 @@
     "sourcePage":  2,
     "sourcePosition":  5,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/12/naver-cafe-vlup-post-29262.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/12/naver-cafe-vlup-post-29262.json",
+    "text":  "https://youtu.be/pSHi1NnlKNE?si=1SUsy-K_UB2c2yjV\n문라이트대쉬를 정말 브국가(브이럽의 대표노래 머시기)라고 생각할정도로\n자주 찾아들을 정도로 좋아하는 노래인데 헬로윈터러브 이 노래를 얼마전에 첨 알아서\n계속 듣고있는데 영상미도 그렇고 노래도 정말 너무 좋아요..\n12/28 지금 완전 겨울밤인데 이 노래 듣고 있으면\n뭔가 없었던 따뜻한 겨울의 기억이 되살아나는것 같은..\n차고 흰 겨울이지만 오히려 따뜻한 빛이 맞이하는것같은 그런 따스함이 녹아있는\n예쁜 노래라고 생각해요\n버프의 크리스마스 이야기를 살짝 드리자면\n5살쯤? 아버지가 리모콘으로 조종할수있는 그당시 제 몸집만한 장난감 차를 선물로 주셨었는데\n그때 초록색 트리를 불다꺼진 집안에 놓고 반짝이는 작은 전구가 달린 전선을\n집 한쪽으로부터 가득 이어서 트리에도 감싸서 초록,빨간색,노란색 밝게 반짝이고\n황색 랜턴같은 불빛으로 집안을 밝혀서 밤이라 밖은 어둡지만 안쪽은 밝은 황색빛 거실에서\n리모콘으로 장난감 차를 자기전까지 갖고놀던 기억이 나네요\n그 전으로도, 그 이후로도 그런 겨울밤은 다시 없었는데\n왠지 잃어버린 기억이 다시 떠오르는 느낌이여서 너무 좋은 노래인것같아요 !\n여튼 ,, , 어릴적의 따스한 겨울을 떠올리게 하는 좋은 노래인데다\n노래도 영상도 일러스트도 ,, 완성도 최강이라서\n멤버들의 화음쌓기와 배경음에 살짝 얹히는 종소리(?) 챱챱거리는 특유의 겨울소리가\n아련하고 좋은거같아요 ..\n왠지 다시 오지 않을 것만 같던 황색 겨울밤이\n문득 제 손을 잡아주는 느낌이랄까..\n이 노래를 듣고 제 기억이 다시 제 손을 잡아주는 느낌이랄까 !!\n좋았습니다 지금도 듣는중 !!! 노래가 정말 좋아요\n분위기가 장난아닌 것이랄까요",
+    "bodyLinks":  [
+                      {
+                          "label":  "https://youtu.be/pSHi1NnlKNE?si=1SUsy-K_UB2c2yjV",
+                          "url":  "https://youtu.be/pSHi1NnlKNE?si=1SUsy-K_UB2c2yjV",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_623dfd3f2d303/original_22.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

@@ -8,8 +8,7 @@
     "platformId":  "20183",
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
-    "title":  "C타입 \u0026quot;유선\u0026quot; 블루투스 이어폰",
-    "text":  null,
+    "title":  "C타입 \"유선\" 블루투스 이어폰",
     "publishedAt":  "2024-05-16",
     "publishedTimeRaw":  "2024-05-16T14:29:52.220",
     "sourceTimezone":  null,
@@ -31,5 +30,41 @@
     "sourcePage":  6,
     "sourcePosition":  11,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/05/naver-cafe-vlup-post-20183.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/05/naver-cafe-vlup-post-20183.json",
+    "text":  "이미지를 보면 일반 유선이어폰 같은데\n혹시 판매자가 제목을 잘못 입력했나 싶어 리뷰를 보니...\n진짜 유선인데 블루투스였다는 리뷰도 있고\n우찌 이런걸 파냐는 분도 계시고(완전 실망하심)\n짜증. 부숴버린 분도 있었다\n뭐지 싶어서 구글에 검색했더니 보이는 자극적인 제목의 리뷰..\n처음에는 애플의 MFI인증을 우회하고 배터리 원가 절감을 위해서 유선 라이트닝에 블루투스를 넣었다가\nC타입 단자로 된 유선 블루투스 이어폰도 세상에 나오게 된 것이 아닐까 싶네요\n유선 단자는 단순히 블루투스에 전원 공급만을 위한 것이라고 합니다\n무선인데 유선이다가 맞는 말인 이어폰이네요\n배가 고픈데 안고프다\n게임하고있는데 게임안하고있다\n일하는데 일 안하고있다\n밥먹었는데 밥 안먹었다\n두 상태의 공존..\n흠.... 머리가 이상해지는 기분..",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA1MTZfMTcw/MDAxNzE1ODM3MzkwMzU5.qJjmLJko_F_QenHpJuXo75iVYVHYFK41X-As_tMFoXEg.HaRmJNQYK2DgTr5c79AZfcWezH-OhjZ9BoGD0J6hO2Ig.PNG/20240516%EF%BC%BF135552.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA1MTZfMTY1/MDAxNzE1ODM3MzkwMjY5.WEJVTio44arbWyTqJgLKAAp7EQAygMdGAWkqABEsu9Mg.c-1AJvThcRdYyWSlXFi6GvRCI-w_x2v6tV67ku_jj54g.PNG/Screenshot%EF%BC%BF20240516%EF%BC%BF134713.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA1MTZfMTI3/MDAxNzE1ODM3MzkwMzA1.iwMV6Lv3mAAAqRqYVsgyMZScFLjbv8VNNISOGKhDFzwg.e2fev3wC5SU694BHON8RzdMrncvS_T5vl2xBfzUdpc0g.PNG/Screenshot%EF%BC%BF20240516%EF%BC%BF135000.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA1MTZfMjY5/MDAxNzE1ODM3MzkwMzM1.s6UOJkIVRlrsbULEXZfDYQW7GdbYJkj4zvtKINKbYC8g.hMqGk4ATNrQoNdWtE0xEIqesLt0bnMxGQKPn8ou1YGgg.PNG/Screenshot%EF%BC%BF20240516%EF%BC%BF134935.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 5",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA1MTZfMjA0/MDAxNzE1ODM3MzkwOTQ5.cYY7I50Jta_lG62j_PfulM7zZXCxwJtrnVuf-cLC684g.AvKR5xX_jVbhGPmfW_aZLM4bcDX-dgoe1wrhhmOumRUg.PNG/Screenshot%EF%BC%BF20240516%EF%BC%BF135206%EF%BC%BFSamsung_Internet.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 6",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA1MTZfMjQ0/MDAxNzE1ODM3MzkxMDc3.xTXOtJbbza_cS437Snn1tJGIkaBqwlztrcEvitS451wg.54nAOXwz-MDg-eFvjahIJIe4s-CZ1rRELSukjCh4rkgg.PNG/Screenshot%EF%BC%BF20240516%EF%BC%BF135337%EF%BC%BFSamsung_Internet.png?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

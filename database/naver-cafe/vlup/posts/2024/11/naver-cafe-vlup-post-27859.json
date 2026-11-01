@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "복각,유지 원해요 이모티콘 !",
-    "text":  null,
     "publishedAt":  "2024-11-23",
     "publishedTimeRaw":  "2024-11-23T07:32:44.950",
     "sourceTimezone":  null,
@@ -31,5 +30,16 @@
     "sourcePage":  3,
     "sourcePosition":  1,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/11/naver-cafe-vlup-post-27859.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/11/naver-cafe-vlup-post-27859.json",
+    "text":  "# 복각, 유지 원해요!\n멈춘 주인하트콘\n멈춘 주인쓰담콘\n멈춘 주인따봉콘\n멈춘 주인 힝 콘\n멈춘 주인눈치콘\n멈춘 주인에치치콘\n움직이는 츄로스 응원봉콘\n움직이는 흔들어흔들어 오예주인콘\n주인콘 제안 드려요 \u003e\u003c,,\n(이번 유튜브 썸네일 귀여워서 좋았어요!!!!! 엣치치)",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDExMjNfMTMy/MDAxNzMyMzE1MDI0MzY4.n-cyew5Y_RDurljpqduPyUcd7BNJ_X43_xMqdHagmgIg.bXmxrnRdtx75fGMYwFTS80T6Vp9KbFQeXnnYS_P9Z6Ag.JPEG/Screenshot%EF%BC%BF20241123%EF%BC%8D073422%EF%BC%BFYouTube.jpg?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

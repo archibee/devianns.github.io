@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "부끄러운 시청기록",
-    "text":  null,
     "publishedAt":  "2024-11-02",
     "publishedTimeRaw":  "2024-11-02T12:37:23.140",
     "sourceTimezone":  null,
@@ -31,5 +30,21 @@
     "sourcePage":  3,
     "sourcePosition":  10,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/11/naver-cafe-vlup-post-27071.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/11/naver-cafe-vlup-post-27071.json",
+    "text":  "ㅠㅜ",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDExMDJfMjAy/MDAxNzMwNTE4NjQyNjA0.MCnbhsdBw_xFGpztaSmoEG0fQDU7SAWvVEcnBPpPOcgg.IaJSDl83dspxTm2zWr2-qMpZ36mMyAhMRFee4J01WfEg.JPEG/IMG_2778.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDExMDJfMjg3/MDAxNzMwNTE4NjQyNzE3.qzOfd4ep6wei6u-WyPnx-wP23bj5VANPmeRFDMKI-3gg.EprNDRq5zgAqAzMdoaQjKLzc1YTiMYYfsZsQcYknAS4g.JPEG/IMG_2779.jpg?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

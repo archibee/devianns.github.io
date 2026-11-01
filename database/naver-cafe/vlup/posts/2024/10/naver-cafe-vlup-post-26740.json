@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "첫 피크민과의 피크닉 !",
-    "text":  null,
     "publishedAt":  "2024-10-23",
     "publishedTimeRaw":  "2024-10-23T23:01:21.123",
     "sourceTimezone":  null,
@@ -31,5 +30,21 @@
     "sourcePage":  4,
     "sourcePosition":  2,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/10/naver-cafe-vlup-post-26740.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/10/naver-cafe-vlup-post-26740.json",
+    "text":  "6646 걸음 걸었어요\n걷는데 한시간 정도 걸렸어요!\n중간중간 계속 레벨업해서 모종이랑 보상 쥐어줘가지구 잠깐잠깐 체크안했으면 피크민손해볼뻔했어요!!\n피크민 먹이주고 모종키우고 하니까 생각보다 재밌네요 그냥 걷는거보다 백배 재밌다!\n배터리 많이닳줄 알았는데 피크민켜놓고 유튭뮤직 켜놓고도 1시간에 5퍼센트 정도 밖에 안달았어요\n배터리 걱정했던거보다 훨씬 튼튼했다,,\n걸으면 탐험컨텐츠 열리는데 새로간지역에 랜드마크같은 큰꽃도있고 과일도나와서 어디쓰는진모르겠지만 모으는재미가있네요!!! 일단다모아\n오늘 본격 첫날인데 레벨 6이 되었어요\n코인을많이모으면 아바타 코스튬같은거도 살수있네요\n할로윈이벤트로 양초얻기 하면 한정 피크민 주는거같은데 한번 얻어보고싶네요!!\n재밌는 거 알게되서 즐조깅 즐러닝 할수있겠어요✨",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDEwMjNfNDUg/MDAxNzI5NjkyMDgwMzU0.4J1HFrNNDOO6Tj7IEeORRzQYhULgg7FB0FgyH6g9Ci4g.6EXj8-reaOdTuF8aEVP3dnmQMWK5qT4TEScj9p2WRUUg.JPEG/IMG_2668.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_623dfd3f2d303/original_3.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

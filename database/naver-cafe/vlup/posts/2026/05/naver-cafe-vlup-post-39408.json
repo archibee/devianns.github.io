@@ -9,7 +9,6 @@
     "authorNickname":  "꼬리리",
     "authorGroup":  "dahlia",
     "title":  "냥귀",
-    "text":  null,
     "publishedAt":  "2026-05-10",
     "publishedTimeRaw":  "2026-05-10T17:57:26.790",
     "sourceTimezone":  null,
@@ -31,5 +30,26 @@
     "sourcePage":  2,
     "sourcePosition":  8,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2026/05/naver-cafe-vlup-post-39408.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2026/05/naver-cafe-vlup-post-39408.json",
+    "text":  "냥귀엽\n노래부르는 고양이가\n젤 귀엽죠 ㅎ.ㅎ\n귀여운데 어케참아이..",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjA1MTBfOTUg/MDAxNzc4NDAzNDQ0ODQ3.sLWxV_kP1trbXOb_bAh3Ec_Dxw8eLFwvezNWyGT2ERAg.GuGdWjcuf7Am4K0WYbKOt0985ZjVzpa-f89OdIHzxMwg.JPEG/640_IMG_20260510_175140.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjA1MTBfMjk1/MDAxNzc4NDAzNDQ1NDM3.8c6RFL_M0hnAb0CdPFIrudsKjaIUc7hL7K-pB-UoUGcg.VQWOPuhIYIx7V9snkSCjB2lLVkoThpcHUUAJN-g1uYcg.JPEG/640_IMG_20260510_175131.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_637c10c05986d/original_3.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

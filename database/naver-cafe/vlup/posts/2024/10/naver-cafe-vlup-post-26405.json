@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "주인님의 1000일을 축하해요 !!!!",
-    "text":  null,
     "publishedAt":  "2024-10-12",
     "publishedTimeRaw":  "2024-10-12T11:53:04.813",
     "sourceTimezone":  null,
@@ -31,5 +30,41 @@
     "sourcePage":  4,
     "sourcePosition":  7,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/10/naver-cafe-vlup-post-26405.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/10/naver-cafe-vlup-post-26405.json",
+    "text":  "데뷔일로부터 오늘 딱 1000일 째 !\n1000일은 시간으로는 24,000시간\n분으로는 1,440,000분 !\n츄로스도 돌아보니 벌써 많은 시간을 주인님과 함께 지나온거같아요\n하나하나 기억나는 것도 많고 벌써 시간이 이렇게 되었나 싶고 !\n주인님과 츄로스들이 함께 쌓아온 1000일을 축하해요 그리고 고마워요 ~~!\n앞으로도 좋은 일들이 많았으면 좋겠어요\n주인님 방송 덕분에 많은 시간을 즐겁게 보낼 수 있었습니다\n방송 이후에도 유튜브에 저녁마다 올라오는 영상을 보는것도 어느새 오늘은 무슨영상 올라올까?\n이런 생각이 자연스레 들기도 했어요 ㅋ_ㅋ\n주인님의 데뷔 1000일을 축하드려요 ~ ! ! !",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDEwMTJfMTIg/MDAxNzI4NzAwNzc2MDYw.PGWtoB_3DA76q9KLd0-Oi8iJ-knKtsq811IDW5n1HZog.v5B8kmfN0cButI-_axo-iWV50OMvGNuhhtdrRL0Vufwg.PNG/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2024-10-12_113537.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDEwMTJfMTIx/MDAxNzI4NzAxNzM5NjY2.mxmXx7TM1iGcPY7gau7Y0H3wKjhtGRawXzXMgJ_TKbAg.dir_UkETUNNNVucXOnAz5xDUe5oElzHiWeY5Eld0saUg.PNG/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2024-10-12_113404.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDEwMTJfMjcx/MDAxNzI4NzAxNzM2NTA1.iOtLpShQ3vqoVOrjxeaQxz-BZKKFvWcKmJTxESTCnpcg.MefHWXgwJ8loiePoDUygQ7WPvZAFfi0-HHPdW8-JPbsg.PNG/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2024-10-12_113324.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDEwMTJfMjEg/MDAxNzI4NzAxMzIzNDY3.LJUOdC2-9tD7BqXs5tt9G5AQOkp-oe5Aw2lbeKxbRNIg.UEZaqlBcMKevXHo8ISebTph_H3PtLconEU8oaGfiUZog.PNG/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2024-10-12_113753.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 5",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_623dfd3f2d303/original_1.png?type=p50_50",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 6",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_623dfd3f2d303/original_3.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

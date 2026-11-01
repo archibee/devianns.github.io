@@ -51,7 +51,7 @@
 
     const heading = make('h3', 'record-title', titleOf(record));
     article.append(heading);
-    if (record.text && record.title && record.text !== record.title) article.append(make('p', 'record-body', record.text));
+    if (record.text && record.title && record.text !== record.title && view !== 'community') article.append(make('p', 'record-body', record.text));
 
     const observation = record.latestListingObservation;
     const values = [];
@@ -101,6 +101,14 @@
       footer.append(link);
     } else {
       footer.append(make('span', 'record-no-link', '원본 링크 없음'));
+    }
+    if (view === 'community' && record.bodyCaptureStatus === 'captured') {
+      article.classList.add('record-card-has-body');
+      const bodyButton = make('button', 'record-open record-body-open', '저장된 기록 보기');
+      bodyButton.type = 'button';
+      bodyButton.dataset.openSavedBody = '';
+      bodyButton.dataset.recordId = record.id;
+      footer.append(bodyButton);
     }
     article.append(footer);
     return article;
@@ -457,6 +465,47 @@
     const search = document.querySelector('[data-search]');
     const status = document.querySelector('[data-result-count]');
     const more = document.querySelector('[data-load-more]');
+    const bodyDialog = document.querySelector('#community-body-dialog');
+    const bodyTitle = bodyDialog?.querySelector('[data-body-title]');
+    const bodyMeta = bodyDialog?.querySelector('[data-body-meta]');
+    const bodyText = bodyDialog?.querySelector('[data-body-text]');
+    const bodyEmpty = bodyDialog?.querySelector('[data-body-empty]');
+    const bodyLinks = bodyDialog?.querySelector('[data-body-links]');
+    const bodyLinksSection = bodyDialog?.querySelector('[data-body-links-section]');
+    const bodyOriginal = bodyDialog?.querySelector('[data-body-original]');
+    list?.addEventListener('click', (event) => {
+      const button = event.target.closest('[data-open-saved-body]');
+      if (!button || !bodyDialog) return;
+      const record = viewRecords.find((item) => item.id === button.dataset.recordId);
+      if (!record) return;
+      if (bodyTitle) bodyTitle.textContent = titleOf(record);
+      if (bodyMeta) bodyMeta.textContent = [record.cafeName, record.authorNickname, dateOf(record)].filter(Boolean).join(' · ');
+      if (bodyText) bodyText.textContent = text(record.text);
+      if (bodyEmpty) bodyEmpty.hidden = Boolean(text(record.text));
+      if (bodyText) bodyText.hidden = !text(record.text);
+      if (bodyLinks) {
+        bodyLinks.replaceChildren();
+        const savedLinks = Array.isArray(record.bodyLinks) ? record.bodyLinks : [];
+        for (const savedLink of savedLinks) {
+          if (!savedLink?.url) continue;
+          const kindLabel = { image: '이미지 링크', media: '미디어 링크', file: '첨부 링크' }[savedLink.kind];
+          const linkText = savedLink.label || savedLink.url;
+          const link = make('a', 'body-dialog-link', kindLabel ? `${kindLabel} · ${linkText}` : linkText);
+          link.href = savedLink.url;
+          link.target = '_blank';
+          link.rel = 'noopener noreferrer';
+          bodyLinks.append(link);
+        }
+        if (bodyLinksSection) bodyLinksSection.hidden = !bodyLinks.childElementCount;
+      }
+      if (bodyOriginal) {
+        bodyOriginal.hidden = !record.url;
+        if (record.url) bodyOriginal.href = record.url;
+      }
+      bodyDialog.showModal();
+    });
+    bodyDialog?.querySelector('[data-body-close]')?.addEventListener('click', () => bodyDialog.close());
+    bodyDialog?.addEventListener('click', (event) => { if (event.target === bodyDialog) bodyDialog.close(); });
     const filterButtons = [...document.querySelectorAll('[data-filter-buttons] [data-filter]')];
     for (const button of filterButtons) button.setAttribute('aria-pressed', String(button.classList.contains('is-selected')));
     let filter = 'all';

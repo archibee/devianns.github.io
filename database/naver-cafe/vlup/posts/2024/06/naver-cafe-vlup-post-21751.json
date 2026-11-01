@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "주인님 스타뱅 보다가 놀란점...",
-    "text":  null,
     "publishedAt":  "2024-06-15",
     "publishedTimeRaw":  "2024-06-15T15:14:31.660",
     "sourceTimezone":  null,
@@ -31,5 +30,36 @@
     "sourcePage":  6,
     "sourcePosition":  3,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/06/naver-cafe-vlup-post-21751.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/06/naver-cafe-vlup-post-21751.json",
+    "text":  "제 심장이 놀랐어요 ㅠㅡ,ㅠ\n예버요,,,",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA2MTVfMTE2/MDAxNzE4NDMxNTk0NjY2.JHPaEKjVvZ8qUZD6K8EpLO7gODtwV4uiKChLz1UamRwg.GhC7yRPMAl4worV4SCacXOdFR8QZRO8Jk-DHjcz6iAwg.JPEG/1.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA2MTVfMzAg/MDAxNzE4NDMxNTk0NjQy.CnQsSptBduJ3CUNidsOlp-Wq3hmik3GbWjORe_fbJmAg.KrN1QrXjtCowTcFchoO79uMYQhYDw_9daD-C7u-Qd_4g.JPEG/2.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA2MTVfMzAg/MDAxNzE4NDMxNTk0NjUx.vyad8Jl-HOhZ0BQYvsd-xISmNwvYy4SBuFEtBkJ72MEg.NtpQs6ISN0-XThR4KgcRpH3ibewQl-yWi9Uk70gxH9og.JPEG/3.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 4",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA2MTVfNjgg/MDAxNzE4NDMxNTk0NjY3._1SN3NNrsMzLccVp4H6RUnaC3689TSvGV9J8JqigDOog.TFjcsBD3LifSzhsp9IIGsV9lxxwEYCOe-vcXzZAjpEcg.JPEG/4.jpg?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 5",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_5eb66fd5a6e07/original_7.gif?type=pa50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "태블릿을 켰더니",
-    "text":  null,
     "publishedAt":  "2024-10-31",
     "publishedTimeRaw":  "2024-10-31T18:50:19.603",
     "sourceTimezone":  null,
@@ -31,5 +30,21 @@
     "sourcePage":  3,
     "sourcePosition":  13,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/10/naver-cafe-vlup-post-27002.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/10/naver-cafe-vlup-post-27002.json",
+    "text":  "배경화면에 주인님이 넘 ㅜ이뻣다 ㅇㅅㅇ\n할로 윈 주인님이 기대되는 저녁이엇다",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDEwMzFfNzMg/MDAxNzMwMzY4MDc3MTA0._EeSyIVEWLrCIGY7PbcVKT0z0kw7_UYuzB2rpTjGcKAg.R3NS2YtTKAOIggSV_gymqP5QCPqkk35nJbRfJk6HpeYg.JPEG/IMG.JPG?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_6.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

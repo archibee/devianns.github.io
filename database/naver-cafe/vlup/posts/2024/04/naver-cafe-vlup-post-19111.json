@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "매운 숨소리 asmr...? 그런걸 듣고싶어..??",
-    "text":  null,
     "publishedAt":  "2024-04-26",
     "publishedTimeRaw":  "2024-04-26T11:02:06.637",
     "sourceTimezone":  null,
@@ -31,5 +30,26 @@
     "sourcePage":  7,
     "sourcePosition":  2,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/04/naver-cafe-vlup-post-19111.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/04/naver-cafe-vlup-post-19111.json",
+    "text":  "2차 창작 가이드 라인 : https://cafe.naver.com/vlup/9\n수위 규정 : https://cafe.naver.com/vlup/11\nAI 창작 규정 : https://cafe.naver.com/vlup/1069\n오늘도 살아갈 에너지를 얻었습니다\n봐주셔서 감사합니다!",
+    "bodyLinks":  [
+                      {
+                          "label":  "https://cafe.naver.com/vlup/9",
+                          "url":  "https://cafe.naver.com/vlup/9",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "https://cafe.naver.com/vlup/11",
+                          "url":  "https://cafe.naver.com/vlup/11",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "https://cafe.naver.com/vlup/1069﻿",
+                          "url":  "https://cafe.naver.com/vlup/1069",
+                          "kind":  "link"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

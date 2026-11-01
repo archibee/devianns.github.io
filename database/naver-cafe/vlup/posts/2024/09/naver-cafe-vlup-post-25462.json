@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "츄로스 리본매는 구독이미지 너무 귀여운 !!",
-    "text":  null,
     "publishedAt":  "2024-09-20",
     "publishedTimeRaw":  "2024-09-20T11:59:53.350",
     "sourceTimezone":  null,
@@ -31,5 +30,21 @@
     "sourcePage":  4,
     "sourcePosition":  10,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/09/naver-cafe-vlup-post-25462.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/09/naver-cafe-vlup-post-25462.json",
+    "text":  "맹하니 놀고있는 흰쥐한테 리본꼭꼭매주고 웃는 주인님\n너도 츄로스야~ 하는거같아서 진자 커엽습니다",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA5MjBfNTAg/MDAxNzI2ODAwOTY3MjE0.pt0cXN73_8pK_EGkNNfdtmge2c2iWDIyPzY84kiqCJcg.ZXSgeHDmXSRCp4kca4JaaWj93l436uvEPHujNO78nWYg.GIF/0920_gif.gif?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://storep-phinf.pstatic.net/ogq_60e68b1de5d4e/original_13.png?type=p50_50",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

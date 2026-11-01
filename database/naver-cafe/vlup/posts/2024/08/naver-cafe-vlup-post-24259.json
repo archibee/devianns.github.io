@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "PCI장치 네트워크 어댑터 문제를 몇개 알아봤어요...",
-    "text":  null,
     "publishedAt":  "2024-08-16",
     "publishedTimeRaw":  "2024-08-16T15:30:58.897",
     "sourceTimezone":  null,
@@ -31,5 +30,41 @@
     "sourcePage":  4,
     "sourcePosition":  15,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/08/naver-cafe-vlup-post-24259.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/08/naver-cafe-vlup-post-24259.json",
+    "text":  "쓰고 보니까 지금 그냥 인터넷이 안되는데 어떻게 설치하지 라고 생각했습니다......\n검색해보니 대부분 usb나 휴대폰 usb테더링? 이라는 기능을 써서 휴대폰을 인터넷처럼 사용하거나\n휴대폰이나 usb같은곳에 파일 다운받아서 직접 컴퓨터로 옮겨서 해결하는 경우가 많은 것 같았어요.. 컴퓨터가 인터넷 연결이 안되어서...\n윈도우 업데이트하고 이런 문제겪으시는 분들이 굉장히 많은 것 같았슴니다\n사진에서 느낌표가 한개가아니구 전체 느낌표로 떠있는거로 봐서 비슷한 글을 찾았는데요\n장치관리자 pci장치 오류 \u003e OS/소프트웨어 | 퀘이사존 QUASARZONE\n이 질문하신분이 올린 사진에도 PCI장치랑 다 느낌표로 떠있었어요\n여기서 해결법은 칩셋 드라이버를 새로 설치하라는 거였는데 포맷 후에 드라이버설치 안해서 저런 오류가 떴던 모양이에요\n주인님도 아마 윈도우 업뎃 되면서 11 올라가면서 전체적으로 많이 바껴가지구 네트워크칩셋 드라이버같은게 오류 생긴거같아서 네트워크 부품에 맞는 드라이버 새로 설치하는 방법도 효과 있지않을까 제안드립니다아....\n--인텔 윈도우11 인텔 네트워크 어댑터 드라이버 다운로드(인텔공식)\nMicrosoft Windows 11*용 인텔® 네트워크 어댑터 드라이버 (intel.co.kr)\n용량은 25MB 정도이구 이걸 컴퓨터로 옮길수잇다면 설치할수있을거같아요\n--(문제가 네트워크 어댑터일때 해결법이 정리된글(윈도우11기준)) 윈도우11업데이트 이후 네트워크 어댑터 인식 및 작동 문제 해결 방법 : 네이버 블로그 (naver.com)",
+    "bodyLinks":  [
+                      {
+                          "label":  "장치관리자 pci장치 오류 \u003e OS/소프트웨어 | 퀘이사존 QUASARZONE",
+                          "url":  "https://quasarzone.com/bbs/qf_sw/views/126338",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "Microsoft Windows 11*용 인텔® 네트워크 어댑터 드라이버 (intel.co.kr)",
+                          "url":  "https://www.intel.co.kr/content/www/kr/ko/download/727998/intel-network-adapter-driver-for-microsoft-windows-11.html",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "윈도우11업데이트 이후 네트워크 어댑터 인식 및 작동 문제 해결 방법 : 네이버 블로그 (naver.com)",
+                          "url":  "https://m.blog.naver.com/toruin84/222852597763",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fimg2.quasarzone.com%2Feditor%2F2023%2F03%2F10%2Fc255a4a4b71627d459c899ecf7d3cfd2.png%22\u0026type=ff250_444",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA4MTZfMjg3/MDAxNzIzNzg5NzUzMDcy.AEQC5sTEVcrOwfAQLfVMjr6z-w5PWgDWjhb7b6aOmlMg.at0ijX-JxM09G058I-sOKnqzY5dH7VPOZ9MT8OEa388g.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 3",
+                          "url":  "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fwww.intel.com%2Fetc.clientlibs%2Fsettings%2Fwcm%2Fdesigns%2Fintel%2Fus%2Fen%2Fimages%2Fresources%2Fprintlogo.png%22\u0026type=ff500_300",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

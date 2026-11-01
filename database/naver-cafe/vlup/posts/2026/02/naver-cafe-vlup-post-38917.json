@@ -9,7 +9,6 @@
     "authorNickname":  "꼬리리",
     "authorGroup":  "dahlia",
     "title":  "저가요.. 무리무리 애니 재밌더라요",
-    "text":  null,
     "publishedAt":  "2026-02-17",
     "publishedTimeRaw":  "2026-02-17T02:11:25.823",
     "sourceTimezone":  null,
@@ -31,5 +30,16 @@
     "sourcePage":  2,
     "sourcePosition":  12,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2026/02/naver-cafe-vlup-post-38917.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2026/02/naver-cafe-vlup-post-38917.json",
+    "text":  "저번에 트리가 말한거 기억나서 보고있는데\n작화 좋고 재밌는 거 같아\n캐릭터들이 디게 이쁘네\n백합인데 뭔가 설레\n오늘 다 보구 자야징 ㅋ.ㅋ",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjAyMTdfMjQ3/MDAxNzcxMjYxODg0Nzc2.nl88s9jx9OK6bUxtZ35z7dPHlhcvoTaH2_87EFMqYCUg.qLcqAfU2DJvMFus2p9mZ6zeFxuY__922LvaejWYuuYIg.PNG/640%EF%BC%BFScreenshot%EF%BC%BF20260217%EF%BC%8D0200522.png?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

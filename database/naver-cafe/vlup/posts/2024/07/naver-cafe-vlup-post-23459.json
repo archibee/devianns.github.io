@@ -9,7 +9,6 @@
     "authorNickname":  "망초써",
     "authorGroup":  "dahlia",
     "title":  "주인님 생일을 축하하며 드리는 손편지 (쉿 주인님만 봐주세요...)",
-    "text":  null,
     "publishedAt":  "2024-07-25",
     "publishedTimeRaw":  "2024-07-25T01:05:44.270",
     "sourceTimezone":  null,
@@ -31,5 +30,21 @@
     "sourcePage":  5,
     "sourcePosition":  11,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2024/07/naver-cafe-vlup-post-23459.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2024/07/naver-cafe-vlup-post-23459.json",
+    "text":  "to. 세살 생일을 맞이하는 주인님께\n영원 세살 주인님의 다시 태어난 2024 생일을 축하해요!\n생일이라고 하니 왠지 주인님 생일인데도 축하드리는 츄로스 마음이 너무 기뻐요\n벌써 7월이 되고서부터 주인님 생일에 어떤 이벤트가 있을까\n늘 조금씩 두근거리며 지냈어요!\n이럴때 주인님의 팬이라는 게 감사하고 자랑스럽게 느껴지기도 해요.\n이유는 주인님이 언제나 멋있고 좋은걸 보여주시니까 또 기대하게 되어버려서에요.\n일년에 하나뿐인 주인님 데이.\n생일인데, 즐거운데, 분명 좋고 기쁘고 너무나 축하드리는데도\n왠지 감정이 좀 다가와서\n조금 마음이 누그러져버려서 눈에서 땀이나려하는거에요.\n날씨.. 더우니까...\n주인님의 에라이한 모습들이, 특히 열심히 하는 모습이 저에겐 아직도 용기가 되어줘요.\n그리고 주인님의 자연스럽고 편하고 솔직한 주인님과 어울리는 주인님만의 분위기가\n매력적이고 너무 좋아요. 그래서 조금 하루가 누구에게나, 또 저에게도\n늘 밝지만은 않겠지만 주인님 방송을 보는동안은 정말 웃으면서 즐거운 시간을\n보내고 있었다는걸 오늘을 또 돌아보며 새삼스럽게 느끼게 되어요.\n주인님의 많은 장면들과 주인님이 베풀어주신 사소한 배려들도 너무도 감사하고 고마워요.\n주인님이 츄로스들을 위해 해주신 예쁘고 좋은 말들.\n그리고 주인님이 열심히 하시던 모습. 귀여운 모습. 멋진 모습도\n주인님이 보여준 재밌는 게임들도, 들려주신 많은 이야기들도, 불러주신 좋은 노래들도\n사소한 잡담도, 웃는 모습도, 가끔은 고르릉인 모습도,\n작지만 감동스러운 배려들도, 방종때마다 해주신 방종뽀뽀도,\n채팅창을 얼리고서도 써주신 마지막 인사들도, 츄로스들 잘지내고있어라는 말도,\n휴대폰에 울리는 주인님의 알림들이 반갑게 느껴지는 것도,\n주인님 굿즈들과 그리고 함께한 시간들이\n저에게는 정말 버릴게 하나도 없는 소중한 추억이여서..\n언제나 소중히 간직하고 주인님의 츄로스로서\n항상 여기에 있고 싶어요.\n고맙습니다\n주인님을 알게 되어서, 주인님 방송과 컨텐츠를 볼 수 있어서,\n그 무엇보다도 저에게 가장 필요했던 감동이자 즐거움이였어요.\n늘 있던 자리에서, 주인님과 함께하던 시간에서, 주인님을 응원하던 시간에서\n앞으로도 늘, 함께, 즐겁게, 열심히 응원하겠습니다\n다시 태어난 주인님의 영원 3살 생일을\n다시한번 마음을 담아 크게 축하드려요 !!!!\n손편지를 옮겨썼어요\n부끄럽지만 꼭 하고 싶은 말이여서 용기내어...",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA3MjVfMjQ3/MDAxNzIxODM4MDQ3MTkw._lwWgSmVQcAnwq6AsL3tkW-pdNFQ4wg-Bqip4ZvLNXsg.xeqUii47hUbhqL7aPeQz4X71yU0zjYWjWxfliG32xWEg.PNG/240721_tmp_2_filter.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNDA3MjVfMTgy/MDAxNzIxODM1MTU4MTEy.EzF5n2_CTKBpcIuFNdacXOygnLatz3xgRfkuUykvFfsg.OMs8jZQ2QSfUcmCEEt2ESwaI9DfrGz9KqC25DblkZAwg.JPEG/20240725_000713.jpg?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

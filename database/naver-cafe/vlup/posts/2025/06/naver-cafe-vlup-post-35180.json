@@ -9,7 +9,6 @@
     "authorNickname":  "망초",
     "authorGroup":  "dahlia",
     "title":  "애교 잔뜩 하는 날",
-    "text":  null,
     "publishedAt":  "2025-06-29",
     "publishedTimeRaw":  "2025-06-29T11:57:43.563",
     "sourceTimezone":  null,
@@ -31,5 +30,31 @@
     "sourcePage":  2,
     "sourcePosition":  2,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2025/06/naver-cafe-vlup-post-35180.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2025/06/naver-cafe-vlup-post-35180.json",
+    "text":  "2차 창작 가이드 라인 : https://cafe.naver.com/vlup/9\n수위 규정 : https://cafe.naver.com/vlup/11\nAI 창작 규정 : https://cafe.naver.com/vlup/21934\n썸네일",
+    "bodyLinks":  [
+                      {
+                          "label":  "https://cafe.naver.com/vlup/9",
+                          "url":  "https://cafe.naver.com/vlup/9",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "https://cafe.naver.com/vlup/11",
+                          "url":  "https://cafe.naver.com/vlup/11",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "https://cafe.naver.com/vlup/21934",
+                          "url":  "https://cafe.naver.com/vlup/21934",
+                          "kind":  "link"
+                      },
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNTA2MjlfOSAg/MDAxNzUxMTY1NjgwODI1.X2XDcyWBrfv4Zl44PE4upCtdimN277E9YX4RxxGe34og.O8mvuU_XiIqnrlYQSX968FJB_v1Ur3LzvUknl4XbmXsg.PNG/%EC%95%A0%EA%B5%90%EB%8D%B0%EC%9D%B4.png?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

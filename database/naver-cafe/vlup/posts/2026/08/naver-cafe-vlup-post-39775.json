@@ -9,7 +9,6 @@
     "authorNickname":  "꼬리리",
     "authorGroup":  "dahlia",
     "title":  "(AI) ㄷㄷ 시마망",
-    "text":  null,
     "publishedAt":  "2026-08-09",
     "publishedTimeRaw":  "2026-08-09T20:57:37.057",
     "sourceTimezone":  null,
@@ -31,5 +30,21 @@
     "sourcePage":  2,
     "sourcePosition":  2,
     "visibilityStatus":  "public-listing",
-    "sourcePath":  "naver-cafe/vlup/posts/2026/08/naver-cafe-vlup-post-39775.json"
+    "sourcePath":  "naver-cafe/vlup/posts/2026/08/naver-cafe-vlup-post-39775.json",
+    "text":  "오늘 트리가 입은 옷으로 AI한테 부탁해서 만든건데\n너무 마망이네요....\n(오늘 트리 의상이었으니 올려도 괜찮...겟지....????)",
+    "bodyLinks":  [
+                      {
+                          "label":  "이미지 링크 1",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjA4MDlfMjcz/MDAxNzg2Mjc3MTMxNzk1.m2uWRnYThxHnA-FnqJWPt5ylRQ4_35iUV3DWHZikJa4g.YfbnV-qqjJhz1Q4nRR8PU8HNuamLR0KErtA0JojpcBwg.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      },
+                      {
+                          "label":  "이미지 링크 2",
+                          "url":  "https://cafeptthumb-phinf.pstatic.net/MjAyNjA4MDlfMTMz/MDAxNzg2Mjc3MDc2OTYy.SrFWjkxapuOA3B3n8XJ52R32q-PyNv_dWik11bezwngg.dxCYauMxGSply9g2m_ePETSCyEjD-5wSkMeHiOISZTkg.PNG/image.png?type=w1600",
+                          "kind":  "image"
+                      }
+                  ],
+    "bodyCaptureStatus":  "captured",
+    "bodyCapturedAt":  "2026-11-01T14:51:40+09:00",
+    "bodySourceEndpoint":  "https://article.cafe.naver.com/gw/v4/cafes/{cafeId}/articles/{articleId}"
 }

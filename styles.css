@@ -547,3 +547,16 @@ body.home-page .site-shell, body.home-page #main { width: 100%; height: 100%; ov
   background: linear-gradient(145deg, #f2fbff2b, #a9dfff0a 56%, #c3b5ff1b);
   box-shadow: inset 1px 1px 10px #ffffff65, inset -4px -5px 12px #a9c9ff20, 0 0 22px #a9dfff12;
 }
+
+/* Keep the cube's glass read while reducing layered work during 3D rotation. */
+.hero-cube .cube-face {
+  box-shadow:
+    inset 1px 1px 0 #ffffff48,
+    inset -1px -1px 0 #c5ddff18,
+    inset 0 0 22px #cfeaff08;
+}
+.hero-cube .cube-face::after { display: none; }
+.hero-cube .cube-face:not(.face-front):not(.face-back) .face-glyph {
+  box-shadow: inset 1px 1px 8px #ffffff55, inset -3px -4px 9px #a9c9ff18;
+}
+.hero-cube .cube-aura { opacity: .78; }

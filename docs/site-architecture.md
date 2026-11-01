@@ -84,7 +84,7 @@ database/projects/catalog.json → 프로젝트 JSON 파일 → projects-app.js 
 - 드래그 뒤 합성 클릭, 브라우저 컨텍스트 메뉴, 텍스트 선택, 이미지 기본 드래그를 막습니다. OS `prefers-reduced-motion` 설정은 애니메이션 제어에 쓰지 않습니다. 키보드 포커스는 `:focus-visible`로 구분합니다.
 - 큐브는 CSS transform으로 드래그 회전과 관성만 처리합니다. 상시 부유/반짝임 애니메이션과 포인터 조명은 쓰지 않습니다. 큐브 면에는 backdrop blur를 적용하지 않고 투명한 그라데이션, 얇은 테두리, 정적인 반사광으로 유리 외관을 만듭니다.
 
-`archive-app.js`는 `body[data-view]` 값으로 화면 종류를 구분하고 정적 카탈로그를 한 번 읽습니다. 기록 카드는 날짜 내림차순으로 정렬하고 최초 24개를 표시하며, 더 보기 버튼은 다음 24개를 추가합니다. 검색은 제목·본문·태그를 대상으로 하며, Community 페이지에서는 작성자 닉네임과 카페 이름도 검색합니다. 플랫폼/형식 버튼과 상위 태그 버튼으로 결과를 좁힙니다. 원본 URL이 있는 항목에는 새 탭의 원본 링크를, 없는 항목에는 “원본 링크 없음” 표시를 냅니다. Community 본문 수집이 완료된 항목에는 “저장된 기록 보기” 버튼을 함께 표시합니다.
+`archive-app.js`는 `body[data-view]` 값으로 화면 종류를 구분하고 정적 카탈로그를 한 번 읽습니다. 기록 카드는 날짜 내림차순으로 정렬하고 최초 24개를 표시하며, 더 보기 버튼은 다음 24개를 추가합니다. 검색은 제목·본문·태그를 대상으로 하며, Community 페이지에서는 작성자 닉네임과 카페 이름도 검색합니다. 플랫폼/형식 버튼과 상위 태그 버튼으로 결과를 좁힙니다. 원본 URL이 있는 항목에는 새 탭의 원본 링크를, 없는 항목에는 “원본 링크 없음” 표시를 냅니다. Community 본문 수집이 완료된 항목에는 원문 링크 옆에 “저장된 데이터로 보기” 버튼을 표시합니다. 이 버튼은 해당 카탈로그 레코드의 텍스트와 URL 참조를 네이티브 `<dialog>` 안에 정적으로 렌더링하며, 닫기 버튼·dialog 바깥 클릭·Escape 키로 닫힙니다. 이미지·영상은 파일로 렌더링하지 않습니다.
 
 Community 화면은 동일 앱에서 Naver Cafe 플랫폼과 선택된 `cafeId`를 기준으로 범위를 제한합니다. 카페 선택은 정적 catalog에서 발견한 카페 ID와 이름으로 구성하고, URL의 `?cafe=` 값으로 선택 상태를 유지합니다. 목록 조회·좋아요·댓글 수는 단일 수집 시점의 관측값이며, 별도 안내를 통해 현재 값으로 오인하지 않게 합니다.
 
@@ -95,8 +95,11 @@ Community 화면은 동일 앱에서 Naver Cafe 플랫폼과 선택된 `cafeId`�
 - `dahlia-images/dahlia.jpg`는 큐브 앞면 프로필 이미지, `dahlia-images/dahlia-background.jpg`는 큐브 정반대 면과 상세 페이지 고정 배경에 사용합니다. 다른 큐브 면에는 이미지 대신 텍스트와 CSS 도형을 씁니다.
 - 모든 페이지의 상단바는 배경, backdrop blur, 경계선, 그림자 없이 완전히 투명합니다. 메인과 상세 페이지에서 상단바 높이, 좌우 여백, 메뉴 간격, 모바일 메뉴 전환 기준을 맞춥니다. 상세 페이지의 고정 배경 레이어는 배경 이미지를 `cover`로 표시하고 `center 20%`에 맞춰 어두운 색/별빛 오버레이와 겹칩니다. 본문 패널은 투명한 유리 스타일을 씁니다.
 - PC·태블릿·모바일 미디어 쿼리는 `styles.css`와 `subpages.css`에 있습니다. 기록 카드 그리드, 탐색 메뉴, 차트가 좁은 화면에서 재배치됩니다.
-- 페이지에는 한국어 문서 언어, 제목/설명, canonical, Open Graph/Twitter 공유 메타데이터가 있습니다. 메인에는 `WebSite`, 하위 컬렉션에는 `CollectionPage` JSON-LD가 있습니다. 오류 페이지는 `noindex`입니다.
-- 공개 URL 목록은 `sitemap.xml`, 크롤러 접근은 `robots.txt`에서 관리합니다. favicon, Apple 아이콘, manifest도 정적 파일입니다. manifest는 홈 화면 이름/아이콘 정보를 제공하며 서비스 워커나 오프라인 캐시는 구현되어 있지 않습니다. 사이트 검증 토큰, analytics, 사용자 추적은 구성하지 않았습니다.
+- 색인 대상 페이지는 고유한 한국어 제목·설명, GitHub Pages 주소 기준 canonical, Open Graph와 Twitter 공유 메타데이터를 정적 HTML에 둡니다. 미리보기 이미지는 `dahlia-background.jpg`를 사용합니다. 오류 페이지는 canonical과 공유 정보를 노출하지 않고 `noindex, follow`를 둡니다.
+- 홈페이지의 JSON-LD `WebSite` 이름은 `Dahlia Archive`, 대체 이름은 `달리아의 활동 기록`입니다. 하위 화면은 실제 화면 내용을 반영한 `CollectionPage` 또는 `WebPage`이며 `isPartOf`에서 같은 사이트 이름과 홈 URL을 참조합니다. 프로젝트 페이지에도 컬렉션 구조화 데이터와 전체 공유 메타데이터를 갖춥니다.
+- `robots.txt`는 필요한 정적 리소스와 공개 페이지의 크롤링을 허용하고 sitemap 주소를 알립니다. `sitemap.xml`은 canonical과 일치하는 공개 HTML 10개를 나열하며 404, `database/`, `source/`의 데이터 파일을 나열하지 않습니다. `lastmod`는 페이지 메타데이터나 내용이 실제로 바뀐 날짜만 기록합니다.
+- favicon 세트, Apple 터치 아이콘, `site.webmanifest`는 모든 공개 화면에서 정적 파일로 연결됩니다. manifest는 홈 화면 이름/아이콘 정보를 제공하며 서비스 워커나 오프라인 캐시는 구현되어 있지 않습니다. 사이트 검증 토큰, analytics, 사용자 추적은 구성하지 않았습니다.
+- Google의 제목 링크와 검색 설명은 페이지 내용에 따라 자동으로 다시 작성될 수 있습니다. sitemap은 URL 발견을 돕는 신호이며 색인이나 순위를 보장하지 않습니다. JSON-LD는 화면에서 실제로 볼 수 있는 정보만 기술하며 리치 결과 표시를 보장하지 않습니다. 사이트 설정은 [Google Search Essentials](https://developers.google.com/search/docs/essentials), [제목 링크 권장사항](https://developers.google.com/search/docs/appearance/title-link), [검색 설명 가이드](https://developers.google.com/search/docs/appearance/snippet), [사이트 이름 구조화 데이터](https://developers.google.com/search/docs/appearance/site-names), [canonical 안내](https://developers.google.com/search/docs/crawling-indexing/canonicalization), [favicon 안내](https://developers.google.com/search/docs/appearance/favicon-in-search)를 참고합니다.
 
 ## 문서의 역할
 

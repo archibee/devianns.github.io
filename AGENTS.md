@@ -85,3 +85,8 @@
 - 메타데이터, canonical, 공유 미리보기, JSON-LD, `robots.txt`, `sitemap.xml`, 사이트 아이콘과 웹 앱 manifest는 각 정적 HTML/정적 설정 파일에서 관리한다. SEO 설정은 GitHub Pages 사이트 주소와 일치시킨다.
 - 브라우저에서 catalog를 읽으므로 `file://` 직접 열기는 지원하지 않는다. Pages나 로컬 HTTP 서버에서 동작을 확인한다. 사이트 구조·현재 페이지 설명을 바꾸면 `README.md`와 `docs/site-architecture.md`도 함께 정리한다.
 
+
+## 현재 보류된 Naver Cafe 화면 연결
+
+- `database/naver-cafe/vlup/posts/YYYY/MM/`에는 사용자가 동일 Dahlia 계정의 닉네임 변경 이력이라고 확인한 `꼬리리`, `망초써`, `망초`, `힝구링이`의 공개 검색 목록 메타데이터 177건이 있다. 개별 게시물 URL과 원본 표시 닉네임을 보존하며 본문·요약·첨부 미디어는 저장하지 않는다. 세부 출처와 수집 범위는 `docs/imports/naver-cafe-vlup-2026-11-01.md`를 참고한다.
+- 이 기록은 현재 `database/catalog.json`에 투영되어 있으나 기존 페이지 필터와 시각화는 Naver Cafe를 지원하지 않으므로 방문자 UI에는 아직 노출되지 않는다. Naver Cafe 전용 페이지 및 빈 큐브 면 연결은 사용자가 후속 구현을 요청할 때 진행한다. 이 데이터 축적만을 이유로 페이지나 큐브 동작을 변경하지 않는다.

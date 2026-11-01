@@ -1,0 +1,47 @@
+{
+    "platform":  "naver-cafe",
+    "type":  "community-member-search",
+    "serviceName":  "Naver Cafe",
+    "cafeName":  "VLUP",
+    "cafeId":  "30653039",
+    "url":  "https://cafe.naver.com/f-e/cafes/30653039",
+    "memberAliases":  [
+                          {
+                              "nickname":  "꼬리리",
+                              "resultCount":  28,
+                              "firstRecordDate":  "2026-02-07",
+                              "lastRecordDate":  "2026-11-01",
+                              "searchUrl":  "https://cafe.naver.com/f-e/cafes/30653039/menus/0?viewType=L\u0026ta=WRITER\u0026page=1\u0026q=%EA%BC%AC%EB%A6%AC%EB%A6%AC",
+                              "pages":  2
+                          },
+                          {
+                              "nickname":  "망초써",
+                              "resultCount":  98,
+                              "firstRecordDate":  "2024-04-04",
+                              "lastRecordDate":  "2025-03-04",
+                              "searchUrl":  "https://cafe.naver.com/f-e/cafes/30653039/menus/0?viewType=L\u0026ta=WRITER\u0026page=1\u0026q=%EB%A7%9D%EC%B4%88%EC%8D%A8",
+                              "pages":  7
+                          },
+                          {
+                              "nickname":  "망초",
+                              "resultCount":  36,
+                              "firstRecordDate":  "2025-03-10",
+                              "lastRecordDate":  "2025-09-18",
+                              "searchUrl":  "https://cafe.naver.com/f-e/cafes/30653039/menus/0?viewType=L\u0026ta=WRITER\u0026page=1\u0026q=%EB%A7%9D%EC%B4%88",
+                              "pages":  3
+                          },
+                          {
+                              "nickname":  "힝구링이",
+                              "resultCount":  15,
+                              "firstRecordDate":  "2025-10-12",
+                              "lastRecordDate":  "2026-02-01",
+                              "searchUrl":  "https://cafe.naver.com/f-e/cafes/30653039/menus/0?viewType=L\u0026ta=WRITER\u0026page=1\u0026q=%ED%9E%9D%EA%B5%AC%EB%A7%81%EC%9D%B4",
+                              "pages":  1
+                          }
+                      ],
+    "identityNote":  "사용자 확인: 네 별명은 같은 Dahlia 계정의 닉네임 이력이다. 게시물별 표시명은 원문 값을 보존한다.",
+    "snapshotAt":  "2026-11-01T14:27:10+09:00",
+    "sourceBatch":  "naver-cafe-vlup-writer-search-2026-11-01",
+    "resultCount":  177,
+    "collectionScope":  "공개 작성자 검색의 게시물 메타데이터만 저장. 본문, 요약, 첨부물은 저장하지 않음."
+}

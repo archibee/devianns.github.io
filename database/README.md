@@ -11,11 +11,15 @@
 - `soop/catches/YYYY/MM/`: 날짜가 명시된 SOOP 캐치
 - `soop/catches/relative-or-unknown-date/`: 상대 시각만 확인되는 캐치
 - `soop/clips/YYYY/MM/`, `soop/vods/YYYY/MM/`: SOOP 방송국 목록의 클립 및 일반 VOD
+- `naver-cafe/vlup/posts/YYYY/MM/`: VLUP 카페의 공개 작성자 검색에서 확인한 게시물 메타데이터. 게시물 하나당 JSON 파일 하나
 - `catalog.json`: 기록 파일에서 화면에 필요한 필드만 모은 정적 검색·시각화 색인
 
 ## 필드 처리
 
 - `sourceBatch`, `sourceLine`은 가능한 경우 원본 자료와 행 위치를 가리킵니다.
+- Naver Cafe 기록은 `cafeId`, `platformId`, 게시 당시 표시된 `authorNickname`, 사용자 확인 별칭 그룹 `authorGroup`, 제목, 날짜, `listingMetrics`, 실제 게시물 `url`을 보존합니다. `publishedTimeRaw`에는 검색 API의 `addDate` 문자열을 그대로 넣고, 시간대가 원문에 없으면 `sourceTimezone: null`로 둡니다.
+- Naver Cafe 활동은 검색 목록에 표시된 제목과 메타데이터만 저장합니다. 본문, 검색 API의 요약문, 첨부 파일/이미지/영상은 저장하지 않습니다. `listingMetrics`는 `readCount`, `likeItCount`, `commentCount` 원시 필드명으로 보관하는 수집 당시 목록 스냅샷입니다.
+- Naver Cafe 원본 링크는 카페 ID와 게시물 ID로 해당 게시물을 직접 가리킵니다. 작성자 검색 URL은 출처 확인용 `sourceSearchUrl`로 별도 보존하며, 이를 활동 링크 대신 쓰지 않습니다.
 - 수집 자료에 활동별 원본 URL이 있거나 수집 시점에 실제 항목에서 링크를 확인할 수 있었다면 `url`에 보존합니다. 계정/목록 링크는 개별 활동 링크를 대신하지 않습니다. 당시 개별 링크를 확인할 수 없었던 경우에만 `url: null`로 두며, 제목이나 추정한 ID로 URL을 만들어내지 않습니다. 확보한 원본 URL은 `catalog.json`에도 반영해 방문자가 해당 항목으로 이동할 수 있게 합니다.
 - YouTube 조회수는 원래 화면에 보인 문자열을 보존합니다. `2.4천회` 같은 값의 `approximateValue`는 대략 환산값입니다.
 - X/YouTube의 `hashtags`는 제목/본문에서 원문 표기를 추출한 목록입니다. SOOP은 `title`에 원문을 보존하고, `titleText`에 선행 `[캐치]` 라벨을 뺀 문구, `seriesLabels`에 나머지 대괄호 라벨을 따로 둡니다.
@@ -38,3 +42,5 @@
 - YouTube 공개 Shorts 목록 45개와 동영상 목록 15개는 기존 원문 기반 60개 레코드와 제목이 모두 일치해, 중복 파일 대신 각 레코드에 플랫폼 ID·링크·최신 목록 관측값을 보강했습니다. Shorts 기록은 `youtube/shorts/undated/`, 동영상 기록은 `youtube/videos/undated/`에 있습니다. 세부 범위와 한계는 [YouTube 목록 수집 기록](../docs/imports/youtube-tabs-2026-10-31.md)을 참고하세요.
 
 - X 공개 프로필에서 5개 게시물 기록을 추가했습니다. 답글·재게시·사진 탭은 익명 응답에 항목 데이터가 없어 미수집으로 기록했습니다. 필드와 접근 한계는 [X 수집 기록](../docs/imports/x-profile-2026-10-31.md)에 정리했습니다.
+
+- 2026-11-01에 VLUP Naver Cafe의 작성자 검색 별칭 4개를 페이지 끝까지 조회해 게시물 177개를 `naver-cafe/vlup/posts/`에 추가했습니다. 사용자가 네 닉네임이 같은 사람의 이력이라고 확인했습니다. 제목·작성자·날짜·게시물 ID·원본 링크와 목록 지표만 저장했으며, 전용 웹 페이지는 아직 연결하지 않았습니다. 수집 경위와 검색 범위는 [VLUP Naver Cafe 수집 기록](../docs/imports/naver-cafe-vlup-2026-11-01.md)을 참고하세요.

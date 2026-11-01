@@ -1,0 +1,35 @@
+{
+    "schemaVersion":  1,
+    "id":  "naver-cafe-vlup-post-26248",
+    "platform":  "naver-cafe",
+    "contentType":  "post",
+    "cafeName":  "VLUP",
+    "cafeId":  "30653039",
+    "platformId":  "26248",
+    "authorNickname":  "망초써",
+    "authorGroup":  "dahlia",
+    "title":  "예전그레이스랑 오늘부른그레이스..!",
+    "text":  null,
+    "publishedAt":  "2024-10-07",
+    "publishedTimeRaw":  "2024-10-07T21:08:41.700",
+    "sourceTimezone":  null,
+    "url":  "https://cafe.naver.com/f-e/cafes/30653039/articles/26248",
+    "tags":  [
+
+             ],
+    "listingMetrics":  {
+                           "readCount":  20,
+                           "likeItCount":  5,
+                           "commentCount":  0
+                       },
+    "observedAt":  "2026-11-01T14:27:10+09:00",
+    "sourceBatch":  "naver-cafe-vlup-writer-search-2026-11-01",
+    "sourceCollection":  "writer-search",
+    "sourceEndpoint":  "https://apis.cafe.naver.com/search/v2/cafes/30653039/search/articles",
+    "sourceQueryAlias":  "망초써",
+    "sourceSearchUrl":  "https://cafe.naver.com/f-e/cafes/30653039/menus/0?viewType=L\u0026ta=WRITER\u0026page=4\u0026q=%EB%A7%9D%EC%B4%88%EC%8D%A8",
+    "sourcePage":  4,
+    "sourcePosition":  8,
+    "visibilityStatus":  "public-listing",
+    "sourcePath":  "naver-cafe/vlup/posts/2024/10/naver-cafe-vlup-post-26248.json"
+}

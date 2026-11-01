@@ -1,0 +1,35 @@
+{
+    "schemaVersion":  1,
+    "id":  "naver-cafe-vlup-post-40739",
+    "platform":  "naver-cafe",
+    "contentType":  "post",
+    "cafeName":  "VLUP",
+    "cafeId":  "30653039",
+    "platformId":  "40739",
+    "authorNickname":  "꼬리리",
+    "authorGroup":  "dahlia",
+    "title":  "시트리시트리시트리",
+    "text":  null,
+    "publishedAt":  "2026-10-23",
+    "publishedTimeRaw":  "2026-10-23T00:11:21.077",
+    "sourceTimezone":  null,
+    "url":  "https://cafe.naver.com/f-e/cafes/30653039/articles/40739",
+    "tags":  [
+
+             ],
+    "listingMetrics":  {
+                           "readCount":  38,
+                           "likeItCount":  1,
+                           "commentCount":  2
+                       },
+    "observedAt":  "2026-11-01T14:27:10+09:00",
+    "sourceBatch":  "naver-cafe-vlup-writer-search-2026-11-01",
+    "sourceCollection":  "writer-search",
+    "sourceEndpoint":  "https://apis.cafe.naver.com/search/v2/cafes/30653039/search/articles",
+    "sourceQueryAlias":  "꼬리리",
+    "sourceSearchUrl":  "https://cafe.naver.com/f-e/cafes/30653039/menus/0?viewType=L\u0026ta=WRITER\u0026page=1\u0026q=%EA%BC%AC%EB%A6%AC%EB%A6%AC",
+    "sourcePage":  1,
+    "sourcePosition":  3,
+    "visibilityStatus":  "public-listing",
+    "sourcePath":  "naver-cafe/vlup/posts/2026/10/naver-cafe-vlup-post-40739.json"
+}

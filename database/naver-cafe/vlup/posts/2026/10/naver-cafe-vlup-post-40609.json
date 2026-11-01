@@ -1,0 +1,35 @@
+{
+    "schemaVersion":  1,
+    "id":  "naver-cafe-vlup-post-40609",
+    "platform":  "naver-cafe",
+    "contentType":  "post",
+    "cafeName":  "VLUP",
+    "cafeId":  "30653039",
+    "platformId":  "40609",
+    "authorNickname":  "꼬리리",
+    "authorGroup":  "dahlia",
+    "title":  "[시트리 팬게임] 차미 당도 연구소 (미니게임 4종 업데이트)",
+    "text":  null,
+    "publishedAt":  "2026-10-15",
+    "publishedTimeRaw":  "2026-10-15T23:58:24.320",
+    "sourceTimezone":  null,
+    "url":  "https://cafe.naver.com/f-e/cafes/30653039/articles/40609",
+    "tags":  [
+
+             ],
+    "listingMetrics":  {
+                           "readCount":  50,
+                           "likeItCount":  5,
+                           "commentCount":  3
+                       },
+    "observedAt":  "2026-11-01T14:27:10+09:00",
+    "sourceBatch":  "naver-cafe-vlup-writer-search-2026-11-01",
+    "sourceCollection":  "writer-search",
+    "sourceEndpoint":  "https://apis.cafe.naver.com/search/v2/cafes/30653039/search/articles",
+    "sourceQueryAlias":  "꼬리리",
+    "sourceSearchUrl":  "https://cafe.naver.com/f-e/cafes/30653039/menus/0?viewType=L\u0026ta=WRITER\u0026page=1\u0026q=%EA%BC%AC%EB%A6%AC%EB%A6%AC",
+    "sourcePage":  1,
+    "sourcePosition":  7,
+    "visibilityStatus":  "public-listing",
+    "sourcePath":  "naver-cafe/vlup/posts/2026/10/naver-cafe-vlup-post-40609.json"
+}

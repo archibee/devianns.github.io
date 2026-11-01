@@ -1,0 +1,35 @@
+{
+    "schemaVersion":  1,
+    "id":  "naver-cafe-vlup-post-33272",
+    "platform":  "naver-cafe",
+    "contentType":  "post",
+    "cafeName":  "VLUP",
+    "cafeId":  "30653039",
+    "platformId":  "33272",
+    "authorNickname":  "망초",
+    "authorGroup":  "dahlia",
+    "title":  "여우가 내는 소리",
+    "text":  null,
+    "publishedAt":  "2025-04-27",
+    "publishedTimeRaw":  "2025-04-27T19:55:45.810",
+    "sourceTimezone":  null,
+    "url":  "https://cafe.naver.com/f-e/cafes/30653039/articles/33272",
+    "tags":  [
+
+             ],
+    "listingMetrics":  {
+                           "readCount":  12,
+                           "likeItCount":  0,
+                           "commentCount":  0
+                       },
+    "observedAt":  "2026-11-01T14:27:10+09:00",
+    "sourceBatch":  "naver-cafe-vlup-writer-search-2026-11-01",
+    "sourceCollection":  "writer-search",
+    "sourceEndpoint":  "https://apis.cafe.naver.com/search/v2/cafes/30653039/search/articles",
+    "sourceQueryAlias":  "망초",
+    "sourceSearchUrl":  "https://cafe.naver.com/f-e/cafes/30653039/menus/0?viewType=L\u0026ta=WRITER\u0026page=2\u0026q=%EB%A7%9D%EC%B4%88",
+    "sourcePage":  2,
+    "sourcePosition":  11,
+    "visibilityStatus":  "public-listing",
+    "sourcePath":  "naver-cafe/vlup/posts/2025/04/naver-cafe-vlup-post-33272.json"
+}

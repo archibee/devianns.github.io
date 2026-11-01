@@ -95,3 +95,9 @@ database/projects/catalog.json → 프로젝트 JSON 파일 → projects-app.js 
 - [`AGENTS.md`](../AGENTS.md): 이후 구현자가 지켜야 하는 배포·데이터·비주얼 원칙 및 코드 작업 지침입니다.
 - [`database/README.md`](../database/README.md): 활동 파일 경로와 메타데이터·URL 처리 규칙입니다.
 - [`docs/social-scrape-observations.md`](social-scrape-observations.md), [`docs/imports/`](imports/): 스크랩 관찰과 개별 데이터 수집 배치의 범위·한계입니다.
+
+## VLUP Naver Cafe 데이터 현황
+
+2026-11-01 기준으로 사용자가 같은 Dahlia 계정의 닉네임 변경 이력이라고 확인한 `꼬리리`, `망초써`, `망초`, `힝구링이` 작성자 검색에서 공개 목록 메타데이터 177건을 저장했습니다. 개별 JSON은 `database/naver-cafe/vlup/posts/YYYY/MM/`에 있고, 화면용 투영본은 `database/catalog.json`에 있습니다. 수집 배치와 페이지 수, 범위, 필드 제한은 [`docs/imports/naver-cafe-vlup-2026-11-01.md`](imports/naver-cafe-vlup-2026-11-01.md)를 참고하세요.
+
+현재 기록 화면의 `data-view` 필터는 Naver Cafe 전용 화면을 제공하지 않으므로 이 177건은 기존 기록 UI에 표시되지 않습니다. 전용 정적 페이지와 큐브 면 연결은 후속 구현 작업으로 남겨 둡니다. 저장한 것은 목록에 공개된 제목·작성자·날짜·지표와 개별 게시물 링크이며, 본문·요약·첨부 미디어는 저장하지 않았습니다.

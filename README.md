@@ -24,7 +24,7 @@ SOOP, YouTube 등 여러 플랫폼에서 활동한 기록을 한곳에 모아 �
 
 각 화면은 [현재 사이트 구성 문서](docs/site-architecture.md)에 자세히 설명되어 있습니다.
 
-현재 정적 카탈로그에는 활동 기록 1,820개가 있습니다. 그중 SOOP 캐치 1,696개(수기 발췌와 ID 기반 목록 포함), SOOP 클립 43개, SOOP 일반 VOD 7개, YouTube Shorts 45개와 동영상 15개, X 게시물 14개입니다. 기록 숫자는 저장된 메타데이터 조각 수이며, 같은 제목이나 별도 수집 배치가 같은 활동일 가능성이 있을 때 임의로 합치지 않습니다. 원본 수집의 범위와 한계는 `docs/imports/`의 플랫폼별 수집 기록을 참고하세요.
+정적 카탈로그에는 활동 기록 1,997개가 있습니다. SOOP 캐치 1,696개(수기 발췌와 ID 기반 목록 포함), SOOP 클립 43개, SOOP 일반 VOD 7개, YouTube Shorts 45개와 동영상 15개, X 게시물 14개, 그리고 화면에 연결하기 전 단계로 모아 둔 Naver Cafe 글 메타데이터 177개입니다. Naver Cafe 기록은 별도 페이지를 구현하기 전까지 현재 탐색 화면에 노출되지 않습니다. 기록 숫자는 저장된 메타데이터 조각 수이며, 같은 제목이나 별도 수집 배치가 같은 활동일 가능성이 있을 때 임의로 합치지 않습니다. 원본 수집의 범위와 한계는 `docs/imports/`의 플랫폼별 수집 기록을 참고하세요.
 
 브라우저는 활동 JSON 원본을 직접 열거하지 않고 정적 `database/catalog.json`을 읽어 검색·필터·시각화를 제공합니다. 개별 JSON은 원본 기록으로 남고, 카탈로그는 화면에 필요한 필드의 정적 색인입니다. 파일을 추가하거나 변경하면 카탈로그도 같이 갱신합니다. Actions, 서버, 브라우저 저장 기능은 사용하지 않습니다.
 
@@ -76,7 +76,10 @@ SOOP, YouTube 등 여러 플랫폼에서 활동한 기록을 한곳에 모아 �
 - `docs/site-architecture.md`: 현재 페이지, 코드, 데이터 흐름, SEO 및 동작 설명
 - `source/`: 원시 스크랩 입력용 로컬 폴더. Git에서 제외하며 정적 사이트에 배포하지 않음
 - `database/platforms/`: 사용자가 제공한 SNS 계정 링크 메타데이터
+- `database/naver-cafe/vlup/posts/`: 공개 작성자 검색에서 축적한 Naver Cafe 게시물 메타데이터. 본문은 저장하지 않으며, 전용 화면은 아직 구현하지 않음
+- `database/platforms/naver-cafe-vlup.json`: VLUP 카페 ID와 사용자가 확인한 Dahlia 닉네임 별칭, 수집 검색 경로
 - `docs/social-scrape-observations.md`: 사용자가 제공한 SNS 화면 자료에서 추출한 패턴과 데이터 정리 주의점
+- `docs/imports/naver-cafe-vlup-2026-11-01.md`: VLUP 카페 공개 작성자 검색의 수집 범위와 한계
 - `README.md`: 사이트 목적과 콘텐츠 운영 개요
 - `AGENTS.md`: 이후 구현 작업을 위한 개발 및 운영 지침
 

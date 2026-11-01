@@ -1,0 +1,35 @@
+{
+    "schemaVersion":  1,
+    "id":  "naver-cafe-vlup-post-35230",
+    "platform":  "naver-cafe",
+    "contentType":  "post",
+    "cafeName":  "VLUP",
+    "cafeId":  "30653039",
+    "platformId":  "35230",
+    "authorNickname":  "망초",
+    "authorGroup":  "dahlia",
+    "title":  "손마이크 잔잔뱅 후기",
+    "text":  null,
+    "publishedAt":  "2025-07-01",
+    "publishedTimeRaw":  "2025-07-01T23:26:46.320",
+    "sourceTimezone":  null,
+    "url":  "https://cafe.naver.com/f-e/cafes/30653039/articles/35230",
+    "tags":  [
+
+             ],
+    "listingMetrics":  {
+                           "readCount":  15,
+                           "likeItCount":  1,
+                           "commentCount":  0
+                       },
+    "observedAt":  "2026-11-01T14:27:10+09:00",
+    "sourceBatch":  "naver-cafe-vlup-writer-search-2026-11-01",
+    "sourceCollection":  "writer-search",
+    "sourceEndpoint":  "https://apis.cafe.naver.com/search/v2/cafes/30653039/search/articles",
+    "sourceQueryAlias":  "망초",
+    "sourceSearchUrl":  "https://cafe.naver.com/f-e/cafes/30653039/menus/0?viewType=L\u0026ta=WRITER\u0026page=1\u0026q=%EB%A7%9D%EC%B4%88",
+    "sourcePage":  1,
+    "sourcePosition":  15,
+    "visibilityStatus":  "public-listing",
+    "sourcePath":  "naver-cafe/vlup/posts/2025/07/naver-cafe-vlup-post-35230.json"
+}

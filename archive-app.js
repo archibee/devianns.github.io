@@ -104,7 +104,7 @@
     }
     if (view === 'community' && record.bodyCaptureStatus === 'captured') {
       article.classList.add('record-card-has-body');
-      const bodyButton = make('button', 'record-open record-body-open', '저장된 기록 보기');
+      const bodyButton = make('button', 'record-open record-body-open', '저장된 데이터로 보기');
       bodyButton.type = 'button';
       bodyButton.dataset.openSavedBody = '';
       bodyButton.dataset.recordId = record.id;

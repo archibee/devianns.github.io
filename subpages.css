@@ -62,7 +62,7 @@ body.archive-page { min-height: 100vh; background: #080a24; overflow-x: hidden; 
 .record-card-footer { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: auto; padding-top: 18px; }
 .record-open { color: #d7edff; font-size: 9px; letter-spacing: .04em; }
 .record-open:hover { color: #fff; text-shadow: 0 0 15px #b9e7ff90; }
-.record-body-open { padding: 0; border: 0; color: #b9e5ff; background: transparent; font: inherit; cursor: pointer; }
+.record-body-open { padding: 0; border: 0; background: transparent; cursor: pointer; }
 .record-body-open:hover { color: #fff; text-shadow: 0 0 15px #b9e7ff90; }
 .record-card-has-body .record-card-footer { justify-content: flex-start; flex-wrap: wrap; gap: 14px; }
 .record-no-link, .record-source { color: #828dad; font-size: 8px; }
@@ -153,8 +153,8 @@ body.archive-page { min-height: 100vh; background: #080a24; overflow-x: hidden; 
 .community-toolbar select:focus-visible { outline: 2px solid #aee8ff; outline-offset: 3px; }
 .community-toolbar > span { color: #8998bc; }
 .body-dialog { width: min(760px, calc(100vw - 32px)); max-width: none; max-height: min(88dvh, 900px); padding: 0; overflow: visible; border: 1px solid #dceaff54; color: #edf2ff; background: transparent; box-shadow: 0 26px 100px #020415a8; }
-.body-dialog::backdrop { background: #05071bbd; backdrop-filter: blur(7px); }
-.body-dialog-panel { max-height: min(88dvh, 900px); overflow: auto; padding: clamp(22px, 4vw, 38px); background: linear-gradient(145deg, #192141ed, #10152fee 58%, #171831f2); box-shadow: inset 1px 1px 0 #ffffff26; }
+.body-dialog::backdrop { background: #05071b40; }
+.body-dialog-panel { max-height: min(88dvh, 900px); overflow: auto; padding: clamp(22px, 4vw, 38px); background: linear-gradient(145deg, #d9edff12, #d5dfff08 58%, #9bdfff10); box-shadow: inset 1px 1px 0 #ffffff20, 0 18px 60px #02041528; backdrop-filter: blur(9px) saturate(115%); -webkit-backdrop-filter: blur(9px) saturate(115%); }
 .body-dialog-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; padding-bottom: 20px; border-bottom: 1px solid #dce8ff20; }
 .body-dialog-header h2 { margin: 12px 0 0; font-family: var(--serif); font-size: clamp(21px, 4vw, 30px); font-weight: 400; line-height: 1.5; overflow-wrap: anywhere; }
 .body-dialog-meta { margin: 9px 0 0; color: #aebbd8; font-size: 9px; }

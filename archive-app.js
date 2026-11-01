@@ -42,6 +42,7 @@
     const top = make('div', 'record-card-top');
     top.append(make('span', `platform-pill platform-${record.platform}`, platformName[record.platform] || text(record.platform)));
     top.append(make('span', 'type-pill', typeName[record.contentType] || text(record.contentType)));
+    if (view === 'community' && record.cafeName) top.append(make('span', 'record-cafe', record.cafeName));
     if (record.authorNickname) top.append(make('span', 'record-author', record.authorNickname));
     const date = make('time', 'record-date', dateOf(record));
     if (record.publishedAt) date.dateTime = record.publishedAt;
@@ -154,8 +155,8 @@
     } else if (kind === 'media') {
       cards = [statCard('클립', number(records.filter((item) => item.contentType === 'clip').length), 'SOOP에서 볼 수 있어요'), statCard('다시보기', number(records.filter((item) => item.contentType === 'normal').length), 'SOOP에서 볼 수 있어요'), statCard('원본 링크', number(records.filter((item) => item.url).length), '바로 이동할 수 있어요'), statCard('기록 기간', dates.length ? `${dates[0].slice(0, 4)} — ${dates[dates.length - 1].slice(0, 4)}` : '날짜 미상', '날짜가 확인된 기록')];
     } else if (kind === 'community') {
-      const aliases = new Set(records.map((item) => item.authorNickname).filter(Boolean));
-      cards = [statCard('게시글', number(records.length), '현재 모아 둔 공개 목록'), statCard('닉네임', number(aliases.size), '확인된 이름 변경 기록'), statCard('원본 링크', number(records.filter((item) => item.url).length), '카페에서 글 보기'), statCard('기록 기간', dates.length ? `${dates[0].slice(0, 4)} — ${dates[dates.length - 1].slice(0, 4)}` : '날짜 미상', '게시 날짜가 확인된 글')];
+      const cafes = new Set(records.map((item) => item.cafeId).filter(Boolean));
+      cards = [statCard('게시글', number(records.length), '현재 모아 둔 공개 목록'), statCard('카페', number(cafes.size), '게시글이 등록된 카페'), statCard('원문 링크', number(records.filter((item) => item.url).length), '카페에서 글 보기'), statCard('기록 기간', dates.length ? `${dates[0].slice(0, 4)} — ${dates[dates.length - 1].slice(0, 4)}` : '날짜 미상', '게시 날짜가 확인된 글')];
     } else {
       cards = [statCard('전체 기록', number(records.length), '현재 모아 둔 활동'), statCard('SOOP 캐치', number(records.filter((item) => item.platform === 'soop').length), 'SOOP에 남긴 기록'), statCard('YouTube', number(records.filter((item) => item.platform === 'youtube').length), '영상 기록'), statCard('X 게시물', number(records.filter((item) => item.platform === 'x').length), '게시물 기록')];
     }
@@ -294,7 +295,7 @@
         cursor.setUTCMonth(cursor.getUTCMonth() + 1);
       }
     }
-    const max = Math.max(1, ...months.map((month) => counts.get(month)));
+    const max = Math.max(1, ...months.map((month) => counts.get(month) || 0));
     target.replaceChildren();
     target.style.setProperty('--chart-columns', String(months.length));
     for (const month of months) {
@@ -316,9 +317,11 @@
     const aliasesTarget = document.querySelector('[data-community-aliases]');
     if (aliasesTarget) {
       const counts = new Map();
+      const allCafes = document.querySelector('[data-community-cafe-select]')?.value === 'all';
       for (const record of records) {
         const nickname = record.authorNickname || '닉네임 미상';
-        counts.set(nickname, (counts.get(nickname) || 0) + 1);
+        const label = allCafes && record.cafeName ? `${record.cafeName} · ${nickname}` : nickname;
+        counts.set(label, (counts.get(label) || 0) + 1);
       }
       renderMeasureBars(aliasesTarget, [...counts].sort((a, b) => b[1] - a[1]).map(([label, value]) => ({ label, value })), (value) => `${number(value)}개`);
     }
@@ -387,12 +390,13 @@
   }
 
   function applyView(records) {
+    const selectedCafeId = document.querySelector('[data-community-cafe-select]')?.value || new URLSearchParams(window.location.search).get('cafe') || 'all';
     const viewRecords = records.filter((record) => {
       if (view === 'archive') return ['soop', 'youtube', 'x'].includes(record.platform);
       if (view === 'soop') return record.platform === 'soop';
       if (view === 'youtube') return record.platform === 'youtube';
       if (view === 'x') return record.platform === 'x';
-      if (view === 'community') return record.platform === 'naver-cafe' && record.cafeId === document.body.dataset.cafeId;
+      if (view === 'community') return record.platform === 'naver-cafe' && (selectedCafeId === 'all' || String(record.cafeId) === selectedCafeId);
       if (view === 'media') return record.platform === 'soop' && ['clip', 'normal'].includes(record.contentType);
       return true;
     }).sort(byDateDescending);
@@ -490,12 +494,45 @@
     refresh();
   }
 
+  function setupCommunityCafeSelector(records) {
+    const select = document.querySelector('[data-community-cafe-select]');
+    if (!select) return;
+    const cafes = new Map();
+    for (const record of records) {
+      if (record.platform !== 'naver-cafe' || !record.cafeId) continue;
+      cafes.set(String(record.cafeId), text(record.cafeName) || '이름 없는 카페');
+    }
+    for (const [id, name] of [...cafes].sort((a, b) => a[1].localeCompare(b[1], 'ko'))) {
+      const option = make('option', '', name);
+      option.value = id;
+      select.append(option);
+    }
+    const params = new URLSearchParams(window.location.search);
+    const requestedCafe = params.get('cafe');
+    const defaultCafe = cafes.size === 1 ? cafes.keys().next().value : 'all';
+    select.value = requestedCafe === 'all' ? 'all' : cafes.has(requestedCafe) ? requestedCafe : defaultCafe;
+    const selectionLabel = document.querySelector('[data-community-selection-label]');
+    const selectedName = select.value === 'all' ? '전체 카페' : cafes.get(select.value);
+    if (selectionLabel) selectionLabel.textContent = selectedName;
+    const cafeHeading = document.querySelector('[data-community-cafe-heading]');
+    if (cafeHeading) cafeHeading.textContent = select.value === 'all' ? '전체 카페' : selectedName;
+    const cafeCount = document.querySelector('[data-community-cafe-count]');
+    if (cafeCount) cafeCount.textContent = `등록된 카페 ${number(cafes.size)}곳`;
+    select.addEventListener('change', () => {
+      window.location.search = `?cafe=${encodeURIComponent(select.value)}`;
+    });
+  }
+
   fetch('./database/catalog.json')
     .then((response) => {
       if (!response.ok) throw new Error(`카탈로그 응답 ${response.status}`);
       return response.json();
     })
-    .then((records) => applyView(Array.isArray(records) ? records : []))
+    .then((records) => {
+      const catalog = Array.isArray(records) ? records : [];
+      if (view === 'community') setupCommunityCafeSelector(catalog);
+      applyView(catalog);
+    })
     .catch(() => {
       const main = document.querySelector('.collection-main');
       const error = make('p', 'catalog-error', '기록을 불러오지 못했어요. 페이지를 새로고침해 주세요.');

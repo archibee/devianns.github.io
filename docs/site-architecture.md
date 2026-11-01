@@ -13,24 +13,23 @@ Dahlia Archive는 SOOP, YouTube, X, Naver Cafe에 남은 활동의 흔적을 링
 | 페이지 | 역할 | 제공 기능 및 데이터 |
 | --- | --- | --- |
 | `index.html` | 메인 큐브 허브 | SOOP, YouTube, X, Community, Projects, 프로필 링크 여섯 면이 각 전용 페이지로 이동합니다. 초기 회전은 yaw -24°, pitch -20°로 윗면이 보이는 시점입니다. |
-| `archive.html` | 전체 기록 | 플랫폼별 합계와 비중, 통합 검색, SOOP·YouTube·X 플랫폼 필터를 제공합니다. |
-| `memories.html` | SOOP 기록 | 캐치·클립·VOD 통합 목록, 유형별 수, 캐치의 월별 추이와 요일·시간대 집계, 검색과 유형 필터를 제공합니다. |
+| `soop.html` | SOOP 기록 | 캐치·클립·VOD 통합 목록, 유형별 수, 캐치의 월별 추이와 요일·시간대 집계, 반복 제목·태그 인사이트, 검색과 유형 필터를 제공합니다. SOOP 기록만 사용합니다. |
 | `youtube.html` | YouTube Shorts·동영상 | 형식별 기록 수, 저장된 조회수 상위 5개, 태그 검색, Shorts·동영상 필터를 제공합니다. 게시 날짜가 없는 항목에 날짜를 임의로 붙이지 않습니다. |
-| `x-archive.html` | X 게시물 | 날짜가 확인된 월별 게시 흐름, 태그 요약과 검색을 제공합니다. 현재 확인된 항목이 적거나 비어 있는 경우에도 수집 한계를 페이지에서 안내합니다. |
+| `x.html` | X 게시물 | 날짜가 확인된 월별 게시 흐름, 태그 요약과 검색을 제공합니다. 현재 확인된 항목이 적거나 비어 있는 경우에도 수집 한계를 페이지에서 안내합니다. |
 | `community.html` | 카페별 커뮤니티 기록 | 카페 선택으로 전체 카페 또는 한 카페의 글을 보여줍니다. 월별·닉네임별 게시 수와 수집 당시 목록 조회 수 상위 5개, 제목·본문·작성자·카페 검색을 제공합니다. 각 카드에서 카페 원문 또는 저장된 본문 텍스트를 열 수 있습니다. 현재 등록된 카페 데이터는 VLUP 한 곳입니다. |
-| `media.html` | SOOP 클립·VOD | 유형별 기록 수, 저장된 조회수 상위 5개, 검색과 클립·다시보기 필터를 제공합니다. 별도 원본 목록 링크도 둡니다. |
-| `about.html` | 활동 기록 요약 | SOOP 캐치 월별 추이와 반복 제목·태그 등 플랫폼 간 요약 인사이트를 보여줍니다. |
 | `projects.html` | 프로젝트 소개 | `database/projects/catalog.json`을 읽어 프로젝트별 JSON 소개 카드와 관련 링크를 표시합니다. 픽셀 도구와 VLUP 팬게임 두 편이 있으며, 팬게임 카드에는 카페 배포 안내와 공식 가이드라인 링크가 함께 나옵니다. |
-| `platforms.html` | 플랫폼 계정 링크 | YouTube, X, SOOP의 계정 페이지로 이동합니다. 활동별 기록 링크와는 별도입니다. |
+| `profile.html` | 플랫폼 계정 링크 | YouTube, X, SOOP의 계정 페이지로 이동합니다. 활동별 기록 링크와는 별도입니다. |
 | `404.html` | 없는 주소 안내 | 정적 호스팅용 오류 페이지이며 검색 색인 대상에서 제외합니다. |
 
-메인 큐브 면 연결은 앞면 → SOOP, 오른쪽 → YouTube, 뒷면 → X, 왼쪽 → Projects, 윗면 → 프로필 링크, 아랫면 → Community입니다. `archive.html`, `media.html`, `about.html`은 직접 접근 가능한 참고 화면으로 남지만 큐브의 별도 면은 차지하지 않습니다. 메인 페이지는 뷰포트 높이에 맞춘 한 화면 구성이고, 기록 페이지는 스크롤하여 통계, 시각화, 기록 목록을 차례로 봅니다.
+메인 큐브 면 연결은 앞면 → SOOP, 오른쪽 → YouTube, 뒷면 → X, 왼쪽 → Projects, 윗면 → 프로필 링크, 아랫면 → Community입니다. 별도의 전체 기록·인사이트·미디어 페이지는 두지 않습니다. 메인 페이지는 뷰포트 높이에 맞춘 한 화면 구성이고, 여섯 목적 페이지는 각 주제의 기록이나 링크를 제공합니다.
+
+각 큐브 목적 페이지는 주제를 바로 알 수 있는 짧은 파일명 `soop.html`, `youtube.html`, `x.html`, `community.html`, `projects.html`, `profile.html`을 사용합니다. 이전 URL 별칭은 두지 않습니다. `404.html`은 GitHub Pages 오류 응답을 위한 정적 호스팅 파일이며 기능 페이지가 아닙니다.
 
 ## 파일 구성
 
 ```text
-index.html, memories.html, youtube.html, x-archive.html, community.html, projects.html,
-archive.html, media.html, about.html, platforms.html, 404.html
+index.html, soop.html, youtube.html, x.html, community.html, projects.html,
+profile.html, 404.html
 styles.css                 공통 레이아웃, 메인 큐브, 반응형/3D 시각 효과
 subpages.css               기록 페이지 배경, 내비게이션, 패널, 목록 및 차트 스타일
 script.js                  모바일 메뉴, 큐브 조작, 현재 연도 표기
@@ -101,7 +100,7 @@ Community 화면은 동일 앱에서 Naver Cafe 플랫폼과 선택된 `cafeId`�
 - PC·태블릿·모바일 미디어 쿼리는 `styles.css`와 `subpages.css`에 있습니다. 기록 카드 그리드, 탐색 메뉴, 차트가 좁은 화면에서 재배치됩니다.
 - 색인 대상 페이지는 고유한 한국어 제목·설명, GitHub Pages 주소 기준 canonical, Open Graph와 Twitter 공유 메타데이터를 정적 HTML에 둡니다. 미리보기 이미지는 `dahlia-background.jpg`를 사용합니다. 오류 페이지는 canonical과 공유 정보를 노출하지 않고 `noindex, follow`를 둡니다.
 - 홈페이지의 JSON-LD `WebSite` 이름은 `Dahlia Archive`, 대체 이름은 `달리아의 활동 기록`입니다. 하위 화면은 실제 화면 내용을 반영한 `CollectionPage` 또는 `WebPage`이며 `isPartOf`에서 같은 사이트 이름과 홈 URL을 참조합니다. 프로젝트 페이지에도 컬렉션 구조화 데이터와 전체 공유 메타데이터를 갖춥니다.
-- `robots.txt`는 필요한 정적 리소스와 공개 페이지의 크롤링을 허용하고 sitemap 주소를 알립니다. `sitemap.xml`은 canonical과 일치하는 공개 HTML 10개를 나열하며 404, `database/`, `source/`의 데이터 파일을 나열하지 않습니다. `lastmod`는 페이지 메타데이터나 내용이 실제로 바뀐 날짜만 기록합니다.
+- `robots.txt`는 필요한 정적 리소스와 공개 페이지의 크롤링을 허용하고 sitemap 주소를 알립니다. `sitemap.xml`은 canonical과 일치하는 홈페이지와 큐브 목적 페이지 7개를 나열하며 404, `database/`, `source/`의 데이터 파일을 나열하지 않습니다. `lastmod`는 페이지 메타데이터나 내용이 실제로 바뀐 날짜만 기록합니다.
 - favicon 세트, Apple 터치 아이콘, `site.webmanifest`는 모든 공개 화면에서 정적 파일로 연결됩니다. manifest는 홈 화면 이름/아이콘 정보를 제공하며 서비스 워커나 오프라인 캐시는 구현되어 있지 않습니다. 사이트 검증 토큰, analytics, 사용자 추적은 구성하지 않았습니다.
 - Google의 제목 링크와 검색 설명은 페이지 내용에 따라 자동으로 다시 작성될 수 있습니다. sitemap은 URL 발견을 돕는 신호이며 색인이나 순위를 보장하지 않습니다. JSON-LD는 화면에서 실제로 볼 수 있는 정보만 기술하며 리치 결과 표시를 보장하지 않습니다. 사이트 설정은 [Google Search Essentials](https://developers.google.com/search/docs/essentials), [제목 링크 권장사항](https://developers.google.com/search/docs/appearance/title-link), [검색 설명 가이드](https://developers.google.com/search/docs/appearance/snippet), [사이트 이름 구조화 데이터](https://developers.google.com/search/docs/appearance/site-names), [canonical 안내](https://developers.google.com/search/docs/crawling-indexing/canonicalization), [favicon 안내](https://developers.google.com/search/docs/appearance/favicon-in-search)를 참고합니다.
 

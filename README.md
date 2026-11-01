@@ -58,12 +58,12 @@ SOOP, YouTube 등 여러 플랫폼에서 활동한 기록을 한곳에 모아 �
 ## 저장소 구조
 
 - `index.html`: 메인 페이지
-- `memories.html`, `youtube.html`, `x-archive.html`: 플랫폼별 기록 페이지
+- `soop.html`, `youtube.html`, `x.html`: 플랫폼별 기록 페이지
 - `community.html`: VLUP 카페 게시글 커뮤니티 기록과 시각화
 - `projects.html`, `projects-app.js`: 프로젝트 소개 페이지와 JSON 렌더러
 - `database/projects/`: 프로젝트 소개 JSON과 정적 목록
 - `database/projects/guidelines/vlup-fangame-guideline.json`: 두 팬게임 카드에 연결되는 공식 카페 배포 지침 요약과 원문 링크
-- `platforms.html`: 원본 플랫폼 계정 링크 페이지
+- `profile.html`: 원본 플랫폼 계정 링크 페이지
 - `styles.css`: 반응형 레이아웃과 별빛/유리 질감 스타일
 - `subpages.css`: 하위 페이지 공통 스타일
 - `script.js`: 모바일 내비게이션 등 작은 인터랙션

@@ -390,10 +390,14 @@
     const topXTag = [...xTags.entries()].sort((a, b) => b[1] - a[1])[0] || ['태그 없음', 0];
     const cards = [
       insightCard('01', 'SOOP 캐치', '같은 제목으로 올라온 캐치', '여러 번 올라온 기록이에요.', `${number(topTitle[1])}회`, topTitle[0]),
-      insightCard('02', 'SOOP 캐치', '자주 쓰인 태그', '캐치에서 많이 보인 태그예요.', `#${topCatchTag[0]} · ${number(topCatchTag[1])}`, '태그가 포함된 기록'),
-      insightCard('03', 'YouTube', 'Shorts와 동영상', '현재 모아 둔 영상의 종류예요.', `${youtube.filter((item) => item.contentType === 'short').length} / ${youtube.filter((item) => item.contentType === 'video').length}`, `Shorts / 동영상 · 자주 쓰인 태그 #${topYtTag[0]}`),
-      insightCard('04', 'X 게시물', '자주 보인 해시태그', '게시물에서 여러 번 등장한 태그예요.', `#${topXTag[0]} · ${number(topXTag[1])}`, '본문에 포함된 횟수')
+      insightCard('02', 'SOOP 캐치', '자주 쓰인 태그', '캐치에서 많이 보인 태그예요.', `#${topCatchTag[0]} · ${number(topCatchTag[1])}`, '태그가 포함된 기록')
     ];
+    if (!document.querySelector('[data-catch-insights]')) {
+      cards.push(
+        insightCard('03', 'YouTube', 'Shorts와 동영상', '현재 모아 둔 영상의 종류예요.', `${youtube.filter((item) => item.contentType === 'short').length} / ${youtube.filter((item) => item.contentType === 'video').length}`, `Shorts / 동영상 · 자주 쓰인 태그 #${topYtTag[0]}`),
+        insightCard('04', 'X 게시물', '자주 보인 해시태그', '게시물에서 여러 번 등장한 태그예요.', `#${topXTag[0]} · ${number(topXTag[1])}`, '본문에 포함된 횟수')
+      );
+    }
     target.replaceChildren(...cards);
   }
 
@@ -442,7 +446,7 @@
         ]);
       }
     }
-    if (view === 'soop' || view === 'insights') renderInsights(records);
+    if (view === 'soop' || view === 'insights') renderInsights(viewRecords);
     if (view === 'youtube' || view === 'x') renderTagCloud(viewRecords, document.querySelector('[data-tag-cloud]'));
     if (view === 'youtube') {
       renderTypeDistribution(viewRecords, '[data-youtube-format]', [

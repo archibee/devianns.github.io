@@ -3,18 +3,5 @@
     "type":  "profile",
     "url":  "https://x.com/dahlia_clip",
     "handle":  "@dahlia_clip",
-    "displayName":  "DAHLIA💫",
-    "sourceLanguage":  "en",
-    "bioRaw":  "안녕하세요! 저는 가상 콘텐츠와 클립 콘텐츠의 팬인 사용자입니다.",
-    "bioTranslationStatus":  "screen indicates original language English",
-    "joinedAt":  "2014-06",
-    "joinedPrecision":  "month",
-    "followingCount":  31,
-    "followerCount":  3,
-    "snapshotAt":  null,
-    "sourceBatch":  "source/1",
-    "sourceLines":  [
-                        1,
-                        9
-                    ]
+    "snapshotAt":  null
 }

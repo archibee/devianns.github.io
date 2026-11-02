@@ -69,8 +69,7 @@
 - 불필요한 외부 의존성과 추적 코드를 추가하지 않는다.
 - 기록 화면은 `soop.html`, `youtube.html`, `x.html`, `community.html` 및 공통 `archive-app.js`로 구성한다. 각 화면은 `data-view`에 따라 정적 카탈로그를 필터하고, 검색, 적절한 메타데이터, 원본 플랫폼 링크, 화면 크기에 맞는 차트를 제공한다.
 - Projects 소개 화면은 `projects.html`과 `projects-app.js`로 구성하며, 프로젝트별 JSON을 `database/projects/catalog.json`에 나열해 정적으로 불러온다.
-- 팬게임은 Naver Cafe 활동 카드가 아니라 `database/projects/`의 프로젝트 레코드로 관리한다. Cafe 게시글과 GitHub 저장소는 출처/프로젝트 안내 링크로 보존한다. 배포본으로 이어지는 외부 Vercel 등 실행 URL은 프로젝트 카드에 직접 연결하지 않고, V-LUP 공식 카페 게시글만 배포 안내 경로로 제공한다.
-- V-LUP 팬게임 카드마다 `database/projects/guidelines/vlup-fangame-guideline.json`을 불러와 눈에 띄는 배포 주의 문구와 지침 원문 링크를 표시한다. 지침 요약은 공식 승인이나 최신성 보증이 아니다. 공개 전 공식 원문과 사전 통보 조건을 다시 확인하도록 안내한다.
+- Projects 페이지에는 이 아카이브에 소개하기 적절한 자체 도구와 프로젝트만 등록한다. 타인의 IP를 활용한 팬게임 자료와 관련 프로젝트 JSON, 안내 데이터는 등록하지 않는다.
 - 기록 화면의 시각화는 각 플랫폼에서 확인할 수 있는 실제 필드만 사용한다. 전체 기록은 플랫폼 분포, SOOP 캐치는 월별·요일별·시간대별 흐름, YouTube는 형식별 수와 조회수 순위, X는 월별 게시 흐름, Community는 월별·닉네임별 게시 수와 관측된 목록 조회 수 순위, SOOP 클립/VOD는 유형별 수와 조회수 순위를 보여줄 수 있다. 누락 날짜나 수치는 추정해 채우지 않는다.
 - 플랫폼 전용 페이지의 요약, 통계, 인사이트는 해당 플랫폼 레코드만 사용한다. 여러 플랫폼을 함께 비교하는 인사이트는 전체 기록/요약 화면에만 둔다.
 - 활동 데이터와 시각화는 `database/catalog.json`에서 읽는다. 브라우저 저장/수정 기능, 서버/API 호출, 플랫폼 콘텐츠 미러링을 추가하지 않는다. 프로필 링크 페이지는 `profile.html`을 유지한다.
@@ -85,7 +84,7 @@
 - `index.html`은 메인 큐브를 제공하고 `script.js`가 메뉴와 큐브 인터랙션을 처리한다. 큐브 여섯 면은 SOOP(`soop.html`), YouTube(`youtube.html`), X(`x.html`), Community(`community.html`), Projects(`projects.html`), 프로필 링크(`profile.html`)에 연결된다. `profile.html`은 세 SNS 계정 링크를 HTML에 직접 담은 독립 페이지다.
 - 큐브 여섯 목적 페이지 외의 콘텐츠 페이지를 추가하지 않는다. `index.html`은 진입점이고 `404.html`은 GitHub Pages 오류 처리용 정적 파일이다.
 - 상세 기록 페이지는 `body[data-view]`로 화면 종류를 선언한다. `archive-app.js`가 `./database/catalog.json`을 한 번 읽고 화면에 필요한 통계, 차트, 검색 결과와 기록 카드를 생성한다. 페이지 진입 후 데이터를 새로고침하거나 플랫폼에서 실시간으로 가져오지 않는다.
-- Projects 화면은 `database/projects/catalog.json`에서 JSON 경로를 읽고 각 프로젝트 소개를 카드로 렌더링한다. 현재 Pixel Studio, Pixel Motion Studio와 VLUP 팬게임 2편을 제공한다. 팬게임 카드에는 Cafe 게시글·GitHub 링크, 공식 지침 원문 및 주의 문구를 표시한다.
+- Projects 화면은 `database/projects/catalog.json`에서 JSON 경로를 읽고 각 프로젝트 소개를 카드로 렌더링한다. 현재 Pixel Studio와 Pixel Motion Studio를 제공한다. 카탈로그에 등록되지 않은 프로젝트는 화면에 표시하지 않는다.
 - Community 화면은 정적 `database/catalog.json`에서 Naver Cafe 게시글을 읽어 날짜 내림차순으로 렌더링한다. 화면의 카페 선택은 `cafe` 쿼리 매개변수에 ID를 담으며 `all`은 전체 카페를 뜻한다. 현재 기록은 VLUP (`30653039`)뿐이다. 월별 기록 수, 카페/닉네임별 기록 수, 수집 당시 조회 수 상위 5개와 제목·작성자·카페 검색을 제공한다. 각 카드에서 카페 원문으로 이동하거나 저장된 본문 텍스트를 사이트 안에서 열 수 있다. 공개 본문은 텍스트로 정리해 저장하고, 이미지·영상 등은 실제 파일 대신 URL 참조만 보존한다.
 - 목록 검색은 제목·본문·태그를 대상으로 하고, 필터는 해당 화면에 지정된 플랫폼/유형을 기준으로 적용한다. 최초 24개 항목을 표시하며 더 보기로 24개씩 늘린다. 카드의 원본 링크는 새 탭으로 열리고 URL이 없는 카드는 링크 부재 문구를 보여준다.
 - 시각화 범위와 필드는 실제 카탈로그에 있는 데이터로 한정한다. 날짜·시간·조회수·반응이 없으면 임의의 값이나 시점을 만들지 않는다. 조회수 순위는 저장된 관측값으로 계산하며 현재 플랫폼 수치가 아니다.

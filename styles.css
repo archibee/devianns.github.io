@@ -25,7 +25,8 @@ body.home-page .site-shell, body.home-page #main { width: 100%; height: 100%; ov
 
 .topbar { position: absolute; z-index: 10; top: 0; left: 0; display: flex; align-items: center; justify-content: space-between; width: 100%; padding: 29px clamp(24px, 6vw, 96px); }
 .wordmark { display: inline-flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 700; letter-spacing: .25em; }
-.wordmark-mark { color: #d9d5ff; font-size: 22px; filter: drop-shadow(0 0 10px #bdc7ff); }
+.wordmark-mark { position: relative; display: inline-block; width: 20px; height: 20px; color: #d9d5ff; font-size: 0; filter: drop-shadow(0 0 8px #bdc7ff); }
+.wordmark-mark::before { position: absolute; inset: 1px; content: ''; background: currentColor; clip-path: polygon(50% 0%, 59% 38%, 85% 15%, 62% 41%, 100% 50%, 62% 59%, 85% 85%, 59% 62%, 50% 100%, 41% 62%, 15% 85%, 38% 59%, 0% 50%, 38% 41%, 15% 15%, 41% 38%); }
 .wordmark-dot { color: #8bdcff; }
 .site-nav { display: flex; align-items: center; gap: clamp(10px, 1.2vw, 18px); font-size: 9px; letter-spacing: .1em; }
 .nav-link { color: #d8ddfa; opacity: .72; transition: opacity .25s, color .25s; }

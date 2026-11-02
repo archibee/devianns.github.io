@@ -299,13 +299,6 @@ body.archive-page { min-height: 100vh; background: #080a24; overflow-x: hidden; 
 .project-details dd { margin: 0; color: #f1f3ff; line-height: 1.75; }
 .project-features { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; margin: 22px 0; list-style: none; }
 .project-features li { padding: 7px 11px; border: 1px solid #d9e7ff22; border-radius: 999px; color: #dce9ff; font-size: .8rem; }
-.project-policy { margin: 22px 0 0; padding: 16px 18px; border: 1px solid #f2d69e42; background: linear-gradient(135deg, #f2d69e0e, #d5dfff06 62%, #b9dfff0a); box-shadow: inset 0 1px #ffffff12; }
-.project-policy-label { margin: 0 0 8px; color: #f3dbad; font-size: .73rem; letter-spacing: .1em; }
-.project-policy-notice { margin: 0; color: #f1eddf; font-size: .88rem; line-height: 1.75; }
-.project-policy-details { margin-top: 13px; color: #c9d5ef; font-size: .78rem; line-height: 1.75; }
-.project-policy-details summary { width: fit-content; color: #d6e8ff; cursor: pointer; }
-.project-policy-details ul { display: grid; gap: 8px; margin: 12px 0 0; padding-left: 18px; }
-.project-policy-source-note { margin: 12px 0 0; color: #a6b1ca; font-size: .7rem; line-height: 1.7; }
 .project-links { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; padding-top: 16px; border-top: 1px solid #ffffff1a; }
 @media (max-width: 760px) { .project-grid { grid-template-columns: 1fr; } }
 

@@ -17,17 +17,11 @@
     addText(card, 'p', 'project-category', project.category || '프로젝트');
     addText(card, 'h2', 'project-title', project.name);
     addText(card, 'p', 'project-description', project.description);
-    const details = document.createElement('dl');
-    details.className = 'project-details';
-    for (const [label, value] of [['만든 이유', project.purpose], ['작동 방식', project.implementation], ['사용 방법', project.howToUse]]) {
-      addText(details, 'dt', '', label);
-      addText(details, 'dd', '', value);
-    }
-    card.append(details);
-    if (Array.isArray(project.features) && project.features.length) {
+    if (project.summary) addText(card, 'p', 'project-summary', project.summary);
+    if (Array.isArray(project.highlights) && project.highlights.length) {
       const features = document.createElement('ul');
       features.className = 'project-features';
-      for (const feature of project.features) addText(features, 'li', '', feature);
+      for (const feature of project.highlights) addText(features, 'li', '', feature);
       card.append(features);
     }
     const links = document.createElement('div');
@@ -39,7 +33,7 @@
       link.target = '_blank';
       link.rel = 'noopener noreferrer';
     };
-    if (project.deploymentUrl) addLink('사용해 보기 ↗', project.deploymentUrl);
+    if (project.deploymentUrl) addLink('프로젝트 열기 ↗', project.deploymentUrl);
     if (project.githubUrl) {
       addLink('GitHub 저장소 ↗', project.githubUrl);
     }

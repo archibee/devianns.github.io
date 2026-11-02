@@ -84,7 +84,7 @@
 - `index.html`은 메인 큐브를 제공하고 `script.js`가 메뉴와 큐브 인터랙션을 처리한다. 큐브 여섯 면은 SOOP(`soop.html`), YouTube(`youtube.html`), X(`x.html`), Community(`community.html`), Projects(`projects.html`), 프로필 링크(`profile.html`)에 연결된다. `profile.html`은 세 SNS 계정 링크를 HTML에 직접 담은 독립 페이지다.
 - 큐브 여섯 목적 페이지 외의 콘텐츠 페이지를 추가하지 않는다. `index.html`은 진입점이고 `404.html`은 GitHub Pages 오류 처리용 정적 파일이다.
 - 상세 기록 페이지는 `body[data-view]`로 화면 종류를 선언한다. `archive-app.js`가 `./database/catalog.json`을 한 번 읽고 화면에 필요한 통계, 차트, 검색 결과와 기록 카드를 생성한다. 페이지 진입 후 데이터를 새로고침하거나 플랫폼에서 실시간으로 가져오지 않는다.
-- Projects 화면은 `database/projects/catalog.json`에서 JSON 경로를 읽고 각 프로젝트 소개를 카드로 렌더링한다. 현재 Pixel Atelier와 Pixel Motions를 제공한다. 카탈로그에 등록되지 않은 프로젝트는 화면에 표시하지 않는다.
+- Projects 화면은 `database/projects/catalog.json`에서 JSON 경로를 읽어 방문자에게 필요한 프로젝트 이름, 한 줄 소개, 할 수 있는 일과 바로가기만 카드로 렌더링한다. 구현 언어나 내부 동작, 개발자 관점의 목적 설명은 카드 문구에 넣지 않는다. 현재 Pixel Atelier와 Pixel Motions를 제공하며 카탈로그에 등록되지 않은 프로젝트는 표시하지 않는다.
 - Community 화면은 정적 `database/catalog.json`에서 Naver Cafe 게시글을 읽어 날짜 내림차순으로 렌더링한다. 화면의 카페 선택은 `cafe` 쿼리 매개변수에 ID를 담으며 `all`은 전체 카페를 뜻한다. 현재 기록은 VLUP (`30653039`)뿐이다. 월별 게시글 수와 수집 당시 조회·공감 상위 5개, 제목·작성자·카페 검색을 제공한다. 각 카드에서 카페 원문으로 이동하거나 저장된 본문 텍스트를 사이트 안에서 열 수 있다. 공개 본문은 텍스트로 정리해 저장하고, 이미지·영상 등은 실제 파일 대신 URL 참조만 보존한다.
 - 목록 검색은 제목·본문·태그를 대상으로 하고, 필터는 해당 화면에 지정된 플랫폼/유형을 기준으로 적용한다. 최초 24개 항목을 표시하며 더 보기로 24개씩 늘린다. 카드의 원본 링크는 새 탭으로 열리고 URL이 없는 카드는 링크 부재 문구를 보여준다.
 - 시각화 범위와 필드는 실제 카탈로그에 있는 데이터로 한정한다. 날짜·시간·조회수·반응이 없으면 임의의 값이나 시점을 만들지 않는다. 조회수 순위는 저장된 관측값으로 계산하며 현재 플랫폼 수치가 아니다.

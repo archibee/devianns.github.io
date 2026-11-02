@@ -17,7 +17,7 @@ SOOP, YouTube 등 여러 플랫폼에서 활동한 기록을 한곳에 모아 �
 | --- | --- |
 | 메인 큐브 | 드래그·스와이프·방향키로 SOOP, YouTube, X, Community, Projects, 프로필 링크 면을 둘러봅니다. |
 | SOOP | 월별 캐치 수, 요일·시간대별 기록량, 캐치·클립·VOD 조회수 상위 기록, 검색과 유형 필터 |
-| Projects | Pixel Atelier와 Pixel Motions 소개 및 관련 링크 |
+| Projects | 픽셀 그림 편집 도구 Pixel Atelier와 애니메이션 GIF 도구 Pixel Motions 소개 및 바로가기 |
 | YouTube | 저장된 조회수 상위 영상, 조회수 요약, Shorts·동영상 필터 |
 | X | 확인된 게시물의 월별 등록 수와 조회수 상위 기록, 반응 수치, 본문 검색 |
 | Community | 카페별 게시글 월별·요일·시간대별 수와 수집 당시 조회·공감 상위 글. 제목·본문 검색과 원문/저장 본문 열기를 제공합니다. 현재 등록된 카페는 VLUP입니다. |

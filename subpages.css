@@ -296,9 +296,7 @@ body.archive-page { min-height: 100vh; background: #080a24; overflow-x: hidden; 
 .project-category { margin: 0 0 10px; color: #b8dfff; font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; }
 .project-title { margin: 0; font-family: 'Gowun Batang', serif; font-size: clamp(1.55rem, 3vw, 2.25rem); }
 .project-description { color: #e4e8ff; line-height: 1.75; }
-.project-details { display: grid; grid-template-columns: 1fr; gap: 7px; margin: 24px 0 0; }
-.project-details dt { margin-top: 12px; color: #b9c8ed; font-size: .82rem; }
-.project-details dd { margin: 0; color: #f1f3ff; line-height: 1.75; }
+.project-summary { max-width: 58ch; margin: 18px 0 0; color: #e2e9ff; line-height: 1.8; }
 .project-features { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; margin: 22px 0; list-style: none; }
 .project-features li { padding: 7px 11px; border: 1px solid #d9e7ff22; border-radius: 999px; color: #dce9ff; font-size: .8rem; }
 .project-links { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; padding-top: 16px; border-top: 1px solid #ffffff1a; }

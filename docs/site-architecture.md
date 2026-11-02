@@ -69,7 +69,7 @@ database/projects/catalog.json → 프로젝트 JSON 파일 → projects-app.js 
 - 활동 JSON 한 파일은 활동 흔적 하나를 나타냅니다. 원본 미디어 파일이 아닙니다.
 - `database/platforms/*.json`은 사용자가 제공한 계정 링크와 프로필 정보를 보관하고 활동 레코드와 구분합니다.
 - `database/catalog.json`은 저장소 디렉터리를 브라우저에서 열거할 수 없는 정적 호스팅 환경을 위한 화면용 색인입니다. 개별 활동 JSON의 모든 상세 필드를 복제하는 별도 데이터베이스가 아닙니다.
-- `database/projects/catalog.json`은 Projects 페이지에 표시할 프로젝트 JSON 경로를 나열합니다. `projects-app.js`는 각 등록 파일을 읽어 소개 카드와 해당 프로젝트의 실행·저장소 링크를 렌더링합니다. 현재 카탈로그에는 Pixel Atelier와 Pixel Motions가 있습니다.
+- `database/projects/catalog.json`은 Projects 페이지에 표시할 프로젝트 JSON 경로를 나열합니다. `projects-app.js`는 각 등록 파일을 읽어 방문자용 이름, 짧은 소개, 주요 기능과 프로젝트 바로가기를 렌더링합니다. 구현 언어나 내부 동작 설명은 카드에서 제외합니다. 현재 카탈로그에는 Pixel Atelier와 Pixel Motions가 있습니다.
 - 이 페이지는 아카이브에 소개하기 적절한 자체 도구와 프로젝트를 다룹니다. 타인의 IP를 활용한 팬게임은 Projects 카드로 등록하지 않습니다.
 - Community 페이지는 카탈로그에 있는 Naver Cafe 기록의 `cafeId`·`cafeName`에서 선택 목록을 만들고 전체 또는 한 카페로 필터합니다. 현재 카탈로그 데이터는 ID `30653039`인 VLUP 기록뿐입니다. 게시월 추이와 수집 당시 조회·공감 상위 항목을 실제 저장값으로 그립니다. 카드에는 카페 원문 링크와 저장 본문 열기 버튼이 함께 있고, 본문 대화상자는 일반 텍스트와 URL 참조를 보여줍니다.
 - 지금은 사이트 실행이나 배포 과정에서 카탈로그를 생성하지 않습니다. 활동 파일을 추가·수정하면 해당 정적 카탈로그도 함께 갱신해야 합니다. 자동화는 향후 로컬 보조 스크립트로 고려할 수 있으나 현재 동작에는 포함되지 않습니다.

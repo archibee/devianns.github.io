@@ -200,6 +200,7 @@ body.archive-page { min-height: 100vh; background: #080a24; overflow-x: hidden; 
 .viz-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 13px; margin-top: 23px; }
 .viz-panel { min-width: 0; padding: 19px 20px; border: 1px solid #e3eeff22; background: linear-gradient(145deg, #e4f4ff05, #d5dfff02 54%, #9bdfff04); box-shadow: inset 1px 1px 0 #ffffff12; }
 .viz-panel h3 { margin: 0; color: #e8edff; font-family: var(--serif); font-size: 17px; font-weight: 400; }
+.viz-coverage { margin: 7px 0 0; color: #8f9bb9; font-size: 8px; }
 .viz-ranking { display: grid; margin-top: 17px; }
 .viz-rank-row { display: grid; grid-template-columns: 28px minmax(0, 1fr) minmax(54px, auto); align-items: center; gap: 13px; padding: 13px 2px; border-bottom: 1px solid #dce8ff16; }
 .viz-rank-row:last-child { border-bottom: 0; }

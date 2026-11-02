@@ -160,6 +160,57 @@
   }
 
   function monthKey(date) { return date && /^\d{4}-\d{2}/.test(date) ? date.slice(0, 7) : null; }
+
+  function renderMeasureBars(target, items) {
+    if (!target) return;
+    target.replaceChildren();
+    const max = Math.max(1, ...items.map((item) => item.value));
+    target.setAttribute('role', 'list');
+    for (const item of items) {
+      const row = make('div', 'viz-row');
+      row.setAttribute('role', 'listitem');
+      const label = make('span', 'viz-label', item.label);
+      const track = make('span', 'viz-track');
+      track.setAttribute('aria-hidden', 'true');
+      const fill = make('span', 'viz-fill');
+      fill.style.setProperty('--viz-width', `${item.value ? Math.max(2, item.value / max * 100) : 0}%`);
+      track.append(fill);
+      row.append(label, track, make('strong', 'viz-value', `${number(item.value)}개`));
+      target.append(row);
+    }
+  }
+
+  function renderDateRhythm(records, config) {
+    const weekdays = ['일요일', '월요일', '화요일', '수요일', '목요일', '금요일', '토요일'];
+    const timeBands = ['00–05시', '06–11시', '12–17시', '18–23시'];
+    const weekdayCounts = new Map(weekdays.map((day) => [day, 0]));
+    const hourCounts = new Map(timeBands.map((band) => [band, 0]));
+    let datedCount = 0;
+    let timedCount = 0;
+    for (const record of records) {
+      if (/^\d{4}-\d{2}-\d{2}$/.test(record.publishedAt || '')) {
+        const weekday = new Date(`${record.publishedAt}T00:00:00Z`).getUTCDay();
+        weekdayCounts.set(weekdays[weekday], weekdayCounts.get(weekdays[weekday]) + 1);
+        datedCount += 1;
+      }
+      const match = String(record.publishedTimeRaw || '').match(/(?:T|\s)(\d{2}):(\d{2})/);
+      if (match) {
+        const hour = Number(match[1]);
+        if (hour >= 0 && hour < 24) {
+          const band = timeBands[Math.floor(hour / 6)];
+          hourCounts.set(band, hourCounts.get(band) + 1);
+          timedCount += 1;
+        }
+      }
+    }
+    renderMeasureBars(document.querySelector(config.weekdays), weekdays.map((label) => ({ label, value: weekdayCounts.get(label) })));
+    renderMeasureBars(document.querySelector(config.hours), timeBands.map((label) => ({ label, value: hourCounts.get(label) })));
+    const weekdayCoverage = document.querySelector(config.weekdayCoverage);
+    const hourCoverage = document.querySelector(config.hourCoverage);
+    if (weekdayCoverage) weekdayCoverage.textContent = `날짜 확인 ${number(datedCount)}건`;
+    if (hourCoverage) hourCoverage.textContent = `시각 확인 ${number(timedCount)}건`;
+  }
+
   function viewCount(record) {
     const metric = record.metrics?.find((item) => item.label === 'views' || item.type === 'views');
     if (Number.isFinite(metric?.value)) return Number(metric.value);
@@ -298,11 +349,23 @@
     if (stats) renderCollectionStats(stats, viewRecords, stats.dataset.stats);
     if (view === 'community') {
       renderMonthlyChart(viewRecords, '[data-community-monthly]', '[data-community-month-range]', 36);
+      renderDateRhythm(viewRecords, {
+        weekdays: '[data-community-weekdays]',
+        hours: '[data-community-hours]',
+        weekdayCoverage: '[data-community-weekday-coverage]',
+        hourCoverage: '[data-community-hour-coverage]'
+      });
       renderCommunityVisuals(viewRecords);
     }
     if (view === 'soop') {
       const catchRecords = viewRecords.filter((item) => item.contentType === 'catch');
       renderMonthlyChart(catchRecords);
+      renderDateRhythm(viewRecords, {
+        weekdays: '[data-soop-weekdays]',
+        hours: '[data-soop-hours]',
+        weekdayCoverage: '[data-soop-weekday-coverage]',
+        hourCoverage: '[data-soop-hour-coverage]'
+      });
       renderViewRanking(viewRecords, view);
     }
     if (view === 'youtube' || view === 'x') renderViewRanking(viewRecords, view);
@@ -404,8 +467,9 @@
     const selectionLabel = document.querySelector('[data-community-selection-label]');
     const selectedName = select.value === 'all' ? '전체 카페' : cafes.get(select.value);
     if (selectionLabel) selectionLabel.textContent = selectedName;
-    const cafeHeading = document.querySelector('[data-community-cafe-heading]');
-    if (cafeHeading) cafeHeading.textContent = select.value === 'all' ? '전체 카페' : selectedName;
+    for (const cafeHeading of document.querySelectorAll('[data-community-cafe-heading]')) {
+      cafeHeading.textContent = select.value === 'all' ? '전체 카페' : selectedName;
+    }
     const cafeCount = document.querySelector('[data-community-cafe-count]');
     if (cafeCount) cafeCount.textContent = `등록된 카페 ${number(cafes.size)}곳`;
     select.addEventListener('change', () => {

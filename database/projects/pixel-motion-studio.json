@@ -1,6 +1,6 @@
 {
   "id": "pixel-motion-studio",
-  "name": "Pixel Motion Studio",
+  "name": "Pixel Motions",
   "category": "픽셀 애니메이션 도구",
   "description": "순서가 있는 PNG 프레임을 모아 미리 보고 애니메이션 GIF로 내보내는 독립형 브라우저 도구입니다.",
   "purpose": "픽셀 아트 프레임을 간단히 배열하고, 설치나 외부 변환 서비스 없이 GIF로 만드는 작업 흐름을 제공합니다.",

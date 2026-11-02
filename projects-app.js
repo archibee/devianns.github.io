@@ -49,7 +49,7 @@
 
   fetch('./database/projects/catalog.json')
     .then((response) => { if (!response.ok) throw new Error('목록을 읽지 못했습니다.'); return response.json(); })
-    .then((catalog) => {
+    .then(async (catalog) => {
       const paths = Array.isArray(catalog.projects) ? catalog.projects : [];
       const projects = await Promise.all(paths.map(async (path) => {
         const projectUrl = new URL(path, new URL('./database/projects/catalog.json', location.href));

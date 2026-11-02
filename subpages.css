@@ -206,6 +206,7 @@ body.archive-page { min-height: 100vh; background: #080a24; overflow-x: hidden; 
 .viz-rank-number { color: #9bb3db; font-size: 9px; font-variant-numeric: tabular-nums; }
 .viz-rank-content { min-width: 0; }
 .viz-rank-title { display: -webkit-box; overflow: hidden; margin: 0; color: #e1e8fa; font-size: 10px; line-height: 1.55; overflow-wrap: anywhere; -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
+.viz-rank-subtitle { display: block; margin-top: 4px; color: #94a2c2; font-size: 8px; line-height: 1.5; }
 .viz-rank-row .viz-track { height: 5px; margin-top: 7px; }
 .viz-rank-row .viz-value { min-width: 58px; }
 .platform-card { align-items: center; gap: 16px; padding: 26px 28px; }

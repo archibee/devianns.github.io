@@ -131,19 +131,6 @@
     return draw;
   }
 
-  function renderTagCloud(records, target) {
-    if (!target) return;
-    const tally = new Map();
-    for (const record of records) for (const tag of getTags(record)) tally.set(tag, (tally.get(tag) || 0) + 1);
-    target.replaceChildren();
-    for (const [tag, count] of [...tally.entries()].sort((a, b) => b[1] - a[1]).slice(0, 12)) {
-      const button = make('button', 'cloud-tag', `#${tag.replace(/^#/, '')} · ${number(count)}`);
-      button.type = 'button';
-      button.dataset.tagQuery = tag.replace(/^#/, '');
-      target.append(button);
-    }
-  }
-
   function statCard(label, value, note) {
     const card = make('article', 'stat-card');
     card.append(make('span', 'stat-label', label), make('strong', 'stat-value', value), make('small', 'stat-note', note));
@@ -153,94 +140,26 @@
   function renderCollectionStats(target, records, kind) {
     if (!target) return;
     const dates = records.map((item) => item.publishedAt).filter(Boolean).sort();
+    const period = dates.length ? `${dates[0].slice(0, 4)} — ${dates[dates.length - 1].slice(0, 4)}` : '날짜 미상';
+    const views = records.filter((record) => viewCount(record) !== null);
+    const viewsTotal = views.reduce((sum, record) => sum + viewCount(record), 0);
     let cards = [];
     if (kind === 'soop') {
-      cards = [statCard('전체 기록', number(records.length), '캐치·클립·VOD'), statCard('캐치', number(records.filter((item) => item.contentType === 'catch').length), '짧은 장면 기록'), statCard('클립·VOD', number(records.filter((item) => ['clip', 'normal'].includes(item.contentType)).length), '방송국 영상 목록'), statCard('원본 링크', number(records.filter((item) => item.url).length), 'SOOP에서 확인 가능')];
+      cards = [statCard('전체 기록', number(records.length), '캐치·클립·VOD'), statCard('기록된 조회수 합', `${number(viewsTotal)}회`, '수집 당시 항목별 수치 합'), statCard('조회수 확인 항목', number(views.length), '조회 수치가 저장된 기록'), statCard('기록 기간', period, '게시 날짜가 확인된 기록')];
     } else if (kind === 'youtube') {
-      cards = [statCard('Shorts', number(records.filter((item) => item.contentType === 'short').length), '채널의 세로 영상'), statCard('동영상', number(records.filter((item) => item.contentType === 'video').length), '채널에 올라온 영상'), statCard('원본 링크', number(records.filter((item) => item.url).length), 'YouTube에서 볼 수 있어요'), statCard('기록 기간', dates.length ? `${dates[0].slice(0, 4)} — ${dates[dates.length - 1].slice(0, 4)}` : '날짜 미상', '날짜가 확인된 기록')];
+      cards = [statCard('Shorts', number(records.filter((item) => item.contentType === 'short').length), '저장된 조회수 기록 포함'), statCard('동영상', number(records.filter((item) => item.contentType === 'video').length), '저장된 조회수 기록 포함'), statCard('기록된 조회수 합', `${number(viewsTotal)}회`, '수집 당시 항목별 수치 합'), statCard('조회수 확인 항목', number(views.length), '조회 수치가 저장된 영상')];
     } else if (kind === 'x') {
-      cards = [statCard('게시물', number(records.length), '모아 둔 기록'), statCard('기록 기간', dates.length ? `${dates[0].slice(0, 4)} — ${dates[dates.length - 1].slice(0, 4)}` : '날짜 미상', '날짜가 확인된 게시물'), statCard('원본 링크', number(records.filter((item) => item.url).length), 'X에서 볼 수 있어요'), statCard('본문이 있는 게시물', number(records.filter((item) => item.text).length), '글 내용을 함께 볼 수 있어요')];
-    } else if (kind === 'media') {
-      cards = [statCard('클립', number(records.filter((item) => item.contentType === 'clip').length), 'SOOP에서 볼 수 있어요'), statCard('다시보기', number(records.filter((item) => item.contentType === 'normal').length), 'SOOP에서 볼 수 있어요'), statCard('원본 링크', number(records.filter((item) => item.url).length), '바로 이동할 수 있어요'), statCard('기록 기간', dates.length ? `${dates[0].slice(0, 4)} — ${dates[dates.length - 1].slice(0, 4)}` : '날짜 미상', '날짜가 확인된 기록')];
+      const reactions = records.reduce((sum, record) => sum + ['likes', 'reposts', 'replies', 'quotes'].reduce((subtotal, label) => subtotal + (metricNumber(record, label) || 0), 0), 0);
+      cards = [statCard('게시물', number(records.length), '공개 범위에서 확인한 기록'), statCard('기록된 조회수 합', `${number(viewsTotal)}회`, '수집 당시 공개 수치 합'), statCard('반응 수치 합', number(reactions), '좋아요·재게시·답글·인용'), statCard('기록 기간', period, '게시 날짜가 확인된 기록')];
     } else if (kind === 'community') {
-      const cafes = new Set(records.map((item) => item.cafeId).filter(Boolean));
-      cards = [statCard('게시글', number(records.length), '현재 모아 둔 공개 목록'), statCard('카페', number(cafes.size), '게시글이 등록된 카페'), statCard('원문 링크', number(records.filter((item) => item.url).length), '카페에서 글 보기'), statCard('기록 기간', dates.length ? `${dates[0].slice(0, 4)} — ${dates[dates.length - 1].slice(0, 4)}` : '날짜 미상', '게시 날짜가 확인된 글')];
-    } else {
-      cards = [statCard('전체 기록', number(records.length), '현재 모아 둔 활동'), statCard('SOOP 캐치', number(records.filter((item) => item.platform === 'soop').length), 'SOOP에 남긴 기록'), statCard('YouTube', number(records.filter((item) => item.platform === 'youtube').length), '영상 기록'), statCard('X 게시물', number(records.filter((item) => item.platform === 'x').length), '게시물 기록')];
+      const reads = records.reduce((sum, record) => sum + (Number(record.listingMetrics?.readCount) || 0), 0);
+      const likes = records.reduce((sum, record) => sum + (Number(record.listingMetrics?.likeItCount) || 0), 0);
+      cards = [statCard('게시글', number(records.length), '저장된 카페 활동'), statCard('목록 조회 수 합', `${number(reads)}회`, '수집 당시 목록 수치'), statCard('공감 수 합', number(likes), '수집 당시 목록 수치'), statCard('기록 기간', period, '게시 날짜가 확인된 글')];
     }
     target.replaceChildren(...cards);
   }
 
   function monthKey(date) { return date && /^\d{4}-\d{2}/.test(date) ? date.slice(0, 7) : null; }
-  function renderMeasureBars(target, items, formatValue = (value) => number(value)) {
-    if (!target) return;
-    target.replaceChildren();
-    const max = Math.max(1, ...items.map((item) => item.value));
-    target.setAttribute('role', 'list');
-    for (const item of items) {
-      const row = make('div', 'viz-row');
-      row.setAttribute('role', 'listitem');
-      const label = make('span', 'viz-label', item.label);
-      const track = make('span', 'viz-track');
-      track.setAttribute('aria-hidden', 'true');
-      const fill = make('span', 'viz-fill');
-      const percent = item.value ? Math.max(1, item.value / max * 100) : 0;
-      fill.style.setProperty('--viz-width', `${percent}%`);
-      track.append(fill);
-      const value = make('strong', 'viz-value', formatValue(item.value, item));
-      row.append(label, track, value);
-      target.append(row);
-    }
-  }
-
-  function renderPlatformDistribution(records) {
-    const target = document.querySelector('[data-platform-distribution]');
-    if (!target) return;
-    const total = records.length;
-    const labels = { soop: 'SOOP', youtube: 'YouTube', x: 'X' };
-    const counts = ['soop', 'youtube', 'x'].map((platform) => ({
-      label: labels[platform],
-      value: records.filter((record) => record.platform === platform).length
-    }));
-    renderMeasureBars(target, counts, (value) => `${number(value)}개 · ${total ? (value / total * 100).toFixed(1) : '0.0'}%`);
-  }
-
-  function renderTypeDistribution(records, targetSelector, types) {
-    const target = document.querySelector(targetSelector);
-    if (!target) return;
-    const total = records.length;
-    const counts = types.map(({ type, label }) => ({
-      label,
-      value: records.filter((record) => record.contentType === type).length
-    }));
-    renderMeasureBars(target, counts, (value) => `${number(value)}개 · ${total ? (value / total * 100).toFixed(1) : '0.0'}%`);
-  }
-
-  function renderCatchRhythm(records) {
-    const weekdayTarget = document.querySelector('[data-catch-weekdays]');
-    const hourTarget = document.querySelector('[data-catch-hours]');
-    if (!weekdayTarget && !hourTarget) return;
-    const weekdays = ['월요일', '화요일', '수요일', '목요일', '금요일', '토요일', '일요일'];
-    const weekdayCounts = new Map(weekdays.map((day) => [day, 0]));
-    const hourLabels = ['00–05시', '06–11시', '12–17시', '18–23시'];
-    const hourCounts = new Map(hourLabels.map((label) => [label, 0]));
-    for (const record of records) {
-      if (record.publishedAt) {
-        const date = new Date(`${record.publishedAt}T00:00:00Z`);
-        const index = (date.getUTCDay() + 6) % 7;
-        weekdayCounts.set(weekdays[index], weekdayCounts.get(weekdays[index]) + 1);
-      }
-      const match = String(record.publishedTimeRaw || '').match(/\b(\d{2}):\d{2}/);
-      if (match) {
-        const hour = Number(match[1]);
-        const index = hour < 6 ? 0 : hour < 12 ? 1 : hour < 18 ? 2 : 3;
-        hourCounts.set(hourLabels[index], hourCounts.get(hourLabels[index]) + 1);
-      }
-    }
-    renderMeasureBars(weekdayTarget, weekdays.map((label) => ({ label, value: weekdayCounts.get(label) })));
-    renderMeasureBars(hourTarget, hourLabels.map((label) => ({ label, value: hourCounts.get(label) })));
-  }
-
   function viewCount(record) {
     const metric = record.metrics?.find((item) => item.label === 'views' || item.type === 'views');
     if (Number.isFinite(metric?.value)) return Number(metric.value);
@@ -250,6 +169,14 @@
     if (!match) return null;
     const multiplier = /천/.test(raw) ? 1000 : /만/.test(raw) ? 10000 : 1;
     return Number(match[0]) * multiplier;
+  }
+
+  function metricNumber(record, label) {
+    const metric = record.metrics?.find((item) => item.label === label);
+    if (Number.isFinite(metric?.value)) return Number(metric.value);
+    const raw = metric?.rawValue;
+    const match = raw && String(raw).replace(/,/g, '').match(/[\d.]+/);
+    return match ? Number(match[0]) : null;
   }
 
   function renderViewRanking(records, platform) {
@@ -271,12 +198,13 @@
       const content = make('div', 'viz-rank-content');
       const title = make('p', 'viz-rank-title', titleOf(record));
       title.title = titleOf(record);
+      const subtitle = make('small', 'viz-rank-subtitle', `${typeName[record.contentType] || '기록'} · ${dateOf(record)}`);
       const track = make('span', 'viz-track');
       track.setAttribute('aria-hidden', 'true');
       const fill = make('span', 'viz-fill');
       fill.style.setProperty('--viz-width', `${Math.max(2, viewCount(record) / max * 100)}%`);
       track.append(fill);
-      content.append(title, track);
+      content.append(title, subtitle, track);
       const metric = getViews(record) || `${number(viewCount(record))}회`;
       row.append(content, make('strong', 'viz-value', metric));
       target.append(row);
@@ -322,111 +250,49 @@
   }
 
   function renderCommunityVisuals(records) {
-    const aliasesTarget = document.querySelector('[data-community-aliases]');
-    if (aliasesTarget) {
-      const counts = new Map();
-      const allCafes = document.querySelector('[data-community-cafe-select]')?.value === 'all';
-      for (const record of records) {
-        const nickname = record.authorNickname || '닉네임 미상';
-        const label = allCafes && record.cafeName ? `${record.cafeName} · ${nickname}` : nickname;
-        counts.set(label, (counts.get(label) || 0) + 1);
+    const renderCafeRanking = (selector, metricKey, emptyLabel) => {
+      const target = document.querySelector(selector);
+      if (!target) return;
+      const ranked = records.filter((record) => Number.isFinite(Number(record.listingMetrics?.[metricKey])))
+        .sort((a, b) => Number(b.listingMetrics[metricKey]) - Number(a.listingMetrics[metricKey]))
+        .slice(0, 5);
+      target.replaceChildren();
+      if (!ranked.length) {
+        target.append(make('p', 'empty-message', `${emptyLabel} 수치를 확인할 수 있는 글이 아직 없어요.`));
+        return;
       }
-      renderMeasureBars(aliasesTarget, [...counts].sort((a, b) => b[1] - a[1]).map(([label, value]) => ({ label, value })), (value) => `${number(value)}개`);
-    }
-
-    const rankingTarget = document.querySelector('[data-community-ranking]');
-    if (!rankingTarget) return;
-    const ranked = records.filter((record) => Number.isFinite(Number(record.listingMetrics?.readCount)))
-      .sort((a, b) => Number(b.listingMetrics.readCount) - Number(a.listingMetrics.readCount))
-      .slice(0, 5);
-    rankingTarget.replaceChildren();
-    if (!ranked.length) {
-      rankingTarget.append(make('p', 'empty-message', '목록 수치를 확인할 수 있는 글이 아직 없어요.'));
-      return;
-    }
-    const max = Math.max(1, ...ranked.map((record) => Number(record.listingMetrics.readCount)));
-    ranked.forEach((record, index) => {
-      const row = make('article', 'viz-rank-row');
-      row.append(make('span', 'viz-rank-number', String(index + 1).padStart(2, '0')));
-      const content = make('div', 'viz-rank-content');
-      const title = make('p', 'viz-rank-title', titleOf(record));
-      title.title = titleOf(record);
-      const track = make('span', 'viz-track');
-      track.setAttribute('aria-hidden', 'true');
-      const fill = make('span', 'viz-fill');
-      fill.style.setProperty('--viz-width', `${Math.max(2, Number(record.listingMetrics.readCount) / max * 100)}%`);
-      track.append(fill);
-      content.append(title, track);
-      row.append(content, make('strong', 'viz-value', `${number(record.listingMetrics.readCount)}회`));
-      rankingTarget.append(row);
-    });
-  }
-
-  function insightCard(index, label, heading, description, value, detail) {
-    const card = make('article', 'insight-card');
-    card.append(make('span', 'insight-index', index), make('p', 'micro-label', label), make('h3', '', heading), make('p', 'insight-description', description), make('strong', 'insight-value', value), make('small', 'insight-detail', detail));
-    return card;
-  }
-
-  function renderInsights(records) {
-    const target = document.querySelector('[data-insights-grid]') || document.querySelector('[data-catch-insights]');
-    if (!target) return;
-    const apiCatches = records.filter((item) => item.platform === 'soop' && item.contentType === 'catch' && item.sourceBatch === 'soop-public-catch-api-2026-10-31');
-    const titleCounts = new Map();
-    for (const item of apiCatches) titleCounts.set(item.title, (titleCounts.get(item.title) || 0) + 1);
-    const topTitle = [...titleCounts.entries()].sort((a, b) => b[1] - a[1])[0] || ['아직 반복 제목이 없습니다', 0];
-    const tagCounts = new Map();
-    for (const item of apiCatches) for (const tag of getTags(item)) tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1);
-    const topCatchTag = [...tagCounts.entries()].sort((a, b) => b[1] - a[1])[0] || ['태그 없음', 0];
-    const youtube = records.filter((item) => item.platform === 'youtube');
-    const ytTags = new Map();
-    for (const item of youtube) for (const tag of getTags(item)) {
-      const cleanTag = tag.replace(/^#+/, '');
-      ytTags.set(cleanTag, (ytTags.get(cleanTag) || 0) + 1);
-    }
-    const topYtTag = [...ytTags.entries()].sort((a, b) => b[1] - a[1])[0] || ['태그 없음', 0];
-    const xTags = new Map();
-    for (const item of records.filter((record) => record.platform === 'x')) for (const tag of getTags(item)) xTags.set(tag.replace(/^#/, ''), (xTags.get(tag.replace(/^#/, '')) || 0) + 1);
-    const topXTag = [...xTags.entries()].sort((a, b) => b[1] - a[1])[0] || ['태그 없음', 0];
-    const cards = [
-      insightCard('01', 'SOOP 캐치', '같은 제목으로 올라온 캐치', '여러 번 올라온 기록이에요.', `${number(topTitle[1])}회`, topTitle[0]),
-      insightCard('02', 'SOOP 캐치', '자주 쓰인 태그', '캐치에서 많이 보인 태그예요.', `#${topCatchTag[0]} · ${number(topCatchTag[1])}`, '태그가 포함된 기록')
-    ];
-    if (!document.querySelector('[data-catch-insights]')) {
-      cards.push(
-        insightCard('03', 'YouTube', 'Shorts와 동영상', '현재 모아 둔 영상의 종류예요.', `${youtube.filter((item) => item.contentType === 'short').length} / ${youtube.filter((item) => item.contentType === 'video').length}`, `Shorts / 동영상 · 자주 쓰인 태그 #${topYtTag[0]}`),
-        insightCard('04', 'X 게시물', '자주 보인 해시태그', '게시물에서 여러 번 등장한 태그예요.', `#${topXTag[0]} · ${number(topXTag[1])}`, '본문에 포함된 횟수')
-      );
-    }
-    target.replaceChildren(...cards);
+      const max = Math.max(1, ...ranked.map((record) => Number(record.listingMetrics[metricKey])));
+      ranked.forEach((record, index) => {
+        const value = Number(record.listingMetrics[metricKey]);
+        const row = make('article', 'viz-rank-row');
+        row.append(make('span', 'viz-rank-number', String(index + 1).padStart(2, '0')));
+        const content = make('div', 'viz-rank-content');
+        const title = make('p', 'viz-rank-title', titleOf(record));
+        title.title = titleOf(record);
+        const subtitle = make('small', 'viz-rank-subtitle', `${record.authorNickname || '작성자 미상'} · ${dateOf(record)}`);
+        const track = make('span', 'viz-track');
+        track.setAttribute('aria-hidden', 'true');
+        const fill = make('span', 'viz-fill');
+        fill.style.setProperty('--viz-width', `${Math.max(2, value / max * 100)}%`);
+        track.append(fill);
+        content.append(title, subtitle, track);
+        row.append(content, make('strong', 'viz-value', number(value)));
+        target.append(row);
+      });
+    };
+    renderCafeRanking('[data-community-ranking]', 'readCount', '조회');
+    renderCafeRanking('[data-community-likes-ranking]', 'likeItCount', '공감');
   }
 
   function applyView(records) {
     const selectedCafeId = document.querySelector('[data-community-cafe-select]')?.value || new URLSearchParams(window.location.search).get('cafe') || 'all';
     const viewRecords = records.filter((record) => {
-      if (view === 'archive') return ['soop', 'youtube', 'x'].includes(record.platform);
       if (view === 'soop') return record.platform === 'soop';
       if (view === 'youtube') return record.platform === 'youtube';
       if (view === 'x') return record.platform === 'x';
       if (view === 'community') return record.platform === 'naver-cafe' && (selectedCafeId === 'all' || String(record.cafeId) === selectedCafeId);
-      if (view === 'media') return record.platform === 'soop' && ['clip', 'normal'].includes(record.contentType);
       return true;
     }).sort(byDateDescending);
-
-    if (view === 'archive') {
-      const counts = {
-        total: viewRecords.length,
-        catch: viewRecords.filter((item) => item.contentType === 'catch').length,
-        youtube: viewRecords.filter((item) => item.platform === 'youtube').length,
-        x: viewRecords.filter((item) => item.platform === 'x').length,
-        linked: viewRecords.filter((item) => item.url).length
-      };
-      for (const [key, value] of Object.entries(counts)) {
-        const element = document.querySelector(`[data-stat="${key}"]`);
-        if (element) element.textContent = number(value);
-      }
-      renderPlatformDistribution(viewRecords);
-    }
 
     const stats = document.querySelector('[data-stats]');
     if (stats) renderCollectionStats(stats, viewRecords, stats.dataset.stats);
@@ -434,34 +300,12 @@
       renderMonthlyChart(viewRecords, '[data-community-monthly]', '[data-community-month-range]', 36);
       renderCommunityVisuals(viewRecords);
     }
-    if (view === 'soop' || view === 'insights') {
-      const catchRecords = viewRecords.filter((item) => item.contentType === 'catch' && item.sourceBatch === 'soop-public-catch-api-2026-10-31');
+    if (view === 'soop') {
+      const catchRecords = viewRecords.filter((item) => item.contentType === 'catch');
       renderMonthlyChart(catchRecords);
-      if (view === 'soop') {
-        renderCatchRhythm(catchRecords);
-        renderTypeDistribution(viewRecords, '[data-soop-format]', [
-          { type: 'catch', label: '캐치' },
-          { type: 'clip', label: '클립' },
-          { type: 'normal', label: 'VOD' }
-        ]);
-      }
-    }
-    if (view === 'soop' || view === 'insights') renderInsights(viewRecords);
-    if (view === 'youtube' || view === 'x') renderTagCloud(viewRecords, document.querySelector('[data-tag-cloud]'));
-    if (view === 'youtube') {
-      renderTypeDistribution(viewRecords, '[data-youtube-format]', [
-        { type: 'short', label: 'Shorts' },
-        { type: 'video', label: '동영상' }
-      ]);
       renderViewRanking(viewRecords, view);
     }
-    if (view === 'media') {
-      renderTypeDistribution(viewRecords, '[data-media-format]', [
-        { type: 'clip', label: '클립' },
-        { type: 'normal', label: '다시보기' }
-      ]);
-      renderViewRanking(viewRecords, view);
-    }
+    if (view === 'youtube' || view === 'x') renderViewRanking(viewRecords, view);
     if (view === 'x') renderMonthlyChart(viewRecords, '[data-x-monthly-chart]', '[data-x-month-range]', 30);
 
     const list = document.querySelector('[data-record-list]');
@@ -537,13 +381,6 @@
       refresh();
     });
     more?.addEventListener('click', () => redraw());
-    document.querySelector('[data-tag-cloud]')?.addEventListener('click', (event) => {
-      const button = event.target.closest('[data-tag-query]');
-      if (!button || !search) return;
-      search.value = button.dataset.tagQuery;
-      refresh();
-      search.focus();
-    });
     refresh();
   }
 

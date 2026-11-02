@@ -462,8 +462,7 @@
     }
     const params = new URLSearchParams(window.location.search);
     const requestedCafe = params.get('cafe');
-    const defaultCafe = cafes.size === 1 ? cafes.keys().next().value : 'all';
-    select.value = requestedCafe === 'all' ? 'all' : cafes.has(requestedCafe) ? requestedCafe : defaultCafe;
+    select.value = requestedCafe && cafes.has(requestedCafe) ? requestedCafe : 'all';
     const selectionLabel = document.querySelector('[data-community-selection-label]');
     const selectedName = select.value === 'all' ? '전체 카페' : cafes.get(select.value);
     if (selectionLabel) selectionLabel.textContent = selectedName;

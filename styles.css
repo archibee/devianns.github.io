@@ -13,7 +13,7 @@
 * { box-sizing: border-box; -webkit-user-drag: none; }
 html, body, body * { -webkit-user-select: none; user-select: none; }
 img { -webkit-user-drag: none; user-select: none; pointer-events: none; }
-html { scroll-behavior: smooth; scroll-padding-top: 88px; }
+html { background: var(--ink); scroll-behavior: smooth; scroll-padding-top: 88px; }
 body { margin: 0; background: var(--ink); color: #f7f7ff; font-family: var(--sans); -webkit-font-smoothing: antialiased; }
 a { color: inherit; text-decoration: none; }
 button { font: inherit; }

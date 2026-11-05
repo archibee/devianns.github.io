@@ -96,9 +96,9 @@ Community 화면은 동일 앱에서 Naver Cafe 플랫폼과 선택된 `cafeId`�
 
 ## 시각·반응형·접근성
 
-- `dahlia-images/dahlia.jpg`는 큐브 앞면 프로필 이미지, `dahlia-images/dahlia-background.jpg`는 큐브 정반대 면과 상세 페이지 고정 배경에 사용합니다. 다른 큐브 면에는 이미지 대신 텍스트와 CSS 도형을 씁니다.
+- `dahlia-images/dahlia.jpg`는 큐브 앞면 프로필 이미지, `dahlia-images/dahlia-background.jpg`는 큐브 정반대 면과 상세 페이지 뷰포트 고정 배경에 사용합니다. 고정 배경은 문서 스크롤에 따라 움직이지 않습니다. 상세 페이지의 가로 넘침은 `overflow-x: clip`으로만 자르고, 조상 요소의 `overflow: hidden/auto`로 fixed 배경이나 sticky 메뉴를 가두지 않습니다. 다른 큐브 면에는 이미지 대신 텍스트와 CSS 도형을 씁니다.
 - 모든 페이지의 상단바는 배경, backdrop blur, 경계선, 그림자 없이 완전히 투명합니다. 메인과 상세 페이지에서 상단바 높이, 좌우 여백, 메뉴 간격, 모바일 메뉴 전환 기준을 맞춥니다. 태블릿·모바일 메뉴는 토글 버튼과 같은 가장자리에 맞추고, 기기 안전 영역과 짧은 화면 높이를 반영합니다. 상세 페이지의 고정 배경 레이어는 배경 이미지를 `cover`로 표시하고 `center 20%`에 맞춰 어두운 색/별빛 오버레이와 겹칩니다. 본문 패널은 투명한 유리 스타일을 씁니다.
-- PC·태블릿·모바일 미디어 쿼리는 `styles.css`와 `subpages.css`에 있습니다. 기록 카드 그리드, 탐색 메뉴, 차트가 좁은 화면에서 재배치됩니다. 메인 큐브는 휴대폰 너비와 짧은 화면 높이를 함께 반영해 크기를 줄여 첫 안내문과 겹치거나 가로로 잘리지 않게 합니다.
+- PC·태블릿·모바일 미디어 쿼리는 `styles.css`와 `subpages.css`에 있습니다. 기록 카드 그리드, 탐색 메뉴, 차트가 좁은 화면에서 재배치됩니다. 상세 페이지 본문 폭은 `calc()`를 포함한 유효한 폭 계산식으로 제한합니다. 메인 큐브는 휴대폰 너비와 짧은 화면 높이를 함께 반영해 크기를 줄여 첫 안내문과 겹치거나 가로로 잘리지 않게 합니다.
 - 색인 대상 페이지는 고유한 한국어 제목·설명, GitHub Pages 주소 기준 canonical, Open Graph와 Twitter 공유 메타데이터를 정적 HTML에 둡니다. 미리보기 이미지는 `dahlia-background.jpg`를 사용합니다. 오류 페이지는 canonical과 공유 정보를 노출하지 않고 `noindex, follow`를 둡니다.
 - 홈페이지의 JSON-LD `WebSite` 이름은 `Dahlia Archive`, 대체 이름은 `달리아의 활동 기록`입니다. 하위 화면은 실제 화면 내용을 반영한 `CollectionPage` 또는 `WebPage`이며 `isPartOf`에서 같은 사이트 이름과 홈 URL을 참조합니다. 프로젝트 페이지에도 컬렉션 구조화 데이터와 전체 공유 메타데이터를 갖춥니다.
 - `robots.txt`는 필요한 정적 리소스와 공개 페이지의 크롤링을 허용하고 sitemap 주소를 알립니다. `sitemap.xml`은 canonical과 일치하는 홈페이지와 큐브 목적 페이지 7개를 나열하며 404, `database/`, `source/`의 데이터 파일을 나열하지 않습니다. `lastmod`는 페이지 메타데이터나 내용이 실제로 바뀐 날짜만 기록합니다.

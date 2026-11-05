@@ -35,6 +35,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Gowun+Batang:wght@400;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
     <script src="./script.js" defer></script>
+    <script src="./home-archive-viz.js" defer></script>
   </head>
   <body class="home-page">
     <a class="skip-link" href="#main">본문으로 건너뛰기</a>
@@ -114,6 +115,24 @@
             </div>
             <div class="cube-caption" aria-live="polite"><span class="caption-dot"></span><span id="cube-caption">SOOP</span><span class="caption-divider"></span><span class="caption-hint">큐브를 돌려 면을 눌러 보세요</span><span class="caption-divider"></span><span class="caption-counter"><span id="cube-index">01</span> / 06</span></div>
           </div>
+
+          <section class="home-archive-stats" aria-label="플랫폼 활동 누적 합계">
+            <div class="home-archive-stat home-archive-stat-views">
+              <span>총 조회수</span>
+              <strong data-home-total-views>—</strong>
+            </div>
+            <div class="home-archive-stat home-archive-stat-activities">
+              <span>총 활동 개수</span>
+              <strong data-home-total-activities>—</strong>
+            </div>
+          </section>
+
+          <section class="home-date-chart" aria-label="전체 기록의 월별 조회수와 활동 수">
+            <span class="sr-only" data-home-date-range>월별 기록을 불러오는 중</span>
+            <div class="home-date-chart-bars" data-home-date-chart role="list" aria-label="월별 조회수와 활동 수"></div>
+            <p class="home-date-chart-tooltip" data-home-chart-tooltip aria-live="polite"></p>
+            <p class="sr-only" data-home-date-note></p>
+          </section>
 
         </section>
       </main>

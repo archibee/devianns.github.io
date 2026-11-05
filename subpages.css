@@ -299,7 +299,7 @@ body.archive-page { min-height: 100vh; background: #080a24; overflow-x: hidden; 
     top: calc(100% - 4px);
     right: var(--header-edge);
     left: auto;
-    width: min(320px, calc(100vw - 2 * var(--header-edge)));
+    width: min(320px, calc(100vw - var(--header-edge) - var(--header-edge)));
     max-height: calc(100svh - 90px);
     overflow-y: auto;
     overscroll-behavior: contain;

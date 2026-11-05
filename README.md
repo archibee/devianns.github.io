@@ -15,7 +15,7 @@ SOOP, YouTube 등 여러 플랫폼에서 활동한 기록을 한곳에 모아 �
 
 | 화면 | 내용 |
 | --- | --- |
-| 메인 큐브 | 드래그·스와이프·방향키로 SOOP, YouTube, X, Community, Projects, 프로필 링크 면을 둘러봅니다. |
+| 메인 큐브 | 드래그·스와이프·방향키로 여섯 기록 면을 둘러보고, 화면 양쪽 중간에 놓인 누적 조회수·활동 수와 아래쪽 전체 기간 월별 막대를 살펴봅니다. 막대를 가리키거나 포커스하면 해당 월의 조회·활동 합계가 나타납니다. |
 | SOOP | 월별 캐치 수, 요일·시간대별 기록량, 캐치·클립·VOD 조회수 상위 기록, 검색과 유형 필터 |
 | Projects | 픽셀 그림 편집 도구 Pixel Atelier와 애니메이션 GIF 도구 Pixel Motions 소개 및 바로가기 |
 | YouTube | 저장된 조회수 상위 영상, 조회수 요약, Shorts·동영상 필터 |
@@ -66,6 +66,7 @@ SOOP, YouTube 등 여러 플랫폼에서 활동한 기록을 한곳에 모아 �
 - `styles.css`: 반응형 레이아웃과 별빛/유리 질감 스타일
 - `subpages.css`: 하위 페이지 공통 스타일
 - `script.js`: 모바일 내비게이션 등 작은 인터랙션
+- `home-archive-viz.js`: 메인 누적 수치와 월별 막대 시각화
 - `archive-app.js`: 정적 카탈로그를 읽는 검색·필터·카드·차트 렌더러
 - `.nojekyll`: GitHub Pages에서 Jekyll 처리 없이 정적 파일을 제공하기 위한 표시 파일
 - `favicon.svg`, `favicon.ico`, `favicon-32.png`, `apple-touch-icon.png`: 브라우저와 모바일 홈 화면 아이콘

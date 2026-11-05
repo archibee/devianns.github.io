@@ -24,6 +24,7 @@
 - PC, 태블릿, 모바일에서 레이아웃과 텍스트가 자연스럽게 재배치되도록 구현한다. 작은 화면에서 가로 넘침이 생기지 않게 한다.
 - 메인 페이지는 한 화면짜리 큐브 허브다. PC/모바일 모두 첫 화면에서 스크롤이 생기지 않도록 뷰포트 높이에 맞추고, 짧은 가로 화면에서도 큐브를 축소해 모두 보이게 한다.
 - 큐브 크기는 모바일의 좁은 너비와 짧은 뷰포트 높이를 함께 고려해 제한한다. 첫 안내문과 큐브의 투영 영역이 겹치거나 화면 가장자리에서 잘리지 않는지 확인한다. 같은 요소의 반응형 값은 중복 선언하지 않는다.
+- 메인 큐브 주변에는 누적 조회수·활동 수와 전체 기간의 월별 합산 막대를 둔다. 집계는 `soop`, `youtube`, `x`, `naver-cafe` 기록만 사용하며 카페 조회 수는 저장된 `listingMetrics.readCount`, 그 외 플랫폼은 저장된 views 지표를 더한다. 조회수는 저장 시점의 합계이며 실시간 수치가 아니다. 활동 수는 카탈로그 기록 수다. 월별 막대에는 명시된 `publishedAt`이 있는 기록을 모두 포함하고, 날짜 미확인 기록을 추정 배치하지 않는다. 그래프 자체는 화면 높이의 약 25%를 최대 높이로 사용하며 월별 텍스트는 숨기고, 막대를 가리키거나 포커스하면 해당 월의 조회 수·활동 수·합계를 표시한다.
 - 큐브 여섯 면은 SOOP 기록(`soop.html`, 캐치·클립·VOD 통합), YouTube(`youtube.html`), X(`x.html`), Community(`community.html`, 현재 VLUP Naver Cafe 기록), Projects(`projects.html`), 프로필 링크(`profile.html`)로 이동한다. 큐브 면을 비워 두지 않는다. 이 여섯 목적 페이지 외의 콘텐츠 HTML을 추가하지 않는다. 사이트 진입점 `index.html`과 GitHub Pages 오류 처리용 `404.html`은 예외다.
 
 ## 아카이브 데이터와 링크
@@ -83,7 +84,7 @@
 
 ## 현재 구현 기준
 
-- `index.html`은 메인 큐브를 제공하고 `script.js`가 메뉴와 큐브 인터랙션을 처리한다. 큐브 여섯 면은 SOOP(`soop.html`), YouTube(`youtube.html`), X(`x.html`), Community(`community.html`), Projects(`projects.html`), 프로필 링크(`profile.html`)에 연결된다. `profile.html`은 세 SNS 계정 링크를 HTML에 직접 담은 독립 페이지다.
+- `index.html`은 메인 큐브와 누적 통계·날짜별 활동 막대를 제공한다. `script.js`가 메뉴와 큐브 인터랙션을, `home-archive-viz.js`가 정적 카탈로그 기반 합계를 처리한다. 큐브 여섯 면은 SOOP(`soop.html`), YouTube(`youtube.html`), X(`x.html`), Community(`community.html`), Projects(`projects.html`), 프로필 링크(`profile.html`)에 연결된다. `profile.html`은 세 SNS 계정 링크를 HTML에 직접 담은 독립 페이지다.
 - 큐브 여섯 목적 페이지 외의 콘텐츠 페이지를 추가하지 않는다. `index.html`은 진입점이고 `404.html`은 GitHub Pages 오류 처리용 정적 파일이다.
 - 상세 기록 페이지는 `body[data-view]`로 화면 종류를 선언한다. `archive-app.js`가 `./database/catalog.json`을 한 번 읽고 화면에 필요한 통계, 차트, 검색 결과와 기록 카드를 생성한다. 페이지 진입 후 데이터를 새로고침하거나 플랫폼에서 실시간으로 가져오지 않는다.
 - Projects 화면은 `database/projects/catalog.json`에서 JSON 경로를 읽어 방문자에게 필요한 프로젝트 이름, 한 줄 소개, 할 수 있는 일과 바로가기만 카드로 렌더링한다. 구현 언어나 내부 동작, 개발자 관점의 목적 설명은 카드 문구에 넣지 않는다. 현재 Pixel Atelier와 Pixel Motions를 제공하며 카탈로그에 등록되지 않은 프로젝트는 표시하지 않는다.

@@ -21,6 +21,7 @@ if (menuButton && siteNav) {
 const cube = document.querySelector('#archive-cube');
 const scene = document.querySelector('.cube-scene');
 const cubeCaption = document.querySelector('#cube-caption');
+const cubeCaptionTitle = document.querySelector('#cube-caption-title');
 const cubeIndex = document.querySelector('#cube-index');
 const faces = [...document.querySelectorAll('.cube-face[data-face]')];
 let activeFace = 0;
@@ -44,6 +45,7 @@ function updateFaceCaption(index) {
   if (!faces.length) return;
   activeFace = ((index % faces.length) + faces.length) % faces.length;
   if (cubeCaption) cubeCaption.textContent = faces[activeFace].dataset.face;
+  if (cubeCaptionTitle) cubeCaptionTitle.textContent = faces[activeFace].dataset.pageTitle || '';
   if (cubeIndex) cubeIndex.textContent = String(activeFace + 1).padStart(2, '0');
 }
 

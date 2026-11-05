@@ -27,6 +27,7 @@
   };
 
   const formatMonth = (value) => value.replace('-', '.');
+  let activeTouchPointer = null;
 
   const updateTooltip = (bar) => {
     chart.querySelectorAll('.home-date-chart-bar.is-active').forEach((item) => item.classList.remove('is-active'));
@@ -45,13 +46,28 @@
     if (bar && chart.contains(bar)) updateTooltip(bar);
   });
   chart.addEventListener('pointerout', (event) => {
+    if (event.pointerType === 'touch') return;
     const nextBar = event.relatedTarget?.closest?.('.home-date-chart-bar');
     if (nextBar && chart.contains(nextBar)) updateTooltip(nextBar);
     else updateTooltip(null);
   });
   chart.addEventListener('pointerdown', (event) => {
     const bar = event.target.closest('.home-date-chart-bar');
+    if (bar && chart.contains(bar)) {
+      updateTooltip(bar);
+      if (event.pointerType === 'touch') activeTouchPointer = event.pointerId;
+    }
+  });
+  chart.addEventListener('pointermove', (event) => {
+    if (event.pointerType !== 'touch' || event.pointerId !== activeTouchPointer) return;
+    const bar = document.elementFromPoint(event.clientX, event.clientY)?.closest('.home-date-chart-bar');
     if (bar && chart.contains(bar)) updateTooltip(bar);
+  });
+  chart.addEventListener('pointerup', (event) => {
+    if (event.pointerId === activeTouchPointer) activeTouchPointer = null;
+  });
+  chart.addEventListener('pointercancel', (event) => {
+    if (event.pointerId === activeTouchPointer) activeTouchPointer = null;
   });
   chart.addEventListener('focusin', (event) => {
     const bar = event.target.closest('.home-date-chart-bar');

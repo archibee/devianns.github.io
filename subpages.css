@@ -286,7 +286,8 @@ body.archive-page { position: relative; isolation: isolate; min-height: 100vh; m
   .access-note > a { grid-column: 2; justify-self: start; }
   .insight-intro { align-items: flex-start; gap: 12px; margin-bottom: 22px; padding: 18px; }
   .insight-intro p { font-size: 14px; }
-  .collection-footer { align-items: flex-start; flex-direction: column; padding: 19px 16px; }
+  .collection-footer { align-items: center; flex-direction: row; gap: 10px; padding: 19px 16px; }
+  .collection-footer > .wordmark, .collection-footer > span { white-space: nowrap; }
 }
 
 

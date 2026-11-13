@@ -37,7 +37,7 @@
   <link rel="stylesheet" href="./subpages.css">
   <script src="./script.js" defer></script>
 </head>
-<body class="archive-page" data-view="links">
+<body class="archive-page profile-page" data-view="links">
   <a class="skip-link" href="#main">본문으로 건너뛰기</a>
   <div class="site-shell">
     <header class="topbar">
@@ -58,7 +58,26 @@
         <h1>프로필 <em>링크</em></h1>
         <p class="collection-lede">SOOP · YouTube · X 계정 링크</p>
       </header>
-            <section class="platform-cards"><a class="platform-card" href="https://www.sooplive.com/station/rose5369" target="_blank" rel="noopener noreferrer" aria-label="SOOP 프로필 열기"><span class="platform-symbol">S</span><div><p class="micro-label">방송 · 캐치 · 다시보기</p><h2>SOOP</h2><p>rose5369</p></div><span class="platform-arrow">↗</span></a><a class="platform-card" href="https://www.youtube.com/@dahlia-clip" target="_blank" rel="noopener noreferrer" aria-label="YouTube 프로필 열기"><span class="platform-symbol">Y</span><div><p class="micro-label">Shorts · 동영상</p><h2>YouTube</h2><p>@dahlia-clip</p></div><span class="platform-arrow">↗</span></a><a class="platform-card" href="https://x.com/dahlia_clip" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter) 프로필 열기"><span class="platform-symbol">𝕏</span><div><p class="micro-label">게시물</p><h2>X (Twitter)</h2><p>@dahlia_clip</p></div><span class="platform-arrow">↗</span></a></section>
+      <section class="platform-cards" aria-label="Dahlia 공식 프로필">
+        <a class="platform-card" href="https://www.sooplive.com/station/rose5369" target="_blank" rel="noopener noreferrer" aria-label="SOOP 프로필 열기"><span class="platform-symbol">S</span><div><p class="micro-label">방송 · 캐치 · 다시보기</p><h2>SOOP</h2><p>rose5369</p></div><span class="platform-arrow">↗</span></a>
+        <a class="platform-card" href="https://www.youtube.com/@dahlia-clip" target="_blank" rel="noopener noreferrer" aria-label="YouTube 프로필 열기"><span class="platform-symbol">Y</span><div><p class="micro-label">Shorts · 동영상</p><h2>YouTube</h2><p>@dahlia-clip</p></div><span class="platform-arrow">↗</span></a>
+        <a class="platform-card" href="https://x.com/dahlia_clip" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter) 프로필 열기"><span class="platform-symbol">X</span><div><p class="micro-label">게시물</p><h2>X (Twitter)</h2><p>@dahlia_clip</p></div><span class="platform-arrow">↗</span></a>
+      </section>
+      <section class="profile-archive-note glass-section" aria-labelledby="profile-archive-title">
+        <div class="section-topline"><span>DAHLIA ARCHIVE · DATA NOTES</span></div>
+        <div class="profile-archive-intro">
+          <h2 id="profile-archive-title">수집 범위</h2>
+          <p>플랫폼 활동 기록 · JSON 메타데이터 · 개별 원문 링크</p>
+        </div>
+        <div class="profile-policy-tags" aria-label="수집 및 저장 원칙"><span>활동 메타데이터만 저장</span><span>원본 콘텐츠 복제 없음</span><span>개별 원문 링크 제공</span></div>
+        <div class="profile-schema-grid" aria-label="플랫폼별 JSON 기록 항목">
+          <article class="profile-schema-card"><header><span>01 / SOOP</span><h3>방송 · 캐치 · 클립 · VOD</h3></header><dl><div><dt><code>title</code></dt><dd>제목</dd></div><div><dt><code>contentType</code></dt><dd>기록 유형</dd></div><div><dt><code>publishedAt</code></dt><dd>게시 날짜</dd></div><div><dt><code>url</code></dt><dd>개별 원문 링크</dd></div><div><dt><code>metrics</code></dt><dd>수집 당시 조회 지표</dd></div></dl></article>
+          <article class="profile-schema-card"><header><span>02 / YOUTUBE</span><h3>Shorts · 동영상</h3></header><dl><div><dt><code>title</code></dt><dd>제목</dd></div><div><dt><code>contentType</code></dt><dd>영상 유형</dd></div><div><dt><code>publishedAt</code></dt><dd>게시 날짜</dd></div><div><dt><code>url</code></dt><dd>개별 원문 링크</dd></div><div><dt><code>metrics</code></dt><dd>수집 당시 조회 지표</dd></div></dl></article>
+          <article class="profile-schema-card"><header><span>03 / X</span><h3>공개 게시물</h3></header><dl><div><dt><code>text</code></dt><dd>확인된 게시문 텍스트</dd></div><div><dt><code>publishedAt</code></dt><dd>게시 날짜·시각</dd></div><div><dt><code>url</code></dt><dd>개별 원문 링크</dd></div><div><dt><code>metrics</code></dt><dd>확인된 지표</dd></div><div><dt><code>hashtags</code></dt><dd>해시태그</dd></div></dl></article>
+          <article class="profile-schema-card"><header><span>04 / COMMUNITY</span><h3>게시글 목록 메타데이터</h3></header><dl><div><dt><code>title</code></dt><dd>제목</dd></div><div><dt><code>authorNickname</code></dt><dd>작성자 닉네임</dd></div><div><dt><code>publishedAt</code></dt><dd>게시 날짜</dd></div><div><dt><code>url</code></dt><dd>개별 원문 링크</dd></div><div><dt><code>listingMetrics</code></dt><dd>조회·공감·댓글 수</dd></div></dl></article>
+        </div>
+        <div class="profile-archive-caveats" aria-label="데이터 기준"><p><strong>수집 시점 스냅샷</strong><span>실시간 갱신 없음 · 현재 플랫폼과 수치 차이 가능</span></p><p><strong>원문 링크</strong><span>삭제·비공개·주소 변경 시 열리지 않을 수 있음</span></p><p><strong>콘텐츠 확인</strong><span>메타데이터 이외의 원문은 플랫폼에서 직접 열람</span></p></div>
+      </section>
     </main>
     <footer class="collection-footer"><a class="footer-mark wordmark" href="./index.html" aria-label="Dahlia 홈"><span class="wordmark-mark" aria-hidden="true">✳</span><span>DAHLIA<span class="wordmark-dot">.</span></span></a><span>© <span id="year"></span> DAHLIA</span></footer>
   </div>

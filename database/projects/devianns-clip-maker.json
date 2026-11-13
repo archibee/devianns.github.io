@@ -1,6 +1,6 @@
 {
-  "id": "dahlia-clip-maker",
-  "name": "Dahlia Clip Maker",
+  "id": "devianns-clip-maker",
+  "name": "Devianns Clip Maker",
   "category": "로컬 영상 편집기",
   "description": "브라우저에서 로컬 영상을 편집해 컷을 만들고, 한글 자막을 입혀 내보낼 수 있습니다.",
   "summary": "여러 영상을 타임라인에서 분할·트림·재배열하고 자막을 편집해 보세요. 영상과 소리는 서버에 업로드하지 않고 브라우저 안에서 처리합니다.",

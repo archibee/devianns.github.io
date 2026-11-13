@@ -275,6 +275,9 @@ body.home-page .site-shell, body.home-page #main { width: 100%; height: 100%; ov
 .hero-cube .starfield { z-index: -1; opacity: .52; }
 .cube-intro { position: relative; z-index: 2; margin: 0 0 12px; text-align: center; }
 .cube-intro .eyebrow { justify-content: center; margin-bottom: 9px; font-size: 8px; }
+.cube-intro .eyebrow { gap: clamp(8px, 1.2vw, 12px); }
+.cube-intro .eyebrow .eyebrow-line, .cube-intro .eyebrow::after { flex: 0 1 clamp(17px, 2.5vw, 30px); width: clamp(17px, 2.5vw, 30px); height: 1px; background: #b9c7ff; box-shadow: 0 0 8px #b9c7ff; }
+.cube-intro .eyebrow::after { display: inline-block; content: ""; }
 .cube-intro h1 { margin: 0; color: #f7f5ff; font-family: var(--serif); font-size: clamp(30px, 4vw, 48px); font-weight: 400; letter-spacing: -.055em; text-shadow: 0 2px 22px #b9d8ff4d; }
 .cube-intro h1 em { color: #ccd5ff; font-style: normal; }
 .cube-intro > p:last-child { margin: 9px 0 0; color: #c7d1edc9; font-size: 10px; letter-spacing: .08em; }

@@ -1,6 +1,7 @@
 {
   "projects": [
     "./pixel-studio.json",
-    "./pixel-motion-studio.json"
+    "./pixel-motion-studio.json",
+    "./dahlia-clip-maker.json"
   ]
 }

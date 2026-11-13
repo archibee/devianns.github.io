@@ -217,8 +217,8 @@ body.archive-page { position: relative; isolation: isolate; min-height: 100vh; m
 @media (max-width: 600px) {
   .collection-main { width: calc(100% - 30px); padding-top: 38px; padding-bottom: 72px; }
   .collection-heading { margin-bottom: 30px; }
-  .community-toolbar { grid-template-columns: auto minmax(0, 1fr); margin-top: -6px; }
-  .community-toolbar > span { grid-column: 2; }
+  .community-toolbar { grid-template-columns: auto minmax(130px, 190px) auto; justify-content: start; gap: 9px; margin-top: -6px; }
+  .community-toolbar > span { grid-column: auto; white-space: nowrap; }
   .collection-heading h1 { font-size: clamp(39px, 11vw, 58px); }
   .collection-lede { margin-top: 14px; font-size: 11px; }
   .archive-overview { grid-template-columns: repeat(2, 1fr); margin-bottom: 36px; }

@@ -1,0 +1,33 @@
+{
+    "schemaVersion":  1,
+    "id":  "naver-cafe-vlup-post-25421",
+    "platform":  "naver-cafe",
+    "contentType":  "post",
+    "cafeName":  "VLUP",
+    "cafeId":  "30653039",
+    "platformId":  "25421",
+    "authorNickname":  "망초써",
+    "authorGroup":  "dahlia",
+    "title":  "주인님 asmr을 듣고 눈떠버린것…",
+    "publishedAt":  "2024-09-18",
+    "publishedTimeRaw":  "2024-09-18T16:29:42.020",
+    "sourceTimezone":  null,
+    "url":  "https://cafe.naver.com/f-e/cafes/30653039/articles/25421",
+    "tags":  [
+
+             ],
+    "listingMetrics":  {
+                           "readCount":  48,
+                           "likeItCount":  5,
+                           "commentCount":  2
+                       },
+    "observedAt":  "2026-11-01T14:27:10+09:00",
+    "sourceBatch":  "naver-cafe-vlup-writer-search-2026-11-01",
+    "sourceCollection":  "writer-search",
+    "sourceEndpoint":  "https://apis.cafe.naver.com/search/v2/cafes/30653039/search/articles",
+    "sourceQueryAlias":  "망초써",
+    "sourceSearchUrl":  "https://cafe.naver.com/f-e/cafes/30653039/menus/0?viewType=L\u0026ta=WRITER\u0026page=4\u0026q=%EB%A7%9D%EC%B4%88%EC%8D%A8",
+    "sourcePage":  4,
+    "sourcePosition":  11,
+    "visibilityStatus":  "public-listing",
+    "sourcePath":  "naver-cafe/vlup/posts/2024/09/naver-cafe-vlup-post-25421.json"}

@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-189386835",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "189386835",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]하트 윙크 💛",
+    "titleText":  "하트 윙크 💛",
+    "publishedAt":  "2026-03-11",
+    "publishedTimeRaw":  "2026-03-11 20:08:06",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  76,
+                        "rawValue":  "76"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  1,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "소통",
+                 "토크",
+                 "뉴걸",
+                 "버추얼",
+                 "종겜"
+             ],
+    "durationMilliseconds":  29000,
+    "url":  "https://vod.sooplive.com/player/189386835/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  14,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

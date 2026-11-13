@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-027",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]무릎이 안좋아~?",
+    "publishedAt":  null,
+    "publishedTimeRaw":  "2일 전",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  5,
+                        "type":  "unknown",
+                        "rawValue":  "5"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  1,
+    "sourceLine":  538,
+    "titleText":  "무릎이 안좋아~?",
+    "seriesLabels":  [
+
+                     ]
+}

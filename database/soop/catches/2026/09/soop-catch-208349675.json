@@ -1,0 +1,39 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-208349675",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "208349675",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]매운거 먹은 뉴냥이",
+    "titleText":  "매운거 먹은 뉴냥이",
+    "publishedAt":  "2026-09-28",
+    "publishedTimeRaw":  "2026-09-28 22:23:25",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  110,
+                        "rawValue":  "110"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  2,
+                       "likes":  6,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "버추얼",
+                 "모션캡쳐",
+                 "콘서트"
+             ],
+    "durationMilliseconds":  15000,
+    "url":  "https://vod.sooplive.com/player/208349675/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  2,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

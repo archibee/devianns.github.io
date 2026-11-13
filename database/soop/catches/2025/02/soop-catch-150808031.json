@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-150808031",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "150808031",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]9시) 청백가요대전 메일함?!?!",
+    "titleText":  "9시) 청백가요대전 메일함?!?!",
+    "publishedAt":  "2025-02-10",
+    "publishedTimeRaw":  "2025-02-10 00:01:23",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  0,
+                        "rawValue":  "0"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/150808031/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  35,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

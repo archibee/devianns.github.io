@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-151808891",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "151808891",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]AI)주인선배랑 결혼하고싶어?",
+    "titleText":  "AI)주인선배랑 결혼하고싶어?",
+    "publishedAt":  "2025-02-19",
+    "publishedTimeRaw":  "2025-02-19 22:31:52",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  98,
+                        "rawValue":  "98"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  4,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  24000,
+    "url":  "https://vod.sooplive.com/player/151808891/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  34,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

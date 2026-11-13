@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-156408711",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "156408711",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]1트에픽승급 ㄷㄷ",
+    "titleText":  "1트에픽승급 ㄷㄷ",
+    "publishedAt":  "2025-04-06",
+    "publishedTimeRaw":  "2025-04-06 19:51:36",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  134,
+                        "rawValue":  "134"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  2,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/156408711/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  29,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

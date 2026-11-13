@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-158993443",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "158993443",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]진격의 거인 2기 안본눈!!! 미카사 코스프레하고옴 ㅎ 같이봐여",
+    "titleText":  "진격의 거인 2기 안본눈!!! 미카사 코스프레하고옴 ㅎ 같이봐여",
+    "publishedAt":  "2025-05-03",
+    "publishedTimeRaw":  "2025-05-03 11:22:32",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  361,
+                        "rawValue":  "361"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  10,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  24000,
+    "url":  "https://vod.sooplive.com/player/158993443/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  25,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

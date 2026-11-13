@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-063",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]야 비켜봐 내가잘래",
+    "publishedAt":  "2026-10-10",
+    "publishedTimeRaw":  "2026-10-10",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  33,
+                        "type":  "unknown",
+                        "rawValue":  "33"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  2,
+    "sourceLine":  807,
+    "titleText":  "야 비켜봐 내가잘래",
+    "seriesLabels":  [
+
+                     ]
+}

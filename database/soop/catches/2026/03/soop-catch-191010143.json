@@ -1,0 +1,37 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-191010143",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "191010143",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]8번출구 화장실 클리어",
+    "titleText":  "8번출구 화장실 클리어",
+    "publishedAt":  "2026-03-28",
+    "publishedTimeRaw":  "2026-03-28 12:12:07",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  3,
+                        "rawValue":  "3"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "예비본진1번"
+             ],
+    "durationMilliseconds":  29000,
+    "url":  "https://vod.sooplive.com/player/191010143/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  13,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

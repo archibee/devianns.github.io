@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-092",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]멘트 진짜",
+    "publishedAt":  "2026-08-14",
+    "publishedTimeRaw":  "2026-08-14",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  404,
+                        "type":  "unknown",
+                        "rawValue":  "404"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  3,
+    "sourceLine":  1025,
+    "titleText":  "멘트 진짜",
+    "seriesLabels":  [
+
+                     ]
+}

@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-161264735",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "161264735",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]크리스텔 단컷 방셀 333개 마지막판매 / 두개구매시 + 단발ver/ 최대 3개까지가능",
+    "titleText":  "크리스텔 단컷 방셀 333개 마지막판매 / 두개구매시 + 단발ver/ 최대 3개까지가능",
+    "publishedAt":  "2025-05-26",
+    "publishedTimeRaw":  "2025-05-26 20:13:31",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  11,
+                        "rawValue":  "11"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  21000,
+    "url":  "https://vod.sooplive.com/player/161264735/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  23,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

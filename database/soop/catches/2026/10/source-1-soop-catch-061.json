@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-061",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치] 1+1은 귀요미",
+    "publishedAt":  "2026-10-11",
+    "publishedTimeRaw":  "2026-10-11",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  3,
+                        "type":  "unknown",
+                        "rawValue":  "3"
+                    }
+                ],
+    "visibilityStatus":  "블라인드",
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  2,
+    "sourceLine":  795,
+    "titleText":  "1+1은 귀요미",
+    "seriesLabels":  [
+
+                     ]
+}

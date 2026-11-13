@@ -1,0 +1,37 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "source-1-youtube-video-002",
+    "platform":  "youtube",
+    "contentType":  "video",
+    "listingKind":  "duration-title-view-count-relative-age",
+    "accountHandle":  "@dahlia-clip",
+    "title":  "애교 잔뜩 하는 날 [이주인 팬클립]",
+    "durationRaw":  "1분 28초",
+    "publishedAt":  null,
+    "publishedTimeRaw":  "1년 전",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "approximateValue":  114,
+                        "type":  "views",
+                        "rawValue":  "114"
+                    }
+                ],
+    "url":  "https://www.youtube.com/watch?v=NbSMDbUVMi4",
+    "observedAt":  "2026-10-31T01:39:04+09:00",
+    "sourceBatch":  "source/1",
+    "sourceLine":  270,
+    "hashtags":  [
+
+                 ],
+    "platformId":  "NbSMDbUVMi4",
+    "sourceListingPage":  "https://www.youtube.com/@dahlia-clip/videos",
+    "sourceListingKind":  "videos",
+    "latestListingObservation":  {
+                                     "observedAt":  "2026-10-31T01:39:04+09:00",
+                                     "viewsRaw":  "114",
+                                     "viewsApproximateValue":  114,
+                                     "relativePublishedTimeRaw":  "1년 전",
+                                     "durationRaw":  "1분 28초"
+                                 }
+}

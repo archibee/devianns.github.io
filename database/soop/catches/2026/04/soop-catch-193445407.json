@@ -1,0 +1,37 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-193445407",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "193445407",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]뎅큐 혼내는 라벤트리",
+    "titleText":  "뎅큐 혼내는 라벤트리",
+    "publishedAt":  "2026-04-21",
+    "publishedTimeRaw":  "2026-04-21 21:56:29",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  67,
+                        "rawValue":  "67"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  1,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "예비본진1번"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/193445407/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  10,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

@@ -1,0 +1,42 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-clip-201803251",
+    "platform":  "soop",
+    "contentType":  "clip",
+    "platformId":  "201803251",
+    "platformFileType":  "CLIP",
+    "title":  "[클립][메뉴뱌의 숲퍼소닉!] 메뉴뱌 - MEMORY (이세계아이돌)",
+    "titleText":  "[클립][메뉴뱌의 숲퍼소닉!] 메뉴뱌 - MEMORY (이세계아이돌)",
+    "publishedAt":  "2026-07-18",
+    "publishedTimeRaw":  "2026-07-18 16:17:36",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  16,
+                        "rawValue":  "16"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "크레비쥬",
+                 "버추얼",
+                 "모션캡쳐",
+                 "무멤",
+                 "콘서트"
+             ],
+    "durationMilliseconds":  215000,
+    "url":  "https://vod.sooplive.com/player/201803251/clip",
+    "observedAt":  "2026-10-31T01:34:54+09:00",
+    "sourceBatch":  "soop-public-api-2026-10-31",
+    "sourcePage":  1,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/all",
+    "sourceCollection":  "station-vod-page",
+    "visibilityStatus":  null
+}

@@ -1,0 +1,39 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-186251509",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "186251509",
+    "platformFileType":  "CATCH",
+    "title":  "좋아하면 됐어",
+    "titleText":  "좋아하면 됐어",
+    "publishedAt":  "2026-02-08",
+    "publishedTimeRaw":  "2026-02-08 19:54:35",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  29,
+                        "rawValue":  "29"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "Catch",
+                 "버추얼",
+                 "아이덴큐"
+             ],
+    "durationMilliseconds":  25820,
+    "url":  "https://vod.sooplive.com/player/186251509/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  15,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

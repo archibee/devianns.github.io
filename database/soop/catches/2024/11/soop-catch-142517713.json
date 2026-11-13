@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-142517713",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "142517713",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]냥카츠키 단체띵띵땅땅",
+    "titleText":  "냥카츠키 단체띵띵땅땅",
+    "publishedAt":  "2024-11-17",
+    "publishedTimeRaw":  "2024-11-17 17:40:03",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  52,
+                        "rawValue":  "52"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "버튜버",
+                 "노래",
+                 "여캠",
+                 "종겜",
+                 "소통"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/142517713/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  39,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

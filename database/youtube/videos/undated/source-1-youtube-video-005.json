@@ -1,0 +1,37 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "source-1-youtube-video-005",
+    "platform":  "youtube",
+    "contentType":  "video",
+    "listingKind":  "duration-title-view-count-relative-age",
+    "accountHandle":  "@dahlia-clip",
+    "title":  "손가락 댄스입니다~ [이주인 팬클립]",
+    "durationRaw":  "1분 4초",
+    "publishedAt":  null,
+    "publishedTimeRaw":  "1년 전",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "approximateValue":  181,
+                        "type":  "views",
+                        "rawValue":  "181"
+                    }
+                ],
+    "url":  "https://www.youtube.com/watch?v=49Tq9w4bEEY",
+    "observedAt":  "2026-10-31T01:39:04+09:00",
+    "sourceBatch":  "source/1",
+    "sourceLine":  288,
+    "hashtags":  [
+
+                 ],
+    "platformId":  "49Tq9w4bEEY",
+    "sourceListingPage":  "https://www.youtube.com/@dahlia-clip/videos",
+    "sourceListingKind":  "videos",
+    "latestListingObservation":  {
+                                     "observedAt":  "2026-10-31T01:39:04+09:00",
+                                     "viewsRaw":  "181",
+                                     "viewsApproximateValue":  181,
+                                     "relativePublishedTimeRaw":  "1년 전",
+                                     "durationRaw":  "1분 4초"
+                                 }
+}

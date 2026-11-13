@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-119",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치][어인섬] 🐟 200일 기념 노래할게요 ♥",
+    "publishedAt":  "2026-07-28",
+    "publishedTimeRaw":  "2026-07-28",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  104,
+                        "type":  "unknown",
+                        "rawValue":  "104"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  3,
+    "sourceLine":  1191,
+    "titleText":  "[어인섬] 🐟 200일 기념 노래할게요 ♥",
+    "seriesLabels":  [
+                         "어인섬"
+                     ]
+}

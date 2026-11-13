@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-155782179",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "155782179",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]오미미 피코피코 단나사마~",
+    "titleText":  "오미미 피코피코 단나사마~",
+    "publishedAt":  "2025-03-31",
+    "publishedTimeRaw":  "2025-03-31 14:59:13",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  359,
+                        "rawValue":  "359"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  5,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  18000,
+    "url":  "https://vod.sooplive.com/player/155782179/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  30,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

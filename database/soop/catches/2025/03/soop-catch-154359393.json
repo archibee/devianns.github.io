@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-154359393",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "154359393",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]최강 버튜버 최후의 1인 도전!!! 가즈아~~",
+    "titleText":  "최강 버튜버 최후의 1인 도전!!! 가즈아~~",
+    "publishedAt":  "2025-03-16",
+    "publishedTimeRaw":  "2025-03-16 21:16:28",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  366,
+                        "rawValue":  "366"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  4,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/154359393/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  32,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

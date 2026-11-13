@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-095",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]강아지 왕!",
+    "publishedAt":  "2026-08-13",
+    "publishedTimeRaw":  "2026-08-13",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  28,
+                        "type":  "unknown",
+                        "rawValue":  "28"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  3,
+    "sourceLine":  1043,
+    "titleText":  "강아지 왕!",
+    "seriesLabels":  [
+
+                     ]
+}

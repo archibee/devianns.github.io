@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-182294489",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "182294489",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]수고했어 속삭이기 (소리작음)",
+    "titleText":  "수고했어 속삭이기 (소리작음)",
+    "publishedAt":  "2025-12-31",
+    "publishedTimeRaw":  "2025-12-31 00:00:45",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  7,
+                        "rawValue":  "7"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  1,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "뉴걸",
+                 "버추얼",
+                 "버황",
+                 "소통"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/182294489/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  18,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

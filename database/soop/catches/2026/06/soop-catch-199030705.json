@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-199030705",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "199030705",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치][뉴바타 D-5] 마지막 풀트 시그⭐즐찾이벤트 중!!",
+    "titleText":  "[뉴바타 D-5] 마지막 풀트 시그⭐즐찾이벤트 중!!",
+    "publishedAt":  "2026-06-18",
+    "publishedTimeRaw":  "2026-06-18 22:23:41",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  44,
+                        "rawValue":  "44"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  1,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "소통",
+                 "토크",
+                 "뉴걸",
+                 "버추얼",
+                 "종겜"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/199030705/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  6,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-062",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]너무너무 귀여운 아이가 있더구나",
+    "publishedAt":  "2026-10-11",
+    "publishedTimeRaw":  "2026-10-11",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  25,
+                        "type":  "unknown",
+                        "rawValue":  "25"
+                    }
+                ],
+    "visibilityStatus":  "비공개",
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  2,
+    "sourceLine":  801,
+    "titleText":  "너무너무 귀여운 아이가 있더구나",
+    "seriesLabels":  [
+
+                     ]
+}

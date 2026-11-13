@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-151889171",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "151889171",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]상체숙일때 이뻤다구요?",
+    "titleText":  "상체숙일때 이뻤다구요?",
+    "publishedAt":  "2025-02-20",
+    "publishedTimeRaw":  "2025-02-20 19:15:52",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  112,
+                        "rawValue":  "112"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  2,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  17000,
+    "url":  "https://vod.sooplive.com/player/151889171/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  33,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

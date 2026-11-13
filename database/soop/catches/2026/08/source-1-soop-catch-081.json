@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-081",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]엄청 크진 않지 않아?",
+    "publishedAt":  "2026-08-18",
+    "publishedTimeRaw":  "2026-08-18",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  63,
+                        "type":  "unknown",
+                        "rawValue":  "63"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  3,
+    "sourceLine":  955,
+    "titleText":  "엄청 크진 않지 않아?",
+    "seriesLabels":  [
+
+                     ]
+}

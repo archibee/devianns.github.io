@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-201102321",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "201102321",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치][뉴걸10일] 뭐? 비키니\u0026바니걸 방셀?!🔥33/330(11연차)",
+    "titleText":  "[뉴걸10일] 뭐? 비키니\u0026바니걸 방셀?!🔥33/330(11연차)",
+    "publishedAt":  "2026-07-10",
+    "publishedTimeRaw":  "2026-07-10 22:28:21",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  20,
+                        "rawValue":  "20"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "소통",
+                 "토크",
+                 "뉴걸",
+                 "버추얼",
+                 "종겜"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/201102321/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  5,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

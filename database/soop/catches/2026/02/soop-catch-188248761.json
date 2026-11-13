@@ -1,0 +1,37 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-188248761",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "188248761",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]섹시하잖아! 왜 웃어",
+    "titleText":  "섹시하잖아! 왜 웃어",
+    "publishedAt":  "2026-02-28",
+    "publishedTimeRaw":  "2026-02-28 15:45:51",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  42,
+                        "rawValue":  "42"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "예비본진1번"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/188248761/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  14,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

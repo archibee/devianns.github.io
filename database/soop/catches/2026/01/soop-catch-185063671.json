@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-185063671",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "185063671",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]귀 보여드릴게요~ 어 없네요? (??)",
+    "titleText":  "귀 보여드릴게요~ 어 없네요? (??)",
+    "publishedAt":  "2026-01-27",
+    "publishedTimeRaw":  "2026-01-27 23:10:57",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  11,
+                        "rawValue":  "11"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "뉴걸",
+                 "버추얼",
+                 "버황",
+                 "소통"
+             ],
+    "durationMilliseconds":  29000,
+    "url":  "https://vod.sooplive.com/player/185063671/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  16,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

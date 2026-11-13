@@ -1,0 +1,36 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "source-1-youtube-title-view-004",
+    "platform":  "youtube",
+    "contentType":  "short",
+    "listingKind":  "title-and-view-count; duration-not-present-in-source-text",
+    "accountHandle":  "@dahlia-clip",
+    "title":  "아기 설표",
+    "durationRaw":  null,
+    "publishedAt":  null,
+    "publishedTimeRaw":  null,
+    "metrics":  [
+                    {
+                        "approximateValue":  1800,
+                        "type":  "views",
+                        "rawValue":  "1.8천회"
+                    }
+                ],
+    "url":  "https://www.youtube.com/shorts/GvIKODzz7JI",
+    "observedAt":  "2026-10-31T01:39:04+09:00",
+    "sourceBatch":  "source/1",
+    "sourceLine":  75,
+    "hashtags":  [
+
+                 ],
+    "platformId":  "GvIKODzz7JI",
+    "sourceListingPage":  "https://www.youtube.com/@dahlia-clip/shorts",
+    "sourceListingKind":  "shorts",
+    "latestListingObservation":  {
+                                     "observedAt":  "2026-10-31T01:39:04+09:00",
+                                     "viewsRaw":  "1.8천",
+                                     "viewsApproximateValue":  1800,
+                                     "relativePublishedTimeRaw":  null,
+                                     "durationRaw":  null
+                                 }
+}

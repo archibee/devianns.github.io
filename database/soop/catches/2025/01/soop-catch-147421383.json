@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-147421383",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "147421383",
+    "platformFileType":  "CATCH",
+    "title":  "사원증 좋아",
+    "titleText":  "사원증 좋아",
+    "publishedAt":  "2025-01-07",
+    "publishedTimeRaw":  "2025-01-07 01:53:46",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  410,
+                        "rawValue":  "410"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  11,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "Catch",
+                 "이주인",
+                 "브이럽",
+                 "고양이"
+             ],
+    "durationMilliseconds":  28693,
+    "url":  "https://vod.sooplive.com/player/147421383/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  38,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-160774651",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "160774651",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]셀카!",
+    "titleText":  "셀카!",
+    "publishedAt":  "2025-05-21",
+    "publishedTimeRaw":  "2025-05-21 19:50:51",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  99,
+                        "rawValue":  "99"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  2,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  14000,
+    "url":  "https://vod.sooplive.com/player/160774651/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  23,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-181882977",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "181882977",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]아주그냥 변~태들 왜 감사하지?~ 으이그 변..태",
+    "titleText":  "아주그냥 변~태들 왜 감사하지?~ 으이그 변..태",
+    "publishedAt":  "2025-12-26",
+    "publishedTimeRaw":  "2025-12-26 21:51:47",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  914,
+                        "rawValue":  "914"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  2,
+                       "likes":  21,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "뉴걸",
+                 "버추얼",
+                 "버황",
+                 "소통"
+             ],
+    "durationMilliseconds":  18000,
+    "url":  "https://vod.sooplive.com/player/181882977/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  18,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

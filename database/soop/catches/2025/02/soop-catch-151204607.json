@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-151204607",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "151204607",
+    "platformFileType":  "CATCH",
+    "title":  "발렌타인 특별 메이드 주인이 등장~!! ♥",
+    "titleText":  "발렌타인 특별 메이드 주인이 등장~!! ♥",
+    "publishedAt":  "2025-02-13",
+    "publishedTimeRaw":  "2025-02-13 23:11:49",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  139,
+                        "rawValue":  "139"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  3,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/151204607/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  34,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

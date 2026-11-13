@@ -1,0 +1,42 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-clip-210682483",
+    "platform":  "soop",
+    "contentType":  "clip",
+    "platformId":  "210682483",
+    "platformFileType":  "CLIP",
+    "title":  "[클립]키르 - 계절은 차례차례 죽어간다 [J-PALLETE : 秋][뱌링 시점]",
+    "titleText":  "[클립]키르 - 계절은 차례차례 죽어간다 [J-PALLETE : 秋][뱌링 시점]",
+    "publishedAt":  "2026-10-24",
+    "publishedTimeRaw":  "2026-10-24 18:31:01",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  16,
+                        "rawValue":  "16"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  1,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "소통",
+                 "토크",
+                 "뉴걸",
+                 "버추얼",
+                 "종겜"
+             ],
+    "durationMilliseconds":  300116,
+    "url":  "https://vod.sooplive.com/player/210682483/clip",
+    "observedAt":  "2026-10-31T01:34:54+09:00",
+    "sourceBatch":  "soop-public-api-2026-10-31",
+    "sourcePage":  1,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/all",
+    "sourceCollection":  "station-vod-page",
+    "visibilityStatus":  null
+}

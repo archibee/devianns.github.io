@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-normal-164491873",
+    "platform":  "soop",
+    "contentType":  "normal",
+    "platformId":  "164491873",
+    "platformFileType":  "NORMAL",
+    "title":  "애교 잔뜩 하는 날 [이주인 팬클립]",
+    "titleText":  "애교 잔뜩 하는 날 [이주인 팬클립]",
+    "publishedAt":  "2025-06-29",
+    "publishedTimeRaw":  "2025-06-29 11:38:00",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  29,
+                        "rawValue":  "29"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  1
+                   },
+    "tags":  [
+                 "이주인",
+                 "브이럽",
+                 "버추얼",
+                 "고양이"
+             ],
+    "durationMilliseconds":  87850,
+    "url":  "https://vod.sooplive.com/player/164491873/normal",
+    "observedAt":  "2026-10-31T01:34:54+09:00",
+    "sourceBatch":  "soop-public-api-2026-10-31",
+    "sourcePage":  1,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/all",
+    "sourceCollection":  "station-vod-page",
+    "visibilityStatus":  null
+}

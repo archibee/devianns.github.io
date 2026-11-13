@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-065",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]휴대폰 보여줘",
+    "publishedAt":  "2026-10-09",
+    "publishedTimeRaw":  "2026-10-09",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  41,
+                        "type":  "unknown",
+                        "rawValue":  "41"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  2,
+    "sourceLine":  820,
+    "titleText":  "휴대폰 보여줘",
+    "seriesLabels":  [
+
+                     ]
+}

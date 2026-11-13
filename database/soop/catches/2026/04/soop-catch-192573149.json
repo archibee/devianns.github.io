@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-192573149",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "192573149",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]뎅큐 ASMR 뽀뽀",
+    "titleText":  "뎅큐 ASMR 뽀뽀",
+    "publishedAt":  "2026-04-12",
+    "publishedTimeRaw":  "2026-04-12 23:34:34",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  174,
+                        "rawValue":  "174"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  2,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "뉴걸",
+                 "버추얼",
+                 "버황",
+                 "소통"
+             ],
+    "durationMilliseconds":  17000,
+    "url":  "https://vod.sooplive.com/player/192573149/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  10,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

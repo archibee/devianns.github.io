@@ -1,0 +1,42 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-clip-210684721",
+    "platform":  "soop",
+    "contentType":  "clip",
+    "platformId":  "210684721",
+    "platformFileType":  "CLIP",
+    "title":  "[클립]미우 - 달맞이꽃 [J-PALLETE : 秋][뱌링 시점]",
+    "titleText":  "[클립]미우 - 달맞이꽃 [J-PALLETE : 秋][뱌링 시점]",
+    "publishedAt":  "2026-10-24",
+    "publishedTimeRaw":  "2026-10-24 18:56:37",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  9,
+                        "rawValue":  "9"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  1,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "소통",
+                 "토크",
+                 "뉴걸",
+                 "버추얼",
+                 "종겜"
+             ],
+    "durationMilliseconds":  300116,
+    "url":  "https://vod.sooplive.com/player/210684721/clip",
+    "observedAt":  "2026-10-31T01:34:54+09:00",
+    "sourceBatch":  "soop-public-api-2026-10-31",
+    "sourcePage":  1,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/all",
+    "sourceCollection":  "station-vod-page",
+    "visibilityStatus":  null
+}

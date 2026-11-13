@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-030",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치] 등짝 강시",
+    "publishedAt":  "2026-10-24",
+    "publishedTimeRaw":  "2026-10-24",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  49,
+                        "type":  "unknown",
+                        "rawValue":  "49"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  1,
+    "sourceLine":  558,
+    "titleText":  "등짝 강시",
+    "seriesLabels":  [
+
+                     ]
+}

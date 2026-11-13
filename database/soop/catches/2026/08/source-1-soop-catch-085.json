@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-085",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]사랑해요~ 하트",
+    "publishedAt":  "2026-08-16",
+    "publishedTimeRaw":  "2026-08-16",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  5,
+                        "type":  "unknown",
+                        "rawValue":  "5"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  3,
+    "sourceLine":  981,
+    "titleText":  "사랑해요~ 하트",
+    "seriesLabels":  [
+
+                     ]
+}

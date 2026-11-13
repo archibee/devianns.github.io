@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-071",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]흑후추추출물분말",
+    "publishedAt":  "2026-10-05",
+    "publishedTimeRaw":  "2026-10-05",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  36,
+                        "type":  "unknown",
+                        "rawValue":  "36"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  2,
+    "sourceLine":  857,
+    "titleText":  "흑후추추출물분말",
+    "seriesLabels":  [
+
+                     ]
+}

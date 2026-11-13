@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-055",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]뱌링 시그데이💛",
+    "publishedAt":  "2026-10-11",
+    "publishedTimeRaw":  "2026-10-11",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  43,
+                        "type":  "unknown",
+                        "rawValue":  "43"
+                    }
+                ],
+    "visibilityStatus":  "블라인드",
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  2,
+    "sourceLine":  759,
+    "titleText":  "뱌링 시그데이💛",
+    "seriesLabels":  [
+
+                     ]
+}

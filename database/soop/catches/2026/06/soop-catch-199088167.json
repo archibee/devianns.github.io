@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-199088167",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "199088167",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치][어인섬] 🐟 메이플 직업 \u0026 닉네임 핀볼 ... !",
+    "titleText":  "[어인섬] 🐟 메이플 직업 \u0026 닉네임 핀볼 ... !",
+    "publishedAt":  "2026-06-19",
+    "publishedTimeRaw":  "2026-06-19 16:01:20",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  225,
+                        "rawValue":  "225"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  2,
+                       "likes":  3,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "이적",
+                 "노래",
+                 "어인섬",
+                 "잉어",
+                 "코구마"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/199088167/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  6,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

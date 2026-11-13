@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-100",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]습기찬 천사",
+    "publishedAt":  "2026-08-13",
+    "publishedTimeRaw":  "2026-08-13",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  30,
+                        "type":  "unknown",
+                        "rawValue":  "30"
+                    }
+                ],
+    "visibilityStatus":  "비공개",
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  3,
+    "sourceLine":  1073,
+    "titleText":  "습기찬 천사",
+    "seriesLabels":  [
+
+                     ]
+}

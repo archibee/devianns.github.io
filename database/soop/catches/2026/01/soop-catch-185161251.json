@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-185161251",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "185161251",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]유연성 다리찢기 아이덴큐",
+    "titleText":  "유연성 다리찢기 아이덴큐",
+    "publishedAt":  "2026-01-28",
+    "publishedTimeRaw":  "2026-01-28 23:15:14",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  264,
+                        "rawValue":  "264"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  3,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "뉴걸",
+                 "버추얼",
+                 "버황",
+                 "소통"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/185161251/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  16,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

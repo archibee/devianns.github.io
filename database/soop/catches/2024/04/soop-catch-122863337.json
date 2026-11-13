@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-122863337",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "122863337",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]고양이젤리꾹꾹이",
+    "titleText":  "고양이젤리꾹꾹이",
+    "publishedAt":  "2024-04-24",
+    "publishedTimeRaw":  "2024-04-24 23:50:00",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  214,
+                        "rawValue":  "214"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  1,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "뉴걸"
+             ],
+    "durationMilliseconds":  36032,
+    "url":  "https://vod.sooplive.com/player/122863337/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  41,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

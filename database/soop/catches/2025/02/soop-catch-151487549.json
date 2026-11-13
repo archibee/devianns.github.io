@@ -1,0 +1,39 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-151487549",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "151487549",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]혀 보여주는 리미",
+    "titleText":  "혀 보여주는 리미",
+    "publishedAt":  "2025-02-16",
+    "publishedTimeRaw":  "2025-02-16 19:29:07",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  71,
+                        "rawValue":  "71"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "브이럽",
+                 "리미",
+                 "뉴걸"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/151487549/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  34,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

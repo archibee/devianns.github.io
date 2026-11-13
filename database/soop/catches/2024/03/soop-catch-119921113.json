@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-119921113",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "119921113",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]꼬리가 날 너무 좋아해 [이주인]",
+    "titleText":  "꼬리가 날 너무 좋아해 [이주인]",
+    "publishedAt":  "2024-03-24",
+    "publishedTimeRaw":  "2024-03-24 12:10:51",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  859,
+                        "rawValue":  "859"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  4,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "Catch",
+                 "이주인",
+                 "브이럽",
+                 "고양이"
+             ],
+    "durationMilliseconds":  22614,
+    "url":  "https://vod.sooplive.com/player/119921113/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  41,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

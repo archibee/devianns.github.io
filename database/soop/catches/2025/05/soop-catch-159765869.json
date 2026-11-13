@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-159765869",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "159765869",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]진격거 안본눈이랑 3기 보실분!! 미카사 코스프레 on",
+    "titleText":  "진격거 안본눈이랑 3기 보실분!! 미카사 코스프레 on",
+    "publishedAt":  "2025-05-11",
+    "publishedTimeRaw":  "2025-05-11 11:25:13",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  352,
+                        "rawValue":  "352"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  1,
+                       "likes":  6,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/159765869/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  25,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

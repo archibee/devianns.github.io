@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-182294765",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "182294765",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]무릎에 기대 자면서 다 잊는거야~ 쪽",
+    "titleText":  "무릎에 기대 자면서 다 잊는거야~ 쪽",
+    "publishedAt":  "2025-12-31",
+    "publishedTimeRaw":  "2025-12-31 00:02:29",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  18,
+                        "rawValue":  "18"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "뉴걸",
+                 "버추얼",
+                 "버황",
+                 "소통"
+             ],
+    "durationMilliseconds":  34000,
+    "url":  "https://vod.sooplive.com/player/182294765/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  18,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

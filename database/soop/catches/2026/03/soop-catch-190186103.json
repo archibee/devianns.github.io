@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-190186103",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "190186103",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]안입고 나가잖아?",
+    "titleText":  "안입고 나가잖아?",
+    "publishedAt":  "2026-03-19",
+    "publishedTimeRaw":  "2026-03-19 21:04:02",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  71,
+                        "rawValue":  "71"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  2,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "소통",
+                 "토크",
+                 "뉴걸",
+                 "버추얼",
+                 "종겜"
+             ],
+    "durationMilliseconds":  50000,
+    "url":  "https://vod.sooplive.com/player/190186103/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  13,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-144728339",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "144728339",
+    "platformFileType":  "CATCH",
+    "title":  "내가사라져볼게~ 얍",
+    "titleText":  "내가사라져볼게~ 얍",
+    "publishedAt":  "2024-12-10",
+    "publishedTimeRaw":  "2024-12-10 16:21:24",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  132,
+                        "rawValue":  "132"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  3,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "Catch",
+                 "브이럽",
+                 "이주인",
+                 "고양이"
+             ],
+    "durationMilliseconds":  19733,
+    "url":  "https://vod.sooplive.com/player/144728339/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  39,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

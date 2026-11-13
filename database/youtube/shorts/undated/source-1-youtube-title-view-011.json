@@ -1,0 +1,36 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "source-1-youtube-title-view-011",
+    "platform":  "youtube",
+    "contentType":  "short",
+    "listingKind":  "title-and-view-count; duration-not-present-in-source-text",
+    "accountHandle":  "@dahlia-clip",
+    "title":  "크리스텔 촬영회",
+    "durationRaw":  null,
+    "publishedAt":  null,
+    "publishedTimeRaw":  null,
+    "metrics":  [
+                    {
+                        "approximateValue":  1300,
+                        "type":  "views",
+                        "rawValue":  "1.3천회"
+                    }
+                ],
+    "url":  "https://www.youtube.com/shorts/Fdt-ztYOGNQ",
+    "observedAt":  "2026-10-31T01:39:04+09:00",
+    "sourceBatch":  "source/1",
+    "sourceLine":  103,
+    "hashtags":  [
+
+                 ],
+    "platformId":  "Fdt-ztYOGNQ",
+    "sourceListingPage":  "https://www.youtube.com/@dahlia-clip/shorts",
+    "sourceListingKind":  "shorts",
+    "latestListingObservation":  {
+                                     "observedAt":  "2026-10-31T01:39:04+09:00",
+                                     "viewsRaw":  "1.3천",
+                                     "viewsApproximateValue":  1300,
+                                     "relativePublishedTimeRaw":  null,
+                                     "durationRaw":  null
+                                 }
+}

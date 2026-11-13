@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-182499109",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "182499109",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]꾸러기닌자 뎅큐 (텐션업)",
+    "titleText":  "꾸러기닌자 뎅큐 (텐션업)",
+    "publishedAt":  "2026-01-01",
+    "publishedTimeRaw":  "2026-01-01 22:05:57",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  14,
+                        "rawValue":  "14"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "뉴걸",
+                 "버추얼",
+                 "버황",
+                 "소통"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/182499109/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  18,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

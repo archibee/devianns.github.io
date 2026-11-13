@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-070",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]땀나서 송골송골",
+    "publishedAt":  "2026-10-05",
+    "publishedTimeRaw":  "2026-10-05",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  114,
+                        "type":  "unknown",
+                        "rawValue":  "114"
+                    }
+                ],
+    "visibilityStatus":  "비공개",
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  2,
+    "sourceLine":  851,
+    "titleText":  "땀나서 송골송골",
+    "seriesLabels":  [
+
+                     ]
+}

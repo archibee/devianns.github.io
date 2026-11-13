@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-057",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]나의 하나뿐인 변태들 (매도)",
+    "publishedAt":  "2026-10-11",
+    "publishedTimeRaw":  "2026-10-11",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  16,
+                        "type":  "unknown",
+                        "rawValue":  "16"
+                    }
+                ],
+    "visibilityStatus":  "블라인드",
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  2,
+    "sourceLine":  771,
+    "titleText":  "나의 하나뿐인 변태들 (매도)",
+    "seriesLabels":  [
+
+                     ]
+}

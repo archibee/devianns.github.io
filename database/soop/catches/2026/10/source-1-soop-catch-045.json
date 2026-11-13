@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-045",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]🎃할로윈 의상 공개🎃베스도전중 통나무부탁드립니다!",
+    "publishedAt":  "2026-10-24",
+    "publishedTimeRaw":  "2026-10-24",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  13,
+                        "type":  "unknown",
+                        "rawValue":  "13"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  2,
+    "sourceLine":  693,
+    "titleText":  "🎃할로윈 의상 공개🎃베스도전중 통나무부탁드립니다!",
+    "seriesLabels":  [
+
+                     ]
+}

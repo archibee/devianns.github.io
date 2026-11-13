@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-142238601",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "142238601",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]한눈빼꼼",
+    "titleText":  "한눈빼꼼",
+    "publishedAt":  "2024-11-14",
+    "publishedTimeRaw":  "2024-11-14 20:22:28",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  174,
+                        "rawValue":  "174"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  1,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  11000,
+    "url":  "https://vod.sooplive.com/player/142238601/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  40,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

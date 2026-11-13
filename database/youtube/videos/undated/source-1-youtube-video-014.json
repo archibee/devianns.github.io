@@ -1,0 +1,37 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "source-1-youtube-video-014",
+    "platform":  "youtube",
+    "contentType":  "video",
+    "listingKind":  "duration-title-view-count-relative-age",
+    "accountHandle":  "@dahlia-clip",
+    "title":  "100원 나올때마다 핥짝 한번씩이야 !! [이주인/클립]",
+    "durationRaw":  "3분 14초",
+    "publishedAt":  null,
+    "publishedTimeRaw":  "2년 전",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "approximateValue":  2000,
+                        "type":  "views",
+                        "rawValue":  "2천"
+                    }
+                ],
+    "url":  "https://www.youtube.com/watch?v=3lsCj26ZEiE",
+    "observedAt":  "2026-10-31T01:39:04+09:00",
+    "sourceBatch":  "source/1",
+    "sourceLine":  342,
+    "hashtags":  [
+
+                 ],
+    "platformId":  "3lsCj26ZEiE",
+    "sourceListingPage":  "https://www.youtube.com/@dahlia-clip/videos",
+    "sourceListingKind":  "videos",
+    "latestListingObservation":  {
+                                     "observedAt":  "2026-10-31T01:39:04+09:00",
+                                     "viewsRaw":  "2천",
+                                     "viewsApproximateValue":  2000,
+                                     "relativePublishedTimeRaw":  "2년 전",
+                                     "durationRaw":  "3분 14초"
+                                 }
+}

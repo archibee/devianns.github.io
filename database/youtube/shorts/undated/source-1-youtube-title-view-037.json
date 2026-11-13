@@ -1,0 +1,37 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "source-1-youtube-title-view-037",
+    "platform":  "youtube",
+    "contentType":  "short",
+    "listingKind":  "title-and-view-count; duration-not-present-in-source-text",
+    "accountHandle":  "@dahlia-clip",
+    "title":  "롤머리 보고싶은거 맞지? #이주인 #vtuber",
+    "durationRaw":  null,
+    "publishedAt":  null,
+    "publishedTimeRaw":  null,
+    "metrics":  [
+                    {
+                        "approximateValue":  41,
+                        "type":  "views",
+                        "rawValue":  "41회"
+                    }
+                ],
+    "url":  "https://www.youtube.com/shorts/n1x5REdczmo",
+    "observedAt":  "2026-10-31T01:39:04+09:00",
+    "sourceBatch":  "source/1",
+    "sourceLine":  207,
+    "hashtags":  [
+                     "#이주인",
+                     "#vtuber"
+                 ],
+    "platformId":  "n1x5REdczmo",
+    "sourceListingPage":  "https://www.youtube.com/@dahlia-clip/shorts",
+    "sourceListingKind":  "shorts",
+    "latestListingObservation":  {
+                                     "observedAt":  "2026-10-31T01:39:04+09:00",
+                                     "viewsRaw":  "41",
+                                     "viewsApproximateValue":  41,
+                                     "relativePublishedTimeRaw":  null,
+                                     "durationRaw":  null
+                                 }
+}

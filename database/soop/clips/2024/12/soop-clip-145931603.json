@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-clip-145931603",
+    "platform":  "soop",
+    "contentType":  "clip",
+    "platformId":  "145931603",
+    "platformFileType":  "CLIP",
+    "title":  "[클립]별의 하모니 🌟",
+    "titleText":  "[클립]별의 하모니 🌟",
+    "publishedAt":  "2024-12-23",
+    "publishedTimeRaw":  "2024-12-23 01:20:37",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  14,
+                        "rawValue":  "14"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  180051,
+    "url":  "https://vod.sooplive.com/player/145931603/clip",
+    "observedAt":  "2026-10-31T01:34:54+09:00",
+    "sourceBatch":  "soop-public-api-2026-10-31",
+    "sourcePage":  1,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/all",
+    "sourceCollection":  "station-vod-page",
+    "visibilityStatus":  null
+}

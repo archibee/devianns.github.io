@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-191054303",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "191054303",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]천사뱌링 삐끼삐끼",
+    "titleText":  "천사뱌링 삐끼삐끼",
+    "publishedAt":  "2026-03-28",
+    "publishedTimeRaw":  "2026-03-28 21:14:09",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  27,
+                        "rawValue":  "27"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "소통",
+                 "토크",
+                 "뉴걸",
+                 "버추얼",
+                 "종겜"
+             ],
+    "durationMilliseconds":  39000,
+    "url":  "https://vod.sooplive.com/player/191054303/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  11,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

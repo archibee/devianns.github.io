@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-101",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]좀비가 멍청한 이유는 뭘까요~?",
+    "publishedAt":  "2026-08-09",
+    "publishedTimeRaw":  "2026-08-09",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  59,
+                        "type":  "unknown",
+                        "rawValue":  "59"
+                    }
+                ],
+    "visibilityStatus":  "비공개",
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  3,
+    "sourceLine":  1079,
+    "titleText":  "좀비가 멍청한 이유는 뭘까요~?",
+    "seriesLabels":  [
+
+                     ]
+}

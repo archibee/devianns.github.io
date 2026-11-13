@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-102",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]강강술래가 재밌는 시트리",
+    "publishedAt":  "2026-08-09",
+    "publishedTimeRaw":  "2026-08-09",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  78,
+                        "type":  "unknown",
+                        "rawValue":  "78"
+                    }
+                ],
+    "visibilityStatus":  "비공개",
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  3,
+    "sourceLine":  1085,
+    "titleText":  "강강술래가 재밌는 시트리",
+    "seriesLabels":  [
+
+                     ]
+}

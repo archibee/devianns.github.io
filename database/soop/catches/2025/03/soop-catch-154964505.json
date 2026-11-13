@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-154964505",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "154964505",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]다음 방셀의상(개핫함ㄷㄷ) 미리보기 + 진심플러팅데이 벌칙",
+    "titleText":  "다음 방셀의상(개핫함ㄷㄷ) 미리보기 + 진심플러팅데이 벌칙",
+    "publishedAt":  "2025-03-23",
+    "publishedTimeRaw":  "2025-03-23 00:09:59",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  4,
+                        "rawValue":  "4"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  29000,
+    "url":  "https://vod.sooplive.com/player/154964505/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  30,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

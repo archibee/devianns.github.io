@@ -1,0 +1,37 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "source-1-youtube-title-view-043",
+    "platform":  "youtube",
+    "contentType":  "short",
+    "listingKind":  "title-and-view-count; duration-not-present-in-source-text",
+    "accountHandle":  "@dahlia-clip",
+    "title":  "뭐라고했어~? 안들려 #이주인 #vtuber",
+    "durationRaw":  null,
+    "publishedAt":  null,
+    "publishedTimeRaw":  null,
+    "metrics":  [
+                    {
+                        "approximateValue":  124,
+                        "type":  "views",
+                        "rawValue":  "124회"
+                    }
+                ],
+    "url":  "https://www.youtube.com/shorts/RI5U9PzIKR4",
+    "observedAt":  "2026-10-31T01:39:04+09:00",
+    "sourceBatch":  "source/1",
+    "sourceLine":  231,
+    "hashtags":  [
+                     "#이주인",
+                     "#vtuber"
+                 ],
+    "platformId":  "RI5U9PzIKR4",
+    "sourceListingPage":  "https://www.youtube.com/@dahlia-clip/shorts",
+    "sourceListingKind":  "shorts",
+    "latestListingObservation":  {
+                                     "observedAt":  "2026-10-31T01:39:04+09:00",
+                                     "viewsRaw":  "124",
+                                     "viewsApproximateValue":  124,
+                                     "relativePublishedTimeRaw":  null,
+                                     "durationRaw":  null
+                                 }
+}

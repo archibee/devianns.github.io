@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-158896997",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "158896997",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]FAQ",
+    "titleText":  "FAQ",
+    "publishedAt":  "2025-05-02",
+    "publishedTimeRaw":  "2025-05-02 11:54:28",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  411,
+                        "rawValue":  "411"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  1,
+                       "likes":  9,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  26000,
+    "url":  "https://vod.sooplive.com/player/158896997/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  25,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

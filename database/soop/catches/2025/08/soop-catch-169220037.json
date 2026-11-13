@@ -1,0 +1,37 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-169220037",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "169220037",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]안할래고양이",
+    "titleText":  "안할래고양이",
+    "publishedAt":  "2025-08-17",
+    "publishedTimeRaw":  "2025-08-17 23:34:50",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  41,
+                        "rawValue":  "41"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  2,
+                       "likes":  4,
+                       "favorites":  0
+                   },
+    "tags":  [
+
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/169220037/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  19,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

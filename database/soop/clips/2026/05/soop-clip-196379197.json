@@ -1,0 +1,42 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-clip-196379197",
+    "platform":  "soop",
+    "contentType":  "clip",
+    "platformId":  "196379197",
+    "platformFileType":  "CLIP",
+    "title":  "[클립]창문좀 열게요 (벌레나옴)",
+    "titleText":  "[클립]창문좀 열게요 (벌레나옴)",
+    "publishedAt":  "2026-05-21",
+    "publishedTimeRaw":  "2026-05-21 23:15:39",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  2,
+                        "rawValue":  "2"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  1,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "소통",
+                 "토크",
+                 "뉴걸",
+                 "버추얼",
+                 "종겜"
+             ],
+    "durationMilliseconds":  110000,
+    "url":  "https://vod.sooplive.com/player/196379197/clip",
+    "observedAt":  "2026-10-31T01:34:54+09:00",
+    "sourceBatch":  "soop-public-api-2026-10-31",
+    "sourcePage":  1,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/all",
+    "sourceCollection":  "station-vod-page",
+    "visibilityStatus":  null
+}

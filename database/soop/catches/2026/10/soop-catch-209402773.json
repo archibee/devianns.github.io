@@ -1,0 +1,39 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-209402773",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "209402773",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]고개를 숙이면 잘보여서 안돼요",
+    "titleText":  "고개를 숙이면 잘보여서 안돼요",
+    "publishedAt":  "2026-10-10",
+    "publishedTimeRaw":  "2026-10-10 14:27:24",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  38,
+                        "rawValue":  "38"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "뉴걸",
+                 "버추얼",
+                 "소통"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/209402773/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  2,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

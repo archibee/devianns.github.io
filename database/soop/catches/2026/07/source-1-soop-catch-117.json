@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-117",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치][어인섬] 🐟 200일 방송 후열... 눈물 연기 장인입니다.",
+    "publishedAt":  "2026-07-29",
+    "publishedTimeRaw":  "2026-07-29",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  178,
+                        "type":  "unknown",
+                        "rawValue":  "178"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  3,
+    "sourceLine":  1178,
+    "titleText":  "[어인섬] 🐟 200일 방송 후열... 눈물 연기 장인입니다.",
+    "seriesLabels":  [
+                         "어인섬"
+                     ]
+}

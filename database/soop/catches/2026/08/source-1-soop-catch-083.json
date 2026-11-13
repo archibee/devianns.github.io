@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-083",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]물걸레질 중이에요 쪼아요~",
+    "publishedAt":  "2026-08-17",
+    "publishedTimeRaw":  "2026-08-17",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  109,
+                        "type":  "unknown",
+                        "rawValue":  "109"
+                    }
+                ],
+    "visibilityStatus":  "비공개",
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  3,
+    "sourceLine":  968,
+    "titleText":  "물걸레질 중이에요 쪼아요~",
+    "seriesLabels":  [
+
+                     ]
+}

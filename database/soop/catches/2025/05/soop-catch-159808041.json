@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-159808041",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "159808041",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]진격거보고 너무울어서 목이맛이갔읍니다...",
+    "titleText":  "진격거보고 너무울어서 목이맛이갔읍니다...",
+    "publishedAt":  "2025-05-11",
+    "publishedTimeRaw":  "2025-05-11 21:06:42",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  140,
+                        "rawValue":  "140"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  2,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/159808041/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  25,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

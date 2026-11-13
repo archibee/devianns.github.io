@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-096",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]감상 타임",
+    "publishedAt":  "2026-08-13",
+    "publishedTimeRaw":  "2026-08-13",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  21,
+                        "type":  "unknown",
+                        "rawValue":  "21"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  3,
+    "sourceLine":  1049,
+    "titleText":  "감상 타임",
+    "seriesLabels":  [
+
+                     ]
+}

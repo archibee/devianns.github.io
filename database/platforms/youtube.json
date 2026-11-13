@@ -1,0 +1,19 @@
+{
+    "platform":  "YouTube",
+    "type":  "channel",
+    "url":  "https://www.youtube.com/@dahlia-clip",
+    "handle":  "@dahlia-clip",
+    "displayName":  "달리아 클립",
+    "bioRaw":  "안녕하세요! 버츄얼과 영상 컨텐츠를 좋아하는 유저입니다",
+    "subscriberCount":  235,
+    "videoCount":  60,
+    "externalLinks":  [
+                          "https://www.sooplive.com/station/rose5369"
+                      ],
+    "snapshotAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceLines":  [
+                        43,
+                        53
+                    ]
+}

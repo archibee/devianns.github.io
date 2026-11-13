@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-184761851",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "184761851",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치][뉴걸] 29일차 33/330 룰렛 이틀간!!  27%",
+    "titleText":  "[뉴걸] 29일차 33/330 룰렛 이틀간!!  27%",
+    "publishedAt":  "2026-01-24",
+    "publishedTimeRaw":  "2026-01-24 20:51:37",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  104,
+                        "rawValue":  "104"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  1,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "뉴걸",
+                 "버추얼",
+                 "버황",
+                 "소통"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/184761851/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  17,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

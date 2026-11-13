@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-019",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]하늘자전거",
+    "publishedAt":  null,
+    "publishedTimeRaw":  "2일 전",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  4,
+                        "type":  "unknown",
+                        "rawValue":  "4"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  1,
+    "sourceLine":  486,
+    "titleText":  "하늘자전거",
+    "seriesLabels":  [
+
+                     ]
+}

@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-098",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]우~ 하",
+    "publishedAt":  "2026-08-13",
+    "publishedTimeRaw":  "2026-08-13",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  44,
+                        "type":  "unknown",
+                        "rawValue":  "44"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  3,
+    "sourceLine":  1061,
+    "titleText":  "우~ 하",
+    "seriesLabels":  [
+
+                     ]
+}

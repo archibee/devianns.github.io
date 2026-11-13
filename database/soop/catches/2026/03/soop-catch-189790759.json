@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-189790759",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "189790759",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치][데뷔 1일차] 뉴걸 저점매수 해주세요🖤",
+    "titleText":  "[데뷔 1일차] 뉴걸 저점매수 해주세요🖤",
+    "publishedAt":  "2026-03-15",
+    "publishedTimeRaw":  "2026-03-15 19:23:04",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  40,
+                        "rawValue":  "40"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  3,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "소통",
+                 "토크",
+                 "뉴걸",
+                 "버추얼",
+                 "종겜"
+             ],
+    "durationMilliseconds":  21000,
+    "url":  "https://vod.sooplive.com/player/189790759/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  13,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

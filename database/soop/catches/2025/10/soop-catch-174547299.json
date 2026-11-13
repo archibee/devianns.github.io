@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-174547299",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "174547299",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]거인 투하~~",
+    "titleText":  "거인 투하~~",
+    "publishedAt":  "2025-10-11",
+    "publishedTimeRaw":  "2025-10-11 17:28:36",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  292,
+                        "rawValue":  "292"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  3,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "버츄얼",
+                 "버추얼",
+                 "사신",
+                 "왁치동"
+             ],
+    "durationMilliseconds":  27000,
+    "url":  "https://vod.sooplive.com/player/174547299/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  18,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

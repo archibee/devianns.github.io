@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-164490533",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "164490533",
+    "platformFileType":  "CATCH",
+    "title":  "식사부터? 목욕부터? 그것도아니면...",
+    "titleText":  "식사부터? 목욕부터? 그것도아니면...",
+    "publishedAt":  "2025-06-29",
+    "publishedTimeRaw":  "2025-06-29 10:51:39",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  139,
+                        "rawValue":  "139"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  6,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "Catch",
+                 "이주인",
+                 "브이럽",
+                 "고양이",
+                 "버추얼"
+             ],
+    "durationMilliseconds":  11114,
+    "url":  "https://vod.sooplive.com/player/164490533/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  21,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

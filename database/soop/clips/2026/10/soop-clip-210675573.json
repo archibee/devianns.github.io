@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-clip-210675573",
+    "platform":  "soop",
+    "contentType":  "clip",
+    "platformId":  "210675573",
+    "platformFileType":  "CLIP",
+    "title":  "[클립]🎶🎤 샤애 1ST 콘서트 \u0027어른이 되어도 우리는 청춘의 이름으로\u0027",
+    "titleText":  "[클립]🎶🎤 샤애 1ST 콘서트 \u0027어른이 되어도 우리는 청춘의 이름으로\u0027",
+    "publishedAt":  "2026-10-24",
+    "publishedTimeRaw":  "2026-10-24 17:04:27",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  6,
+                        "rawValue":  "6"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  1,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "뉴걸",
+                 "버추얼",
+                 "소통"
+             ],
+    "durationMilliseconds":  247065,
+    "url":  "https://vod.sooplive.com/player/210675573/clip",
+    "observedAt":  "2026-10-31T01:34:54+09:00",
+    "sourceBatch":  "soop-public-api-2026-10-31",
+    "sourcePage":  1,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/all",
+    "sourceCollection":  "station-vod-page",
+    "visibilityStatus":  null
+}

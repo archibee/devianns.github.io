@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-210566503",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "210566503",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치][어인섬] 🫧 엽떡 다신 안 머거 !!!!!!!! (՞𓏼ᐢ ᵕ ᐢ𓏼՞)",
+    "titleText":  "[어인섬] 🫧 엽떡 다신 안 머거 !!!!!!!! (՞𓏼ᐢ ᵕ ᐢ𓏼՞)",
+    "publishedAt":  "2026-10-23",
+    "publishedTimeRaw":  "2026-10-23 10:45:33",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  4,
+                        "rawValue":  "4"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "이적",
+                 "노래",
+                 "어인섬",
+                 "잉어",
+                 "코구마"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/210566503/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  2,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

@@ -1,0 +1,13 @@
+{
+    "platform":  "SOOP",
+    "type":  "channel",
+    "url":  "https://www.sooplive.com/station/rose5369",
+    "channelId":  "rose5369",
+    "catchCount":  1803,
+    "snapshotAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceLines":  [
+                        354,
+                        355
+                    ]
+}

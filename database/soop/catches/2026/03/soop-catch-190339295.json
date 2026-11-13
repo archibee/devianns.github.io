@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-190339295",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "190339295",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]바보 하트 🤍",
+    "titleText":  "바보 하트 🤍",
+    "publishedAt":  "2026-03-21",
+    "publishedTimeRaw":  "2026-03-21 12:14:19",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  60,
+                        "rawValue":  "60"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  1,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "소통",
+                 "토크",
+                 "뉴걸",
+                 "버추얼",
+                 "종겜"
+             ],
+    "durationMilliseconds":  38000,
+    "url":  "https://vod.sooplive.com/player/190339295/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  13,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

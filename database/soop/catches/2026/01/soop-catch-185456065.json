@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-185456065",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "185456065",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]링피트 매도",
+    "titleText":  "링피트 매도",
+    "publishedAt":  "2026-01-31",
+    "publishedTimeRaw":  "2026-01-31 23:30:04",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  15,
+                        "rawValue":  "15"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "뉴걸",
+                 "버추얼",
+                 "버황",
+                 "소통"
+             ],
+    "durationMilliseconds":  35000,
+    "url":  "https://vod.sooplive.com/player/185456065/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  16,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

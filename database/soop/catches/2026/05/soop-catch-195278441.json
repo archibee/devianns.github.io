@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-195278441",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "195278441",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]오랜만에 더기여워진 주인이가와쏘~!",
+    "titleText":  "오랜만에 더기여워진 주인이가와쏘~!",
+    "publishedAt":  "2026-05-10",
+    "publishedTimeRaw":  "2026-05-10 16:10:35",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  159,
+                        "rawValue":  "159"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  5,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "버추얼",
+                 "브이럽",
+                 "러비타",
+                 "신입"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/195278441/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  7,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

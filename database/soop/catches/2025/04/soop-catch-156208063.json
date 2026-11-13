@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-156208063",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "156208063",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]고장난고양이",
+    "titleText":  "고장난고양이",
+    "publishedAt":  "2025-04-04",
+    "publishedTimeRaw":  "2025-04-04 19:08:58",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  117,
+                        "rawValue":  "117"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  2,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "브이럽",
+                 "노라주",
+                 "청초",
+                 "버추얼",
+                 "라즈천재"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/156208063/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  29,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

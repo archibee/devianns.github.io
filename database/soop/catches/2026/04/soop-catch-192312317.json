@@ -1,0 +1,37 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-192312317",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "192312317",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]티니핑사줘 ㅠㅠㅠㅠㅠㅠ",
+    "titleText":  "티니핑사줘 ㅠㅠㅠㅠㅠㅠ",
+    "publishedAt":  "2026-04-10",
+    "publishedTimeRaw":  "2026-04-10 14:30:48",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  66,
+                        "rawValue":  "66"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "예비본진1번"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/192312317/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  10,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

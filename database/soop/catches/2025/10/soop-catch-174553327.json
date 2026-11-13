@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-174553327",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "174553327",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]호들갑 들뜬 키라",
+    "titleText":  "호들갑 들뜬 키라",
+    "publishedAt":  "2025-10-11",
+    "publishedTimeRaw":  "2025-10-11 18:36:46",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  330,
+                        "rawValue":  "330"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  4,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "버츄얼",
+                 "버추얼",
+                 "사신",
+                 "왁치동"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/174553327/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  18,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

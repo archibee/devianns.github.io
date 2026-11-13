@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-054",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치][어인섬] 🐟 구독 시 퀵뷰 드립니다 ㅎㅎ",
+    "publishedAt":  "2026-10-16",
+    "publishedTimeRaw":  "2026-10-16",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  637,
+                        "type":  "unknown",
+                        "rawValue":  "637"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  2,
+    "sourceLine":  752,
+    "titleText":  "[어인섬] 🐟 구독 시 퀵뷰 드립니다 ㅎㅎ",
+    "seriesLabels":  [
+                         "어인섬"
+                     ]
+}

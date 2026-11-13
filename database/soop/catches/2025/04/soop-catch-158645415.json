@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-158645415",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "158645415",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]데이안) 심층구멍제보받습니다!! 격투가랑 도적사이에 고민중인사람",
+    "titleText":  "데이안) 심층구멍제보받습니다!! 격투가랑 도적사이에 고민중인사람",
+    "publishedAt":  "2025-04-29",
+    "publishedTimeRaw":  "2025-04-29 22:07:52",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  122,
+                        "rawValue":  "122"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  3,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/158645415/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  25,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

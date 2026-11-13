@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-201165237",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "201165237",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]오늘 열린 브이켓 구경~",
+    "titleText":  "오늘 열린 브이켓 구경~",
+    "publishedAt":  "2026-07-11",
+    "publishedTimeRaw":  "2026-07-11 16:20:15",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  632,
+                        "rawValue":  "632"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  1,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "사신",
+                 "왁치동",
+                 "환승센터",
+                 "신스멀게동"
+             ],
+    "durationMilliseconds":  30000,
+    "url":  "https://vod.sooplive.com/player/201165237/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  4,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

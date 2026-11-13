@@ -1,0 +1,39 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-171774989",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "171774989",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]불장난해서...",
+    "titleText":  "불장난해서...",
+    "publishedAt":  "2025-09-13",
+    "publishedTimeRaw":  "2025-09-13 00:20:40",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  48,
+                        "rawValue":  "48"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  1,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "버츄얼",
+                 "버추얼",
+                 "사신"
+             ],
+    "durationMilliseconds":  17000,
+    "url":  "https://vod.sooplive.com/player/171774989/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  19,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

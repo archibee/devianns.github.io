@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-163584961",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "163584961",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]포켓몬 3분할 여름",
+    "titleText":  "포켓몬 3분할 여름",
+    "publishedAt":  "2025-06-19",
+    "publishedTimeRaw":  "2025-06-19 20:06:10",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  128,
+                        "rawValue":  "128"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  2,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  27000,
+    "url":  "https://vod.sooplive.com/player/163584961/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  22,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

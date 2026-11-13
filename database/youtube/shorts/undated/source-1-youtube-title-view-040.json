@@ -1,0 +1,37 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "source-1-youtube-title-view-040",
+    "platform":  "youtube",
+    "contentType":  "short",
+    "listingKind":  "title-and-view-count; duration-not-present-in-source-text",
+    "accountHandle":  "@dahlia-clip",
+    "title":  "그래 네말이 맞아… #이주인 #vtuber",
+    "durationRaw":  null,
+    "publishedAt":  null,
+    "publishedTimeRaw":  null,
+    "metrics":  [
+                    {
+                        "approximateValue":  25,
+                        "type":  "views",
+                        "rawValue":  "25회"
+                    }
+                ],
+    "url":  "https://www.youtube.com/shorts/Nzs-4Wf1PUM",
+    "observedAt":  "2026-10-31T01:39:04+09:00",
+    "sourceBatch":  "source/1",
+    "sourceLine":  219,
+    "hashtags":  [
+                     "#이주인",
+                     "#vtuber"
+                 ],
+    "platformId":  "Nzs-4Wf1PUM",
+    "sourceListingPage":  "https://www.youtube.com/@dahlia-clip/shorts",
+    "sourceListingKind":  "shorts",
+    "latestListingObservation":  {
+                                     "observedAt":  "2026-10-31T01:39:04+09:00",
+                                     "viewsRaw":  "25",
+                                     "viewsApproximateValue":  25,
+                                     "relativePublishedTimeRaw":  null,
+                                     "durationRaw":  null
+                                 }
+}

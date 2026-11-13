@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-079",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]본인이 징그럽고 느끼함",
+    "publishedAt":  "2026-08-18",
+    "publishedTimeRaw":  "2026-08-18",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  36,
+                        "type":  "unknown",
+                        "rawValue":  "36"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  2,
+    "sourceLine":  910,
+    "titleText":  "본인이 징그럽고 느끼함",
+    "seriesLabels":  [
+
+                     ]
+}

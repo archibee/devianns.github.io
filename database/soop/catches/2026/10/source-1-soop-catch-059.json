@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-059",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]우리 꿀꿀 벤작단들~ 이리와 이리와 (매도)",
+    "publishedAt":  "2026-10-11",
+    "publishedTimeRaw":  "2026-10-11",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  190,
+                        "type":  "unknown",
+                        "rawValue":  "190"
+                    }
+                ],
+    "visibilityStatus":  "블라인드",
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  2,
+    "sourceLine":  783,
+    "titleText":  "우리 꿀꿀 벤작단들~ 이리와 이리와 (매도)",
+    "seriesLabels":  [
+
+                     ]
+}

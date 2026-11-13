@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-082",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]이쁜 표정 짓기",
+    "publishedAt":  "2026-08-18",
+    "publishedTimeRaw":  "2026-08-18",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  1,
+                        "type":  "unknown",
+                        "rawValue":  "1"
+                    }
+                ],
+    "visibilityStatus":  "비공개",
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  3,
+    "sourceLine":  962,
+    "titleText":  "이쁜 표정 짓기",
+    "seriesLabels":  [
+
+                     ]
+}

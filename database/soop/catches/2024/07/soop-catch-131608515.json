@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-131608515",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "131608515",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]세젤귀여운주인",
+    "titleText":  "세젤귀여운주인",
+    "publishedAt":  "2024-07-28",
+    "publishedTimeRaw":  "2024-07-28 00:38:09",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  547,
+                        "rawValue":  "547"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  18,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "뉴걸",
+                 "저스트댄스"
+             ],
+    "durationMilliseconds":  27816,
+    "url":  "https://vod.sooplive.com/player/131608515/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  40,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

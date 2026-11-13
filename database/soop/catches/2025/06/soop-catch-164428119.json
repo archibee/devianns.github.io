@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-164428119",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "164428119",
+    "platformFileType":  "CATCH",
+    "title":  "해변인데 밟는건없나요 [이주인 팬클립]",
+    "titleText":  "해변인데 밟는건없나요 [이주인 팬클립]",
+    "publishedAt":  "2025-06-28",
+    "publishedTimeRaw":  "2025-06-28 19:28:11",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  826,
+                        "rawValue":  "826"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  2,
+                       "likes":  21,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "Catch",
+                 "이주인",
+                 "브이럽",
+                 "고양이"
+             ],
+    "durationMilliseconds":  27541,
+    "url":  "https://vod.sooplive.com/player/164428119/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  21,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

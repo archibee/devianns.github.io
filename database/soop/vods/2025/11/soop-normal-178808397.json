@@ -1,0 +1,41 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-normal-178808397",
+    "platform":  "soop",
+    "contentType":  "normal",
+    "platformId":  "178808397",
+    "platformFileType":  "NORMAL",
+    "title":  "흥 칫 뿡 하고 삐진다? [이주인 팬클립]",
+    "titleText":  "흥 칫 뿡 하고 삐진다? [이주인 팬클립]",
+    "publishedAt":  "2025-11-24",
+    "publishedTimeRaw":  "2025-11-24 17:30:00",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  16,
+                        "rawValue":  "16"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "브이럽",
+                 "이주인",
+                 "고양이",
+                 "버추얼"
+             ],
+    "durationMilliseconds":  61866,
+    "url":  "https://vod.sooplive.com/player/178808397/normal",
+    "observedAt":  "2026-10-31T01:34:54+09:00",
+    "sourceBatch":  "soop-public-api-2026-10-31",
+    "sourcePage":  1,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/all",
+    "sourceCollection":  "station-vod-page",
+    "visibilityStatus":  null
+}

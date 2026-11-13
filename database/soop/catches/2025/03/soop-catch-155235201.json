@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-155235201",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "155235201",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]라이즈궁 레전드 ㅋㅋㅋㅋㅋㅋㅋㅋ",
+    "titleText":  "라이즈궁 레전드 ㅋㅋㅋㅋㅋㅋㅋㅋ",
+    "publishedAt":  "2025-03-25",
+    "publishedTimeRaw":  "2025-03-25 21:08:43",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  86,
+                        "rawValue":  "86"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  27000,
+    "url":  "https://vod.sooplive.com/player/155235201/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  30,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

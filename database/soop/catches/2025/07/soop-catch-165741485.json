@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-165741485",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "165741485",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]긴장감",
+    "titleText":  "긴장감",
+    "publishedAt":  "2025-07-12",
+    "publishedTimeRaw":  "2025-07-12 14:55:21",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  204,
+                        "rawValue":  "204"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  2,
+                       "likes":  2,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "신입",
+                 "브이럽",
+                 "버추얼",
+                 "여캠"
+             ],
+    "durationMilliseconds":  34000,
+    "url":  "https://vod.sooplive.com/player/165741485/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  20,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

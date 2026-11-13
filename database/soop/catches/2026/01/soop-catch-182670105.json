@@ -1,0 +1,38 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "soop-catch-182670105",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "platformId":  "182670105",
+    "platformFileType":  "CATCH",
+    "title":  "[캐치]그렇게 신났어~? 재밌어~?",
+    "titleText":  "그렇게 신났어~? 재밌어~?",
+    "publishedAt":  "2026-01-03",
+    "publishedTimeRaw":  "2026-01-03 18:16:48",
+    "sourceTimezone":  "Asia/Seoul",
+    "metrics":  [
+                    {
+                        "label":  "views",
+                        "labelPresentInSourceText":  true,
+                        "type":  "count",
+                        "value":  63,
+                        "rawValue":  "63"
+                    }
+                ],
+    "engagement":  {
+                       "comments":  0,
+                       "likes":  0,
+                       "favorites":  0
+                   },
+    "tags":  [
+                 "예비본진1번",
+                 "바람피러오는곳"
+             ],
+    "durationMilliseconds":  25000,
+    "url":  "https://vod.sooplive.com/player/182670105/catch",
+    "observedAt":  "2026-10-31T01:33:15+09:00",
+    "sourceBatch":  "soop-public-catch-api-2026-10-31",
+    "sourcePage":  17,
+    "sourceEndpoint":  "https://chapi.sooplive.co.kr/api/rose5369/vods/clip",
+    "visibilityStatus":  null
+}

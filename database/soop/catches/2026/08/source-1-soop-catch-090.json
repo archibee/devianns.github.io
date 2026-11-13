@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-090",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]동물잠옷 입는법",
+    "publishedAt":  "2026-08-15",
+    "publishedTimeRaw":  "2026-08-15",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  46,
+                        "type":  "unknown",
+                        "rawValue":  "46"
+                    }
+                ],
+    "visibilityStatus":  "비공개",
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  3,
+    "sourceLine":  1013,
+    "titleText":  "동물잠옷 입는법",
+    "seriesLabels":  [
+
+                     ]
+}

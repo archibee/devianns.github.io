@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-077",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]뽀뽀는 다.메!",
+    "publishedAt":  "2026-08-31",
+    "publishedTimeRaw":  "2026-08-31",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  45,
+                        "type":  "unknown",
+                        "rawValue":  "45"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  2,
+    "sourceLine":  896,
+    "titleText":  "뽀뽀는 다.메!",
+    "seriesLabels":  [
+
+                     ]
+}

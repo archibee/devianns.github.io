@@ -1,0 +1,27 @@
+{
+    "schemaVersion":  1,
+    "id":  "source-1-soop-catch-080",
+    "platform":  "soop",
+    "contentType":  "catch",
+    "title":  "[캐치]뒤에서 무슨 생각 했나요",
+    "publishedAt":  "2026-08-18",
+    "publishedTimeRaw":  "2026-08-18",
+    "metrics":  [
+                    {
+                        "labelPresentInSourceText":  false,
+                        "value":  11,
+                        "type":  "unknown",
+                        "rawValue":  "11"
+                    }
+                ],
+    "visibilityStatus":  null,
+    "url":  null,
+    "observedAt":  null,
+    "sourceBatch":  "source/1",
+    "sourceSection":  2,
+    "sourceLine":  917,
+    "titleText":  "뒤에서 무슨 생각 했나요",
+    "seriesLabels":  [
+
+                     ]
+}

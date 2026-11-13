@@ -143,10 +143,12 @@ body.archive-page { position: relative; isolation: isolate; min-height: 100vh; m
 .source-card-icon, .platform-symbol { border-color: #daedff48; background: linear-gradient(145deg, #e5f4ff18, #d8edff06); box-shadow: inset 1px 1px 8px #fff2, 0 0 20px #a7dcff14; }
 .collection-heading h1 { text-shadow: 0 3px 28px #080a2470; }
 .community-data-note { margin: 18px 0 0; color: #9eaccb; font-size: 9px; line-height: 1.75; }
-.community-toolbar { display: flex; align-items: center; gap: 12px; margin: -14px 0 28px; color: #b9c6e2; font-size: 9px; }
+.community-toolbar { display: grid; grid-template-columns: auto minmax(180px, 240px) 1fr; align-items: center; gap: 10px 14px; margin: -14px 0 28px; color: #b9c6e2; font-size: 9px; }
 .community-toolbar label { letter-spacing: .08em; }
-.community-toolbar select { min-width: 150px; min-height: 38px; padding: 0 32px 0 12px; border: 1px solid #dce8ff35; border-radius: 0; color: #edf2ff; background: #101633a8; font: inherit; }
+.community-select-wrap { position: relative; width: 100%; min-width: 0; }
+.community-toolbar select { display: block; width: 100%; min-width: 0; min-height: 40px; appearance: none; -webkit-appearance: none; padding: 0 42px 0 13px; border: 1px solid #dce8ff35; border-radius: 3px; color: #edf2ff; background: #101633a8; font: inherit; line-height: 1.4; cursor: pointer; }
 .community-toolbar select:focus-visible { outline: 2px solid #aee8ff; outline-offset: 3px; }
+.community-select-arrow { position: absolute; top: 50%; right: 15px; width: 8px; height: 8px; border-right: 1.5px solid #c7d7f5; border-bottom: 1.5px solid #c7d7f5; transform: translateY(-70%) rotate(45deg); pointer-events: none; }
 .community-toolbar > span { color: #8998bc; }
 
 .archive-overview, .stat-card, .record-card, .glass-section, .insight-card, .feature-band, .platform-card, .source-card, .source-principle, .access-note {
@@ -215,8 +217,8 @@ body.archive-page { position: relative; isolation: isolate; min-height: 100vh; m
 @media (max-width: 600px) {
   .collection-main { width: calc(100% - 30px); padding-top: 38px; padding-bottom: 72px; }
   .collection-heading { margin-bottom: 30px; }
-  .community-toolbar { flex-wrap: wrap; margin-top: -6px; }
-  .community-toolbar select { flex: 1 1 160px; }
+  .community-toolbar { grid-template-columns: auto minmax(0, 1fr); margin-top: -6px; }
+  .community-toolbar > span { grid-column: 2; }
   .collection-heading h1 { font-size: clamp(39px, 11vw, 58px); }
   .collection-lede { margin-top: 14px; font-size: 11px; }
   .archive-overview { grid-template-columns: repeat(2, 1fr); margin-bottom: 36px; }

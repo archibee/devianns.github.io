@@ -61,9 +61,12 @@
       </header>
       <div class="community-toolbar">
         <label for="community-cafe-select">카페 선택</label>
-        <select id="community-cafe-select" data-community-cafe-select aria-label="게시글을 볼 카페 선택">
-          <option value="all">전체 카페</option>
-        </select>
+        <div class="community-select-wrap">
+          <select id="community-cafe-select" data-community-cafe-select aria-label="게시글을 볼 카페 선택">
+            <option value="all">전체 카페</option>
+          </select>
+          <span class="community-select-arrow" aria-hidden="true"></span>
+        </div>
         <span data-community-cafe-count>등록된 카페 0곳</span>
       </div>
       <section class="collection-stats" data-stats="community" aria-label="커뮤니티 기록 요약"></section>

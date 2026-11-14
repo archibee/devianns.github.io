@@ -1,7 +1,5 @@
 {
   "projects": [
-    "./pixel-studio.json",
-    "./pixel-motion-studio.json",
     "./devianns-clip-maker.json"
   ]
 }

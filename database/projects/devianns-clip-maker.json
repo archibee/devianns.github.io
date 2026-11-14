@@ -1,14 +1,14 @@
 {
-  "id": "devianns-clip-maker",
-  "name": "Devianns Clip Maker",
-  "category": "로컬 영상 편집기",
-  "description": "브라우저에서 로컬 영상을 편집해 컷을 만들고, 한글 자막을 입혀 내보낼 수 있습니다.",
-  "summary": "여러 영상을 타임라인에서 분할·트림·재배열하고 자막을 편집해 보세요. 영상과 소리는 서버에 업로드하지 않고 브라우저 안에서 처리합니다.",
-  "highlights": [
-    "클립 분할·트림·순서 조정",
-    "한글 자막 편집 및 미리보기",
-    "다양한 해상도와 프레임 속도로 내보내기"
-  ],
-  "deploymentUrl": "https://devianns-clip-maker.vercel.app/",
-  "githubUrl": "https://github.com/devianns/devianns-clip-maker"
+    "id":  "devianns-clip-maker",
+    "name":  "Devianns Clip Maker",
+    "category":  "웹 영상 편집기",
+    "description":  "영상을 자르고 이어 붙이고, 자막을 더해 원하는 장면을 완성하는 영상 편집기입니다. 별도 설치 없이 웹에서 바로 사용해 볼 수 있습니다.",
+    "summary":  "타임라인에서 필요한 장면을 골라 순서를 구성하고 자막을 더해 보세요. 미리보기로 결과를 확인한 뒤 완성한 영상을 파일로 내보낼 수 있습니다.",
+    "highlights":  [
+                       "장면 자르기·이어 붙이기",
+                       "자막 추가·스타일 편집",
+                       "최대 1080p·60fps 영상 출력"
+                   ],
+    "deploymentUrl":  "https://devianns.github.io/devianns-clip-maker/",
+    "githubUrl":  "https://github.com/devianns/devianns-clip-maker"
 }

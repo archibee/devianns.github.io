@@ -17,7 +17,7 @@ Dahlia Archive는 SOOP, YouTube, X, Naver Cafe에 남은 활동의 흔적을 링
 | `youtube.html` | YouTube Shorts·동영상 | 저장된 조회수 상위 5개와 조회수 합계, 제목 검색 및 Shorts·동영상 필터를 제공합니다. 게시 날짜가 없는 항목에 날짜를 임의로 붙이지 않습니다. |
 | `x.html` | X 게시물 | 확인된 월별 게시 수, 저장된 조회수 상위 게시물, 확인된 반응 수치와 본문 검색을 제공합니다. 공개 범위 한계도 안내합니다. |
 | `community.html` | 카페별 커뮤니티 기록 | 카페 선택으로 전체 카페 또는 한 카페의 글을 보여줍니다. 월별·요일·시간대별 게시 수와 수집 당시 조회·공감 상위 5개, 제목·작성자·카페 검색을 제공합니다. 각 카드에서 다른 플랫폼 기록과 같은 방식으로 카페 원문 링크를 엽니다. 본문 내용과 본문 링크는 저장하지 않습니다. 현재 등록된 카페 데이터는 VLUP 한 곳입니다. |
-| `projects.html` | 프로젝트 소개 | `database/projects/catalog.json`을 읽어 등록된 프로젝트 JSON 소개 카드와 관련 링크를 표시합니다. 현재 Pixel Atelier, Pixel Motions, Devianns Clip Maker를 소개합니다. |
+| `projects.html` | 프로젝트 소개 | `database/projects/catalog.json`을 읽어 등록된 프로젝트 JSON 소개 카드와 관련 링크를 표시합니다. 현재 주력 프로젝트인 Devianns Clip Maker만 소개합니다. |
 | `profile.html` | 플랫폼 계정 링크 | YouTube, X, SOOP의 계정 페이지로 이동합니다. 활동별 기록 링크와는 별도입니다. |
 | `404.html` | 없는 주소 안내 | 정적 호스팅용 오류 페이지이며 검색 색인 대상에서 제외합니다. |
 
@@ -70,7 +70,7 @@ database/projects/catalog.json → 프로젝트 JSON 파일 → projects-app.js 
 - 활동 JSON 한 파일은 활동 흔적 하나를 나타냅니다. 원본 미디어 파일이 아닙니다.
 - `database/platforms/*.json`은 사용자가 제공한 계정 링크와 프로필 정보를 보관하고 활동 레코드와 구분합니다.
 - `database/catalog.json`은 저장소 디렉터리를 브라우저에서 열거할 수 없는 정적 호스팅 환경을 위한 화면용 색인입니다. 개별 활동 JSON의 모든 상세 필드를 복제하는 별도 데이터베이스가 아닙니다.
-- `database/projects/catalog.json`은 Projects 페이지에 표시할 프로젝트 JSON 경로를 나열합니다. `projects-app.js`는 각 등록 파일을 읽어 방문자용 이름, 짧은 소개, 주요 기능과 프로젝트 바로가기를 렌더링합니다. 구현 언어나 내부 동작 설명은 카드에서 제외합니다. 현재 카탈로그에는 Pixel Atelier, Pixel Motions, Devianns Clip Maker가 있습니다.
+- `database/projects/catalog.json`은 Projects 페이지에 표시할 프로젝트 JSON 경로를 나열합니다. `projects-app.js`는 각 등록 파일을 읽어 방문자용 이름, 짧은 소개, 주요 기능과 프로젝트 바로가기를 렌더링합니다. 구현 언어나 내부 동작 설명은 카드에서 제외합니다. 현재 카탈로그에는 Devianns Clip Maker만 있으며, 배포 주소는 `https://devianns.github.io/devianns-clip-maker/`입니다.
 - 이 페이지는 아카이브에 소개하기 적절한 자체 도구와 프로젝트를 다룹니다. 타인의 IP를 활용한 팬게임은 Projects 카드로 등록하지 않습니다.
 - Community 페이지는 카탈로그에 있는 Naver Cafe 기록의 `cafeId`·`cafeName`에서 선택 목록을 만들고 기본으로 전체 카페를 표시합니다. 카페를 고르면 해당 카페로 좁혀집니다. 현재 카탈로그 데이터는 ID `30653039`인 VLUP 기록뿐입니다. 게시월 추이와 수집 당시 조회·공감 상위 항목을 실제 저장값으로 그립니다. 카드에는 카페 원문 링크만 표시하며 본문 내용과 본문 링크는 보존하지 않습니다.
 - 지금은 사이트 실행이나 배포 과정에서 카탈로그를 생성하지 않습니다. 활동 파일을 추가·수정하면 해당 정적 카탈로그도 함께 갱신해야 합니다. 자동화는 향후 로컬 보조 스크립트로 고려할 수 있으나 현재 동작에는 포함되지 않습니다.

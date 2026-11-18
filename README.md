@@ -66,6 +66,7 @@ SOOP, YouTube 등 여러 플랫폼에서 활동한 기록을 한곳에 모아 �
 - `styles.css`: 반응형 레이아웃과 별빛/유리 질감 스타일
 - `subpages.css`: 하위 페이지 공통 스타일
 - `script.js`: 모바일 내비게이션 등 작은 인터랙션
+- `home-loader.js`: 배경·텍스트·메뉴를 먼저 렌더링하고 큐브 → 그래프 순서로 로드
 - `home-archive-viz.js`: 메인 누적 수치와 월별 막대 시각화
 - `archive-app.js`: 정적 카탈로그를 읽는 검색·필터·카드·차트 렌더러
 - `.nojekyll`: GitHub Pages에서 Jekyll 처리 없이 정적 파일을 제공하기 위한 표시 파일

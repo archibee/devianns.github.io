@@ -32,10 +32,11 @@
     <title>달리아의 활동 기록</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Gowun+Batang:wght@400;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Gowun+Batang:wght@400;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Gowun+Batang:wght@400;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
     <link rel="stylesheet" href="./styles.css">
     <script src="./script.js" defer></script>
-    <script src="./home-archive-viz.js" defer></script>
+    <script src="./home-loader.js" defer></script>
   </head>
   <body class="home-page">
     <a class="skip-link" href="#main">본문으로 건너뛰기</a>
@@ -67,6 +68,7 @@
           </div>
 
           <div class="cube-experience" aria-label="큐브의 면을 눌러 기록을 둘러보세요">
+            <template id="home-cube-template">
             <span class="cube-orbit orbit-horizontal" aria-hidden="true"></span>
             <span class="cube-sparkle cube-sparkle-one" aria-hidden="true">✦</span>
             <span class="cube-sparkle cube-sparkle-two" aria-hidden="true">✧</span>
@@ -113,6 +115,7 @@
               </div>
             </div>
             <div class="cube-caption" aria-live="polite"><span class="caption-dot"></span><span id="cube-caption">SOOP</span><span class="caption-divider"></span><span class="caption-hint" id="cube-caption-title">SOOP 기록</span><span class="caption-divider"></span><span class="caption-counter"><span id="cube-index">01</span> / 06</span></div>
+            </template>
           </div>
 
           <section class="home-archive-stats" aria-label="플랫폼 활동 누적 합계">

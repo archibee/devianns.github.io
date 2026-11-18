@@ -327,7 +327,7 @@
     renderCafeRanking('[data-community-likes-ranking]', 'likeItCount', '공감');
   }
 
-  function applyView(records) {
+  async function applyView(records) {
     const selectedCafeId = document.querySelector('[data-community-cafe-select]')?.value || new URLSearchParams(window.location.search).get('cafe') || 'all';
     const viewRecords = records.filter((record) => {
       if (view === 'soop') return record.platform === 'soop';
@@ -339,29 +339,6 @@
 
     const stats = document.querySelector('[data-stats]');
     if (stats) renderCollectionStats(stats, viewRecords, stats.dataset.stats);
-    if (view === 'community') {
-      renderMonthlyChart(viewRecords, '[data-community-monthly]', '[data-community-month-range]', 36);
-      renderDateRhythm(viewRecords, {
-        weekdays: '[data-community-weekdays]',
-        hours: '[data-community-hours]',
-        weekdayCoverage: '[data-community-weekday-coverage]',
-        hourCoverage: '[data-community-hour-coverage]'
-      });
-      renderCommunityVisuals(viewRecords);
-    }
-    if (view === 'soop') {
-      const catchRecords = viewRecords.filter((item) => item.contentType === 'catch');
-      renderMonthlyChart(catchRecords);
-      renderDateRhythm(viewRecords, {
-        weekdays: '[data-soop-weekdays]',
-        hours: '[data-soop-hours]',
-        weekdayCoverage: '[data-soop-weekday-coverage]',
-        hourCoverage: '[data-soop-hour-coverage]'
-      });
-      renderViewRanking(viewRecords, view);
-    }
-    if (view === 'youtube' || view === 'x') renderViewRanking(viewRecords, view);
-    if (view === 'x') renderMonthlyChart(viewRecords, '[data-x-monthly-chart]', '[data-x-month-range]', 30);
 
     const list = document.querySelector('[data-record-list]');
     if (!list) return;
@@ -396,6 +373,32 @@
     });
     more?.addEventListener('click', () => redraw());
     refresh();
+    // Paint the summary and usable records before constructing charts.
+    await window.siteLoading.yieldToBrowser();
+    if (view === 'community') {
+      renderMonthlyChart(viewRecords, '[data-community-monthly]', '[data-community-month-range]', 36);
+      renderDateRhythm(viewRecords, {
+        weekdays: '[data-community-weekdays]',
+        hours: '[data-community-hours]',
+        weekdayCoverage: '[data-community-weekday-coverage]',
+        hourCoverage: '[data-community-hour-coverage]'
+      });
+      renderCommunityVisuals(viewRecords);
+    }
+    if (view === 'soop') {
+      const catchRecords = viewRecords.filter((item) => item.contentType === 'catch');
+      renderMonthlyChart(catchRecords);
+      renderDateRhythm(viewRecords, {
+        weekdays: '[data-soop-weekdays]',
+        hours: '[data-soop-hours]',
+        weekdayCoverage: '[data-soop-weekday-coverage]',
+        hourCoverage: '[data-soop-hour-coverage]'
+      });
+      renderViewRanking(viewRecords, view);
+    }
+    if (view === 'youtube' || view === 'x') renderViewRanking(viewRecords, view);
+    if (view === 'x') renderMonthlyChart(viewRecords, '[data-x-monthly-chart]', '[data-x-month-range]', 30);
+
   }
 
   function setupCommunityCafeSelector(records) {
@@ -435,7 +438,7 @@
     .then((records) => {
       const catalog = Array.isArray(records) ? records : [];
       if (view === 'community') setupCommunityCafeSelector(catalog);
-      applyView(catalog);
+      return applyView(catalog);
     })
     .catch(() => {
       const main = document.querySelector('.collection-main');

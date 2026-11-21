@@ -95,3 +95,46 @@ SOOP, YouTube 등 여러 플랫폼에서 활동한 기록을 한곳에 모아 �
 기록 화면은 날짜와 성과 수치를 중심으로 유리 패널 안에 월별 게시량과 조회·공감 상위 기록을 보여줍니다. SOOP과 YouTube, X는 저장된 조회수 순위를 제공하고, Community는 수집 당시 조회·공감 순위를 제공합니다. 날짜나 수치가 제공되지 않은 항목은 임의로 채우지 않습니다.
 
 모든 페이지는 가벼운 배경색·텍스트·메뉴를 먼저 표시하고, 데이터·차트·배경 이미지는 준비되는 대로 표시합니다. 외부 글꼴은 첫 렌더링을 막지 않습니다. 메인의 큐브 이미지와 그래프, 상세 페이지의 배경 이미지와 기록 데이터는 서로의 다운로드 완료를 기다리지 않습니다.
+
+
+## Wayback Machine에 공개 페이지 보존 요청
+
+로컬 PowerShell에서 `scripts/archive-wayback.ps1`을 실행하면 `sitemap.xml`에 나열된 공개 페이지 URL을 읽어 Internet Archive Save Page Now에 하나씩 요청하고 작업 상태를 확인합니다. 현재 대상은 사이트맵의 7개 페이지이며, 목록이 바뀌면 다음 실행에 자동 반영됩니다. 외부 플랫폼 링크, 별도 프로젝트 사이트, 사이트맵에 없는 URL은 제출하지 않습니다. 페이지가 불러오는 자산이나 JavaScript 데이터의 보존 및 재생은 Internet Archive의 수집 결과에 따라 달라집니다.
+
+저장소 루트에서 Windows PowerShell 5.1 또는 PowerShell 7을 사용합니다. 먼저 실제 요청 없이 대상 목록을 확인합니다.
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./scripts/archive-wayback.ps1 -ListOnly
+```
+
+Internet Archive 계정의 [S3 API 키](https://archive.org/account/s3.php)를 발급받아 같은 PowerShell 창에서 환경 변수를 설정하고 실행합니다. 아래 값은 실제 키로 바꾸며 저장소에 기록하거나 공유하지 마세요.
+
+```powershell
+$env:IA_ACCESS_KEY = '발급받은 access key'
+$env:IA_SECRET_KEY = '발급받은 secret key'
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./scripts/archive-wayback.ps1
+Remove-Item Env:IA_ACCESS_KEY, Env:IA_SECRET_KEY
+```
+
+Git Bash에서도 저장소 루트에서 같은 스크립트를 실행할 수 있습니다. Git Bash의 환경 변수를 PowerShell 자식 프로세스가 이어받습니다.
+
+```bash
+# 제출할 URL만 확인
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./scripts/archive-wayback.ps1 -ListOnly
+
+# 실제 요청
+export IA_ACCESS_KEY='발급받은 access key'
+export IA_SECRET_KEY='발급받은 secret key'
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./scripts/archive-wayback.ps1
+unset IA_ACCESS_KEY IA_SECRET_KEY
+```
+
+실패하거나 대기 시간이 초과되면 출력된 작업 ID의 상태를 먼저 확인하세요. 요청이 이미 처리 중일 수 있습니다. 이후 출력된 번호로 재개할 수 있습니다 (`-StartAt`은 1부터 시작하며 실행 사이에 사이트맵 순서가 바뀌지 않아야 합니다).
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./scripts/archive-wayback.ps1 -StartAt 3
+```
+
+이 재개 명령은 Git Bash에서도 동일합니다. 출력 번호는 사이트맵 순서에서 중복 URL을 제외한 위치이며 고유 ID가 아닙니다. 페이지를 앞에 추가·삭제하거나 순서를 바꾸면 번호가 달라질 수 있으므로, 재개 전에 `-ListOnly`로 실패한 URL의 현재 번호를 확인하세요.
+
+필요하면 `-PollSeconds 10`, `-TimeoutSeconds 300`으로 조회 간격과 대기 시간을 조정할 수 있습니다. 대기 시간은 개별 네트워크 요청의 최대 60초 제한 때문에 다소 초과될 수 있습니다. 성공 메시지는 API가 보고한 작업 상태이며, 실제 저장과 페이지 재생은 [Wayback Machine](https://web.archive.org/)에서 따로 확인하세요. 스크립트는 로컬 보조 도구이며 배포 과정에서 자동 실행되지 않습니다.

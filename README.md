@@ -1,3 +1,12 @@
+## 웹 아카이브 웨이백 머신 등록
+
+[S3 API 키](https://archive.org/account/s3.php)
+
+export IA_ACCESS_KEY='발급받은 access key'
+export IA_SECRET_KEY='발급받은 secret key'
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./scripts/archive-wayback.ps1
+unset IA_ACCESS_KEY IA_SECRET_KEY
+
 # Dahlia 커뮤니티 아카이브
 
 SOOP, YouTube 등 여러 플랫폼에서 활동한 기록을 한곳에 모아 열람할 수 있는 개인 커뮤니티 아카이브입니다. 플랫폼에 게시된 동영상, 캐치, 클립을 이 사이트에 복사하거나 업로드하지 않습니다. 기록에는 제목, 플랫폼, 날짜, 분류 등의 메타데이터를 저장하며, 수집 시점에 확인한 개별 원본 링크가 있으면 함께 제공합니다.
